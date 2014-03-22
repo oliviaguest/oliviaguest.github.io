@@ -67,7 +67,7 @@ a:hover {
     background-color: transparent;    
     width:500px!important;
     margin-bottom: 50px;
-    margin-left:auto;
+    text-align: center;
     }
 #description {
     font-weight: 300;
