@@ -12,9 +12,9 @@ html {
     }
 h2{padding:0; margin:0;}
 body {
-    background: {color:Background}; 
-    color: {color:Text};
-    font-size: {text:Font Size};
+    background: #fff; 
+    color:#000;
+    font-size: 14;
     margin: 0 auto;
     }
 
@@ -23,14 +23,14 @@ a:active, a:focus {
     }
 
 a, a:link {
-    color: {color:Links};
+    color: #000;
     -webkit-transition: opacity 0.4s linear;opacity: 1;
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;
     }
 
 a:hover {
-    color: {color:Links Hover}; 
+    color: #9b0e0e; 
     text-decoration: none;
     -webkit-transition: opacity 0.4s linear;opacity: 1;
     -webkit-transition: all 0.4s ease-out;
@@ -91,7 +91,7 @@ li.topnav a {
     display:inline;
     height:40px;
     width:100px;
-    color: {color:Links};
+    color: #9b0e0e;
     padding:10px;
     }
     
@@ -175,7 +175,7 @@ ul.topnav {
     }
         
 .link a:hover {
-    color: {color:Links Hover};
+    color: #9b0e0e;
     }
   
 blockquote {
@@ -341,7 +341,7 @@ li.chat {
     }
         
 #date a:hover {
-    color: {color:Links Hover};
+    color: #9b0e0e;
     }
         
 #tags {
@@ -363,7 +363,7 @@ li.chat {
     }
 
 #tags a:hover {
-    color: {color:Links Hover};
+    color: #9b0e0e;
     }
 
 .like_and_reblog_buttons {
@@ -446,11 +446,11 @@ li.nav a {
     display:inline;
     height:40px;
     width:100px;
-    color: {color:Links};
+    color: #9b0e0e;
     }
     
 li.nav a:hover {
-    color: {color:Links Hover};
+    color: #9b0e0e;
     background:#ffffff;
     -webkit-transition: all 0.14s ease-in-out;
     -moz-transition: all 0.14s ease-in-out;
@@ -482,7 +482,7 @@ ul.nav {
     }
         
 #footer a:hover {
-    color: {color:Links Hover};
+    color: #9b0e0e;
     }
   
 .collapsible{
@@ -510,13 +510,13 @@ ul.nav {
         .collapsible div.collapse-open span {}
         .collapsible div.collapse-close span {}
             .collapse-open:hover {
-    color: {color:Links Hover}; 
+    color: #9b0e0e; 
     text-decoration: none;
     -webkit-transition: opacity 0.4s linear;opacity: 1;
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;            }
         .collapse-close:hover {
-    color: {color:Links Hover}; 
+    color: #9b0e0e; 
     text-decoration: none;
     -webkit-transition: opacity 0.4s linear;opacity: 1;
     -webkit-transition: all 0.4s ease-out;
