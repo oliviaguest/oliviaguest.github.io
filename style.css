@@ -46,9 +46,10 @@ a:hover {
         }
 
 #header {
+
     font-weight: 300;
-    font-size: {text:Header Size};
-    color: {color:Header};
+    font-size: 54;
+    color: #000;
     text-align: center;
     background-color: transparent;                    
     width:500px!important;
