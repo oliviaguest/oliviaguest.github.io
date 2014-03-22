@@ -792,8 +792,8 @@ ul.cv{
 
 {block:IndexPage}
   <div id="index"
-    class="hidden"
-    class="hidden">
+    {block:SearchPage}class="hidden"{/block:SearchPage}
+    {block:TagPage}class="hidden"{/block:TagPage}>
     
 
 
@@ -985,6 +985,7 @@ I have not had time to put these all on-line yet, but <a href="//dl.dropboxuserc
         <div class="collapsible_content">
         <div><a href="http://scholar.google.co.uk/citations?user=ZHGrUooAAAAJ"><img src="http://scholar.google.co.uk/favicon-png.ico" alt= "Olivia's Google Scholar profile" width = 48px height = 48px/></a><a href="http://birkbeck.academia.edu/OliviaGuest"><img src="http://0.academia-assets.com/images/apple-touch-icon.png" alt= "Olivia's Academia.edu profile" width = 48px height = 48px/></a><a href="http://www.linkedin.com/pub/olivia-guest/23/6a6/706"><img src="http://s.c.lnkd.licdn.com/scds/common/u/img/favicon_v2.ico" alt= "Olivia's LinkedIn profile" width = 48px height = 48px/></a><a href="https://www.researchgate.net/profile/Olivia_Guest/"><img src="http://blog.library.si.edu/wp-content/uploads/2013/03/ResearchGate-logo-150x150.jpg" alt= "Olivia's ResearchGate profile" width = 48px height = 48px/></a></div></div></div>-->
 
+{/block:IndexPage}
 
    <!---- 
 <div class="collapsible" id="s1">Abridged CV<span></span></div>
