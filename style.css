@@ -61,7 +61,14 @@ a:hover {
 #header a {
     text-decoration: none;
     }
-
+#404 {
+    font-weight: 300;
+    font-size: 14px;
+    background-color: transparent;    
+    width:500px!important;
+    margin-bottom: 50px;
+    margin-left:auto;
+    }
 #description {
     font-weight: 300;
     font-size: 14px;
