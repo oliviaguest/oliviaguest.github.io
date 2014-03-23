@@ -656,6 +656,9 @@ ul.cv{
     
     li.cv {
         padding-bottom: 15px;
+        } 
+    li.cv li.cv {
+        padding-bottom: 0px;
         }
     ul.affil{
     padding-top:5px;
