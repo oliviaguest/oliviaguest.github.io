@@ -659,6 +659,7 @@ ul.cv{
         } 
     li.cv li.cv {
         padding-bottom: 0px;
+	list-style-type:square
         }
     ul.affil{
     padding-top:5px;
