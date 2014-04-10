@@ -1,5 +1,4 @@
 
-
  iframe {display:none !important;} 
 
 
@@ -555,7 +554,10 @@ ul.nav {
                 padding: 5px;
 
             }
-            .thumb_wrapper {
+            .collapsible_content .cv img{
+                padding: 0px;
+
+            }            .thumb_wrapper {
                 margin-left: auto;
                 margin-right:auto;
                 display: inline-block;
