@@ -1,6 +1,4 @@
- iframe {display:none !important;} 
-
-
+iframe {display:none !important;} 
 
 html {
     overflow-y: scroll;
@@ -528,42 +526,42 @@ ul.nav {
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;
 
-            }
-     /*   .collapse-open:before {
-            content: "-";
-            margin-right:5px;
-            font-family: "Courier New", Courier, monospace;
-            text-decoration:none;
-            
-        }
-        .collapse-close:before {
-            content: "+";
-            margin-right:5px;
-            font-family: "Courier New", Courier, monospace;
-            text-decoration:none;
-            } */
-            .collapsible_content{
-                 width:500px!important;
-                padding-bottom: 40px;
-                    overflow: hidden;
+      }
+/*   .collapse-open:before {
+      content: "-";
+      margin-right:5px;
+      font-family: "Courier New", Courier, monospace;
+      text-decoration:none;
+      
+  }
+  .collapse-close:before {
+      content: "+";
+      margin-right:5px;
+      font-family: "Courier New", Courier, monospace;
+      text-decoration:none;
+      } */
+      .collapsible_content{
+            width:500px!important;
+          padding-bottom: 40px;
+              overflow: hidden;
 
-            }
-            
-            .collapsible_content img{
-                padding: 5px;
+      }
+      
+      .collapsible_content img{
+          padding: 5px;
 
-            }
-            .collapsible_content .cv img{
-                padding: 0px;
+      }
+      .collapsible_content .cv img{
+          padding: 0px;
 
-            }            .thumb_wrapper {
-                margin-left: auto;
-                margin-right:auto;
-                display: inline-block;
-                border: none;
-            }
+      }            .thumb_wrapper {
+          margin-left: auto;
+          margin-right:auto;
+          display: inline-block;
+          border: none;
+      }
 
-        h3 {padding:0px; margin: 0px;}
+    h3 {padding:0px; margin: 0px;}
         
    .thumb_wrapper .thumb {
     position: relative;
@@ -690,16 +688,16 @@ ul.cv{
        font-weight:bold;
     }
   
-        p.cv 
-        {padding-top: 2px;
-        padding-bottom:0px;
-        margin-top:0px;
-        margin-bottom:0px;
-            }
+    p.cv 
+    {padding-top: 2px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+        }
             
-            h2.cv {
-                padding-top: 15px;
-                padding-bottom: 5px;
-                }
+    h2.cv {
+        padding-top: 15px;
+        padding-bottom: 5px;
+        }
             
             
