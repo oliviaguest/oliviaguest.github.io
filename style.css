@@ -668,10 +668,23 @@ ul.cv{
     margin-bottom: 0px;
     margin-top: 0px;
     }    
-        li.affil {
-        padding-bottom: 5px;
-        padding-top: 5px;
-        }
+    li.affil {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    }
+    
+    ul.workshops{
+    padding-top:5px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }    
+    li.workshops {
+    padding-bottom: 5px;
+    padding-top: 5px; 
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
   
         p.cv 
         {padding-top: 2px;
