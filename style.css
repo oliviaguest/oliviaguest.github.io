@@ -686,6 +686,10 @@ ul.cv{
     margin-top: 0px;
     font-weight:bold;
     }
+    li.workshops a{
+          font-weight:bold;
+
+    }
   
         p.cv 
         {padding-top: 2px;
