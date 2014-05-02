@@ -483,6 +483,7 @@ ul.nav {
     text-align: center;
    /* line-height:5px;*/
     color: #aaaaaa;
+    bottom: 0;
     }
         
 #footer a:hover {
