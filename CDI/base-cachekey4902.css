@@ -1665,11 +1665,11 @@ width: 100%;
 input {
 font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
 visibility: visible;
-border: 1px solid #ddd;
-border-color:#666 #ddd #ddd #666;
+/*border: 1px solid #ddd;
+border-color:#666 #ddd #ddd #666;*/
 color: Black;
 vertical-align: middle;
-background: White url(/web/20141223044615/http://babylab.psy.ox.ac.uk/input_background.gif) repeat-x;
+background: rgb(216, 216, 216);
 }
 /* */
 .noborder,

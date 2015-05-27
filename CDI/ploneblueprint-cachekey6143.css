@@ -34,7 +34,11 @@ vertical-align: baseline;
 body { line-height: 1.5; background: #fff; }
 /* */
 table { border-collapse: separate; border-spacing: 0; }
-caption, th, td { text-align: left; font-weight:400; }
+caption, th, td {
+/*   text-align: left; */
+  font-weight:400;
+  padding-right: 10px;
+}
 /* */
 blockquote:before, blockquote:after, q:before, q:after { content: ""; }
 blockquote, q { quotes: "" ""; }
