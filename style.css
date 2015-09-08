@@ -35,7 +35,7 @@ a:hover {
     }
 
 .content {    
-    width:500px!important;
+    max-width:500px!important;
     margin: 0 auto;
     overflow: hidden;
 padding-left: 1em;
@@ -49,7 +49,7 @@ padding-right:1em;
     color: #000;
     text-align: center;
     background-color: transparent;                    
-    width:500px!important;
+    max-width:500px!important;
     margin-top: 100px;
     margin-bottom: 40px;
     letter-spacing: 0px;
@@ -62,7 +62,7 @@ padding-right:1em;
     font-weight: 300;
     font-size: 20px;
     background-color: transparent;    
-    width:500px!important;
+    max-width:500px!important;
     margin-bottom: 50px;
     text-align: center;
     }
@@ -70,7 +70,7 @@ padding-right:1em;
     font-weight: 300;
     font-size: 1em;
     background-color: transparent;    
-    width:500px!important;
+    max-width:500px!important;
     margin-bottom: 50px;
     }
 #description img {
@@ -94,7 +94,7 @@ li.topnav a {
     background:#fff;
     display:inline;
     height:40px;
-    width:100px;
+    max-width:100px;
     color: #9b0e0e;
     padding:10px;
     }
@@ -106,7 +106,7 @@ li.topnav a:hover {
     }
 
 ul.topnav {
-    width:500px!important;
+    max-width:500px!important;
     text-align: center;
     list-style-type:none;
     margin-left: -10px;
@@ -118,7 +118,7 @@ ul.topnav {
 
 #post {
     font-weight: 400;    
-    width:500px!important;
+    max-width:500px!important;
     text-align: left;
     margin-top:10px;
     background: #ffffff;
@@ -140,7 +140,7 @@ ul.topnav {
     }
 
 #text {    
-    width:500px!important;
+    max-width:500px!important;
     background: #ffffff;
     margin-top:0px;
     margin-bottom:25px;
@@ -148,7 +148,7 @@ ul.topnav {
     }
 
 #caption {    
-    width:500px!important;
+    max-width:500px!important;
     line-height: 22px;
     margin-top:30px;
     margin-bottom:25px;
@@ -158,14 +158,14 @@ ul.topnav {
     padding-top:50px;
     padding-bottom:50px;
     background: #E4E4E4;    
-    width:500px!important;
+    max-width:500px!important;
     text-align: center;
     color: #a4a4a4;
     }
 
 .link {
     font-weight: 300;            
-    width:500px!important;
+    max-width:500px!important;
     font-size: 18px;
     line-height: 28px;
     text-align: center;
@@ -200,12 +200,12 @@ blockquote {
     }
 
 #photo img, #photo a img {
-    width:500px!important;
+    max-width:500px!important;
     height: auto;
     }
 
 #photoset {
-    width:500px!important;
+    max-width:500px!important;
     background-color: #ffffff;
     }
 
@@ -213,14 +213,14 @@ blockquote {
     font-weight: 300; 
     color: #000000;
     margin-top:0px;
-    width:500px!important;
+    max-width:500px!important;
     font-size: 22px; 
     line-height: 32px;
     }
 
 #answer { 
     background-color: #ffffff;    
-    width:500px!important;
+    max-width:500px!important;
     }
 
 .asker img {  
@@ -253,7 +253,7 @@ blockquote {
     }
 
 #chat {
-    width:500px!important;
+    max-width:500px!important;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -275,7 +275,7 @@ li.chat {
     
 #video {
     background-color: #ffffff;                
-    width:500px!important;
+    max-width:500px!important;
     height: normal;
     position: relative;
     overflow: visible;
@@ -283,13 +283,13 @@ li.chat {
   
 .media iframe, .media object, .media embed {
     position: relative;        
-    width:500px!important;
+    max-width:500px!important;
     height: normal;
     overflow: visible;
     }
 
 #audio { 
-    width:500px!important;
+    max-width:500px!important;
     height: 160px;
     }
 
@@ -331,7 +331,7 @@ li.chat {
         
 #date {
     letter-spacing:1px;
-    width:500px!important;
+    max-width:500px!important;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 11px;
@@ -353,7 +353,7 @@ li.chat {
     text-align:left;
     text-transform:uppercase;
     letter-spacing:0px;
-    width:500px!important;
+    max-width:500px!important;
     line-height: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -450,7 +450,7 @@ li.nav a {
     background:#fff;
     display:inline;
     height:40px;
-    width:100px;
+    max-width:100px;
     color: #9b0e0e;
     }
     
@@ -464,7 +464,7 @@ li.nav a:hover {
     }
 
 ul.nav {
-    width:600px!important;
+    max-width:600px!important;
     white-space:nowrap;
     text-align: center;
     list-style-type:none;
@@ -475,7 +475,7 @@ ul.nav {
     }
 
 #footer, #footer a {
-    width:500px!important;
+    max-width:500px!important;
     margin-top:40px;
     margin-bottom:20px;
     white-space:nowrap;
@@ -492,7 +492,7 @@ ul.nav {
     }
   
 .collapsible{
-    width:500px!important;
+    max-width:500px!important;
     cursor: pointer;
 
     font-weight: 300;
@@ -543,7 +543,7 @@ ul.nav {
       text-decoration:none;
       } */
       .collapsible_content{
-            width:500px!important;
+            max-width:500px!important;
           padding-bottom: 40px;
               overflow: hidden;
 
