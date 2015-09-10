@@ -555,6 +555,7 @@ ul.nav {
       }
       .collapsible_content .cv img{
           padding: 0px;
+          max-height: 16px;
 
       }            .thumb_wrapper {
           margin-left: auto;
