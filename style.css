@@ -763,3 +763,6 @@ ul.cv{
  }
 
 
+.collapse-container>:nth-child(even) {
+	display: none;
+}
