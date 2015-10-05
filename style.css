@@ -719,3 +719,14 @@ ul.cv{
     text-shadow: 0.03em 0px #FFF, -0.03em 0px #FFF, 0px 0.03em #FFF, 0px -0.03em #FFF, 0.06em 0px #FFF, -0.06em 0px #FFF, 0.09em 0px #FFF, -0.09em 0px #FFF, 0.12em 0px #FFF, -0.12em 0px #FFF, 0.15em 0px rgb(255, 255, 255), -0.15em 0px rgb(255, 255, 255);
 }
 */
+.figure {
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    vertical-align: top;
+    width: 140px;
+}
+.caption {
+    font-size: small;
+    margin: 0 0 5px;
+}
