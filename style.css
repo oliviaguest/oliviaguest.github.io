@@ -621,34 +621,40 @@ float: left;
 
 
 .bbk img {
-        width: 220px;
-    height: 68px;
-    float:right;
-    }
+	width: 220px;
+	height: 68px;
+	float:right;
+	
+}
+    
 .thumb  img, .bbk img, .cv img {
-        -webkit-transition: opacity 0.4s linear;opacity: 1;
-    -webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;
-    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-filter: gray; /* IE6+ */
-filter: grayscale(100%); /* Current draft standard */
--webkit-filter: grayscale(100%); /* New WebKit */
--moz-filter: grayscale(100%);
--ms-filter: grayscale(100%); 
--o-filter: grayscale(100%);
+	-webkit-transition: opacity 0.4s linear;opacity: 1;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;
+	filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray; /* IE6+ */
+	filter: grayscale(100%); /* Current draft standard */
+	-webkit-filter: grayscale(100%); /* New WebKit */
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%); 
+	-o-filter: grayscale(100%);
+	max-width: 74px;
+	max-height: 74px;
     }
     
-    .thumb a:hover img, .bbk a:hover img, .cv a:hover img {
-            -webkit-transition: opacity 0.4s linear;opacity: 1;
-    -webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;
-    
-    filter: none; /* Firefox 3.5+ */
-filter: grayscale(0); /* Current draft standard */
--webkit-filter: grayscale(0); /* New WebKit */
--moz-filter: grayscale(0);
--ms-filter: grayscale(0); 
--o-filter: grayscale(0);
+.thumb a:hover img, .bbk a:hover img, .cv a:hover img {
+	-webkit-transition: opacity 0.4s linear;opacity: 1;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;
+	
+	filter: none; /* Firefox 3.5+ */
+	filter: grayscale(0); /* Current draft standard */
+	-webkit-filter: grayscale(0); /* New WebKit */
+	-moz-filter: grayscale(0);
+	-ms-filter: grayscale(0); 
+	-o-filter: grayscale(0);
+	
+
     }
 
 ul.cv{
