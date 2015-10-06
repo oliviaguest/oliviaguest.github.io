@@ -4,6 +4,7 @@ layout: post
 ---
 
 
+
 _This post first appeared on [The Synthetic Learner Blog](http://bootphon.blogspot.fr/): [here](http://bootphon.blogspot.fr/)_
 
 ### Introduction
@@ -33,8 +34,8 @@ So in addition to some of the computer engineering reasons for reimplementing mo
 0. _Does it even work?_
 Most importantly, reimplementing a model allows us to evaluate if the model really is accounting for the phenomenon it claims to, using the mechanisms it purports to, and appealing to the properties of those mechanisms in an appropriate way. This question can also be posed more verbosely: Given the specification, the methods section, can the results be recreated? This is exactly same reason why one might re-run any experiment, especially before embarking on further research within the sub-area of psychological science one is interested in. In other words, just as one would not merely take the data collected by other researchers as absolute evidence their experiment works, one would not take the output of a pre-existing implementation as evidence the model works. Of course, vice versa is also true: one would not and should not take as evidence an effect does not exist merely because it did not replicate once.
 
- [![](http://4.bp.blogspot.com/-qZWHKmmaIJY/VgleBxsNFrI/AAAAAAAAESA/p5BnLEy--c8/s320/index.png)](http://4.bp.blogspot.com/-qZWHKmmaIJY/VgleBxsNFrI/AAAAAAAAESA/p5BnLEy--c8/s1600/index.png)
- Not all bugs are this obvious! A [legendary bug](http://chsi.harvard.edu/markone/language.html) discovered by [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper). 
+[![](http://4.bp.blogspot.com/-qZWHKmmaIJY/VgleBxsNFrI/AAAAAAAAESA/p5BnLEy--c8/s320/index.png)](http://4.bp.blogspot.com/-qZWHKmmaIJY/VgleBxsNFrI/AAAAAAAAESA/p5BnLEy--c8/s1600/index.png)
+Not all bugs are this obvious! A [legendary bug](http://chsi.harvard.edu/markone/language.html) discovered by [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper). 
 
 1. _Are there any (important) bugs?_
 Mistakes happen - both logical and conceptual bugs are introduced into a piece of software [even by the best of coders](http://www.fastcompany.com/28121/they-write-right-stuff). As such, the important bugs need to be discovered one way or another. In computational modelling modellers rarely run proper testing (e.g., [unit testing](https://en.wikipedia.org/wiki/Unit_testing)) like they (sometimes try to) do in software engineering. Replication is a brute force, but often quicker/easier, way to understand (see question 3), and uncover the potential bugs in, another scientists' ([spaghetti](https://en.wikipedia.org/wiki/Spaghetti_code)) code. So while similar mistakes happen with testing participants and with analysing their data, bugs in computational modelling is a much more opaque problem to tackle than, e.g., bugs in code to present stimuli to participants.
