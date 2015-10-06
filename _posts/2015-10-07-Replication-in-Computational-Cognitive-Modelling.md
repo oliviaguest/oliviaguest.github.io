@@ -1,5 +1,6 @@
 ---
-published: false
+published: true
+layout: post
 ---
 
 _This post first appeared on [The Synthetic Learner Blog](http://bootphon.blogspot.fr/): [here](http://bootphon.blogspot.fr/)_
