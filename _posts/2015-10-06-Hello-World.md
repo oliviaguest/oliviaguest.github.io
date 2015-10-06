@@ -3,9 +3,6 @@ published: true
 layout: post
 ---
 
-
-## Hello World
-
 Even though my website looks almost identical, I have made some very dramatic changes under the bonnet. I used the following to create a much easier to maintain website:
 
 - "[Jekyll](https://jekyllrb.com/) is a simple, blog-aware, static site generator." Moving to Jekyll was made even easier than I am used to by the [Jekyll Now](https://github.com/barryclark/jekyll-now) repository. 
