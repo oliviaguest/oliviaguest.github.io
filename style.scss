@@ -164,12 +164,14 @@ img {
   max-width: none;
 }
 
-.date, .date a {
+.date {
   font-weight: 300;
   color: $gray;
-  text-decoration: none;
   padding-bottom: 1em;
   font-size: 0.75em;
+  a {
+    text-decoration: none;	
+  }
 }
 
 // Specify the color of the selection
