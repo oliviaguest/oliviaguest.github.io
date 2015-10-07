@@ -3,10 +3,6 @@ published: true
 layout: post
 ---
 
-
-
-_This post first appeared on [The Synthetic Learner Blog](http://bootphon.blogspot.fr/): [here](http://bootphon.blogspot.fr/)_
-
 ### Introduction
 
 In psychology and specifically in social psychology, replication or lack thereof has been a widely discussed issue, especially since it has been dubbed a "[crisis](http://pps.sagepub.com/content/9/1/59.short)" [by](http://pps.sagepub.com/content/7/6/531.short) [some](http://pps.sagepub.com/content/9/3/305.short). [Studies](http://econtent.hogrefe.com/toc/zsp/45/3) [looking](http://www.sciencemag.org/content/349/6251/aac4716) at the reproducibility of published research receive [academic](http://www.nytimes.com/2015/09/01/opinion/psychology-is-not-in-crisis.html) and [media](http://www.theguardian.com/commentisfree/2015/aug/28/psychology-experiments-failing-replication-test-findings-science) attention, demonstrating how important failures to replicate are perceived to be not just because they are taken ([often](http://psycnet.apa.org/psycinfo/2015-15456-001/) [mistakenly](http://journal.frontiersin.org/article/10.3389/fpsyg.2014.01276/abstract)) as [falsifying published research](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124) but also because they are a relative novelty. This is because it continues to be the case that [publication](http://www.sciencemag.org/content/345/6203/1502) [bias](http://www.nature.com/news/social-sciences-suffer-from-severe-publication-bias-1.15787), the [file-drawer effect](http://www.psychfiledrawer.org/scholarly_articles.php), [accusations](http://www.theguardian.com/science/head-quarters/2014/may/28/psychology-replication-drive-methods-bullying) [of](http://www.scribd.com/doc/225285909/Kahneman-Commentary) [bullying](http://www.sciencemag.org/content/344/6186/788.full) and [personal attacks](http://blogs.discovermagazine.com/notrocketscience/2012/03/10/failed-replication-bargh-psychology-study-doyen/#.VgQmiJfsY_u), and other [academic](http://pss.sagepub.com/content/22/11/1359) [cultural](http://www.sciencemag.org/content/348/6242/1422.summary) [norms](http://pps.sagepub.com/content/7/6/608.long) dissuade researchers from writing [journal articles about experiments that "do not work"](http://pps.sagepub.com/content/7/6/537.full.pdf+html).
@@ -105,3 +101,5 @@ The point of replicating models is not only to determine if the original results
 - Shiffrin, R. M., Lee, M. D., Kim, W., & Wagenmakers, E. J. (2008). [A survey of model evaluation approaches with a tutorial on hierarchical Bayesian methods.](http://onlinelibrary.wiley.com/doi/10.1080/03640210802414826/full) _Cognitive Science_, 32(8), 1248-1284.
 
 - Topalidou, M., Leblois, A., Boraud, T., & Rougier, N. P. (2015). [A long journey into reproducible computational neuroscience.](http://journal.frontiersin.org/article/10.3389/fncom.2015.00030/full) _Frontiers in computational neuroscience_, 9.
+
+_This post first appeared on [The Synthetic Learner Blog](http://bootphon.blogspot.fr/): [here](http://bootphon.blogspot.fr/)_
