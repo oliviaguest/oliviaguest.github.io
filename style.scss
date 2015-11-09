@@ -1,3 +1,5 @@
+  -webkit-transition: opacity 0.4s linear;opacity: 1;
+  -webkit-transition: all 0.4s ease-out;
 ---
 ---
 
@@ -335,33 +337,71 @@ footer {
 }
 
 
-.figure {
-    display: inline-block;
-    margin: 0 5px;
-    text-align: center;
-    vertical-align: top;
-
-}
-.caption {
-    font-size: small;
-    margin: 0 0 5px;    
-
+.connect {
+  list-style: none;
+  margin:   0;
+  padding:  0;
 }
 
-.figure a {
+.connect-item {
+  display: inline-block;
+  margin: 0 5px;
+  text-align: center;
+  vertical-align: top;
+
+  &__link {
     color: #ffffff;
     text-decoration: none !important;
+
+    * {
+      opacity: 1;
+
+      -webkit-transition: opacity 0.4s linear;
+      -webkit-transition: all 0.4s ease-out;
+      -moz-transition:    all 0.4s ease-out;
+      transition:         all 0.4s ease-out;
+
+      filter:         url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+      filter:         gray; /* IE6+ */
+      filter:         grayscale(100%); /* Current draft standard */
+      -webkit-filter: grayscale(100%); /* New WebKit */
+      -moz-filter:    grayscale(100%);
+      -ms-filter:     grayscale(100%); 
+      -o-filter:      grayscale(100%);
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: #000000;
+
+      * {
+        -webkit-transition: opacity 0.4s linear;opacity: 1;
+        -webkit-transition: all 0.4s ease-out;
+        -moz-transition:    all 0.4s ease-out;
+        transition:         all 0.4s ease-out;
+        
+        filter:         none; /* Firefox 3.5+ */
+        filter:         grayscale(0); /* Current draft standard */
+        -webkit-filter: grayscale(0); /* New WebKit */
+        -moz-filter:    grayscale(0);
+        -ms-filter:     grayscale(0); 
+        -o-filter:      grayscale(0);
+     }
+    }
+  }
+
+  &__figure {}
+
+  &__image {}
+
+  &__caption {
+    font-size: small;
+    margin: 0 0 5px;
+  }
 }
 
-.figure a:hover {
-    text-decoration: none;
-    color: #000000;
-
-}
-    
-.figure  img, .cv img{
-	-webkit-transition: opacity 0.4s linear;opacity: 1;
-	-webkit-transition: all 0.4s ease-out;
+.cv img{
+  max-height: 16px;
 	-moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;
 	filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
 	filter: gray; /* IE6+ */
@@ -373,7 +413,7 @@ footer {
 
     }
     
-.figure a:hover img, .cv a:hover img {
+.cv a:hover img {
 	-webkit-transition: opacity 0.4s linear;opacity: 1;
 	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;
@@ -387,11 +427,6 @@ footer {
  }
 
 
-.cv img {
-    max-height: 16px;
-
- }
- 
 .cv li, .affil li{
     padding-block-end: 1em;
 }
