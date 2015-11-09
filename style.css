@@ -301,12 +301,16 @@ footer {
   list-style: none;
   margin: 0;
   padding: 0; }
+  @supports (flex-wrap: wrap) {
+    .connect {
+      display: flex;
+      flex-wrap: wrap; } }
 
 .connect-item {
   display: inline-block;
-  margin: 0 5px;
   text-align: center;
-  vertical-align: top; }
+  vertical-align: top;
+  flex-basis: 25%; }
   .connect-item__link {
     color: #ffffff;
     text-decoration: none !important; }
