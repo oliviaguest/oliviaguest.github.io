@@ -74,6 +74,15 @@ body {
   font-weight: 300;
   padding-top: 1em; }
 
+#description img {
+	    width: 180px;
+	    float: left;
+	    padding-right: 1em;
+}
+
+#index {
+	clear: both;
+}
 .container {
   margin: 0 auto;
   max-width: 550px !important;
