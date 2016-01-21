@@ -36,14 +36,15 @@ body {
 #description {
     font-weight: 300;
     padding-top: 1em;
-    
+    img {
+	    width: 180px;
+	    float: left;
+	    padding-right: 1em;
+	}
 
 }
-#description img {
-    width: 180px;
-    float: left;
-}
-#index{
+
+#index {
 	clear: both;
 }
 
