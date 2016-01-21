@@ -1,17 +1,4 @@
-/***************/
-/* MEYER RESET */
-/***************/
 
-//
-// IMPORTS
-//
-
-@import "_sass/reset";
-@import "_sass/variables";
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/**************/
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 html, body, div, span, applet, object, iframe,
@@ -738,8 +725,3 @@ code {
 /*# sourceMappingURL=style.css.map */
 
 
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "_sass/highlights";
-@import "_sass/svg-icons";
