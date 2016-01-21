@@ -82,7 +82,9 @@ body {
 
 #index {
 	clear: both;
+        padding-top: 1em;
 }
+
 .container {
   margin: 0 auto;
   max-width: 550px !important;
