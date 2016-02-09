@@ -726,3 +726,22 @@ code {
   transform: scaleX(-1); /* standard */
   filter: FlipH; /* IE 6/7/8 */
 }
+
+a.flip{
+  outline: 0;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: opacity 0.4s linear;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out; }
+  a.flip:hover, a.flip:active {
+    color: #9B0E0E;
+    text-decoration: none;
+    -webkit-transition: opacity 0.4s linear;
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out; }
