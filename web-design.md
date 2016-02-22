@@ -14,4 +14,4 @@ published: true
 <p>My site is predominantly<sup id="a1">[1](#f1)</sup> hosted on <a href="//pages.github.com/">github pages</a>, so what you see is what the source code (pre-compiled <a href="//jekyllrb.com/">Jekyll</a>, <a href="//yaml.org/">YAML</a>, <a href="//github.com/Shopify/liquid/wiki">Liquid</a>, etc.) looks like before github compiles it into static pages.
 </p>
 
-<b id="f1">1</b> I use [Tumblr](//tumblr.com/) to host the [art](//art.oliviaguest.com) subdomain. [↩](#a1): 
+<b id="f1">1</b> I use [Tumblr](//tumblr.com/) to host the [art](http://art.oliviaguest.com/) subdomain. [↩](#a1): 
