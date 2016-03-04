@@ -102,6 +102,6 @@ The point of replicating models is not only to determine if the original results
 
 - Topalidou, M., Leblois, A., Boraud, T., & Rougier, N. P. (2015). [A long journey into reproducible computational neuroscience.](http://journal.frontiersin.org/article/10.3389/fncom.2015.00030/full) _Frontiers in computational neuroscience_, 9.
 
-_This post first appeared on [The Synthetic Learner Blog](http://bootphon.blogspot.fr/): [here](http://bootphon.blogspot.fr/)_
+_This post first appeared on [The Synthetic Learner Blog](http://bootphon.blogspot.fr/): [here](http://bootphon.blogspot.co.uk/2015/10/replication-in-computational-cognitive.html)_
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://oliviaguest.com" property="cc:attributionName" rel="cc:attributionURL">Olivia Guest</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
