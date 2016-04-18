@@ -1,4 +1,4 @@
-##Journal Articles
+<h2>Journal Articles</h2>
 <ul class="cv">
   <li class="cv">Love, B. C., Kopeć, Ł., Guest, O. (2015). <a href="//dx.doi.org/10.1371/journal.pone.0137685">Optimism Bias in Fans and Sports Reporters.</a> <em>PLoS ONE</em>, 10 (9).
   <a href="//www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
@@ -10,7 +10,7 @@
   <a href="doc/cooper_14.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
 </ul>
 
-##Peer Reviewed Conference Proceedings
+<h2>Peer Reviewed Conference Proceedings</h2>
 <ul class="cv">
   <li class="cv">Guest, O., Cooper, R. P., Davelaar, E. J. (2014). [High-Level Cognition]. 
   <a href="doc/guest_14.pdf">The Influence of Implementation on "Hub" Models of Semantic Cognition</a>. In J. Mayor, P. Gomez (Eds.), <em><a href="http://www.worldscientific.com/worldscibooks/10.1142/8747">Computational Models of Cognitive Processes</a></em> (pp. 155-169). World Scientific.
@@ -20,7 +20,7 @@
   <a href="doc/guest_12.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
 </ul>
 
-##Blog Posts
+<h2>Blog Posts</h2>
   <ul class="cv">
   <li class="cv">Guest, O. (2015). <a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html">Replication in Computational Cognitive Modelling</a>. <em>The Synthetic Learner Blog.</em></li>
   </ul>
