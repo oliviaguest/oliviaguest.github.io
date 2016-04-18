@@ -5,8 +5,6 @@ permalink: /connectionism/
 published: true
 ---
 
-<h1>Block Practical: Connectionist Models and Cognitive Processes</h1>
-
 <h2>Course Materials</h2>
 <h3>1st Week: Introduction to Programming and Connectionist Networks</h3>
 - Code: [pyceptron.py](https://github.com/oliviaguest/connectionism/raw/master/week1/pyceptron.py)
