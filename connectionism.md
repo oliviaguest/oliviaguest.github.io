@@ -1,3 +1,10 @@
+---
+layout: page
+title: Connectionist Models and Cognitive Processes
+permalink: /connectionism/
+published: true
+---
+
 #Block Practical: Connectionist Models and Cognitive Processes
 
 ##Course Materials
