@@ -305,12 +305,13 @@ footer {
   font-weight: 300;
   font-size: 14px; }
   footer li {
-    font-size: 2em;
+    font-size: 1.5em;
     list-style-type: none;
     display: inline;
 }  footer ul {
 padding: 0;
 margin: 0;
+margin-bottom: 0.25em;
 }
   footer:a
 
