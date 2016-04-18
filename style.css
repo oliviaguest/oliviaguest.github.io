@@ -308,6 +308,9 @@ footer {
     font-size: 2em;
     list-style-type: none;
     display: inline;
+}  footer ul {
+padding: 0;
+margin: 0;
 }
   footer:a
 
