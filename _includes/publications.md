@@ -1,5 +1,7 @@
 <h2>Journal Articles</h2>
 <ul class="cv">
+  <li class="cv"><b>Guest, O.</b>, Love, B. C. (under review). What the Success of Brain Imaging Implies about the Neural Code.</li>
+
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (under review). Re-evaluating Computational Models of Semantic Deficits.</li>
   
   <li class="cv">Love, B. C., Kopeć, Ł., <b>Guest, O.</b> (2015). <a href="//dx.doi.org/10.1371/journal.pone.0137685">Optimism Bias in Fans and Sports Reporters.</a> <em>PLoS ONE</em>, 10 (9). doi:<a href="//dx.doi.org/10.1371/journal.pone.0137685">10.1371/journal.pone.0137685</a>
