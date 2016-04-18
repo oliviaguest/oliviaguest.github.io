@@ -20,7 +20,7 @@ Open Science Framework Project: <a href="//osf.io/3xrfa/">Guest, O., Love, B., &
 <a href="doc/guest_12.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
 </ul>
 
-##Blog Posts<
+##Blog Posts
 <ul class="cv">
 <li class="cv">Guest, O. (2015). <a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html">Replication in Computational Cognitive Modelling</a>. <em>The Synthetic Learner Blog.</em></li>
 </ul>
