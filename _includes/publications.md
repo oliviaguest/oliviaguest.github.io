@@ -6,7 +6,7 @@
   
   <li class="cv">
   
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0137685" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
+  <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0137685" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
   
   Love, B. C., Kopeć, Ł., <b>Guest, O.</b> (2015). <a href="//dx.doi.org/10.1371/journal.pone.0137685">Optimism Bias in Fans and Sports Reporters.</a> <em>PLoS ONE</em>, 10 (9). doi:<a href="//dx.doi.org/10.1371/journal.pone.0137685">10.1371/journal.pone.0137685</a>
   <a href="//www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
@@ -14,7 +14,11 @@
   Open Science Framework Project: <b>Guest, O.</b>, Love, B., & Kopeć, Ł. (2015, June 28). Optimism Bias. Retrieved from <a href="//osf.io/3xrfa/">osf.io/3xrfa</a>. <a href="//osf.io/3xrfa/"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
   </li>
   
-  <li class="cv">Cooper, R. P., <b>Guest, O.</b> (2014). <a href="//dx.doi.org/10.1016/j.cogsys.2013.05.001">Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling.</a> <em>Cognitive Systems Research</em>, 27, 42-49. doi:<a href="//dx.doi.org/10.1016/j.cogsys.2013.05.001">10.1016/j.cogsys.2013.05.001</a>
+  <li class="cv">
+  
+  <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.cogsys.2013.05.001" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
+
+  Cooper, R. P., <b>Guest, O.</b> (2014). <a href="//dx.doi.org/10.1016/j.cogsys.2013.05.001">Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling.</a> <em>Cognitive Systems Research</em>, 27, 42-49. doi:<a href="//dx.doi.org/10.1016/j.cogsys.2013.05.001">10.1016/j.cogsys.2013.05.001</a>
   <a href="doc/cooper_14.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
 </ul>
 
