@@ -6,14 +6,14 @@ published: true
 ---
 <h2>Website Design</h2>
 
-<a href="//www.gnu.org/licenses/gpl-3.0.en.html"><img class="imgright" src="//www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] " style="display: block;margin-left: auto;margin-right: auto"></a>
+<a href="//www.gnu.org/licenses/gpl-3.0.en.html"><img class="imgright" src="//www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] " style="float: right; padding-left: 1em;"></a>
 
 The code used to generate [this website](//github.com/oliviaguest/oliviaguest.github.io) is released under the <a href="//www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License version 3</a> (GPLv3).
 
 
 <h2>Content</h2>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;display: block;margin-left: auto;margin-right: auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="float: right; padding-left: 1em;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 The text and images within this website (including blog posts and [art works](//art.oliviaguest.com), *unless* otherwise stated) are released under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a> (CC BY-NC-SA 4.0).
 
