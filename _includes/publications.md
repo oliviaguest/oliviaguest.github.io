@@ -27,4 +27,8 @@
 <h2>Blog Posts</h2>
   <ul class="cv">
   <li class="cv"><b>Guest, O.</b> (2015). <a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html">Replication in Computational Cognitive Modelling</a>. <em>The Synthetic Learner Blog.</em></li>
-  </ul>
+
+
+<li class="cv"><b>Guest, O.</b>, Wilson, R., Jones, M., MacLachlan, C. (2016). <a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101">How do you teach Sustainable Software Practices 101?</a>. <em>Software and research: the Institute's Blog</em>. <a href="//software.ac.uk/">Software Sustainability Institute</a>.</li> 
+
+ </ul>
