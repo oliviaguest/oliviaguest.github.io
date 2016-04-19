@@ -36,7 +36,7 @@ published: true
 
 <h2>Programming</h2>
 <h3>Exercises</h3>
-- [Codecademy](www.codecademy.com)
+- [Codecademy](//www.codecademy.com)
 - [LearnPython.org](http://www.learnpython.org/)
 - [Codewars](http://www.codewars.com/)
 - [Code School: Python](https://www.codeschool.com/paths/python)
