@@ -20,9 +20,9 @@ People who use my layout (in one form or another):
 <h2>License</h2>
 The code used to generate this website is released under the <a href="//www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License version 3</a> (GPLv3).
 
-<a href="//www.gnu.org/licenses/gpl-3.0.en.html"><img class="imgright" src="//www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] "></a>
+<a href="//www.gnu.org/licenses/gpl-3.0.en.html"><img class="imgright" src="//www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] " style="display: block;margin-left: auto;margin-right: auto"></a>
 
 The text within this website (unless otherwise stated) is released under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International
 </a> (CC BY-NC-SA 4.0).
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;display: block;margin-left: auto;margin-right: auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
