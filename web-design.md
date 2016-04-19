@@ -17,5 +17,7 @@ People who use my layout (in one form or another):
 
 + [Mojtaba Khodadadi](http://users.ictp.it/~mkhodada/)
 
-The code used to generate this website is released under the <a href="//www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License version 3</a> (GPLv3). <img class="imgright" src="//www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] ">
+The code used to generate this website is released under the <a href="//www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License version 3</a> (GPLv3).
+
+<a href="//www.gnu.org/licenses/gpl-3.0.en.html"><img class="imgright" src="//www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] "></a>
 
