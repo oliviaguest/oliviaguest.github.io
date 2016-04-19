@@ -27,3 +27,12 @@ My site is predominantly hosted on <a href="//pages.github.com/">github pages</a
 People who use my layout (in one form or another):
 
 + [Mojtaba Khodadadi](http://users.ictp.it/~mkhodada/)
+
+<h2>Credits</h2>
+
+Thanks to:
+
++ [Font Awesome](//fortawesome.github.io/Font-Awesome/) for the great vector graphics used around my site.
++ [Academicons](//jpswalsh.github.io/academicons/), ditto, especially in the footer.
++ [Open Sans](//www.google.com/fonts/specimen/Open+Sans) for being a pretty and readable font.
++ [Github](//github.com) for indirectly and directly teaching me so much and for the free hosting.
