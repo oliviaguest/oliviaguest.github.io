@@ -7,8 +7,6 @@ published: true
 
 ## This Website
 
-The code used to generated this website is released under the <a href="//www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License version 3</a> (GPLv3). <img class="imgright" src="/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] ">
-
 I desgined this website, see all code [here](//github.com/oliviaguest/oliviaguest.github.io). I have been playing around with HTML and CSS since I was about 10 years old.
 
 I appreciate the nice feedback I get from people. If you really like it, [you may use this website](https://github.com/oliviaguest/oliviaguest.github.io/blob/master/LICENSE) as a template for building your own. I would especially appreciate it if you [forked it](//github.com/oliviaguest/oliviaguest.github.io) on github and/or dropped me a message if you did use it, as opposed to [view-source'ing and copy-pasting](https://twitter.com/o_guest/status/696758773235458048).
@@ -18,3 +16,6 @@ My site is predominantly hosted on <a href="//pages.github.com/">github pages</a
 People who use my layout (in one form or another):
 
 + [Mojtaba Khodadadi](http://users.ictp.it/~mkhodada/)
+
+The code used to generate this website is released under the <a href="//www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License version 3</a> (GPLv3). <img class="imgright" src="/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] ">
+
