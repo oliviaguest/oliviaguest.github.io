@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Web Design
-permalink: /web-design/
+title: Licensing
+permalink: /license/
 published: true
 ---
-
-## Licensing
 
 I designed this website, see all code [here](//github.com/oliviaguest/oliviaguest.github.io). I have been playing around with HTML and CSS since I was about 10 years old.
 
@@ -21,7 +19,7 @@ The code used to generate [this website](//github.com/oliviaguest/oliviaguest.gi
 
 <a href="//www.gnu.org/licenses/gpl-3.0.en.html"><img class="imgright" src="//www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] " style="display: block;margin-left: auto;margin-right: auto"></a>
 
-The text and images within this website (including blog posts and [art works](//art.oliviaguest.com), *unless* otherwise stated) is released under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a> (CC BY-NC-SA 4.0).
+The text and images within this website (including blog posts and [art works](//art.oliviaguest.com), *unless* otherwise stated) are released under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a> (CC BY-NC-SA 4.0).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;display: block;margin-left: auto;margin-right: auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
