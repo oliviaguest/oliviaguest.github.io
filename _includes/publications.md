@@ -6,7 +6,7 @@
   
   <li class="cv">
   
-  <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0137685" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
+  <div data-badge-popover="left" data-badge-type="donut" data-doi="10.1371/journal.pone.0137685" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
   
   Love, B. C., Kopeć, Ł., <b>Guest, O.</b> (2015). <a href="//dx.doi.org/10.1371/journal.pone.0137685">Optimism Bias in Fans and Sports Reporters.</a> <em>PLoS ONE</em>, 10 (9). doi:<a href="//dx.doi.org/10.1371/journal.pone.0137685">10.1371/journal.pone.0137685</a>
   <a href="//www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
