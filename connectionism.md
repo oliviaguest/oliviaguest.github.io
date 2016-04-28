@@ -83,7 +83,7 @@ This is a little tricky:
 ```
 C:\Python27\Scripts>pip install NAME_OF_WHEEL_FILE.whl
 ```
-For all three of those you need to run a pip command like above.  
+ For all three of those you need to run a pip command like above.  
 
 3. Install PyGTK: [download from here](http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/pygtk-all-in-one-2.24.2.win32-py2.7.msi)
 
