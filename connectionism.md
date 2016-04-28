@@ -71,6 +71,7 @@ published: true
 <h2>How to install Python</h2>
 <h3>Windows Users</h3>
 This is a little tricky:
+
 1. Install Python: [download from here](https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi)
 
 2. Install matplotlib, numpy, and scipy using pip. Specifically you need to download the following from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/):
