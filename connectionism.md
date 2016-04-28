@@ -7,7 +7,9 @@ published: true
 
 <h2>Course Materials</h2>
 <b>This course is not running at the moment, as such the materials are made unavailable.</b> If you need them, you may email me.
+
 <!--
+
 <h3>1st Week: Introduction to Programming and Connectionist Networks</h3>
 - Code: [pyceptron.py](https://github.com/oliviaguest/connectionism/raw/master/week1/pyceptron.py)
 - Slides: [Part 1: Intro to Programming](https://github.com/oliviaguest/connectionism/raw/master/week1/slides/part_1_slides.pdf), [Part 2: Intro to Networks](https://github.com/oliviaguest/connectionism/raw/master/week1/slides/part_2_slides.pdf)
