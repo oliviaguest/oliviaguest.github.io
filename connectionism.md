@@ -82,7 +82,7 @@ This is a little tricky:
   This requires you to be in the Scripts folder of the Python27 installation. And to use the windows command prompt. For me this looks like:
 
   {% highlight doscon %}
-  C:\Python27\Scripts>pip install NAME_OF_WHEEL_FILE.whl
+C:\Python27\Scripts>pip install NAME_OF_WHEEL_FILE.whl
   {% endhighlight %}
 
   For all three of those you need to run a pip command like above.  
