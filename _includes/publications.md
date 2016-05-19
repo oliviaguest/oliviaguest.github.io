@@ -35,7 +35,7 @@
 <h2>Blog Posts</h2>
   <ul class="cv">
 
-  <li class="cv"><b>Guest, O.</b>, (2016). <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016">PyData 2016</a>. <em>Software and research: the Institute's Blog</em>. <a href="//software.ac.uk/">Software Sustainability Institute</a>. <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+  <li class="cv"><b>Guest, O.</b>, (2016). <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016">PyData London 2016</a>. <em>Software and research: the Institute's Blog</em>. <a href="//software.ac.uk/">Software Sustainability Institute</a>. <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li> 
 
   <li class="cv"><b>Guest, O.</b>, Wilson, R., Jones, M., MacLachlan, C. (2016). <a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101">How do you teach Sustainable Software Practices 101?</a>. <em>Software and research: the Institute's Blog</em>. <a href="//software.ac.uk/">Software Sustainability Institute</a>. <a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
