@@ -1,6 +1,6 @@
 <h2>Journal Articles</h2>
 <ul class="cv">
-  <li class="cv"><b>Guest, O.</b>, Love, B. C. (under review). What the Success of Brain Imaging Implies about the Neural Code.</li>
+  <li class="cv"><b>Guest, O.</b>, Love, B. C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.</li>
 
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (under review). Re-evaluating Computational Models of Semantic Deficits.</li>
   
