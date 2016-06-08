@@ -65,11 +65,12 @@ Olivia
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     <script type="text/javascript" src="//cdn.rawgit.com/jordnkr/collapsible/master/jquery.collapsible.min.js" ></script>
     <script type="text/javascript">
-          $(document).ready(function() {
-              //collapsible management
-              $('#menu').collapsible({});
-              
-          });
+                  $(document).ready(function() {
+                    $('#menu').collapsible({}); 
+                    $('#menu h1').click(function(){
+                      SmartUnderline.init({});
+                    });
+                  });
     </script>
 
 
