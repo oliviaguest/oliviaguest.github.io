@@ -4,7 +4,7 @@
 
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (under review). Re-evaluating Computational Models of Semantic Deficits.</li>
   
-  <li class="cv"><b>Guest, O.</b> (2016). <a href="//thewinnower.com/papers/4825-crisis-in-what-exactly">Crisis in What Exactly?</a>.<em><a href="//thewinnower.com/">The Winnower</a></em>. doi: <a href="//dx.doi.org/10.15200/winn.146590.01538">10.15200/winn.146590.01538</a></li>
+  <li class="cv"><b>Guest, O.</b> (2016). <a href="//thewinnower.com/papers/4825-crisis-in-what-exactly">Crisis in What Exactly?</a>.<em>The Winnower</em>. doi: <a href="//dx.doi.org/10.15200/winn.146590.01538">10.15200/winn.146590.01538</a></li>
   
   <li class="cv">
   
@@ -37,10 +37,10 @@
   <li class="cv"><b>Guest, O.</b>, (2016). <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016">PyData London 2016</a>. <em><a href  = "//software.ac.uk/blog" >Software and research: the Institute's Blog</a></em>. <a href="//software.ac.uk/">Software Sustainability Institute</a>. <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li> 
 
-  <li class="cv"><b>Guest, O.</b>, Wilson, R., Jones, M., MacLachlan, C. (2016). <a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101">How do you teach Sustainable Software Practices 101?</a>. <em><a href  = "//software.ac.uk/blog" >Software and research: the Institute's Blog</a></em>. <a href="//software.ac.uk/">Software Sustainability Institute</a>. <a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+  <li class="cv"><b>Guest, O.</b>, Wilson, R., Jones, M., MacLachlan, C. (2016). <a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101">How do you teach Sustainable Software Practices 101?</a>. <em>Software and research: the Institute's Blog</em>. <a href="//software.ac.uk/">Software Sustainability Institute</a>. <a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li> 
 
-  <li class="cv"><b>Guest, O.</b> (2015). <a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html">Replication in Computational Cognitive Modelling</a>. <em><a href="//bootphon.blogspot.co.uk/">The Synthetic Learner Blog</a></em>. <a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+  <li class="cv"><b>Guest, O.</b> (2015). <a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html">Replication in Computational Cognitive Modelling</a>. <em>The Synthetic Learner Blog</em>. <a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li>
 
  </ul>
