@@ -4,7 +4,7 @@
 
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (under review). Re-evaluating Computational Models of Semantic Deficits.</li>
   
-  <li class="cv"><b>Guest, O.</b> (2016). <a href="//thewinnower.com/papers/4825-crisis-in-what-exactly">Crisis in What Exactly?</a>.<em>The Winnower</em>. doi: <a href="//dx.doi.org/10.15200/winn.146590.01538">10.15200/winn.146590.01538</a></li>
+  <li class="cv"><b>Guest, O.</b> (2016). <a href="//thewinnower.com/papers/4825-crisis-in-what-exactly">Crisis in What Exactly?</a>.<em>The Winnower</em>. doi: <a href="//dx.doi.org/10.15200/winn.146590.01538">10.15200/winn.146590.01538</a></li>. <a href="doc/guest_16.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
   
   <li class="cv">
   
