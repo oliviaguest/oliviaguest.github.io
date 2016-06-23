@@ -5,14 +5,8 @@
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (in prep). Re-evaluating Computational Models of Semantic Deficits.</li>
   
   <li class="cv"><b>Guest, O.</b>, Rougier, N. P. (in press). What is computational reproducibility?</li>
-  
-  <li class="cv">
-    <div data-badge-popover="left" data-badge-type="donut" data-doi="10.15200/winn.146590.01538" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
-  <b>Guest, O.</b> (2016). <a href="//thewinnower.com/papers/4825-crisis-in-what-exactly">Crisis in What Exactly?</a>.<em>The Winnower</em>. doi:<a href="//dx.doi.org/10.15200/winn.146590.01538">10.15200/winn.146590.01538</a>. <a href="doc/guest_16.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-  </li>
   <li class="cv">
-  
   <div data-badge-popover="left" data-badge-type="donut" data-doi="10.1371/journal.pone.0137685" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
   
   Love, B. C., Kopeć, Ł., <b>Guest, O.</b> (2015). <a href="//dx.doi.org/10.1371/journal.pone.0137685">Optimism Bias in Fans and Sports Reporters.</a> <em>PLoS ONE</em>, 10 (9). doi:<a href="//dx.doi.org/10.1371/journal.pone.0137685">10.1371/journal.pone.0137685</a>. <a href="//www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
@@ -38,6 +32,12 @@
 
 <h2>Blog Posts</h2>
   <ul class="cv">
+  
+  <li class="cv">
+    <div data-badge-popover="left" data-badge-type="donut" data-doi="10.15200/winn.146590.01538" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
+
+  <b>Guest, O.</b> (2016). <a href="//thewinnower.com/papers/4825-crisis-in-what-exactly">Crisis in What Exactly?</a>.<em>The Winnower</em>. doi:<a href="//dx.doi.org/10.15200/winn.146590.01538">10.15200/winn.146590.01538</a>. <a href="doc/guest_16.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+  </li>
 
   <li class="cv"><b>Guest, O.</b>, (2016). <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016">PyData London 2016</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute. <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li> 
