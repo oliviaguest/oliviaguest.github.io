@@ -1,8 +1,10 @@
 <h2>Journal Articles</h2>
 <ul class="cv">
-  <li class="cv"><b>Guest, O.</b>, Love, B. C. (under review). What the Success of Brain Imaging Implies about the Neural Code.</li>
+  <li class="cv"><b>Guest, O.</b>, Love, B. C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.</li>
 
-  <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (under review). Re-evaluating Computational Models of Semantic Deficits.</li>
+  <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (in prep). Re-evaluating Computational Models of Semantic Deficits.</li>
+  
+  <li class="cv"><b>Guest, O.</b>, Rougier, N. P. (in press). What is computational reproducibility?</li>
   
   <li class="cv">
     <div data-badge-popover="left" data-badge-type="donut" data-doi="10.15200/winn.146590.01538" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
