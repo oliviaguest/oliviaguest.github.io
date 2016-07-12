@@ -1,0 +1,794 @@
+% \documentclass[a4paper,10pt]{article}
+% \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+% \title{Curriculum Vitae}
+% \author{Olivia Guest}
+% 
+% \begin{document}
+% \maketitle
+% Curriculum Vitae
+% 
+% Olivia Guest
+% 
+% DOB: 11/06/88
+% 
+% Personal Statement
+% 
+% My main interests, within the field of Computer Science, are Artificial Intelligence and Artificial Life.  My final year project enabled me to bring together those two topics with my long term interest in Biology and Evolution.
+% 
+% Final Year Project 2008
+% 
+% “Modelling Genetic Adaptation to Environmental Changes ”: a model of evolution using an agent-based system. The agents represent individual organisms; each has a set of life functions and a genotype, as a natural life form does. Mutations arise as the environment applies natural selection. 
+% 
+% Education
+% 
+% 2006-2009
+% Computer Science BSc
+% University of York
+% UK
+% 
+% June 2006
+% A-Level: Mathematics grade: A
+% Edexcel
+% 
+% June 2005
+% A-Level: Computing grade: A
+% Edexcel
+% 
+% 2003-2006
+% Apolyterion grade:19.083 / 20 
+% Acropolis Lyceum
+% Nicosia
+% Cyprus
+% 
+% 
+% 
+% 
+% 
+% 
+% 
+% \end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                    %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[10pt]{article}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+\usepackage[english, greek]{babel}
+% \usepackage[iso-8859-7]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % load a font with all the characters
+% Simpler bibsection for CV sections
+% (thanks to natbib for inspiration)
+\makeatletter
+\newlength{\bibhang}
+\setlength{\bibhang}{1em}
+\newlength{\bibsep}
+ {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+\newenvironment{bibsection}
+    {\minipage[t]{\linewidth}\list{}{%
+        \setlength{\leftmargin}{\bibhang}%
+        \setlength{\itemindent}{-\leftmargin}%
+        \setlength{\itemsep}{\bibsep}%
+        \setlength{\parsep}{\z@}%
+        }}
+    {\endlist\endminipage}
+\makeatother
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+% \usepackage[paper=letterpaper,
+%             %includefoot, % Uncomment to put page number above margin
+%             marginparwidth=1.2in,     % Length of section titles
+%             marginparsep=.05in,       % Space between titles and text
+%             margin=0.7in,               % 1 inch margins
+%             includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+\usepackage[paper=a4paper,
+           %includefoot, % Uncomment to put page number above margin
+           marginparwidth=30.5mm,    % Length of section titles
+           marginparsep=1.5mm,       % Space between titles and text
+           margin=25mm,              % 25mm margins
+           includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% This gives us fun enumeration environments. compactitem will be nice.
+\usepackage{paralist}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\large \bfseries #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+%
+% Follow this section IMMEDIATELY with the first line of the section
+% text. Do not put whitespace in between. That is, do this:
+%
+%       \section{My Information}
+%       Here is my information.
+%
+% and NOT this:
+%
+%       \section{My Information}
+%
+%       Here is my information.
+%
+% Otherwise the top of the section header will not line up with the top
+% of the section. Of course, using a single comment character (%) on
+% empty lines allows for the function of the first example with the
+% readability of the second example.
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactitem}[#1]}{\end{compactitem}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+% 
+
+\usepackage{eurosym}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}\latintext
+\makeheading{Olivia Guest} \\ \
+
+
+\section{Contact Information}
+%
+ 
+\begin{description}
+
+ \item[Phone:] (+44) (0)7842868199 (UK)
+% \hspace{4em} (+357) 99442915 (Cyprus)
+ \item[Email:] \href{mailto:contact@oliviaguest.com}{contact@oliviaguest.com}
+ \item[Website:] \href{http://oliviaguest.com}{oliviaguest.com}
+ \item[Github:] \href{https://github.com/oliviaguest}{oliviaguest}
+ \item[Twitter:] \href{https://twitter.com/o_guest}{o\textunderscore guest}\\ \
+%  \hspace{10em} \href{mailto:olivia@oliviaguest.com}{olivia@oliviaguest.com}
+
+
+\end{description}
+
+\section{Professional Experience}
+
+
+\href{http://rescience.github.io/}{\textbf{ReScience Journal}}
+
+\begin{outerlist}
+
+
+\item[] \textit{Associate Editor}
+        \hfill \textbf{2016 to Present}
+
+\end{outerlist}
+
+\blankline
+
+\href{http://www.software.ac.uk/}{\textbf{Software Sustainability Institute}}, UK
+
+\begin{outerlist}
+
+
+\item[] \textit{Fellow 2016}
+        \hfill \textbf{2016 to Present}
+
+\end{outerlist}
+
+\blankline
+
+
+\href{http://www.psy.ox.ac.uk/}{\textbf{Department of Experimental Psychology}}, University of Oxford, UK
+
+\begin{outerlist}
+
+
+\item[] \textit{Postdoctoral Researcher}
+        \hfill \textbf{2014 to Present}
+\begin{innerlist}
+\item Created models for category learning in infancy.
+\item Tutored on the Language and Cognition module.
+\item Ran and developed the Block Practical: Connectionist Models and Cognitive Processes.
+\end{innerlist}
+\end{outerlist}
+
+\blankline
+
+
+\href{http://www.bbk.ac.uk/psychology/}{\textbf{Department of Psychological Sciences}}, \href{http://www.bbk.ac.uk/}{Birkbeck, University of London},
+UK
+
+\begin{outerlist}
+
+
+\item[] \textit{CCCM Reading Group Seminar Leader}
+        \hfill \textbf{2013 to 2014}
+\begin{innerlist}
+\item Organised and led the CCCM's  seminar. 
+\item Selected and discussed relevant journal articles in computational cognitive (neuro)science.
+\item Invited colleagues to present their modelling work.
+\item Presented various modelling methodologies.
+\end{innerlist}
+\end{outerlist}
+
+% \blankline
+
+
+\begin{outerlist}
+
+
+\item[] \textit{Graduate Teaching Assistant}
+        \hfill \textbf{2010 to 2014}
+\begin{innerlist}
+\item Taught on a range of courses within psychological sciences (see section above for details on teaching experience).
+\item Provided support to students both within the course framework and in private tutorials.
+\item Was trained to evaluate, mark, invigilate, and support part-time, mature, and full-time students.
+\item Managed the SONA system, specifically to aid students with collecting credits in exchange for hours of experiments undertaken.
+\end{innerlist}
+
+
+\end{outerlist}
+% \blankline
+
+% \href{http://www.cs.york.ac.uk/}{\textbf{Department of Computer Science}}, The University of York,
+% UK
+% \begin{outerlist}
+% 
+% 
+% \item[] \href{http://www.york.ac.uk/admin/uao/openday/}{\textit{UCAS Open Days}} \textit{Steward}%
+%         \hfill \textbf{2006 to 2009 (part-time)}
+% \begin{innerlist}
+% \item Engaged in academically-oriented conversation with, and provided feedback to, UCAS applicants.
+% \item Organised and carried out tours of campus, departmental labs, and university accommodation.
+% \end{innerlist}
+% \end{outerlist}
+
+% \blankline
+
+% \textbf{The Language Centre}, Nicosia, Cyprus
+% \begin{outerlist}
+% 
+% \item[] \textit{Assistant English Teacher}%
+%         \hfill \textbf{2006 to 2009 (part-time)}
+% \begin{innerlist}
+% \item Taught English as a second language. 
+% \item Carried out administrative work.
+% \item Provided IT support for the creation of books and other teaching materials.
+% \item Marked internal English language examinations.
+% \end{innerlist}
+
+
+% \end{outerlist}
+
+% \blankline
+
+
+% \blankline
+
+\section{Publications}
+
+\begin{outerlist}
+
+\item[] \textbf{Guest, O.}, Love, B. C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.
+
+\item[] \textbf{Guest, O.}, Cooper, R. P. (in prep). Re-evaluating Computational Models of Semantic Deficits.
+
+\item[] \textbf{Guest, O.}, Rougier, N. P. (in press). What is computational reproducibility? [\href{http://cogprints.org/10135/}{CogPrints preprint}]
+
+\item[] \textbf{Guest, O.} (2016). \href{http://dx.doi.org/10.15200/winn.146590.01538}{Crisis in What Exactly?}. The Winnower. 
+
+\item[] Love, B. C., Kopeć, Ł., \textbf{Guest, O.} (2015). \href{http://dx.doi.org/10.1371/journal.pone.0137685}{Optimism Bias in Fans and Sports Reporters}. PLoS ONE, 10 (9).
+
+
+\item[] Cooper, R. P., \textbf{Guest, O.} (2014).  \href{http://dx.doi.org/10.1016/j.cogsys.2013.05.001}{Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling}. \textit{Cognitive Systems Research}, 27, 42-49.
+
+% pdficon_small.png: 16x16 pixel, 72dpi, 0.56x0.56 cm, bb=0 0 16 16
+
+% \includegraphics{./pdficon_small.png}
+
+% pdficon_small.png: 16x16 pixel, 72dpi, 0.56x0.56 cm, bb=0 0 16 16
+
+
+\item[] \textbf{Guest, O.}, Cooper, R. P., Davelaar, E. J. (2014).  [High-Level Cognition]. The Influence of Implementation on ``Hub'' Models of Semantic Cognition. In J. Mayor, P. Gomez (Eds.), \textit{\href{http://www.worldscientific.com/worldscibooks/10.1142/8747}{Computational Models of Cognitive Processes}} (pp. 155-169). World Scientific.
+
+\item[]  \textbf{Guest, O.}, Cooper, R. P., Davelaar, E. J. (2012). Semantic Cognition: A Re-examination of the Recurrent Network ``Hub'' Model. \textit{In Proceedings of the Ninth International Conference on Cognitive Modelling.} Berlin, Germany. April. (pp. 259-264). Berlin, Germany. April. Universit\"{a}tsverlag der TU Berlin.
+\end{outerlist}
+
+
+\section{Education}
+%
+\href{http://www.bbk.ac.uk/}{\textbf{Birkbeck, University of London}},
+UK
+\begin{outerlist}
+ \item[] Ph.D. in Computational Cognitive Neuroscience, September  2014
+        \begin{innerlist}
+        \item Thesis: \emph{Towards a Unified Computational Account of Semantic Impairments}
+	\item 1st Supervisor: \emph{Prof. Richard P. Cooper}
+	\item 2nd Supervisor: \emph{Dr. Eddy J. Davelaar}
+
+        \end{innerlist}
+
+\end{outerlist}
+\blankline
+
+\href{http://www.ucl.ac.uk/}{\textbf{University College London}},
+UK
+\begin{outerlist}
+ \item[] M.Sc., 
+        \href{http://www.ucl.ac.uk/lifesciences-faculty/degree-programmes/cognitive-decision-sciences}
+             {Cognitive and Decision Sciences} (Distinction), September 2010
+        \begin{innerlist}
+        \item Thesis: \emph{Modelling Semantic Memory \& Its Impairments Following Neural Damage}
+
+	\item Supervisor: \emph{Prof. Richard P. Cooper}
+
+        \end{innerlist}
+
+\end{outerlist}
+
+\ \\
+\href{http://www.york.ac.uk/}{\textbf{The University of York}},
+UK
+\begin{outerlist}
+
+\item[] B.Sc.,
+        \href{http://www.cs.york.ac.uk/}
+             {Computer Science}, June 2009
+        \begin{innerlist}
+        \item Thesis: \emph{Modelling Genetic Adaptation to Environmental Changes}
+	\item Supervisor: \emph{Suresh Manandhar}
+        \end{innerlist}
+
+
+\end{outerlist}
+
+% \ \\
+% \href{http://www.edexcel.com/}{\textbf{Edexcel}},
+% Cyprus
+% \begin{outerlist}
+% 
+% \item[] A-level,
+%         {Mathematics}, June 2006
+%         \begin{innerlist}
+%         \item Grade: \emph{A}
+%         \end{innerlist}
+% 
+% \item[] A-level,
+%         {Computer Science}, June 2005
+%         \begin{innerlist}
+%         \item Grade: \emph{A}
+%         \end{innerlist}
+% \end{outerlist}
+% 
+% 
+% \ \\
+% \href{http://lyk-akropoli-lef.schools.ac.cy/}{\textbf{\greektext L'ukeio Akrop'olews} \latintext(Acropolis Lyceum)},
+% Cyprus
+% \begin{outerlist}
+% 
+% \item[] Apolyterion, June 2006
+%         \begin{innerlist}
+%         \item Subjects: \emph{Advanced Physics, Biology, Computer Science, Mathematics, Technical Drawing}
+%         \item Grade: \emph{19.083 / 20}
+%         \end{innerlist}
+% \end{outerlist}
+
+\section{Conferences}
+
+
+\href{http://www.cogs.indiana.edu/asic/2016/index.shtml}{\textbf{ 15th Annual Summer Interdisciplinary Conference (ASIC 2016)}}
+
+
+
+\begin{outerlist}
+\item[] \textit{Selva, Val Gardena, Italy}\hfill\textbf{3-8th July, 2016}
+
+\begin{innerlist}
+\item Presented a talk: \textit{What the Success of Brain Imaging Implies about the Neural Code}.
+\end{innerlist}
+
+\end{outerlist}
+\blankline
+
+\href{http://www.cogs.indiana.edu/asic/2015/index.shtml}{\textbf{ 14th Annual Summer Interdisciplinary Conference (ASIC 2015)}}
+
+
+
+\begin{outerlist}
+\item[] \textit{Mammoth Lakes, California, USA}\hfill\textbf{10-15th July, 2015}
+
+\begin{innerlist}
+\item Presented a talk: \textit{Optimism Bias in Novice and Expert Sport Forecasting}.
+\end{innerlist}
+
+\end{outerlist}
+\blankline
+
+\href{http://www.bcbl.eu/events/ncpw13/}{\textbf{13th Neural Computation and Psychology Workshop (NCPW 13)}}
+
+
+
+\begin{outerlist}
+\item[] \textit{\href{http://www.bcbl.eu/}{BCBL}, San Sebastian, Spain}\hfill\textbf{12-14th July, 2012}
+
+\begin{innerlist}
+\item Presented a talk: \textit{Exploring the influence of architecture and learning algorithm on the breakdown of the ``hub'' model of semantic cognition}.
+\end{innerlist}
+
+\end{outerlist}
+\blankline
+
+\href{http://iccm-conference.org/2012/}{\textbf{11th International Conference on Cognitive Modeling (ICCM 2012)}}
+
+\begin{outerlist}
+\item[] \textit{\href{http://www.tu-berlin.de/menue/home/parameter/en/}{Technische Universit\"{a}t Berlin}, Berlin, Germany}
+        \hfill \textbf{12-15th April, 2012}
+\begin{innerlist}
+\item Presented a poster: \textit{Semantic Cognition: A Re-examination of the Recurrent Network ``Hub'' Model}.
+\item Won best student poster prize (\euro 100).
+% \item Attended a tutorial: \href{http://iccm-conference.org/2012/fileadmin/ICCM_program_Apr12.pdf}{\textit{Scaling models of cognition to the real world: Complexity theoretic tools for dealing with intractability}}
+
+% run by: \textit{Iris van Rooij, Johan Kwisthout, Todd Wareham, Mark Blokpoel, Daniel Reichman, Jakub Szymanik}.
+\end{innerlist}
+
+\end{outerlist}
+
+
+\section{Workshops}
+
+\href{http://www.software.ac.uk/rdvw/}{\textbf{Research Data Visualisation Workshop (RDVW)}}, \href{http://software.ac.uk/}{Software Sustainability Institute} and \href{http://www.manchester.ac.uk/}{University of Manchester} \hfill \textbf{July 28th, 2016}
+\begin{itemize}
+ \item Helped organise 1-day workshop with \href{http://www.software.ac.uk/about/people/raniere-silva}{Raniere Silva} (main organiser) and \href{http://www.cardiff.ac.uk/people/view/98654-knight-vincent}{Vince Knight}
+ \item Member of \href{http://www.software.ac.uk/rdvw/committees}{steering commitee}
+ \item Obtained funding from \href{https://www.rstudio.com/}{RStudio}
+\end{itemize}
+
+\href{https://sites.google.com/site/introcompcog/}{\textbf{Introduction to Computational Cognitive Modelling Workshop}}, \href{http://cccm.bbk.ac.uk/}{Centre for Cognition, Computation and Modelling}, Birkbeck, University of London
+         \hfill \textbf{2014}
+\begin{itemize}
+ \item Organised and ran 3-day workshop with \href{https://www.researchgate.net/profile/Chris_Brand}{Chris Brand}
+ \item Prepared slides and exercises 
+\end{itemize}
+
+
+\section{Teaching Experience}
+
+\href{http://www.psy.ox.ac.uk/}{\textbf{Department of Experimental Psychology}}, \href{http://ox.ac.uk/}{University of Oxford}, UK
+\begin{description}
+ \item[Position:] Postdoctoral Research Assistant 
+ \item[Duration:] 2014 to present 
+
+\end{description}
+
+
+\begin{outerlist}
+
+
+\item[] \textit{\href{http://oliviaguest.com/connectionism}{Block Practical: Connectionist Models and Cognitive Processes}}
+         \hfill \textbf{2015}
+\begin{innerlist}
+\item Module Course Year: \textit{Third Year, B.Sc.}
+ \item Designed course structure and materials (slides and exercises)
+ \item Set final report wherein students replicated from scratch Tyler at al (2000) in Python
+ \item Created course website: \href{http://oliviaguest.com/connectionism}{oliviaguest.com/connectionism}
+\end{innerlist}
+
+\item[] \textit{Tutorial: Language and Cognition}
+         \hfill \textbf{2015}
+\begin{innerlist}
+\item Module Course Year: \textit{First Year, B.Sc.}
+ \item Set presentations, essays, etc.
+ \item Marked exams
+\end{innerlist}
+\end{outerlist}
+
+\href{http://www.bbk.ac.uk/psychology/}{\textbf{Department of Psychological Sciences}}, \href{http://www.bbk.ac.uk/}{Birkbeck, University of London},
+UK
+\begin{description}
+ \item[Position:] Graduate Teaching Assistant
+ \item[Duration:] 2010 to 2014
+
+\end{description}
+
+
+\begin{outerlist}
+
+
+\item[] \textit{General Foundations of Psychology}
+         \hfill \textbf{2010 to 2014}
+\begin{innerlist}
+\item Module Course Year: \textit{First Year, B.Sc.}
+\item Module Tutor: \href{http://www.bbk.ac.uk/psychology/our-staff/academic/simon-green/simon-green}{\textit{Dr. Simon Green}}\item Led the course seminar.
+\item Marked exam essays.
+\end{innerlist}
+
+\item[] \textit{Psychobiology}
+         \hfill \textbf{2010 to 2014}
+\begin{innerlist}
+\item Module Course Year: \textit{First Year, B.Sc.}
+\item Module Tutor: \href{http://www.bbk.ac.uk/psychology/our-staff/academic/simon-green/simon-green}{\textit{Dr. Simon Green}}
+\item Marked exam essays.
+\end{innerlist}
+
+\item[] \textit{Introduction to Research Methods}
+         \hfill \textbf{2010 to 2014}
+\begin{innerlist}
+\item Module Course Year: \textit{First Year, B.Sc.}
+\item Module Tutors: \textit{\href{http://www.bbk.ac.uk/psychology/our-staff/academic/emma-meaburn/emma-meaburn}{Dr. Emma Meaburn} and \href{http://www.bbk.ac.uk/psychology/our-staff/academic/marie-smith/marie-smith}{Dr. Marie L. Smith}}
+\item Taught introductory statistics and scientific research skills.
+\item Ran laboratory and practical classes.
+\item Ran drop-in help sessions.
+\item Marked and invigilated exams and lab reports.
+\end{innerlist}
+
+\item[] \textit{Advanced Research Methods}
+         \hfill \textbf{2011 to 2014}
+\begin{innerlist}
+\item Module Course Year: \textit{Third and Fourth Year, B.Sc.}
+\item Module Tutors: \textit{\href{http://www.bbk.ac.uk/psychology/our-staff/academic/tim-smith/tim-smith}{Dr. Tim J. Smith} and \href{http://www.bbk.ac.uk/psychology/our-staff/academic/matthew-longo}{Dr. Matthew Longo}}
+\item Taught advanced year statistics and scientific research skills.
+\item Advised groups of students on how to carry out their mini projects.
+\item Marked mini projects.
+\end{innerlist}
+
+\item[] \textit{Advanced Quantitative Methods}
+         \hfill \textbf{2011 to 2014}
+\begin{innerlist}
+\item Module Course Year: \textit{Second Year, M.Sc.}
+\item Module Tutors: \textit{\href{http://www.bbk.ac.uk/psychology/our-staff/academic/richard-cooper/richard-cooper}{Prof. Richard P. Cooper} and \href{http://www.bbk.ac.uk/psychology/our-staff/academic/edward-barker/edward-barker}{Dr. Ted D. Barker}}
+
+\item Taught M.Sc.-level statistics and scientific research skills.
+\item Ran drop-in help sessions.
+\item Marked worksheets.
+\end{innerlist}
+
+\item[] \textit{Memory and Cognition}
+         \hfill \textbf{2010 to 2014}
+\begin{innerlist}
+\item Module Course Year: \textit{Third and Fourth Year, B.Sc.}
+\item Module Tutor: \textit{\href{http://www.bbk.ac.uk/psychology/our-staff/academic/eddy-davelaar/eddy-davelaar}{Dr. Eddy J. Davelaar}}
+\item Marked exam essays.
+
+\end{innerlist}
+
+\item[] \textit{Matlab Programming for Psychological Science}
+         \hfill \textbf{2011 to 2014}
+\begin{innerlist}
+\item Module Course Year: \textit{Ph.D.}
+\item Module Tutors: \textit{\href{http://www.bbk.ac.uk/psychology/our-staff/academic/richard-cooper/richard-cooper}{Prof. Richard P. Cooper} and \href{http://www.bbk.ac.uk/psychology/our-staff/academic/marie-smith/marie-smith}{Dr. Marie L. Smith}}
+\item Taught general principles of Matlab programming for psychological experimentation and data management.
+
+\end{innerlist}
+\end{outerlist}
+
+
+
+
+
+\section{Laboratory Membership}
+\begin{description}
+
+\item[\href{http://www.psy.ox.ac.uk/research/oxford-babylab}{Oxford BabyLab}]
+      \hfill \textbf{2014 to Present}\blankline
+
+\href{http://www.psy.ox.ac.uk/}{Department of Experimental Psychology}, University of Oxford
+
+\item[\href{http://cccm.bbk.ac.uk/}{Centre for Cognition, Computation and Modelling (CCCM)}] 
+\blankline
+
+\hfill \textbf{2010 to 2014}\blankline
+
+Department of Psychological Sciences, Birkbeck, University of London
+ \item[\href{http://www.ccnl.bbk.ac.uk/}{Computational Cognitive Neuroscience Laboratory (CCNL)}]    
+ \blankline
+ 
+ \hfill \textbf{2010 to 2014} \blankline
+
+Department of Psychological Sciences, Birkbeck, University of London
+ \item[\href{http://www.bbk.ac.uk/psychology/dmclab/}{Dynamic Memory and Cognition Laboratory (DMC)}]     
+ \blankline
+ 
+ \hfill \textbf{2010 to 2014} \blankline
+
+Department of Psychological Sciences, Birkbeck, University of London
+ \item[\href{http://www.bbk.ac.uk/psychology/merlin/}{Mace Experimental Research Laboratories in Neuroscience (MERLiN)}]     
+ \blankline
+ 
+ \hfill \textbf{2010 to 2014} \blankline
+
+Department of Psychological Sciences, Birkbeck, University of London
+
+\end{description}
+
+
+\section{Scientific Outreach}
+\href{http://www.bbc.co.uk/radio4}{\textbf{BBC Radio 4:}} \href{http://www.bbc.co.uk/programmes/b0713zdz}{Today Show}\hfill\textbf{22nd February, 2016}
+
+
+\begin{outerlist}
+
+\item [] Interview: \textit{What can we learn in 4 months?}
+
+\end{outerlist}
+
+\blankline
+
+\href{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137685}{\textbf{Optimism Bias in Fans and Sports Reporters}}\hfill\textbf{9th September, 2015}
+
+
+\begin{outerlist}
+
+\item Press Releases: \href{http://www.ox.ac.uk/news/2015-09-09-nfl-fans-and-espn-reporters-overly-optimistic-about-team-prospects}{University of Oxford}, \href{https://www.ucl.ac.uk/news/news-articles/0915/100915-nfl-team-prospects}{UCL}
+
+\item Media Coverage: \href{http://www.csmonitor.com/Science/2015/0909/NFL-scores-Your-team-is-probably-less-invincible-than-you-imagine}{CS Monitor},
+\href{http://www.medicaldaily.com/rose-colored-glasses-nfl-fans-and-sports-reporters-overestimate-how-good-their-teams-351888}{Medical Daily},
+\href{https://www.minnpost.com/second-opinion/2015/09/why-football-fans-are-unrealistically-optimistic-and-why-it-matters}{MinnPost},
+\href{http://europe.newsweek.com/nfl-fans-and-reporters-overly-optimistic-about-teams-prospects-332758}{Newsweek},
+\href{http://www.psmag.com/health-and-behavior/this-study-explains-why-raiders-fans-continue-going-to-watch-their-team-play}{Pacific Standard},
+\href{http://phys.org/news/2015-09-nfl-fans-espn-overly-optimistic.html}{Phys.org}. 
+
+
+\end{outerlist}
+
+
+\section{Technical Skills}
+
+
+\textbf{General:} Website design and implementation (HTML, CSS, content management systems, web servers), software and hardware tech support, graphic design, GTK GUI design.
+
+\blankline
+
+
+\textbf{Programming:} Ada, C, C$++$, C\#, Java, JavaScript,  \LaTeX, Lisp (Scheme), MATLAB,  OpenGL, Pascal, PHP, Prolog, Python, R, SQL, Visual Basic.
+
+% \blankline
+% 
+% \textbf{Computer Applications/Utilities:} Bison, flex, make, Adobe Photoshop, Microsoft Office Suite, SPSS.
+
+
+% \blankline
+% 
+% \textbf{Operating Systems:} Microsoft Windows family, *nix.
+
+
+% 
+% \section{Language Proficiency}
+% 
+% \textbf{Fluent in:} English, Greek.
+% 
+% \blankline
+% 
+% 
+% \textbf{Intermediate level:} French.
+% 
+% \blankline
+% 
+% 
+% \textbf{Basic level:} Italian.
+% 
+% 
+% \section{Extracurricular Interests}
+% 
+% Canoeing, Digital Art, Painting, Photography.
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
