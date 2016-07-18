@@ -1,3 +1,4 @@
-			<ul style="list-style:none">
- 				<li class="cv"><a href="cv/cv_olivia_guest.pdf">PDF</a>/<a href="cv/cv_olivia_guest.html">HTML</a></li>
- 			</ul>
+<ul class="cv">
+<li><a href="cv/cv_olivia_guest.pdf">PDF</a> </li>
+<li><a href="cv/cv_olivia_guest.html">HTML</a> (made with (https://github.com/coolwanglu/pdf2htmlEX)[pdf2htmlEX]</li>
+</ul>
