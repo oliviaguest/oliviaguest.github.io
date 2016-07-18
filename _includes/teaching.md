@@ -13,5 +13,5 @@
  <p style="font-size: 0.9em">Michaelmas Term, 2016, <a href="//psy.ox.ac.uk/">Experimental Psychology Department</a>, <a href="//ox.ac.uk/">University of Oxford</a></p></li>
 
 </ul>
-More of my teaching duties and experience can be found in my <a href="/cv/cv_olivia_guest.pdf">CV</a>.
+More of my teaching duties and experience can be found in my CV.
 
