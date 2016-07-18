@@ -5,6 +5,7 @@
 
 </li>
 <li><a href="cv/cv_olivia_guest.html"><h4>HTML</h4></a>
+<a href="cv/cv_olivia_guest.html"><i class="fa fa-file-html-o" aria-hidden="true"></i></a>
 <p style="font-size:0.9em">(made with <a href="https://github.com/coolwanglu/pdf2htmlEX">pdf2htmlEX</a>)</p>
 </li>
 </ul>
