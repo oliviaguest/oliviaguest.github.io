@@ -1,6 +1,10 @@
 <h2>Journal Articles</h2>
 <ul class="cv">
-  <li class="cv"><b>Guest, O.</b>, Love, B. C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.   <p style = "margin-top:0.5em">
+
+  <li class="cv">
+    <div data-badge-popover="left" data-badge-type="donut" data-doi="10.1101/071076" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
+
+    <b>Guest, O.</b>, Love, B. C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.   <p style = "margin-top:0.5em">
       <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">http://dx.doi.org/10.1101/071076</a>
       <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
       </p>
