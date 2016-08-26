@@ -13,9 +13,9 @@ The code used to generate [this website](//github.com/oliviaguest/oliviaguest.gi
 
 <h2>Content</h2>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="float: right; padding-left: 1em;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="float: right; padding-left: 1em;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-The text and images within this website (including blog posts and [art works](//art.oliviaguest.com), *unless* otherwise stated) are released under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a> (CC BY-NC-SA 4.0).
+The text and images within this website (including blog posts and [art works](//art.oliviaguest.com), *unless* otherwise stated) are released under the <a href="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</a> (CC BY 4.0).
 
 If you have any questions regarding licensing of my code or my content, feel free to <a href="mailto:contact@oliviaguest.com?Subject=Licensing" target="_top">contact me</a>.
 
