@@ -12,7 +12,7 @@
 
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (in prep). Re-evaluating Computational Models of Semantic Deficits.</li>
   
-  <li class="cv"><b>Guest, O.</b>, Rougier, N. P. (2016). <a href="//openlab-flowers.inria.fr/uploads/default/original/1X/8772fe3ca3c74b838e0e8161c3fb24dafdf1c368.pdf">What is computational reproducibility?</a> <em><a href="//openlab-flowers.inria.fr/t/ieee-cis-newsletter-on-cognitive-and-developmental-systems/">IEEE CIS Newsletter on Cognitive and Developmental Systems</a></em>, 13 (1).  <a href="doc/guest_rougier_16.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <a href="https://github.com/oliviaguest/what-is-computational-reproducibility"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="https://www.overleaf.com/read/nsndhzbpvwky"><i class="fa fa-leaf" aria-hidden="true"></i></a></li>
+  <li class="cv"><b>Guest, O.</b>, Rougier, N. P. (2016). <a href="doc/guest_rougier_16.pdf">What is computational reproducibility?</a> <em><a href="//openlab-flowers.inria.fr/uploads/default/original/1X/8772fe3ca3c74b838e0e8161c3fb24dafdf1c368.pdf">IEEE CIS Newsletter on Cognitive and Developmental Systems</a></em>, 13 (1).  <a href="doc/guest_rougier_16.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <a href="https://github.com/oliviaguest/what-is-computational-reproducibility"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="https://www.overleaf.com/read/nsndhzbpvwky"><i class="fa fa-leaf" aria-hidden="true"></i></a></li>
 
  <li class="cv">
     <div data-badge-popover="left" data-badge-type="donut" data-doi="10.15200/winn.146590.01538" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
