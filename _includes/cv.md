@@ -1,6 +1,7 @@
 <ul class="cv">
-<li><a href="cv/cv_olivia_guest.pdf">PDF</a><a href="https://github.com/oliviaguest/cv">
+<li><a href="cv/cv_olivia_guest.pdf">PDF</a>
 
+<a href="https://github.com/oliviaguest/cv">
 <i class="fa fa-github" aria-hidden="true"></i></a>
 <a href="https://www.overleaf.com/read/zfwnyxkkdzxr"><i class="fa fa-leaf" aria-hidden="true"></i></a>
 
