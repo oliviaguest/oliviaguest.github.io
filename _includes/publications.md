@@ -49,6 +49,9 @@
 <h2>Blog Posts</h2>
   <ul class="cv">
 
+  <li class="cv"><b>Guest, O.</b>, (2016). <a href="//www.software.ac.uk/blog/2016-09-29-pycon-uk-2016">PyCon UK 2016</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute. <a href="//www.software.ac.uk/blog/2016-09-29-pycon-uk-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+</li> 
+
   <li class="cv"><b>Guest, O.</b>, (2016). <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016">PyData London 2016</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute. <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li> 
 
