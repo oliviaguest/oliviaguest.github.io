@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/oliviaguest
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://oliviaguest.com
+  * I am oliviaguest (https://keybase.io/oliviaguest) on keybase.
+  * I have a public key with fingerprint 8CF3 1DF2 7901 EC0E 1A93  D72D 305A D1F8 E02A 226E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101816fe4464b8c54de30e0d0b38ed2e5df41e41e6a56daf7a98691c0bc1b2434220a",
+            "fingerprint": "8cf31df27901ec0e1a93d72d305ad1f8e02a226e",
+            "host": "keybase.io",
+            "key_id": "305ad1f8e02a226e",
+            "kid": "0101816fe4464b8c54de30e0d0b38ed2e5df41e41e6a56daf7a98691c0bc1b2434220a",
+            "uid": "e50b1fc74d64bc08c8a698e5f3f7f319",
+            "username": "oliviaguest"
+        },
+        "service": {
+            "hostname": "oliviaguest.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1478605319,
+    "expire_in": 157680000,
+    "prev": "42167908553e8358c4c42b9167376130cb212a7942daa45ce3c6366221fe02ac",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJbSFRBGN7VzDICNSwrMDr1ECI2M+e6+2DRQxRSaVqYJducmTnbYXXP
+dvasGZZFUFRGgUaEXV4kMskg0wgxzchKBF/KIgrsKnmjCySmJc2ReqrHhoFh/v/7
+vvn+j3kwP96T5KVfMU0cu/DK29t1MeYpWt6WWCnoFt0v+CuFEJs5WCllUScQMqng
+FwAEUIOKwSRJkXSNyBJlImCAAl3UGEVMpoYEGd8KlhWKDRX7NMUHCdAJ1JEkSggB
+LGQJhhkOMjtim2GHy2rEECE1kOoDkBHAIPaJVEVUBDKm0NAYQBghhXHiHivqMrg5
+HUdZtmnxGr8EZuz9A/+ffcdm5JgMdGgQVaJcjQCNaFjxaUw2REPlk/hcYJTZYVzG
+ONoqNctNHIzxGIWDWQJvlJuEudm6w/wNyiZWGVeI2JZjEauUN/c4TsTvcp39ERe8
+j+mB3zIB3QxTHiYnlDM7alphwQ85kjimqwslVVOAzD1lCawiYtosYLoIWVU0wJf7
+DCvnkhKCCo9fk2WRaaKsEYlISPfxoqgqUARERxBh1SchirEkEyYSRVQUhKDhpk0E
+d7C9YUvwS9wmDnLJqBkMYydmM+Hg/Xu7Znm8SZ7ZCXHuJ/MkzU3+8/UmHs3xXHcO
+ZK5JHx8aObNoc9roZI16xTtQPX74XejWk3fPi1Mn8ycnjhZ583rqSk6+jJsXmyoD
+Tc3D3cFg03A8PD1YUDiS3nC71Tzf1re7JbVvh5b56sDC8JGSouOfR411Yy0lHU9z
+qb0evT/VXNegp5zs6cjJI8WXHuY+u1H//cWG2uSeb6wnkLaycaowpaq3prBzY/RY
+Y9W27pEfjc6hNe13TkwvbWUpsOBaTp89uL325+JPa9+kFI3nTtc8q/sY92UqdDZU
+4SmV60/cjR/akF98NbsVde4cOHpzbVf/atzfsKn98dSWD5ebBqvVvFWZ5wrhQIa6
+JHdrL0tYsWDZ28n8jNfsF6FQSgs=
+=b4nr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/oliviaguest
+
+==================================================================
