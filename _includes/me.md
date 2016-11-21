@@ -3,4 +3,4 @@ Hi, I am a cognitive computational neuroscientist currently carrying out <a href
 
 <p>I am a <a href="//www.software.ac.uk/">Software Sustainability Institute</a> <a href="//software.ac.uk/fellows/olivia-guest">fellow</a> and an <a href="//rescience.github.io/board/">associate editor</a> at <a href="//rescience.github.io/">ReScience</a>.</p>
 
-<!--<p>I am available for <a href="//www.ox.ac.uk/news-and-events/find-an-expert/dr-olivia-guest">consultation services</a> regarding computational cognitive modelling.</p>-->
+<p>I am available for consultation services regarding computational cognitive modelling.</p>
