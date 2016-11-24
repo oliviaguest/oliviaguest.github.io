@@ -7,7 +7,7 @@
     <b>Guest, O.</b>, Love, B. C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.
     <p style = "margin-top:0.5em">Preprint: <a href="//dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="//dx.doi.org/10.1101/071076">10.1101/071076</a>. <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
       </p>
-      <p style = "margin-top:0.5em">Slides: <a href="//dx.doi.org/10.6084/m9.figshare.4252022.v1">10.6084/m9.figshare.4252022.v1</a>. <a href="//dx.doi.org/10.6084/m9.figshare.4252022.v1"><i class="ai ai-figshare" aria-hidden="true"></i></a>
+      <p style = "margin-top:0.5em">Slides: <a href="//dx.doi.org/10.6084/m9.figshare.4252022">10.6084/m9.figshare.4252022</a>. <a href="//dx.doi.org/10.6084/m9.figshare.4252022"><i class="ai ai-figshare" aria-hidden="true"></i></a>
       </p>
   </li>
 
