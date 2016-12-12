@@ -1,5 +1,5 @@
 <p><img src="//avatars3.githubusercontent.com/u/5082092?v=3&amp;s=460">
-Hi, I am a cognitive computational neuroscientist currently carrying out postdoctoral research with [Bradley Love](//bradlove.org/) in the [Department of Experimental Psychology](//www.ucl.ac.uk/pals/research/experimental-psychology/person/olivia-guest/), [Division of Psuchology and Language Sciences](//www.ucl.ac.uk/pals/people/profiles/research-staff/olivia-guest), [University College London](//iris.ucl.ac.uk/iris/browse/profile?upi=OGUES12).</p>
+Hi, I am a cognitive computational neuroscientist currently carrying out postdoctoral research with <a href="//bradlove.org/">Prof. Bradley C. Love</a> in the <a href="//www.ucl.ac.uk/pals/research/experimental-psychology/person/olivia-guest/">Department of Experimental Psychology</a>, <a href="//www.ucl.ac.uk/pals/people/profiles/research-staff/olivia-guest">Division of Psychology and Language Sciences</a>, <a href="//iris.ucl.ac.uk/iris/browse/profile?upi=OGUES12">University College London</a>.</p>
 
 <p>My research involves the creation and evaluation of computational accounts for categorisation, semantic memory, and conceptual representation. I am currently focussing on deep and shallow neural networks to account for categorisation in healthy adults, patient groups, infants, and animal models.</p>
 
