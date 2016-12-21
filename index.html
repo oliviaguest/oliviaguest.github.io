@@ -1,64 +1,38 @@
 ---
 layout: default
 ---
-    <script type="text/javascript">
-                  $(document).ready(function() {
-                    $('#menu').collapsible({
-                          contentOpen: 0
-                    }); 
-                    $('#menu h1').click(function(){
-                      SmartUnderline.init({});
-                    });
-                  });
-    </script>
+<script type="text/javascript">
+	  $(document).ready(function() {
+	    $('#menu').collapsible({
+		//  contentOpen: 0 
+	    }); 
+	  });
+</script>
+
+<noscript>
+	<style>
+		.collapse-container > :nth-child(even) {
+		    display: block;
+		}
+	</style>
+</noscript>
 
 <div class="content">
-
+	
 	<div id="header">
- 	<a href="/">Olivia Guest</a>
+		<a href="/">Olivia Guest</a>
 	</div>
 
 	<div id="description">
-	 {% include me.md %}
+		{% include me.md %}
 	</div>
-      			<noscript>
-      				<style>
-				.collapse-container > :nth-child(even) {
-				    display: block;
-				}
-				</style>
-      			</noscript>
+
 	<div id="index">
       		<div id="menu" class="collapse-container">
-
-		  <h1>Publications</h1>
-		        <div>
-				{% include publications.md %}
-			</div>
-
-
-		<h1>CV</h1>
-			<div>
-				{% include cv.md %}
-			</div>
-		
-		
+		  	<h1>Publications</h1>
+		        	<div>{% include publications.md %}</div>
+			<h1>CV</h1>
+				<div>{% include cv.md %}</div>		
 		</div>
-<!--
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>-->
-
 	</div>
 </div>
