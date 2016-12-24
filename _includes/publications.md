@@ -1,19 +1,19 @@
 <h2>Journal Articles</h2>
 <ul class="cv">
 
+  <li class="cv"><b>Guest, O.</b>, Caso, A., Cooper, R. P. (in prep). On Simulating Neural Damage in Connectionist Networks.</li>
+  
+  <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (in prep). Re-evaluating Computational Models of Semantic Deficits.</li>
+  
   <li class="cv">
     <div data-badge-popover="left" data-badge-type="donut" data-doi="10.1101/071076" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
-    <b>Guest, O.</b>, Love, B. C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.
+    <b>Guest, O.</b>, Love, B. C. (in press). What the Success of Brain Imaging Implies about the Neural Code.
     <p style = "margin-top:0.5em">Preprint: <a href="//dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="//dx.doi.org/10.1101/071076">10.1101/071076</a>. <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <a href="//osf.io/v8baz/"><i class="ai ai-osf" aria-hidden="true"></i></a> <a href="//github.com/oliviaguest/brain-imaging-and-the-neural-code"><i class="fa fa-github" aria-hidden="true"></i></a>
       </p>
       <p style = "margin-top:0.5em">Slides: <a href="//dx.doi.org/10.6084/m9.figshare.4252022">10.6084/m9.figshare.4252022</a>. <a href="//dx.doi.org/10.6084/m9.figshare.4252022"><i class="ai ai-figshare" aria-hidden="true"></i></a>
       </p>      
   </li>
-
-  <li class="cv"><b>Guest, O.</b>, Caso, A., Cooper, R. P. (in prep). On Simulating Neural Damage in Connectionist Networks.</li>
-  
-  <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (in prep). Re-evaluating Computational Models of Semantic Deficits.</li>
   
   <li class="cv"><b>Guest, O.</b>, Rougier, N. P. (2016). <a href="doc/guest_rougier_16.pdf">What is computational reproducibility?</a> <em><a href="//openlab-flowers.inria.fr/uploads/default/original/1X/8772fe3ca3c74b838e0e8161c3fb24dafdf1c368.pdf">IEEE CIS Newsletter on Cognitive and Developmental Systems</a></em>, 13 (1).  <a href="doc/guest_rougier_16.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> <a href="https://github.com/oliviaguest/what-is-computational-reproducibility"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="https://www.overleaf.com/read/nsndhzbpvwky"><i class="fa fa-leaf" aria-hidden="true"></i></a></li>
 
