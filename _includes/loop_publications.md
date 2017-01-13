@@ -11,6 +11,15 @@
     {% if pub.osf %}
     <a href="//osf.io/{{ pub.osf }}"><i class="ai ai-osf" aria-hidden="true"></i></a>
     {% endif %}
+    {% if pub.overleaf %}
+    <a href="//overleaf.com/read/{{ pub.overleaf }}"><i class="fa fa-leaf" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if pub.comments %}
+    <a href="{{ pub.comments }}"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if pub.github %}
+    <a href="//github.com/oliviaguest/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+    {% endif %}
     
     </li>
   {% endfor %}
