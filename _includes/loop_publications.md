@@ -1,3 +1,4 @@
+{% assign pubs = site.publications | sort: 'year' %}
 <h2>Journal Articles</h2>
 <ul class="cv">
  
