@@ -32,7 +32,17 @@ permalink: /test
 	<div id="index">
       		<div id="menu" class="collapse-container">
 		  	<h1>Publications</h1>
-		        	<div>{% include loop_publications.md %}</div>
+		        	<div>
+			 
+				  {% for pub in publications %}
+				    <li class="cv">
+
+				    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
+
+				    {{ pub.authors }} ({{ pub.year }}). <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. <i>{{ pub.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+				  {% endfor %}
+			
+				</div>
 			<h1>CV</h1>
 				<div>{% include cv.md %}</div>		
 		</div>
