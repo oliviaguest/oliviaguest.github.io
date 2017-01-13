@@ -34,6 +34,9 @@ permalink: /test
 		  	<h1>Publications</h1>
 		        	<div>
 			 
+				<h2>Journal Articles</h2>
+				<ul class="cv">
+
 				  {% for pub in publications %}
 				    <li class="cv">
 
@@ -41,6 +44,8 @@ permalink: /test
 
 				    {{ pub.authors }} ({{ pub.year }}). <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. <i>{{ pub.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
 				  {% endfor %}
+
+				</ul>
 			
 				</div>
 			<h1>CV</h1>
