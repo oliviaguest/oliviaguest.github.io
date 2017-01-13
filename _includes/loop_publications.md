@@ -2,7 +2,7 @@
 <h2>Journal Articles</h2>
 <ul class="cv">
  
-  {% for pub in publications %}
+  {% for pub in pubs %}
     <li class="cv">
 
     <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
