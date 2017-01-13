@@ -1,18 +1,12 @@
 <h2>Journal Articles</h2>
 <ul class="cv">
-  
-  <li class="cv">
-  
-  <div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.cogsys.2013.05.001" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
-
-  Cooper, R. P., <b>Guest, O.</b> (2014). <a href="//dx.doi.org/10.1016/j.cogsys.2013.05.001">Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling.</a> <em>Cognitive Systems Research</em>, 27, 42-49. doi:<a href="//dx.doi.org/10.1016/j.cogsys.2013.05.001">10.1016/j.cogsys.2013.05.001</a>. <a href="doc/cooper_14.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-  
+ 
   {% for pub in publications %}
-  <li class="cv">
-  
-  <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
+    <li class="cv">
 
-  {{ pub.authors }} ({{ pub.year }}). <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. <i>{{ pub.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
+
+    {{ pub.authors }} ({{ pub.year }}). <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. <i>{{ pub.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
   {% endfor %}
 
 </ul>
