@@ -5,7 +5,7 @@
   {% for pub in pubs %}
     <li class="cv">
 
-    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
+    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
     {{ pub.authors }} ({{ pub.year }}). <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. <i>{{ pub.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
     {% if pub.osf %}
