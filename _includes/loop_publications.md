@@ -9,7 +9,7 @@
 
     {{ pub.authors }} ({{ pub.year }}). <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. <i>{{ pub.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
     {% if pub.osf %}
-    <a href="//osf.io/{{ pub.osf }}"><i class="ai ai-osf-o" aria-hidden="true"></i></a>
+    <a href="//osf.io/{{ pub.osf }}"><i class="ai ai-osf" aria-hidden="true"></i></a>
     {% endif %}
     
     </li>
