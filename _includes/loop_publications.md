@@ -1,4 +1,4 @@
-{% assign pubs = site.publications | sort: 'year' %}
+{% assign pubs = site.publications | sort: 'year' | reverse %}
 <h2>Journal Articles</h2>
 <ul class="cv">
  
