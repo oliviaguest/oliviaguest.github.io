@@ -15,6 +15,4 @@ figshare:
 preprint:
 slides:
 
-altmetric:
-
 ---
