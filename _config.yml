@@ -77,4 +77,4 @@ exclude:
     - CNAME
     
 collections:
-- publications
+    - publications
