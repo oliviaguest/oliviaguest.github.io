@@ -11,7 +11,18 @@
     
     ({% if pub.status %}{{ pub.status }}{% else %}{{ pub.year }}{% endif %}). 
     
-    <a href="{% if pub.doi %}//dx.doi.org/{{ pub.doi }}{% else %}{{ pub.pdf }}{% endif %}">{{ pub.title }}</a>. {% if pub.journal %}<i>{{ pub.journal }}</i>. {% endif %}{% if pub.doi %}doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. {% endif %}<a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+    {% if pub.doi %}
+      <a href="{% if pub.doi %}//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>
+    {% elsif pub.pdf %}
+      <a href="{{ pub.pdf }}">{{ pub.title }}</a>
+    {% else %}
+      {{ pub.title }}
+    {% endif %}. 
+    
+    {% if pub.journal %}<i>{{ pub.journal }}</i>. {% endif %}{% if pub.doi %}doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. {% endif %}
+    {%if pub.pdf %}
+    <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+    {% endif %}
     {% if pub.osf %}
     <a href="//osf.io/{{ pub.osf }}"><i class="ai ai-osf" aria-hidden="true"></i></a>
     {% endif %}
