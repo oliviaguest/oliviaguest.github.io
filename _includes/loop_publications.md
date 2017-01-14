@@ -18,6 +18,9 @@
     {% if pub.overleaf %}
     <a href="//overleaf.com/read/{{ pub.overleaf }}"><i class="fa fa-leaf" aria-hidden="true"></i></a>
     {% endif %}
+    {% if pub.figshare %}
+    <a href="//figshare.com/{{ pub.figshare }}"><i class="ai ai-figshare" aria-hidden="true"></i></a>
+    {% endif %}
     {% if pub.comments %}
     <a href="{{ pub.comments }}"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
     {% endif %}
