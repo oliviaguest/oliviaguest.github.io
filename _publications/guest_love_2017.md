@@ -1,10 +1,10 @@
 ---
 
 authors:  <b>Guest, O.</b>, Love, B. C.
-year: '2017/in press'
+year: 2017
 title: What the Success of Brain Imaging Implies about the Neural Code
 journal: eLife
-doi: 
+doi: ''
 pdf: '://biorxiv.org/content/early/2016/08/23/071076.full.pdf'
 
 comments:
