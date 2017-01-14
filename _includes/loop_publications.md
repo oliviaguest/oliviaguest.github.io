@@ -34,7 +34,7 @@
        <p style="margin-top:0.5em">
        Preprint: <a href="//dx.doi.org/{{ pub.preprint.doi }}">bioRxiv 071076</a>. 
        doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>. 
-       <a href="{{ pub.preprint.pdf %}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+       <a href="{{ pub.preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
        </p>
     {% endif %}
     
