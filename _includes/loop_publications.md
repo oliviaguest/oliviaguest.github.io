@@ -5,7 +5,7 @@
   {% for pub in pubs %}
     <li class="cv">
 
-    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
+    <div data-badge-popover="right" data-badge-type="donut" data-doi="{% if pub.status == 'in press' %}{{ pub.preprint.doi }}{% else %}{{ pub.doi }}{% endif %}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
     {{ pub.authors }} 
     
@@ -29,8 +29,6 @@
     {% endif %}
     
     {% if pub.preprint %}
-       <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.preprint.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
-
        <p style="margin-top:0.5em">
        Preprint: <a href="//dx.doi.org/{{ pub.preprint.doi }}">bioRxiv 071076</a>. 
        doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>. 
