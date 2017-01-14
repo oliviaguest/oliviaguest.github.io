@@ -440,6 +440,7 @@ a:hover img {
 .cv li, .affil li {
   /*padding-block-end: 1em; */
 	padding-bottom: 1em;
+	overflow: hidden;
 }
 
 .cv p {
