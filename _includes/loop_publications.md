@@ -9,11 +9,7 @@
 
     {{ pub.authors }} 
     
-    ({% if pub.status %}
-        {{ pub.status }}
-     {% else %}
-        {{ pub.year }}
-     {% endif %}). 
+    ({% if pub.status %}{{ pub.status }}{% else %}{{ pub.year }}{% endif %}). 
     
     <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. <i>{{ pub.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
     {% if pub.osf %}
