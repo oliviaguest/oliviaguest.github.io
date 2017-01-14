@@ -2,7 +2,7 @@
 
 authors:  <b>Guest, O.</b>, Caso, A., Cooper, R. P.
 year: 2018
-title: On Simulating Neural Damage in Connectionist Networks.
+title: On Simulating Neural Damage in Connectionist Networks
 journal: 
 doi: 
 pdf: 
