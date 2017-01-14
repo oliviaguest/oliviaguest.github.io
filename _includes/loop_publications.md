@@ -28,6 +28,16 @@
     <a href="//github.com/oliviaguest/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
     {% endif %}
     
+    {% if pub.preprint %}
+       <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.preprint.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
+
+       <p style="margin-top:0.5em">
+       Preprint: <a href="//dx.doi.org/{{ pub.preprint.doi }}">bioRxiv 071076</a>. 
+       doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>. 
+       <a href="{{ pub.preprint.pdf %}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+       </p>
+    {% endif %}
+    
     </li>
   {% endfor %}
 
