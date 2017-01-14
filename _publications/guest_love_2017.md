@@ -1,7 +1,7 @@
 ---
 
 authors:  <b>Guest, O.</b>, Love, B. C.
-year: 2017
+year: in press
 title: What the Success of Brain Imaging Implies about the Neural Code
 journal: eLife
 doi: ''
