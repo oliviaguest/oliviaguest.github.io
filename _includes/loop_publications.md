@@ -12,7 +12,7 @@
     ({% if pub.status %}{{ pub.status }}{% else %}{{ pub.year }}{% endif %}). 
     
     {% if pub.doi %}
-      <a href="{% if pub.doi %}//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>
+      <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>
     {% elsif pub.pdf %}
       <a href="{{ pub.pdf }}">{{ pub.title }}</a>
     {% else %}
