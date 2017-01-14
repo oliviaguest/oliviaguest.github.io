@@ -17,9 +17,4 @@ overleaf:
 github: 
 figshare: 
 
-
-preprint: 
-  doi:
-  pdf:
-
 ---
