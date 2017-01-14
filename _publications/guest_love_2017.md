@@ -19,5 +19,6 @@ figshare: 'articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_C
 
 
 preprint: 'http://dx.doi.org/10.1101/071076'
-slides: 'http://figshare.com/
+slides: 
+
 ---
