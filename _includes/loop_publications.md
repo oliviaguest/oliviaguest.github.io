@@ -3,7 +3,7 @@
 <ul class="cv">
  
   {% for pub in pubs %}
-    <li class="cv"><div>
+    <li class="cv">
 
     <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
@@ -28,7 +28,7 @@
     <a href="//github.com/oliviaguest/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
     {% endif %}
     
-    </div></li>
+    </li>
   {% endfor %}
 
 </ul>
