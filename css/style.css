@@ -439,8 +439,9 @@ a:hover img {
   -o-filter: grayscale(0); }
 .cv li, .affil li {
   /*padding-block-end: 1em; */
-	padding-bottom: 1em;
-	overflow: hidden;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    overflow: hidden;
 }
 
 .cv p {
