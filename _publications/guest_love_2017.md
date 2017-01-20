@@ -5,8 +5,8 @@ year: 2017
 title: What the Success of Brain Imaging Implies about the Neural Code
 journal: eLife
 doi: '10.7554/eLife.21397'
-pdf: 'http://biorxiv.org/content/early/2016/08/23/071076.full.pdf'
-link: 
+pdf: 'https://elifesciences.org/content/6/e21397-download.pdf'
+link: https://elifesciences.org/content/6/e21397
 
 comments:
 
@@ -17,8 +17,10 @@ figshare: 'articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_C
 
 
 preprint: 
+  year: 2016
   doi: '10.1101/071076'
   pdf: 'http://biorxiv.org/content/early/2016/08/23/071076.full.pdf'
+  server: bioRxiv
 
   
 slides: 
