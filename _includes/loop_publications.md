@@ -52,6 +52,51 @@
 
 </ul>
 
+<h2>Preprints</h2>
+<ul class="cv">
+ 
+  {% for pub in pubs %}
+      {% if pub.preprint %}
+
+         <li class="cv">
+
+         <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.preprint.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
+
+         {{ pub.authors }} 
+
+         ({{ pub.preprint.year }}). 
+
+         <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.title }}</a>.
+
+
+         <i>{{ pub..preprint.server.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.preprint..doi }}">{{ pub.preprint.doi }}</a>.
+         {%if pub..preprint.pdf %}
+         <a href="{{ pub..preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+         {% endif %}
+         {% if pub.osf %}
+         <a href="//osf.io/{{ pub.osf }}"><i class="ai ai-osf" aria-hidden="true"></i></a>
+         {% endif %}
+         {% if pub.overleaf %}
+         <a href="//overleaf.com/read/{{ pub.overleaf }}"><i class="fa fa-leaf" aria-hidden="true"></i></a>
+         {% endif %}
+         {% if pub.figshare %}
+         <a href="//figshare.com/{{ pub.figshare }}"><i class="ai ai-figshare" aria-hidden="true"></i></a>
+         {% endif %}
+         {% if pub.comments %}
+         <a href="{{ pub.comments }}"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+         {% endif %}
+         {% if pub.github %}
+         <a href="//github.com/oliviaguest/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+         {% endif %}
+   
+    </li>
+    {% endif %}
+
+  {% endfor %}
+
+</ul>
+
+
 <h2>Peer Reviewed Conference Proceedings</h2>
 <ul class="cv">
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P., Davelaar, E. J. (2014). [High-Level Cognition]. 
