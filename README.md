@@ -3,7 +3,7 @@ oliviaguest.github.io
 
 My personal website: [oliviaguest.com](http://oliviaguest.com)
 
-Todo list
+To-do list
 ---------
-* Unmake the CSS global and/or link to the global css, so others who might wanna clone at least know where to fork it from. 
+* Migrate to bootrap for the nice accordion: http://www.w3schools.com/Bootstrap/bootstrap_collapse.asp
 * Make publications (and the diff subtypes) automatically populate itself on index.html.
