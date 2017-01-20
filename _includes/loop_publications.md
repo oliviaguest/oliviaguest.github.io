@@ -69,8 +69,8 @@
          <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.title }}</a>.
 
 
-         <i>{{ pub..preprint.server.journal }}</i>. doi: <a href="//dx.doi.org/{{ pub.preprint..doi }}">{{ pub.preprint.doi }}</a>.
-         {%if pub..preprint.pdf %}
+         <i>{{ pub.preprint.server }}</i>. doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>.
+         {%if pub.preprint.pdf %}
          <a href="{{ pub..preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
          {% endif %}
          {% if pub.osf %}
