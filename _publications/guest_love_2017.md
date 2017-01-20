@@ -8,8 +8,6 @@ doi: '10.7554/eLife.21397'
 pdf: 'http://biorxiv.org/content/early/2016/08/23/071076.full.pdf'
 link: 
 
-status: in press
-
 comments:
 
 osf: v8baz
