@@ -441,7 +441,8 @@ a:hover img {
   /*padding-block-end: 1em; */
     padding-bottom: 0.5em;
     padding-top: 0.5em;
-    overflow: hidden;
+/*     overflow: hidden; */
+    min-height: 85px;
 }
 
 .cv p {
