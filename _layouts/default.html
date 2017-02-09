@@ -63,6 +63,15 @@ Olivia
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
     <!--<script src="/js/collapsible.js"></script>-->
+<script>
+      $(document).ready(function() { 
+            if( $('#main').width() + $(window).width() < 550+280)
+
+                  document.getElementsByTagName(".altmetric-embed")[0].setAttribute("data-badge-popover", "left");           
+            
+      });        
+</script>
+          
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <!-- this is for Altmetric -->
     <script type="text/javascript" src="//cdn.rawgit.com/jordnkr/collapsible/master/jquery.collapsible.min.js" ></script>
 
