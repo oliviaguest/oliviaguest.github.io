@@ -39,13 +39,21 @@
     <a href="//github.com/oliviaguest/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
     {% endif %}
     
-    {% if pub.preprint %}
+    {% if pub.slides %}
+       <p style="margin-top:0.5em">
+       Slides: {{ pub.slides.authors }} ({{ pub.slides.year }}): <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.title }}</a>. figshare. doi:<a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.doi }}</a>.
+       </p>
+    {% endif %}
+    
+<!--     {% if pub.preprint %}
        <p style="margin-top:0.5em">
        Preprint: <a href="//dx.doi.org/{{ pub.preprint.doi }}">bioRxiv 071076</a>. 
        doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>. 
        <a href="{{ pub.preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
        </p>
-    {% endif %}
+    {% endif %} -->
+    
+    
     
     </li>
   {% endfor %}
