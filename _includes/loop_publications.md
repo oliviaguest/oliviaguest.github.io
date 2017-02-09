@@ -40,7 +40,7 @@
     {% endif %}
     
     {% if pub.slides %}
-       <p style="margin-top:0.25em">
+       <p style="margin-top:0.25em; margin-left:0.1em">
        Slides: {{ pub.slides.authors }} ({{ pub.slides.year }}): <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.title }}</a>. figshare. doi: <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.doi }}</a>.
        </p>
     {% endif %}
