@@ -23,6 +23,6 @@ preprint:
   server: bioRxiv
 
   
-slides: 
+slides: https://figshare.com/articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_Code/4252022
 
 ---
