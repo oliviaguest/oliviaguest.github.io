@@ -75,9 +75,11 @@ Olivia
       });  
       
       $(window).on('resize', function(){
-            if( $(window).width() < 550+280)
-
+            if( $(window).width() < 550+280) {
                   $(".altmetric-embed").attr("data-badge-popover", "left");  
+            } else {
+                  $(".altmetric-embed").attr("data-badge-popover", "right");  
+            }
       });
 </script>
  
