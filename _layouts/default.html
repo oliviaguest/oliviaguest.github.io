@@ -68,19 +68,23 @@ Olivia
             $('#menu').collapsible({
                   //  contentOpen: 0 
             }); 
-
-            if( $(window).width() < 550+280)
-
-                  $(".altmetric-embed").attr("data-badge-popover", "left");            
             
-            $(window).on('resize', function(){
-               if( $(window).width() < 550+280) {
-                  $(".altmetric-embed").attr("data-badge-popover", "left");  
-               } else {
-                  $(".altmetric-embed").attr("data-badge-popover", "right");  
-               }
-            });
+            fixAltmetric();  
+            
+            $(window).resize(function() {
+                  fixAltmetric();
+    });
+
       });  
+      
+      function fixAltmetric() {
+            if( $(window).width() < 550+280) {
+                  $(".altmetric-embed").attr("data-badge-popover", "left");  
+            } else {
+                  $(".altmetric-embed").attr("data-badge-popover", "right");  
+            }
+      };
+      
       
 
 </script>
