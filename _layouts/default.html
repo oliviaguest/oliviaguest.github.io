@@ -72,7 +72,13 @@ Olivia
             if( $(window).width() < 550+280)
 
                   $(".altmetric-embed").attr("data-badge-popover", "left");            
-      });        
+      });  
+      
+      $(window).on('resize', function(){
+            if( $(window).width() < 550+280)
+
+                  $(".altmetric-embed").attr("data-badge-popover", "left");  
+      });
 </script>
  
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <!-- this is for Altmetric -->
