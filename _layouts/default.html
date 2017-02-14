@@ -78,7 +78,9 @@ Olivia
       });  
       
       function fixAltmetric() {
-            if( $(window).width() < 550+280) {
+            var $width = $(window).width();
+
+            if ($width < 550+280) {
                   $(".altmetric-embed").attr("data-badge-popover", "left");  
             } else {
                   $(".altmetric-embed").attr("data-badge-popover", "right");  
