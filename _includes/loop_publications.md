@@ -115,6 +115,8 @@
 
 <h2>Blog Posts</h2>
   <ul class="cv">
+  <li class="cv"><b>Guest, O.</b>, (2017). <a href="http://neuroplausible.com/gini">Using the Gini Coefficient to Evaluate Deep Neural Network Layer Representations</a>. <em>Neuroplausible</em>. <a href="http://neuroplausible.com/gini#disqus_thread"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+</li>
 
   <li class="cv"><b>Guest, O.</b>, (2016). <a href="//www.software.ac.uk/blog/2016-10-20-open-data-science-conference-uk-2016">Open Data Science Conference UK 2016</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute. <a href="//www.software.ac.uk/blog/2016-10-20-open-data-science-conference-uk-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li>
