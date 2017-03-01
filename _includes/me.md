@@ -4,4 +4,4 @@ My research involves the creation and evaluation of computational accounts for c
 
 <p>I am a <a href="//www.software.ac.uk/">Software Sustainability Institute</a> <a href="//software.ac.uk/fellows/olivia-guest">fellow</a> and an <a href="//rescience.github.io/board/">associate editor</a> at <a href="//rescience.github.io/">ReScience</a>. Feel free to <a href="mailto:consulting@oliviaguest.com">contact me</a> for consultation services regarding computational cognitive modelling.</p>
 
-<p>I also run a blog to do with my resarch on <a href="//neuroplausible.com">neuroplausible.com</a>.</p>
+<p>I run a blog to do with my resarch: <a href="//neuroplausible.com">neuroplausible.com</a>.</p>
