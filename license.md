@@ -31,6 +31,7 @@ My site is predominantly hosted on <a href="//pages.github.com/">github pages</a
 People who use my layout (in one form or another):
 
 + [Mojtaba Khodadadi](http://users.ictp.it/~mkhodada/)
++ [Ramanujan T. Raghavan](http://rtraghavan.com/)
 
 <h2>Credits</h2>
 
