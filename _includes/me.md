@@ -5,4 +5,4 @@ Hi, I am a cognitive computational neuroscientist currently carrying out <a href
 
 <p>I am a <a href="//www.software.ac.uk/">Software Sustainability Institute</a> <a href="//software.ac.uk/fellows/olivia-guest">fellow</a> and an <a href="//rescience.github.io/board/">associate editor</a> at <a href="//rescience.github.io/">ReScience</a>. Feel free to <a href="mailto:consulting@oliviaguest.com">contact me</a> for consultation services.</p>
 
-<p>I also run a blog about my research: <a href="http://neuroplausible.com">neuroplausible.com</a>.</p>
+<p>I blog about my research and related topics on <a href="http://neuroplausible.com">neuroplausible.com</a>.</p>
