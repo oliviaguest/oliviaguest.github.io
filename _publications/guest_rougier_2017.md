@@ -11,7 +11,7 @@ comments:
 
 osf:
 overleaf: jfhcmsnfbtsr
-github: 
+github: rougier/diversity-in-reproducibility
 figshare:
 
 preprint:
