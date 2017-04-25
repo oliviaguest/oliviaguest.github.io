@@ -11,7 +11,7 @@ comments:
 
 osf:
 overleaf: nsndhzbpvwky
-github: what-is-computational-reproducibility
+github: oliviaguest/what-is-computational-reproducibility
 figshare:
 
 preprint:
