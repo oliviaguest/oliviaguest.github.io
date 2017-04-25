@@ -36,7 +36,7 @@
     <a href="{{ pub.comments }}"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
     {% endif %}
     {% if pub.github %}
-    <a href="//github.com/oliviaguest/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="//github.com/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
     {% endif %}
     
     {% if pub.slides %}
