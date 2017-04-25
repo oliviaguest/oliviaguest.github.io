@@ -12,7 +12,7 @@ comments:
 
 osf: v8baz
 overleaf: 
-github: brain-imaging-and-the-neural-code
+github: oliviaguest/brain-imaging-and-the-neural-code
 figshare: 'articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_Code/4252022'
 
 
