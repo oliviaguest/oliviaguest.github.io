@@ -113,7 +113,6 @@
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (2012). <a href="//eprints.bbk.ac.uk/6758/">Semantic Cognition: A Re-examination of the Recurrent Network "Hub" Model</a>. <em>In Proceedings of the 11th International Conference on Cognitive Modelling</em>. (pp. 259-264). Berlin, Germany. April. <a href="http://www.ub.tu-berlin.de/">Universitätsverlag der TU Berlin</a>. <a href="doc/guest_12.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
 </ul>
 
-
 <h2>Miscellaneous</h2>
   <ul class="cv">
   <li class="cv"><b>Guest, O.</b>, (2017). <a href="http://neuroplausible.com/matlab">I hate Matlab: How an IDE, a language, and a mentality harm</a>. <em>Neuroplausible</em>. <a href="http://neuroplausible.com/matlab#comments"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
@@ -124,9 +123,8 @@
 
  <li class="cv"><b>Guest, O.</b>, (2017). <a href="http://neuroplausible.com/gini">Using the Gini Coefficient to Evaluate Deep Neural Network Layer Representations</a>. <em>Neuroplausible</em>. <a href="http://neuroplausible.com/gini#comments"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li>
-
   
-  <li class="cv"><b>Guest, O.</b>, Rougier, N. P. (2017). <a href="https://openlab-flowers.inria.fr/t/ieee-cis-newsletter-on-cognitive-and-developmental-systems/129">Dialogue: What is Computational Reproducibility?</a>. <em>CDS TC Newsletter</em>. 13 (2). <a href="doc/guest_rougier_2016.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+  <li class="cv"><b>Guest, O.</b>, Rougier, N. P. (2016). <a href="//openlab-flowers.inria.fr/t/ieee-cis-newsletter-on-cognitive-and-developmental-systems/129">Dialogue: What is Computational Reproducibility?</a>. <em>IEEE CIS Newsletter on Cognitive and Developmental Systems</em>. 13 (2). <a href="doc/guest_rougier_2016.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
   
 <li class="cv"><b>Guest, O.</b>, (2016). <a href="//www.software.ac.uk/blog/2016-10-20-open-data-science-conference-uk-2016">Open Data Science Conference UK 2016</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute. <a href="//www.software.ac.uk/blog/2016-10-20-open-data-science-conference-uk-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
 </li>
