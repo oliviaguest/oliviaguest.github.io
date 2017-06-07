@@ -1,4 +1,5 @@
 ---
+type: journal
 
 authors: Cooper, R. P., <b>Guest, O.</b>
 year: 2014
