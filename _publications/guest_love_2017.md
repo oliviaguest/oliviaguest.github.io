@@ -1,4 +1,5 @@
 ---
+type: journal
 
 authors:  <b>Guest, O.</b>, Love, B. C.
 year: 2017
