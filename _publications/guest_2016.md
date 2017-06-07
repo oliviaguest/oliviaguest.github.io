@@ -1,5 +1,5 @@
 ---
-type: online
+type: misc
 
 authors: <b>Guest, O.</b>
 year: 2016
