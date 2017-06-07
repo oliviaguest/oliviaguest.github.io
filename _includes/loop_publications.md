@@ -3,6 +3,7 @@
 <ul class="cv">
  
   {% for pub in pubs %}
+  {% if pub.type == 'journal' %}
     <li class="cv">
 
     <div data-badge-popover="right" data-badge-type="donut" data-doi="{% if pub.status == 'in press' %}{{ pub.preprint.doi }}{% else %}{{ pub.doi }}{% endif %}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
@@ -56,6 +57,7 @@
     
     
     </li>
+   {% endif %}
   {% endfor %}
 
 </ul>
