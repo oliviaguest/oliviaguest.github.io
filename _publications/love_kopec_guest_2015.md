@@ -1,4 +1,5 @@
 ---
+type: journal
 
 authors: Love, B. C., Kopeć, Ł., <b>Guest, O.</b>
 year: 2015
