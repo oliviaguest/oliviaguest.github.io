@@ -1,4 +1,5 @@
 ---
+type: misc
 
 authors:  <b>Guest, O.</b>, Rougier, N. P. 
 year: 2016
