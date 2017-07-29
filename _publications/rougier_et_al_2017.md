@@ -2,7 +2,7 @@
 type: preprint
 
 authors: Rougier, N. P., Hinsen, K., Alexandre, F., Arildsen, T., Barba, L., Benureau, F. C., ..., <b>Guest, O.</b>, ... & Zito, T.
-year: 
+year: 2017
 title: 'Sustainable computational science: the ReScience initiative'
 journal: 
 doi: 
