@@ -111,7 +111,7 @@
 <ul class="cv">
  
   <li class="cv">Love, B. C., <b>Guest, O.</b>, Slomka, P., Navarro, V., Wasserman, E. (2017).
-  <a href="https://mindmodeling.org/cogsci2017/papers/0283/index.html">Deep Networks as Models of Human and Animal Categorization</a>. In Proceedings	of	the	39th	Annual	Mee6ng	of	the	Cognitive	Science	Society (pp. 1457-1458). <a href="https://mindmodeling.org/cogsci2017/papers/0283/paper0283.pdff"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+  <a href="https://mindmodeling.org/cogsci2017/papers/0283/index.html">Deep Networks as Models of Human and Animal Categorization</a>. In Proceedings	of	the	39th	Annual	Meeting	of	the	Cognitive	Science	Society (pp. 1457-1458). <a href="https://mindmodeling.org/cogsci2017/papers/0283/paper0283.pdff"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
   
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P., Davelaar, E. J. (2014). [High-Level Cognition]. 
   <a href="doc/guest_14.pdf">The Influence of Implementation on "Hub" Models of Semantic Cognition</a>. In J. Mayor, P. Gomez (Eds.), <em><a href="http://www.worldscientific.com/worldscibooks/10.1142/8747">Computational Models of Cognitive Processes</a></em> (pp. 155-169). World Scientific. <a href="doc/guest_14.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
