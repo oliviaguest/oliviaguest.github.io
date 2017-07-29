@@ -13,13 +13,13 @@ comments:
 
 osf: 
 overleaf: 
-github: oliviaguest/brain-imaging-and-the-neural-code
+github: ReScience/ReScience-article-2
 figshare: 
 
 preprint: 
   year: 2017
   doi: 
-  pdf: https://arxiv.org/pdf/1707.04393
+  pdf: 'https://arxiv.org/pdf/1707.04393'
   server: arXiv
 
   
