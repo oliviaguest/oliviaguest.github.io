@@ -18,7 +18,7 @@ figshare:
 
 preprint: 
   year: 2017
-  doi: arXiv:1707.04393v1
+  doi: arXiv:1707.04393
   pdf: 'https://arxiv.org/pdf/1707.04393'
   server: arXiv
 
