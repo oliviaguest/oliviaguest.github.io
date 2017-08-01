@@ -76,10 +76,13 @@
 
          ({{ pub.preprint.year }}). 
 
-         <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.title }}</a>.
+         
+         {% if pub.preprint.doi %}<a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.title }}</a>.{% endif %}
+         {% if pub.preprint.url %}<a href="{{ pub.preprint.url }}">{{ pub.title }}</a>.{% endif %}
 
 
-         <i>{{ pub.preprint.server }}</i>. doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>.
+         <i>{{ pub.preprint.server }}</i>.
+         {% if pub.preprint.doi %}doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>.{% endif %}
          {%if pub.preprint.pdf %}
          <a href="{{ pub..preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
          {% endif %}
