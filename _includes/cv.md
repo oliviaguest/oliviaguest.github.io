@@ -4,8 +4,7 @@
 <a href="https://github.com/oliviaguest/cv">
 <i class="fa fa-github" aria-hidden="true"></i></a>
 <a href="https://www.overleaf.com/read/zfwnyxkkdzxr"><i class="fa fa-leaf" aria-hidden="true"></i></a>
-</ br>
-<p>Please contact me for an up-to-date copy.</p>
+<p style="padding-top:1rem">Please contact me if you require the most recent copy.</p>
 
 
 </li>
