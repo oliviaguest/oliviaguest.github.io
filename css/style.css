@@ -802,7 +802,7 @@ u.dotted{
     border: 0;
 }
 	  
-	  p a {border-bottom: 1px dotted black;}
-.small-icons a {
+a {border-bottom: 1px dotted black;}
+.small-icons a, footer a {
     border-bottom: 0;
 }
