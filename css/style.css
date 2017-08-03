@@ -148,7 +148,9 @@ a {
   opacity: 1;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out; }
+  transition: all 0.4s ease-out;
+border-bottom: 1px dotted black;
+}
   a:hover, a:active {
     color: #9B0E0E;
     text-decoration: none;
@@ -157,7 +159,6 @@ a {
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
-border-bottom: 1px dotted black;
 }
 
 ul, ol {
@@ -183,7 +184,13 @@ strong, b {
   font-weight: 400; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+border-bottom: 0;
+}
+
+fa {
+	border-bottom: 0;
+}
 
 .gmnoprint img {
   max-width: none; }
