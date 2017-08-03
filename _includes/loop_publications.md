@@ -141,7 +141,7 @@
 </li>
 
  <li class="cv"><b>Guest, O.</b>, (2017). <a href="http://neuroplausible.com/random-networks">Artificial Neural Networks with Random Weights are Baseline Models</a>. <em>Neuroplausible</em>.
- <span class = "small-icons"><a href="http://neuroplausible.com/random-networks#comments"><i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
+ <span class = "small-icons"><a href="http://neuroplausible.com/random-network#comments"><i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
 </li>
 
  <li class="cv"><b>Guest, O.</b>, (2017). <a href="http://neuroplausible.com/gini">Using the Gini Coefficient to Evaluate Deep Neural Network Layer Representations</a>. <em>Neuroplausible</em>.
