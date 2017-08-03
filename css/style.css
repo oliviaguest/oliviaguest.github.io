@@ -185,11 +185,10 @@ strong, b {
 
 img {
   max-width: 100%;
-border-bottom: 0;
 }
 
-fa {
-	border-bottom: 0;
+.altmetric-embed a {
+    border-bottom: 0;
 }
 
 .gmnoprint img {
