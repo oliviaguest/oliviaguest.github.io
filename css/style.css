@@ -142,7 +142,7 @@ p {
 a {
   outline: 0;
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
   -webkit-transition: opacity 0.4s linear;
   opacity: 1;
@@ -156,7 +156,9 @@ a {
     opacity: 1;
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out; }
+    transition: all 0.4s ease-out;
+border-bottom: 1px dotted black;
+}
 
 ul, ol {
   margin: 1em 0;
