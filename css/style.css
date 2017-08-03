@@ -311,11 +311,11 @@ footer {
   font-size: 14px;*/
 	
 }
-  footer li {
+ footer li, li.icons{
     font-size: 1.75em;
     list-style-type: none;
     display: inline;
-}  footer ul {
+}  footer ul, ul.footer {
 padding: 0;
 margin: 0;
 margin-bottom: 0.25em;
