@@ -177,6 +177,7 @@ ul ul, ol ul {
   list-style-type: disc; }
 
 em, i {
+	 font-weight: 300;
   font-style: italic; }
 
 strong, b {
