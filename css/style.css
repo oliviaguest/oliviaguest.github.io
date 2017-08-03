@@ -149,7 +149,6 @@ a {
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
-border-bottom: 1px dotted black;
 }
   a:hover, a:active {
     color: #9B0E0E;
@@ -801,3 +800,5 @@ u.dotted{
 	 .fa, a.fa, a.fa:hover, .ai, a.ai, a.ai:hover {
     border: 0;
 }
+	  
+	  p a {border-bottom: 1px dotted black;}
