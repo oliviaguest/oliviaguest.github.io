@@ -7,7 +7,7 @@
 <a href="https://www.overleaf.com/read/zfwnyxkkdzxr"><i class="fa fa-leaf" aria-hidden="true"></i></a>
 </li>
   
-<p style="padding-top:1rem">Feel free to <a href="mailto:o.guest@ucl.ac.uk">contact me</a> if you require the most up-to-date version.</p> 
+<p style="padding-top:0.5rem">Feel free to <a href="mailto:o.guest@ucl.ac.uk">contact me</a> if you require the most up-to-date version.</p> 
 
 
 
