@@ -1,13 +1,15 @@
-<ul class="cv">
-<li><a href="cv/cv_olivia_guest.pdf">PDF</a>
-
-<a href="https://github.com/oliviaguest/cv">
-<i class="fa fa-github" aria-hidden="true"></i></a>
-<a href="https://www.overleaf.com/read/zfwnyxkkdzxr"><i class="fa fa-leaf" aria-hidden="true"></i></a>
-<p style="padding-top:1rem">Please contact me if you require the most recent copy.</p>
-
-
+<ul class="icons">
+<li class="icons"><a href="cv/cv_olivia_guest.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 </li>
+<li class="icons"><a href="https://github.com/oliviaguest/cv">
+  <i class="fa fa-github" aria-hidden="true"></i></a></li>
+<li class="icons">  
+<a href="https://www.overleaf.com/read/zfwnyxkkdzxr"><i class="fa fa-leaf" aria-hidden="true"></i></a>
+</li>
+  
+<p style="padding-top:1rem">Feel free to <a href="mailto:o.guest@ucl.ac.uk">contact me</a> if you require the most up-to-date version.</p> 
+
+
 
 <!-- <li><a href="cv/cv_olivia_guest.html">HTML</a> -->
 <!-- 
