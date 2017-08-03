@@ -802,6 +802,6 @@ u.dotted{
 }
 	  
 a {border-bottom: 1px dotted black;}
-.small-icons a, footer a, li.icons a{
+.small-icons a, footer a, li.icons a, #header a{
     border-bottom: 0;
 }
