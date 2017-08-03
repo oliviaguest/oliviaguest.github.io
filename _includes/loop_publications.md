@@ -21,6 +21,8 @@
     {% endif %}
     
     {% if pub.journal %}<i>{{ pub.journal }}</i>. {% endif %}{% if pub.doi %}doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. {% endif %}
+    
+    <span class = "small-icons">
     {%if pub.pdf %}
     <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
     {% endif %}
@@ -39,6 +41,7 @@
     {% if pub.github %}
     <a href="//github.com/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
     {% endif %}
+    </span>
     
     {% if pub.slides %}
        <p style="margin-top:0.25em">
@@ -83,6 +86,8 @@
 
          <i>{{ pub.preprint.server }}</i>.
          {% if pub.preprint.doi %}doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>.{% endif %}
+         
+         <span class = "small-icons">
          {%if pub.preprint.pdf %}
          <a href="{{ pub..preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
          {% endif %}
@@ -101,6 +106,7 @@
          {% if pub.github %}
          <a href="//github.com/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
          {% endif %}
+         </span>
    
     </li>
     {% endif %}
