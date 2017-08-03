@@ -805,3 +805,7 @@ a {border-bottom: 1px dotted black;}
 .small-icons a, footer a, li.icons a, #header a{
     border-bottom: 0;
 }
+	  
+	  .small-icons {
+    font-size: 1.1rem;
+}
