@@ -445,12 +445,17 @@ a:hover img {
   -moz-filter: grayscale(0);
   -ms-filter: grayscale(0);
   -o-filter: grayscale(0); }
-.cv li, .affil li {
+
+.cv li, .affil li, .misc li {
   /*padding-block-end: 1em; */
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 /*     overflow: hidden; */
     min-height: 85px;
+}
+
+.misc li {
+min-height: 65px;
 }
 
 .cv p {
