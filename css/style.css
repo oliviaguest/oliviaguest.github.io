@@ -17,7 +17,8 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  font-weight: 300}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -177,7 +178,7 @@ em, i {
   font-style: italic; }
 
 strong, b {
-  font-weight: bold; }
+  font-weight: 400; }
 
 img {
   max-width: 100%; }
