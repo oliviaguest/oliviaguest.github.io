@@ -17,7 +17,9 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-weight: 300}
+  font-weight: 300;
+  line-height: 1.6;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
