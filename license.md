@@ -33,12 +33,3 @@ People who use my layout (in one form or another):
 + [Mojtaba Khodadadi](http://users.ictp.it/~mkhodada/)
 + [Ramanujan T. Raghavan](http://rtraghavan.com/)
 + [Elizabeth DuPre](https://emdupre.github.io/)
-
-<h2>Credits</h2>
-
-Thanks to:
-
-+ [Font Awesome](//fortawesome.github.io/Font-Awesome/) for the great vector graphics used around my site.
-+ [Academicons](//jpswalsh.github.io/academicons/), ditto, especially in the footer.
-+ [Open Sans](//www.google.com/fonts/specimen/Open+Sans) for being a pretty and readable font.
-+ [Github](//github.com) for indirectly and directly teaching me so much and for the free hosting.
