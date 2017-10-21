@@ -836,6 +836,9 @@ u.dotted{
 }
 	  
 a {border-bottom: 1px dotted black;}
+	  a:hover {
+    border-bottom: 1px solid #000;
+}
 .small-icons a, footer a, li.icons a, #header a{
     border-bottom: 0;
 }
