@@ -83,6 +83,30 @@ body {
 	    float: left;
 	    padding-right: 1em;
 	    padding-bottom: 0.25em;
+	    -webkit-transition: opacity 0.4s linear;
+	    opacity: 1;
+	    -webkit-transition: all 0.4s ease-out;
+	    -moz-transition: all 0.4s ease-out;
+	    transition: all 0.4s ease-out;
+	    filter: none;
+	    filter: grayscale(100%);
+	    -webkit-filter: grayscale(100%);
+	    -moz-filter: grayscale(100%);
+	    -ms-filter: grayscale(100%);
+	    -o-filter: grayscale(100%);
+}
+#description img:hover {
+	    -webkit-transition: opacity 0.4s linear;
+	    opacity: 1;
+	    -webkit-transition: all 0.4s ease-out;
+	    -moz-transition: all 0.4s ease-out;
+	    transition: all 0.4s ease-out;
+	    filter: none;
+	    filter: grayscale(0);
+	    -webkit-filter: grayscale(0);
+	    -moz-filter: grayscale(0);
+	    -ms-filter: grayscale(0);
+	    -o-filter: grayscale(0);
 }
 
 #index {
