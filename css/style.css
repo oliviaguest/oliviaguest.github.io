@@ -218,6 +218,9 @@ img {
 .altmetric-embed a {
     border-bottom: 0;
 }
+.altmetric-embed a:hover {
+    border-bottom: 0;
+}
 
 .gmnoprint img {
   max-width: none; }
