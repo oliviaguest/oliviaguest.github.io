@@ -23,14 +23,16 @@ Olivia
 
 <head>
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-
-  <meta property="og:image" content="//avatars3.githubusercontent.com/u/5082092?v=3&s=460" /> {% if page.url == "/404.html" %}
-  <meta http-equiv="refresh" content="3; url=/"> {% endif %} {% if page.url == "/art" %}
-  <meta http-equiv="refresh" content="0; url=//art.oliviaguest.com/"> {% endif %} {% include meta.html %}
-
+  <meta property="og:image" content="//avatars3.githubusercontent.com/u/5082092?v=3&s=460" />
+  {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="3; url=/">
+  {% endif %}
+  {% if page.url == "/art" %}
+    <meta http-equiv="refresh" content="0; url=//art.oliviaguest.com/">
+  {% endif %}
+  {% include meta.html %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   <meta name="viewport" content="width=device-width">
-
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-114x114.png" />
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-72x72.png" />
@@ -52,18 +54,9 @@ Olivia
   <meta name="msapplication-wide310x150logo" content="images/favicons/mstile-310x150.png" />
   <meta name="msapplication-square310x310logo" content="images/favicons/mstile-310x310.png" />
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/academicons/css/academicons.css" />
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
+  {% include css.html %}
+  {% include js.html %}
 
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <!-- this is for Altmetric -->
-  <script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-
-  <script src="{{ site.baseurl }}/js/accordion.js"></script>
-  <script src="{{ site.baseurl }}/js/fix_altmetric.js"></script>
 
 </head>
 
