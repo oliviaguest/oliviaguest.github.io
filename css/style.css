@@ -184,7 +184,6 @@ p {
 }
 
 a {
-  outline: 0;
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -640,7 +639,7 @@ a:hover {
   font-size: 1.1rem;
 }
 
-:focus {
+h1:focus {
   outline: 0;
 }
 
