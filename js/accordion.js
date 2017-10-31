@@ -12,7 +12,7 @@ $(function() {
   // console.log(hash);
   var active = false;
   // Activate appropriate accordion item:
-  if (hash === 'publications' | hash === 'pubs' | hash === 'pub') {
+  if (hash.slice(0,3) === 'pub') {
     active = 0;
   } else if (hash === 'cv' | hash === 'curriculum_vitae' | hash === 'vitae') {
     active = 1;
