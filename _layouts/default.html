@@ -19,123 +19,123 @@ if you need help with anything! :)
 Cheers,
 Olivia
 -->
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:fb="http://ogp.me/ns/fb#">
-    <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-    <meta property="og:image" content="//avatars3.githubusercontent.com/u/5082092?v=3&s=460" />
-    {% if page.url == "/404.html" %}
-        <meta http-equiv="refresh" content="3; url=/">
-    {% endif %}
-    {% if page.url == "/art" %}
-        <meta http-equiv="refresh" content="0; url=//art.oliviaguest.com/">
-    {% endif %}
-    {% include meta.html %}
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
-    <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script> -->
+  <meta property="og:image" content="//avatars3.githubusercontent.com/u/5082092?v=3&s=460" /> {% if page.url == "/404.html" %}
+  <meta http-equiv="refresh" content="3; url=/"> {% endif %} {% if page.url == "/art" %}
+  <meta http-equiv="refresh" content="0; url=//art.oliviaguest.com/"> {% endif %} {% include meta.html %}
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;"/>
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="images/favicons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="images/favicons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="images/favicons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="images/favicons/mstile-310x310.png" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="images/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="images/favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="images/favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="images/favicons/mstile-310x310.png" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/academicons/css/academicons.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/academicons/css/academicons.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
 
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script> -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- this is for Altmetric -->
+  <script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
-    <!--<script src="/js/collapsible.js"></script>-->
+  <script src="{{ site.baseurl }}/js/accordion.js"></script>
+  <script src="{{ site.baseurl }}/js/fix_altmetric.js"></script>
 
+</head>
 
+<body>
 
-    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <!-- this is for Altmetric -->
-    <!-- <script type="text/javascript" src="//cdn.rawgit.com/jordnkr/collapsible/master/jquery.collapsible.min.js" ></script> -->
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
 
-    <script src="{{ site.baseurl }}/js/accordion.js" ></script>
-    <script src="{{ site.baseurl }}/js/fix_altmetric.js" ></script>
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        <ul>
 
+          <li>
+            <a href="//github.com/oliviaguest" title="Fork me on GitHub" style="text-decoration:none">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
 
+          <li>
+            <a href="//twitter.com/o_guest" title="Follow me on Twitter" style="text-decoration:none">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
 
+          <li>
+            <a href="//scholar.google.co.uk/citations?user=ZHGrUooAAAAJ" title="View my Google Scholar profile" style="text-decoration:none">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
 
+          <li>
+            <a href="//www.researchgate.net/profile/Olivia_Guest" title="Follow me on ResearchGate" style="text-decoration:none">
+              <i class="ai ai-researchgate"></i>
+            </a>
+          </li>
 
-  </head>
+          <li>
+            <a href="//impactstory.org/u/0000-0002-1891-0972" title="View my Impactstory" style="text-decoration:none">
+              <i class="ai ai-impactstory"></i>
+            </a>
+          </li>
 
-  <body>
+          <li>
+            <a href="//orcid.org/0000-0002-1891-0972" title="View my ORCID profile" style="text-decoration:none">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+          <li>
+            <a href="//figshare.com/authors/Olivia_Guest/2873402" title="View my figshare profile" style="text-decoration:none">
+              <i class="ai ai-figshare"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="//osf.io/38p75/" title="View my OSF profile" style="text-decoration:none">
+              <i class="ai ai-osf"></i>
+            </a>
+          </li>
+
+        </ul>
+        <span class="flip">
+          <a href="//copyleft.org/">©</a>
+        </span>
+        <a href="/license/">Olivia Guest 2013–{{ site.time | date: '%y' }}</a>
+      </footer>
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-            <ul>
+  {% include analytics.html %}
+</body>
 
-                  <li><a href="//github.com/oliviaguest" title="Fork me on GitHub" style="text-decoration:none">
-                  <i class="fa fa-github"></i></a></li>
-
-                  <li><a href="//twitter.com/o_guest" title="Follow me on Twitter" style="text-decoration:none">
-                  <i class="fa fa-twitter"></i></a></li>
-
-                  <!--<li><a href="//telegram.me/oliviaguest" title="Chat me on Telegram" style="text-decoration:none">
-                  <i class="fa fa-telegram"></i></a></li>
-
-                  <li><a href="//www.facebook.com/olivia.guest" title="Friend me on Facebook" style="text-decoration:none">
-                  <i class="fa fa-facebook"></i></a></li>  -->
-
-                  <li><a href="//scholar.google.co.uk/citations?user=ZHGrUooAAAAJ" title="View my Google Scholar profile" style="text-decoration:none">
-                  <i class="ai ai-google-scholar"></i></a></li>
-
-                  <li><a href="//www.researchgate.net/profile/Olivia_Guest" title="Follow me on ResearchGate" style="text-decoration:none">
-                  <i class="ai ai-researchgate"></i></a></li>
-
-                  <li><a href="//impactstory.org/u/0000-0002-1891-0972" title="View my Impactstory" style="text-decoration:none">
-                  <i class="ai ai-impactstory"></i></a></li>
-
-                  <li><a href="//orcid.org/0000-0002-1891-0972" title="View my ORCID profile" style="text-decoration:none">
-                  <i class="ai ai-orcid"></i></a></li>
-
-                  <li><a href="//figshare.com/authors/Olivia_Guest/2873402" title="View my figshare profile" style="text-decoration:none">
-                  <i class="ai ai-figshare"></i></a></li>
-
-                  <li><a href="//osf.io/38p75/" title="View my OSF profile" style="text-decoration:none">
-                  <i class="ai ai-osf"></i></a></li>
-
-            </ul>
-
-          <span class="flip"><a href="//copyleft.org/">©</a></span> <a href="/license/">Olivia Guest 2013–{{ site.time | date: '%y' }}</a>
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
 </html>
