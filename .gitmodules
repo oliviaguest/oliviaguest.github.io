@@ -1,0 +1,3 @@
+[submodule "academicons"]
+	path = academicons
+	url = git@github.com:jpswalsh/academicons.git

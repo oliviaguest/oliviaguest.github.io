@@ -1,17 +1,17 @@
 {% assign pubs = site.publications | sort: 'year' | reverse %}
 <h2>Journal Articles</h2>
 <ul class="cv">
- 
+
   {% for pub in pubs %}
   {% if pub.type == 'journal' %}
     <li class="cv">
 
     <div data-badge-popover="right" data-badge-type="donut" data-doi="{% if pub.status == 'in press' %}{{ pub.preprint.doi }}{% else %}{{ pub.doi }}{% endif %}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
-    {{ pub.authors }} 
-    
-    ({% if pub.status %}{{ pub.status }}{% else %}{{ pub.year }}{% endif %}). 
-    
+    {{ pub.authors }}
+
+    ({% if pub.status %}{{ pub.status }}{% else %}{{ pub.year }}{% endif %}).
+
     {% if pub.doi %}
       <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>.
     {% elsif pub.pdf %}
@@ -19,9 +19,9 @@
     {% else %}
       {{ pub.title }}.
     {% endif %}
-    
+
     {% if pub.journal %}<i>{{ pub.journal }}</i>. {% endif %}{% if pub.doi %}doi: <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>. {% endif %}
-    
+
     <span class = "small-icons">
     {%if pub.pdf %}
     <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
@@ -41,24 +41,27 @@
     {% if pub.github %}
     <a href="//github.com/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
     {% endif %}
+    {% if pub.doi %}
+    <a href="//dx.doi.org/{{ pub.doi }}"><i class="ai ai-doi" aria-hidden="true"></i></a>
+    {% endif %}
     </span>
-    
+
     {% if pub.slides %}
        <p style="margin-top:0.25em">
        <b>Slides</b>: {{ pub.slides.authors }} ({{ pub.slides.year }}): <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.title }}</a>. figshare. doi: <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.doi }}</a>.
        </p>
     {% endif %}
-    
+
 <!--     {% if pub.preprint %}
        <p style="margin-top:0.5em">
-       Preprint: <a href="//dx.doi.org/{{ pub.preprint.doi }}">bioRxiv 071076</a>. 
-       doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>. 
+       Preprint: <a href="//dx.doi.org/{{ pub.preprint.doi }}">bioRxiv 071076</a>.
+       doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>.
        <a href="{{ pub.preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
        </p>
     {% endif %} -->
-    
-    
-    
+
+
+
     </li>
    {% endif %}
   {% endfor %}
@@ -67,7 +70,7 @@
 
 <h2>Preprints</h2>
 <ul class="cv">
- 
+
   {% for pub in pubs %}
       {% if pub.preprint %}
 
@@ -75,18 +78,18 @@
 
          <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.preprint.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
-         {{ pub.authors }} 
+         {{ pub.authors }}
 
-         ({{ pub.preprint.year }}). 
+         ({{ pub.preprint.year }}).
 
-         
+
          {% if pub.preprint.doi %}<a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.title }}</a>.{% endif %}
          {% if pub.preprint.url %}<a href="{{ pub.preprint.url }}">{{ pub.title }}</a>.{% endif %}
 
 
          <i>{{ pub.preprint.server }}</i>.
          {% if pub.preprint.doi %}doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>.{% endif %}
-         
+
          <span class = "small-icons">
          {%if pub.preprint.pdf %}
          <a href="{{ pub..preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
@@ -107,7 +110,7 @@
          <a href="//github.com/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
          {% endif %}
          </span>
-   
+
     </li>
     {% endif %}
 
@@ -118,17 +121,17 @@
 
 <h2>Peer Reviewed Conference Proceedings</h2>
 <ul class="cv">
- 
+
   <li class="cv">Love, B. C., <b>Guest, O.</b>, Slomka, P., Navarro, V., Wasserman, E. (2017).
   <a href="https://mindmodeling.org/cogsci2017/papers/0283/index.html">Deep Networks as Models of Human and Animal Categorization</a>. <em>In Proceedings	of	the	39th	Annual	Meeting	of	the	Cognitive	Science	Society</em>. (pp. 1457-1458).
  <span class = "small-icons"><a href="https://mindmodeling.org/cogsci2017/papers/0283/paper0283.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></span>
  </li>
-  
-  <li class="cv"><b>Guest, O.</b>, Cooper, R. P., Davelaar, E. J. (2014). [High-Level Cognition]. 
+
+  <li class="cv"><b>Guest, O.</b>, Cooper, R. P., Davelaar, E. J. (2014). [High-Level Cognition].
   <a href="doc/guest_14.pdf">The Influence of Implementation on "Hub" Models of Semantic Cognition</a>. In J. Mayor, P. Gomez (Eds.), <em><a href="http://www.worldscientific.com/worldscibooks/10.1142/8747">Computational Models of Cognitive Processes</a></em> (pp. 155-169). World Scientific.
  <span class = "small-icons"><a href="doc/guest_14.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></span>
   </li>
-  
+
   <li class="cv"><b>Guest, O.</b>, Cooper, R. P. (2012). <a href="//eprints.bbk.ac.uk/6758/">Semantic Cognition: A Re-examination of the Recurrent Network "Hub" Model</a>. <em>In Proceedings of the 11th International Conference on Cognitive Modelling</em>. (pp. 259-264). Berlin, Germany. April. Universitätsverlag der TU Berlin.
  <span class = "small-icons"><a href="doc/guest_12.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></span>
 </li>
@@ -147,10 +150,10 @@
  <li class="misc"><b>Guest, O.</b>, (2017). <a href="http://neuroplausible.com/gini">Using the Gini Coefficient to Evaluate Deep Neural Network Layer Representations</a>. <em>Neuroplausible</em>.
  <span class = "small-icons"><a href="http://neuroplausible.com/gini#comments"><i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
 </li>
-  
+
   <li class="misc"><b>Guest, O.</b>, Rougier, N. P. (2016). <a href="//openlab-flowers.inria.fr/t/ieee-cis-newsletter-on-cognitive-and-developmental-systems/129">Dialogue: What is Computational Reproducibility?</a>. <em>IEEE CIS Newsletter on Cognitive and Developmental Systems</em>. 13 (2).
  <span class = "small-icons"><a href="doc/guest_rougier_2016.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></span></li>
-   
+
     <li class="misc">
     <div data-badge-popover="left" data-badge-type="donut" data-doi="10.15200/winn.146590.01538" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
@@ -159,7 +162,7 @@
   <span class = "small-icons"><a href="doc/guest_16.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
   <a href="https://thewinnower.com/papers/4825-crisis-in-what-exactly#submit"><i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
   </li>
-  
+
 <li class="misc"><b>Guest, O.</b>, (2016). <a href="//www.software.ac.uk/blog/2016-10-20-open-data-science-conference-uk-2016">Open Data Science Conference UK 2016</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute.
  <span class = "small-icons"><a href="//www.software.ac.uk/blog/2016-10-20-open-data-science-conference-uk-2016">
  <i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
@@ -167,19 +170,18 @@
 
   <li class="misc"><b>Guest, O.</b>, (2016). <a href="//www.software.ac.uk/blog/2016-09-29-pycon-uk-2016">PyCon UK 2016</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute.
  <span class = "small-icons"><a href="//www.software.ac.uk/blog/2016-09-29-pycon-uk-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
-</li> 
+</li>
 
   <li class="misc"><b>Guest, O.</b>, (2016). <a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016">PyData London 2016</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute.
  <span class = "small-icons"><a href="//software.ac.uk/blog/2016-05-16-pydata-london-2016"><i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
-</li> 
+</li>
 
   <li class="misc"><b>Guest, O.</b>, Wilson, R., Jones, M., MacLachlan, C. (2016). <a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101">How do you teach Sustainable Software Practices 101?</a>. <em>Software and research: the Institute's Blog</em>. Software Sustainability Institute.
  <span class = "small-icons"><a href="//software.ac.uk/blog/2016-04-06-how-do-you-teach-sustainable-software-practices-101"><i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
-</li> 
+</li>
 
   <li class="misc"><b>Guest, O.</b> (2015). <a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html">Replication in Computational Cognitive Modelling</a>. <em>The Synthetic Learner Blog</em>.
  <span class = "small-icons"><a href="//bootphon.blogspot.fr/2015/10/replication-in-computational-cognitive.html"><i class="fa fa-comments-o" aria-hidden="true"></i></a></span>
 </li>
 
  </ul>
- 
