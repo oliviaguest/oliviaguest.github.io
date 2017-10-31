@@ -12,7 +12,7 @@ under the GNU General Public License version 3
 (GPLv3) and written by Olivia Guest.
 More information here: http://oliviaguest.com/license
 
-Feel free to contact me on the repo: 
+Feel free to contact me on the repo:
 https://github.com/oliviaguest/oliviaguest.github.io
 if you need help with anything! :)
 
@@ -35,10 +35,10 @@ Olivia
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+
     <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script> -->
-    
+
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-114x114.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-72x72.png" />
@@ -67,45 +67,25 @@ Olivia
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script> -->
+
     <!--<script src="/js/collapsible.js"></script>-->
-<script>
-      $(document).ready(function() { 
-            $('#menu').collapsible({
-                  //  contentOpen: 0 
-            }); 
-            
-            fixAltmetric();  
-            
-//             This following doesn't work because Altmetric's script would need to be reloaded.
-//             $(window).resize(function() {
-//                   fixAltmetric();
-//             });
 
-      });  
-      
-      function fixAltmetric() {
-            var $width = $(window).width();
 
-            if ($width < 550+280) {
-                  $(".altmetric-embed").attr("data-badge-popover", "left");  
-            } else {
-                  $(".altmetric-embed").attr("data-badge-popover", "right");  
-            }
-      };
-      
-      
 
-</script>
- 
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <!-- this is for Altmetric -->
-    <script type="text/javascript" src="//cdn.rawgit.com/jordnkr/collapsible/master/jquery.collapsible.min.js" ></script>
+    <!-- <script type="text/javascript" src="//cdn.rawgit.com/jordnkr/collapsible/master/jquery.collapsible.min.js" ></script> -->
+
+    <script src="{{ site.baseurl }}/js/accordion.js" ></script>
+    <script src="{{ site.baseurl }}/js/fix_altmetric.js" ></script>
 
 
 
 
 
-          
   </head>
 
   <body>
@@ -118,22 +98,22 @@ Olivia
       <div class="container">
         <footer class="footer">
             <ul>
-                  
+
                   <li><a href="//github.com/oliviaguest" title="Fork me on GitHub" style="text-decoration:none">
-                  <i class="fa fa-github"></i></a></li> 
+                  <i class="fa fa-github"></i></a></li>
 
                   <li><a href="//twitter.com/o_guest" title="Follow me on Twitter" style="text-decoration:none">
                   <i class="fa fa-twitter"></i></a></li>
-                  
+
                   <!--<li><a href="//telegram.me/oliviaguest" title="Chat me on Telegram" style="text-decoration:none">
                   <i class="fa fa-telegram"></i></a></li>
 
                   <li><a href="//www.facebook.com/olivia.guest" title="Friend me on Facebook" style="text-decoration:none">
-                  <i class="fa fa-facebook"></i></a></li>  -->                
-                  
+                  <i class="fa fa-facebook"></i></a></li>  -->
+
                   <li><a href="//scholar.google.co.uk/citations?user=ZHGrUooAAAAJ" title="View my Google Scholar profile" style="text-decoration:none">
                   <i class="ai ai-google-scholar"></i></a></li>
-                  
+
                   <li><a href="//www.researchgate.net/profile/Olivia_Guest" title="Follow me on ResearchGate" style="text-decoration:none">
                   <i class="ai ai-researchgate"></i></a></li>
 
@@ -141,16 +121,16 @@ Olivia
                   <i class="ai ai-impactstory"></i></a></li>
 
                   <li><a href="//orcid.org/0000-0002-1891-0972" title="View my ORCID profile" style="text-decoration:none">
-                  <i class="ai ai-orcid"></i></a></li>   
-                                                          
+                  <i class="ai ai-orcid"></i></a></li>
+
                   <li><a href="//figshare.com/authors/Olivia_Guest/2873402" title="View my figshare profile" style="text-decoration:none">
                   <i class="ai ai-figshare"></i></a></li>
-                  
+
                   <li><a href="//osf.io/38p75/" title="View my OSF profile" style="text-decoration:none">
                   <i class="ai ai-osf"></i></a></li>
 
             </ul>
-            
+
           <span class="flip"><a href="//copyleft.org/">©</a></span> <a href="/license/">Olivia Guest 2013–{{ site.time | date: '%y' }}</a>
         </footer>
       </div>

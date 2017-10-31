@@ -346,9 +346,9 @@ footer {
   font-weight: 300;
   bottom: 0;
   /*color: #aaaaaa;
-  
+
   font-size: 14px;*/
-	
+
 }
  footer li, li.icons{
     font-size: 1.75em;
@@ -496,7 +496,7 @@ min-height: 70px;
 .collapse-container > :nth-child(even) {
   display: none;
   padding-left: 0.5rem;
-	
+
 }
 
 .highlight {
@@ -829,15 +829,15 @@ footer a {
     text-decoration: none;
     color: inherit;
 }
-	  
+
 u.dotted{
   border-bottom: 1px dotted #000;
-  text-decoration: none; 
+  text-decoration: none;
 }
 	 .fa, a.fa, a.fa:hover, .ai, a.ai, a.ai:hover {
     border: 0;
 }
-	  
+
 a {border-bottom: 1px dotted black;}
 	  a:hover {
     border-bottom: 1px solid #000;
@@ -848,7 +848,14 @@ a {border-bottom: 1px dotted black;}
 .small-icons a:hover, footer a:hover, li.icons a:hover, #header a:hover {
     border-bottom: 0;
 }
-	  
+
 	  .small-icons {
     font-size: 1.1rem;
+}
+
+:focus {outline:0;}
+
+span.menu:hover {
+    color: #9B0E0E;
+    cursor: pointer;
 }
