@@ -74,6 +74,7 @@ body {
 #description {
   font-weight: 300;
   padding-top: 1em;
+  text-align: justify;
 }
 
 #description img {
