@@ -14,35 +14,35 @@
     <span class="small-icons">
 
     {% if pub.biorxiv %}
-    <a href="{{ pub.biorxiv }}"><i class="ai ai-biorxiv" aria-hidden="true"></i></a>
+    <a href="{{ pub.biorxiv }}" title="bioRxiv"><i class="ai ai-biorxiv" aria-hidden="true"></i></a>
     {% endif %}
 
     {% if pub.comments %}
-    <a href="{{ pub.comments }}"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+    <a href="{{ pub.comments }}" title="comments"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
     {% endif %}
 
     {% if pub.doi %}
-    <a href="//dx.doi.org/{{ pub.doi }}"><i class="ai ai-doi" aria-hidden="true"></i></a>
+    <a href="//dx.doi.org/{{ pub.doi }}" title="DOI"><i class="ai ai-doi" aria-hidden="true"></i></a>
     {% endif %}
 
     {% if pub.figshare %}
-    <a href="//figshare.com/{{ pub.figshare }}"><i class="ai ai-figshare" aria-hidden="true"></i></a>
+    <a href="//figshare.com/{{ pub.figshare }} title="figshare""><i class="ai ai-figshare" aria-hidden="true"></i></a>
     {% endif %}
 
     {% if pub.github %}
-    <a href="//github.com/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="//github.com/{{ pub.github }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
     {% endif %}
 
     {% if pub.osf %}
-    <a href="//osf.io/{{ pub.osf }}"><i class="ai ai-osf" aria-hidden="true"></i></a>
+    <a href="//osf.io/{{ pub.osf }}"  title="OSF"><i class="ai ai-osf" aria-hidden="true"></i></a>
     {% endif %}
 
     {% if pub.overleaf %}
-    <a href="//overleaf.com/read/{{ pub.overleaf }}"><i class="fa fa-leaf" aria-hidden="true"></i></a>
+    <a href="//overleaf.com/read/{{ pub.overleaf }}" title="Overleaf"><i class="fa fa-leaf" aria-hidden="true"></i></a>
     {% endif %}
 
     {%if pub.pdf %}
-    <a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+    <a href="{{ pub.pdf }}" title="PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
     {% endif %}
 
 
@@ -51,16 +51,6 @@
       <b>Slides</b>: {{ pub.slides.authors }} ({{ pub.slides.year }}): <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.title }}</a>. figshare. doi: <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.doi }}</a>.
     </p>
     {% endif %}
-
-    <!--     {% if pub.preprint %}
-       <p style="margin-top:0.5em">
-       Preprint: <a href="//dx.doi.org/{{ pub.preprint.doi }}">bioRxiv 071076</a>.
-       doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>.
-       <a href="{{ pub.preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-       </p>
-    {% endif %} -->
-
-
 
   </li>
   {% endif %} {% endfor %}
@@ -83,41 +73,41 @@
 
     <span class="small-icons">
          {% if pub.arxiv %}
-         <a href="{{ pub.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i></a>
+         <a href="{{ pub.arxiv }}" title="arXiv"><i class="ai ai-arxiv" aria-hidden="true"></i></a>
          {% endif %}
 
          {% if pub.biorxiv %}
-         <a href="{{ pub.biorxiv }}"><i class="ai ai-biorxiv" aria-hidden="true"></i></a>
+         <a href="{{ pub.biorxiv }}" title="bioRxiv"><i class="ai ai-biorxiv" aria-hidden="true"></i></a>
          {% endif %}
 
          {% if pub.comments %}
-         <a href="{{ pub.comments }}"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+         <a href="{{ pub.comments }}"  title="comments"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
          {% endif %}
 
          {% if pub.doi %}
-         <a href="//dx.doi.org/{{ pub.doi }}"><i class="ai ai-doi" aria-hidden="true"></i></a>
+         <a href="//dx.doi.org/{{ pub.doi }}" title="DOI"><i class="ai ai-doi" aria-hidden="true"></i></a>
          {% endif %}
 
          {% if pub.figshare %}
-         <a href="//figshare.com/{{ pub.figshare }}"><i class="ai ai-figshare" aria-hidden="true"></i></a>
+         <a href="//figshare.com/{{ pub.figshare }}" title="figshare"><i class="ai ai-figshare" aria-hidden="true"></i></a>
          {% endif %}
 
          {% if pub.github %}
-         <a href="//github.com/{{ pub.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+         <a href="//github.com/{{ pub.github }}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
          {% endif %}
 
          {% if pub.osf %}
-         <a href="//osf.io/{{ pub.osf }}"><i class="ai ai-osf" aria-hidden="true"></i></a>
+         <a href="//osf.io/{{ pub.osf }}" title="OSF"><i class="ai ai-osf" aria-hidden="true"></i></a>
          {% endif %}
 
          {% if pub.overleaf %}
-         <a href="//overleaf.com/read/{{ pub.overleaf }}"><i class="fa fa-leaf" aria-hidden="true"></i></a>
+         <a href="//overleaf.com/read/{{ pub.overleaf }}" title="Overleaf"><i class="fa fa-leaf" aria-hidden="true"></i></a>
          {% endif %}
 
 
 
          {%if pub.preprint.pdf %}
-         <a href="{{ pub..preprint.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+         <a href="{{ pub..preprint.pdf }}"  title="PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
          {% endif %}
 
          </span>

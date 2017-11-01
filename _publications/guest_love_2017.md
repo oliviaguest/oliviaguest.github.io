@@ -24,10 +24,5 @@ preprint:
   server: bioRxiv
 
 
-slides:
-  authors:  Guest, O.
-  year: 2017
-  title: What the Success of Brain Imaging Implies about the Neural Code
-  doi: '10.6084/m9.figshare.4252022'
 
 ---
