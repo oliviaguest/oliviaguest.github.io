@@ -269,6 +269,7 @@ img {
 ::selection {
   color: #000;
   background: #eee;
+  text-shadow: 1px 1px 0 #fff;
 }
 
 .clearfix:before, .clearfix:after {
