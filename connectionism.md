@@ -1,6 +1,8 @@
 ---
 layout: page
-permalink: connectionism
+
+permalink: /connectionism/
+
 ---
 
 # Block Practical: Connectionist Models and Cognitive Processes
