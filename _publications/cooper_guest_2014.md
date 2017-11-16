@@ -7,7 +7,7 @@ title: 'Implementations are not specifications: specification, replication and e
 journal: Cognitive Systems Research
 doi: 10.1016/j.cogsys.2013.05.001
 pdf: /doc/cooper_14.pdf
-
+date: 2014-01-01
 comments:
 
 osf:

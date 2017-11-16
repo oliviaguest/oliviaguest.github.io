@@ -10,6 +10,7 @@ pdf:
 link:
 arxiv: https://arxiv.org/abs/1707.04393
 comments:
+date: 2017-07-14
 
 osf:
 overleaf:

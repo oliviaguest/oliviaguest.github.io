@@ -7,6 +7,7 @@ title: ' Crisis in What Exactly?'
 journal: The Winnower
 doi: 10.15200/winn.146590.01538
 pdf: /doc/guest_16.pdf
+date: 2016-01-01
 
 comments: //thewinnower.com/papers/4825-crisis-in-what-exactly#submit
 
