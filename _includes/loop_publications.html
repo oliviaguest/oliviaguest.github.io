@@ -64,7 +64,7 @@
 
   <li class="cv">
 
-    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.preprint.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
+    <div data-badge-popover="right" data-badge-type="donut" data-doi="{% if pub.preprint.doi %}{{ pub.preprint.doi }}{% elsif pub.preprint.arxiv %}{{ pub.preprint.arxiv }}{% endif %}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
 
     {{ pub.authors }} ({{ pub.preprint.year }}). {% if pub.preprint.doi %}<a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.title }}</a>.{% endif %} {% if pub.preprint.url %}<a href="{{ pub.preprint.url }}">{{ pub.title }}</a>.{% endif %}
 

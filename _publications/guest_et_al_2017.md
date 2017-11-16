@@ -21,6 +21,7 @@ website: http://redistrict.science
 preprint:
   year: 2017
   doi:
+  arxiv: 1711.04640
   url: https://arxiv.org/abs/1711.04640
   pdf: 'https://arxiv.org/pdf/1711.04640'
   server: arXiv
