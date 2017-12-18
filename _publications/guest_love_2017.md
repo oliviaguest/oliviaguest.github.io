@@ -1,7 +1,7 @@
 ---
 type: journal
 
-authors:  <b>Guest, O.</b>, Love, B. C.
+authors:  <b>Guest, O.</b> & Love, B. C.
 year: 2017
 title: What the Success of Brain Imaging Implies about the Neural Code
 journal: eLife

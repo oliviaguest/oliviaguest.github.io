@@ -1,7 +1,7 @@
 ---
 type: misc
 
-authors:  <b>Guest, O.</b>, Rougier, N. P.
+authors:  <b>Guest, O.</b> & Rougier, N. P.
 year: 2016
 title: 'What is computational reproducibility?'
 journal: IEEE CIS Newsletter on Cognitive and Developmental Systems

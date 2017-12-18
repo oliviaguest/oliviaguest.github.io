@@ -1,7 +1,7 @@
 ---
 type: misc
 
-authors:  <b>Guest, O.</b>, Rougier, N. P.
+authors:  <b>Guest, O.</b> & Rougier, N. P.
 year: 2017
 title: 'Diversity in Reproducibility'
 journal: IEEE CIS Newsletter on Cognitive and Developmental Systems

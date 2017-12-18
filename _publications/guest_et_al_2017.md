@@ -1,7 +1,7 @@
 ---
 type: preprint
 
-authors: <b>Guest, O.</b>, Frank J. Kanayet, Bradley C. Love
+authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
 year: 2017
 title: 'Gerrymandering and Computational Redistricting'
 journal:

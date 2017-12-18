@@ -1,7 +1,7 @@
 ---
 type: journal
 
-authors: Love, B. C., Kopeć, Ł., <b>Guest, O.</b>
+authors: Love, B. C., Kopeć, Ł., & <b>Guest, O.</b>
 year: 2015
 title: 'Optimism Bias in Fans and Sports Reporters'
 journal: PLoS ONE
