@@ -1,76 +1,26 @@
-cooper_guest_2014:
+- name: cooper_guest_2014
+  date: 2014-01-01
   type: journal
-
   authors: Cooper, R. P. & <b>Guest, O.</b>
-  year: 2014
   title: 'Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling'
   journal: Cognitive Systems Research
   doi: 10.1016/j.cogsys.2013.05.001
   pdf: /doc/cooper_14.pdf
-  date: 2014-01-01
 
-love_kopec_guest_2015:
+- name: love_kopec_guest_2015
+  date: 2015-01-01
   type: journal
-
   authors: Love, B. C., Kopeć, Ł., & <b>Guest, O.</b>
-  year: 2015
   title: 'Optimism Bias in Fans and Sports Reporters'
   journal: PLoS ONE
   doi: 10.1371/journal.pone.0137685
   pdf: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF
-  date: 2015-01-01
-
   osf: 3xrfa
 
-guest_2016:
-  type: misc
-
-  authors: <b>Guest, O.</b>
-  year: 2016
-  title: ' Crisis in What Exactly?'
-  journal: The Winnower
-  doi: 10.15200/winn.146590.01538
-  pdf: /doc/guest_16.pdf
-  date: 2016-01-01
-
-  comments: //thewinnower.com/papers/4825-crisis-in-what-exactly#submit
-
-  overleaf: csmvnqpjmjmk
-
-guest_rougier_2016:
-
-  type: misc
-
-  authors:  <b>Guest, O.</b> & Rougier, N. P.
-  year: 2016
-  title: 'What is computational reproducibility?'
-  journal: IEEE CIS Newsletter on Cognitive and Developmental Systems
-  doi:
-  pdf: /doc/guest_rougier_16.pdf
-  date: 2016-01-01
-
-  overleaf: nsndhzbpvwky
-  github: oliviaguest/what-is-computational-reproducibility
-
-guest_rougier_2017:
-  type: misc
-
-  authors:  <b>Guest, O.</b> & Rougier, N. P.
-  year: 2017
-  title: 'Diversity in Reproducibility'
-  journal: IEEE CIS Newsletter on Cognitive and Developmental Systems
-  doi:
-  pdf: /doc/guest_rougier_2017.pdf
+- name: guest_love_2017
   date: 2017-01-01
-
-  overleaf: jfhcmsnfbtsr
-  github: rougier/diversity-in-reproducibility
-
-guest_love_2017:
   type: journal
-
   authors:  <b>Guest, O.</b> & Love, B. C.
-  year: 2017
   title: What the Success of Brain Imaging Implies about the Neural Code
   journal: eLife
   doi: '10.7554/eLife.21397'
@@ -78,70 +28,44 @@ guest_love_2017:
   link: https://elifesciences.org/content/6/e21397
   biorxiv: https://www.biorxiv.org/content/early/2016/09/09/071076
   comments: https://www.biorxiv.org/content/early/2016/08/24/071076#comment-2858281853
-  date: 2017-01-01
-
   osf: v8baz
-  overleaf:
   github: oliviaguest/brain-imaging-and-the-neural-code
   figshare: 'articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_Code/4252022'
-
-
   preprint:
-    year: 2016
     doi: '10.1101/071076'
     pdf: 'http://biorxiv.org/content/early/2016/08/23/071076.full.pdf'
     server: bioRxiv
 
-guest_et_al_2017:
-  type: preprint
-
-  authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
-  year: 2017
-  title: 'Gerrymandering and Computational Redistricting'
-  journal:
-  doi:
-  pdf:
-  link:
-  arxiv: https://arxiv.org/abs/1707.04393
-  comments:
+- name: guest_et_al_2017
   date: 2017-11-16
-
+  type: preprint
+  authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
+  title: 'Gerrymandering and Computational Redistricting'
+  arxiv: https://arxiv.org/abs/1707.04393
   osf: 5fepu
   overleaf:
   github: redistrict
   figshare: Gerrymandering_and_Computational_Redistricting/5605387
   website: http://redistrict.science
-
   preprint:
-    year: 2017
-    doi:
     arxiv: arXiv:1711.04640
     url: https://arxiv.org/abs/1711.04640
     pdf: 'https://arxiv.org/pdf/1711.04640'
     server: arXiv
 
-  rougier_et_al_2017:
-    type: journal
-
-    authors: Rougier, N. P. et al.
-    year: 2017
-    title: 'Sustainable computational science: the ReScience initiative'
-    journal: PeerJ Computer Science
-    doi: 10.7717/peerj-cs.142
-    pdf: https://peerj.com/articles/cs-142.pdf
-    link: https://peerj.com/articles/cs-142/
-    arxiv: https://arxiv.org/abs/1707.04393
-    comments:
-    date: 2017-12-18
-
-    osf:
-    overleaf:
-    github: ReScience/ReScience-article-2
-    figshare:
-
-    preprint:
-      year: 2017
-      doi:
-      url: https://arxiv.org/abs/1707.04393
-      pdf: 'https://arxiv.org/pdf/1707.04393'
-      server: arXiv
+- name: rougier_et_al_2017
+  date: 2017-12-18
+  type: journal
+  authors: Rougier, N. P. et al.
+  title: 'Sustainable computational science: the ReScience initiative'
+  journal: PeerJ Computer Science
+  doi: 10.7717/peerj-cs.142
+  pdf: https://peerj.com/articles/cs-142.pdf
+  link: https://peerj.com/articles/cs-142/
+  arxiv: https://arxiv.org/abs/1707.04393
+  comments:
+  github: ReScience/ReScience-article-2
+  preprint:
+    url: https://arxiv.org/abs/1707.04393
+    pdf: 'https://arxiv.org/pdf/1707.04393'
+    server: arXiv
