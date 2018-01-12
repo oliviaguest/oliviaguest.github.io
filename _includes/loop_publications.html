@@ -67,7 +67,7 @@
 
   <li class="cv">
 
-    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.preprint.doi }}" data-arxiv-id="{{ pub.preprint.arxiv }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right;clear:both"></div>
+    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ pub.preprint.doi }}" data-arxiv-id="{{ pub.preprint.arxiv-id }}" data-hide-no-mentions="true" class="altmetric-embed" style="float:right;clear:both"></div>
 
     {{ pub.authors }} ({{pub.date | date: "%Y"}}). {% if pub.preprint.doi %}<a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.title }}</a>.{% endif %} {% if pub.preprint.url %}<a href="{{ pub.preprint.url }}">{{ pub.title }}</a>.{% endif %}
 
@@ -75,8 +75,8 @@
     <i>{{ pub.preprint.server }}</i>. {% if pub.preprint.doi %}doi: <a href="//dx.doi.org/{{ pub.preprint.doi }}">{{ pub.preprint.doi }}</a>.{% endif %}
 
     <span class="small-icons">
-         {% if pub.arxiv %}
-         <a href="{{ pub.arxiv }}" title="arXiv"><i class="ai ai-arxiv" aria-hidden="true"></i></a>
+         {% if pub.preprint.server == "arXiv" %}
+         <a href="{{ pub.preprint.url }}" title="arXiv"><i class="ai ai-arxiv" aria-hidden="true"></i></a>
          {% endif %}
 
          {% if pub.biorxiv %}

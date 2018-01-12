@@ -41,17 +41,17 @@
   type: preprint
   authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
   title: 'Gerrymandering and Computational Redistricting'
-  arxiv: https://arxiv.org/abs/1707.04393
+  arxiv: https://arxiv.org/abs/1711.04640
   osf: 5fepu
   overleaf:
   github: redistrict
   figshare: Gerrymandering_and_Computational_Redistricting/5605387
   website: http://redistrict.science
   preprint:
-    arxiv: arXiv:1711.04640
     url: https://arxiv.org/abs/1711.04640
     pdf: 'https://arxiv.org/pdf/1711.04640'
     server: arXiv
+    arxiv-id: '1711.04640'
 
 - name: rougier_et_al_2017
   date: 2017-12-18
@@ -69,3 +69,4 @@
     url: https://arxiv.org/abs/1707.04393
     pdf: 'https://arxiv.org/pdf/1707.04393'
     server: arXiv
+    arxiv-id: '1707.04393'
