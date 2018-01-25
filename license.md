@@ -34,3 +34,4 @@ People who use my layout (in one form or another):
 + [Mojtaba Khodadadi](http://users.ictp.it/~mkhodada/)
 + [Ramanujan T. Raghavan](http://rtraghavan.com/)
 + [Elizabeth DuPre](https://emdupre.github.io/)
++ [Raffaello Seri](https://raffaelloseri.github.io/)
