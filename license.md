@@ -27,11 +27,12 @@ I designed this website, see all code [here](//github.com/oliviaguest/oliviagues
 
 I appreciate the nice feedback I get from people. If you really like it, [you may use this website](https://github.com/oliviaguest/oliviaguest.github.io/blob/master/LICENSE) as a template for building your own. I would especially appreciate it if you [forked it](//github.com/oliviaguest/oliviaguest.github.io) on github and/or dropped me a message if you did use it, as opposed to [view-source'ing and copy-pasting](https://twitter.com/o_guest/status/696758773235458048).
 
-My site is predominantly hosted on <a href="//pages.github.com/">github pages</a>, so what you see is what the source code (pre-compiled [Jekyll](//jekyllrb.com/), [YAML](//yaml.org/), [Liquid](//github.com/Shopify/liquid/wiki), etc.) looks like before github compiles it into static pages. However, I use [Tumblr](//tumblr.com/) to host the [art](http://art.oliviaguest.com/) subdomain. Tumblr is a great solution if you prefer to have a content management system that is neither limited to just a few themes (you can directly edit the HTML) nor bloated like Wordpress is (in my opinion).
+My site is predominantly hosted on <a href="//pages.github.com/">github pages</a>, so what you see is what the source code (pre-compiled [Jekyll](//jekyllrb.com/), [YAML](//yaml.org/), [Liquid](//github.com/Shopify/liquid/wiki), etc.) looks like before github compiles it into static pages.
 
-People who use my layout (in one form or another):
+People who use my layout (in one form or another — in chronological order):
 
 <!--+ [Mojtaba Khodadadi](http://users.ictp.it/~mkhodada/)-->
 + [Ramanujan T. Raghavan](http://rtraghavan.com/)
 + [Elizabeth DuPre](https://emdupre.github.io/)
 + [Raffaello Seri](https://raffaelloseri.github.io/)
++ [Agnes Norbury](https://agnesnorbury.github.io)
