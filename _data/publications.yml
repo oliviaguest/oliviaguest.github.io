@@ -16,7 +16,16 @@
   doi: 10.1371/journal.pone.0137685
   pdf: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF
   osf: 3xrfa
-
+  
+- name: guest_rougier_2016
+  date: 2016-09-01
+  type: journal
+  authors: <b>Guest, O.</b> & Rougier, N. P.
+  title: Dialogue: What is Computational Reproducibility?
+  journal: IEEE CIS Newsletter on Cognitive and Developmental Systems
+  pdf: https://openlab-flowers.inria.fr/uploads/default/original/1X/65addc14bb2a6a7feaf7690865fa3708d5b0990f.pdf
+  github: oliviaguest/what-is-computational-reproducibility
+  
 - name: guest_love_2017
   date: 2017-01-01
   type: journal
