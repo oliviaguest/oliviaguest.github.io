@@ -623,11 +623,17 @@ u.dotted {
 }
 
 a {
-  border-bottom: 1px dotted black;
+/*   border-bottom: 1px dotted black; */
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #000000;
 }
 
 a:hover {
-  border-bottom: 1px solid #000;
+/*   border-bottom: 1px solid #000; */
+    text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #000000;
 }
 
 .small-icons a, footer a, li.icons a, #header a {
