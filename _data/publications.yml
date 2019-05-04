@@ -54,7 +54,7 @@
   osf: 5fepu
   overleaf:
   github: redistrict
-  figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387' 
+  figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
   website: http://redistrict.science
   preprint:
     url: https://arxiv.org/abs/1711.04640
@@ -79,3 +79,17 @@
     pdf: 'https://arxiv.org/pdf/1707.04393'
     server: arXiv
     arxiv-id: '1707.04393'
+
+
+- name: guest_love_2019
+  date: 2019-05-04
+  type: preprint
+  authors: <b>Guest, O.</b> & Love, B. C.
+  title: 'Levels of Representation in a Deep Learning Model of Categorization'
+  biorxiv: https://www.biorxiv.org/content/10.1101/626374v1
+  osf: jxavn
+  github: oliviaguest/levels-of-representation-in-a-deep-learning-model-of-categorization
+  preprint:
+    doi: '10.1101/626374'
+    pdf: 'https://www.biorxiv.org/content/biorxiv/early/2019/05/03/626374.full-text.pdf'
+    server: bioRxiv
