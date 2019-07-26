@@ -45,23 +45,6 @@
     pdf: 'http://biorxiv.org/content/early/2016/08/23/071076.full.pdf'
     server: bioRxiv
 
-- name: guest_et_al_2017
-  date: 2017-11-16
-  type: preprint
-  authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
-  title: 'Cognitive Capacity Limits and Electoral Districting'
-  arxiv: https://arxiv.org/abs/1711.04640
-  osf: 5fepu
-  overleaf:
-  github: redistrict
-  figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
-  website: http://redistrict.science
-  preprint:
-    url: https://arxiv.org/abs/1711.04640
-    pdf: 'https://arxiv.org/pdf/1711.04640'
-    server: arXiv
-    arxiv-id: '1711.04640'
-
 - name: rougier_et_al_2017
   date: 2017-12-18
   type: journal
@@ -80,7 +63,6 @@
     server: arXiv
     arxiv-id: '1707.04393'
 
-
 - name: guest_love_2019
   date: 2019-05-04
   type: preprint
@@ -93,3 +75,25 @@
     doi: '10.1101/626374'
     pdf: 'https://www.biorxiv.org/content/biorxiv/early/2019/05/03/626374.full-text.pdf'
     server: bioRxiv
+
+- name: guest_et_al_2019
+  date: 2019-07-24
+  type: journal
+  journal: Journal of Computational Social Science
+  authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
+  title: 'Gerrymandering and Computational Redistricting'
+  arxiv: https://arxiv.org/abs/1711.04640
+  osf: 5fepu
+  doi:
+  pdf: https://arxiv.org/pdf/1711.04640
+  link:
+  arxiv:
+  overleaf:
+  github: redistrict
+  figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
+  website: http://redistrict.science
+  preprint:
+    url: https://arxiv.org/abs/1711.04640
+    pdf: 'https://arxiv.org/pdf/1711.04640'
+    server: arXiv
+    arxiv-id: '1711.04640'
