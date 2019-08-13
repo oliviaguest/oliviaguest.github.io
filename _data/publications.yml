@@ -77,17 +77,16 @@
     server: bioRxiv
 
 - name: guest_et_al_2019
-  date: 2019-07-24
+  date: 2019-08-13
   type: journal
   journal: Journal of Computational Social Science
   authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
   title: 'Gerrymandering and Computational Redistricting'
   arxiv: https://arxiv.org/abs/1711.04640
   osf: 5fepu
-  doi:
-  pdf: https://arxiv.org/pdf/1711.04640
+  doi:  10.1007/s42001-019-00053-9
+  pdf: https://link.springer.com/content/pdf/10.1007%2Fs42001-019-00053-9.pdf
   link:
-  arxiv:
   overleaf:
   github: redistrict
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
