@@ -92,6 +92,12 @@ li.item  {
     min-height: 90px;
 }
 
+@media only screen and (max-width: 600px) {
+  li.item  {
+    padding-bottom: 0.5rem;
+  }
+}
+
 ul.item {
     list-style-type: square;
 }
