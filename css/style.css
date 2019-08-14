@@ -98,7 +98,7 @@ li.item  {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   li.item  {
     padding-bottom: 1rem;
   }
