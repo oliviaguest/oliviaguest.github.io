@@ -1,0 +1,70 @@
+<ul class="item">
+  {% for pub in include.pubs %}
+    <li class="item">
+
+      <div data-badge-type="donut"
+      {% if pub.doi %}data-doi="{{ pub.doi }}"{% endif %}
+      {% if pub.arxiv-id %}data-arxiv-id="{{ pub.arxiv-id }}"{% endif %}
+      data-hide-no-mentions="true" data-hide-less-than="40" class="altmetric-embed" style="float:right;clear:both"></div>
+
+      {{ pub.authors }} ({% if pub.status %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}). {% if pub.doi %}
+      <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. {% elsif pub.arxiv %}
+      <a href="{{ pub.arxiv }}">{{ pub.title }}</a>. {% elsif pub.pdf %}
+      <a href="{{ pub.pdf }}">{{ pub.title }}</a>. {% else %} {{ pub.title }}. {% endif %} {% if pub.journal %}<i>{{ pub.journal }}</i>. {% endif %} {% if pub.server %}<i>{{ pub.server }}</i>. {% endif %}{% if pub.doi %}<a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>.{% endif %} {% if pub.arxiv-id %}<a href="{{ pub.arxiv }}">{{ pub.arxiv-id }}</a>.{% endif %}
+
+      <span class="small-icons">
+
+      {% if pub.arxiv %}
+      <a href="{{ pub.arxiv }}" title="arXiv"><i class="ai ai-arxiv" aria-hidden="true"></i></a>
+      {% endif %}
+
+      {% if pub.biorxiv %}
+        <a href="{{ pub.biorxiv }}" title="bioRxiv"><i class="ai ai-biorxiv" aria-hidden="true"></i></a>
+      {% endif %}
+
+      {% if pub.comments %}
+        <a href="{{ pub.comments }}" title="comments"><i class="fas fa-comments"></i></a>
+      {% endif %}
+
+      {% if pub.doi %}
+        <a href="//dx.doi.org/{{ pub.doi }}" title="DOI"><i class="ai ai-doi" aria-hidden="true"></i></a>
+      {% endif %}
+
+      {% if pub.figshare %}
+        <a href="//figshare.com/{{ pub.figshare }}" title="figshare"><i class="ai ai-figshare" aria-hidden="true"></i></a>
+      {% endif %}
+
+      {% if pub.github %}
+        <a href="//github.com/{{ pub.github }}" title="GitHub"><i class="fab fa-github"></i></a>
+      {% endif %}
+
+      {% if pub.osf %}
+        <a href="//osf.io/{{ pub.osf }}"  title="OSF"><i class="ai ai-osf" aria-hidden="true"></i></a>
+      {% endif %}
+
+      {% if pub.overleaf %}
+        <a href="//overleaf.com/read/{{ pub.overleaf }}" title="Overleaf"><i class="ai ai-overleaf" aria-hidden="true"></i></a>
+      {% endif %}
+
+
+      {%if pub.website %}
+        <a href="{{ pub.website }}" title="Website"><i class="fas fa-link"></i></a>
+      {% endif %}
+
+      {%if pub.pdf %}
+        <a href="{{ pub.pdf }}" title="PDF"><i class="far fa-file-pdf"></i></a>
+      {% endif %}
+
+
+    </span>
+
+    <!--{% if pub.slides %}
+    <p style="margin-top:0.25em">
+      <b>Slides</b>: {{ pub.slides.authors }} ({{ pub.slides.year }}): <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.title }}</a>. figshare. doi: <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.doi }}</a>.
+    </p>
+    {% endif %} -->
+
+    </li>
+  {% endfor %}
+
+</ul>

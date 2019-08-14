@@ -1,5 +1,4 @@
-- name: cooper_guest_2014
-  date: 2014-01-01
+- date: 2014-01-01
   type: journal
   authors: Cooper, R. P. & <b>Guest, O.</b>
   title: 'Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling'
@@ -7,18 +6,16 @@
   doi: 10.1016/j.cogsys.2013.05.001
   pdf: /doc/cooper_14.pdf
 
-- name: love_kopec_guest_2015
-  date: 2015-01-01
+- date: 2015-01-01
   type: journal
   authors: Love, B. C., Kopeć, Ł., & <b>Guest, O.</b>
-  title: 'Optimism Bias in Fans and Sports Reporters'
+  title: 'Optimism bias in fans and sports reporters'
   journal: PLoS ONE
   doi: 10.1371/journal.pone.0137685
   pdf: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF
   osf: 3xrfa
 
-- name: guest_rougier_2016
-  date: 2016-09-01
+- date: 2016-09-01
   type: misc
   authors: <b>Guest, O.</b> & Rougier, N. P.
   title: 'Dialogue: What is Computational Reproducibility?'
@@ -26,11 +23,10 @@
   pdf: https://openlab-flowers.inria.fr/uploads/default/original/1X/65addc14bb2a6a7feaf7690865fa3708d5b0990f.pdf
   github: oliviaguest/what-is-computational-reproducibility
 
-- name: guest_love_2017
-  date: 2017-01-01
+- date: 2017-01-01
   type: journal
   authors:  <b>Guest, O.</b> & Love, B. C.
-  title: What the Success of Brain Imaging Implies about the Neural Code
+  title: 'What the success of brain imaging implies about the neural code'
   journal: eLife
   doi: '10.7554/eLife.21397'
   pdf: 'https://elifesciences.org/content/6/e21397-download.pdf'
@@ -40,13 +36,20 @@
   osf: v8baz
   github: oliviaguest/brain-imaging-and-the-neural-code
   figshare: 'articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_Code/4252022'
-  preprint:
-    doi: '10.1101/071076'
-    pdf: 'http://biorxiv.org/content/early/2016/08/23/071076.full.pdf'
-    server: bioRxiv
 
-- name: rougier_et_al_2017
-  date: 2017-12-18
+- date: 2016-09-09
+  type: preprint
+  authors:  <b>Guest, O.</b> & Love, B. C.
+  title: 'What the success of brain imaging implies about the neural code'
+  server: bioRxiv
+  doi: '10.1101/071076'
+  biorxiv: https://www.biorxiv.org/content/early/2016/09/09/071076
+  comments: https://www.biorxiv.org/content/early/2016/08/24/071076#comment-2858281853
+  osf: v8baz
+  github: oliviaguest/brain-imaging-and-the-neural-code
+  figshare: 'articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_Code/4252022'
+
+- date: 2017-12-18
   type: journal
   authors: Rougier, N. P. et al.
   title: 'Sustainable computational science: the ReScience initiative'
@@ -55,44 +58,52 @@
   pdf: https://peerj.com/articles/cs-142.pdf
   link: https://peerj.com/articles/cs-142/
   arxiv: https://arxiv.org/abs/1707.04393
-  comments:
   github: ReScience/ReScience-article-2
-  preprint:
-    url: https://arxiv.org/abs/1707.04393
-    pdf: 'https://arxiv.org/pdf/1707.04393'
-    server: arXiv
-    arxiv-id: '1707.04393'
 
-- name: guest_love_2019
-  date: 2019-05-04
+
+- date: 2017-12-18
+  type: preprint
+  authors: Rougier, N. P. et al.
+  title: 'Sustainable computational science: the ReScience initiative'
+  server: arXiv
+  arxiv-id: 1707.04393
+  link: https://arxiv.org/abs/1707.04393
+  arxiv: https://arxiv.org/abs/1707.04393
+  github: ReScience/ReScience-article-2
+
+
+- date: 2019-05-04
   type: preprint
   authors: <b>Guest, O.</b> & Love, B. C.
-  title: 'Levels of Representation in a Deep Learning Model of Categorization'
+  title: 'Levels of representation in a deep learning model of categorization'
   biorxiv: https://www.biorxiv.org/content/10.1101/626374v1
+  doi: '10.1101/626374'
+  server: bioRxiv
   osf: jxavn
   github: oliviaguest/levels-of-representation-in-a-deep-learning-model-of-categorization
-  preprint:
-    doi: '10.1101/626374'
-    pdf: 'https://www.biorxiv.org/content/biorxiv/early/2019/05/03/626374.full-text.pdf'
-    server: bioRxiv
 
-- name: guest_et_al_2019
-  date: 2019-08-13
+- date: 2019-08-13
   type: journal
   journal: Journal of Computational Social Science
   authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
-  title: 'Gerrymandering and Computational Redistricting'
+  title: 'Gerrymandering and computational redistricting'
   arxiv: https://arxiv.org/abs/1711.04640
   osf: 5fepu
   doi:  10.1007/s42001-019-00053-9
   pdf: https://link.springer.com/content/pdf/10.1007%2Fs42001-019-00053-9.pdf
-  link:
-  overleaf:
   github: redistrict
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
   website: http://redistrict.science
-  preprint:
-    url: https://arxiv.org/abs/1711.04640
-    pdf: 'https://arxiv.org/pdf/1711.04640'
-    server: arXiv
-    arxiv-id: '1711.04640'
+
+- date: 2017-11-13
+  type: preprint
+  authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
+  title: 'Gerrymandering and computational redistricting'
+  arxiv: https://arxiv.org/abs/1711.04640
+  arxiv-id: '1711.04640'
+  osf: 5fepu
+  server: arXiv
+  pdf: https://link.springer.com/content/pdf/10.1007%2Fs42001-019-00053-9.pdf
+  github: redistrict
+  figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
+  website: http://redistrict.science
