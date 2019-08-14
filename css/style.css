@@ -98,6 +98,12 @@ li.item  {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  li.item  {
+    padding-bottom: 1rem;
+  }
+}
+
 ul.item {
     list-style-type: square;
 }
