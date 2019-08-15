@@ -7,7 +7,8 @@
       {% if pub.arxiv-id %}data-arxiv-id="{{ pub.arxiv-id }}"{% endif %}
       data-hide-no-mentions="true" data-hide-less-than="40" class="altmetric-embed" style="float:right;clear:both"></div>
 
-      {{ pub.authors }} ({% if pub.status %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
+      {{ pub.authors }}
+      ({% if pub.status %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
       <span class="title">{% if pub.doi %}
       <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% elsif pub.arxiv %}
       <a href="{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.pdf %}
@@ -15,10 +16,10 @@
       {% endif %}</span>.
       {% if pub.journal %}<i>{{ pub.journal }}</i>.
       {% elsif pub.server %}<i>{{ pub.server }}</i>. {% endif %}
-      {% if pub.doi %}<a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>.{% endif %} {% if pub.arxiv-id %}<a href="{{ pub.arxiv }}">{{ pub.arxiv-id }}</a>.{% endif %}
+      {% if pub.doi %}<a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>.{% endif %}
+      {% if pub.arxiv-id %}<a href="{{ pub.arxiv }}">{{ pub.arxiv-id }}</a>.{% endif %}
 
-      <span class="small-icons">
-
+      <div class="small-icons">
       {% if pub.arxiv %}
       <a href="{{ pub.arxiv }}" title="arXiv"><i class="ai ai-arxiv" aria-hidden="true"></i></a>
       {% endif %}
@@ -51,7 +52,6 @@
         <a href="//overleaf.com/read/{{ pub.overleaf }}" title="Overleaf"><i class="ai ai-overleaf" aria-hidden="true"></i></a>
       {% endif %}
 
-
       {%if pub.website %}
         <a href="{{ pub.website }}" title="Website"><i class="fas fa-link"></i></a>
       {% endif %}
@@ -59,17 +59,7 @@
       {%if pub.pdf %}
         <a href="{{ pub.pdf }}" title="PDF"><i class="far fa-file-pdf"></i></a>
       {% endif %}
-
-
-    </span>
-
-    <!--{% if pub.slides %}
-    <p style="margin-top:0.25em">
-      <b>Slides</b>: {{ pub.slides.authors }} ({{ pub.slides.year }}): <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.title }}</a>. figshare. doi: <a href="//dx.doi.org/{{ pub.slides.doi }}">{{ pub.slides.doi }}</a>.
-    </p>
-    {% endif %} -->
-
+    </div>
     </li>
   {% endfor %}
-
 </ul>

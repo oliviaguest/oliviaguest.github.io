@@ -66,6 +66,10 @@ p a, li a {
   font-weight: 300;
 }
 
+.small-icons {
+    display: inline-block;
+}
+
 img#me {
   float: left;
   width: 35%;
