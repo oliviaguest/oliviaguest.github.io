@@ -54,20 +54,19 @@ h1#top {
   padding-top: 1rem;
 }
 
-div#description {}
-
 p a, li a {
   text-decoration: underline;
-  -webkit-text-decoration-color: red; /* Safari */
+  -webkit-text-decoration-color: red;
+  /* Safari */
   text-decoration-color: #aaa;
 }
 
-.title a{
+.title a {
   font-weight: 300;
 }
 
 .small-icons {
-    display: inline-block;
+  display: inline-block;
 }
 
 img#me {
@@ -75,7 +74,6 @@ img#me {
   width: 35%;
   padding-right: 1rem;
   padding-top: 0.4rem;
-
 }
 
 img {
@@ -127,13 +125,12 @@ ul.item {
   padding-top: 0.3rem;
 }
 
-
 .panel {
   margin-bottom: 0;
   cursor: pointer;
   outline: none;
-
 }
+
 .panel-content {
   margin-left: 1rem;
 }
