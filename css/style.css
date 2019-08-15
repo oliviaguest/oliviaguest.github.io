@@ -1,10 +1,14 @@
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
 
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+html {
+  font-family: 'Inter', sans-serif;
 }
 
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
 
 html, * {
   font-weight: 200;
@@ -31,9 +35,8 @@ html, * {
   --footer-link-color: #000;
 }
 
-
 div#main {
-    max-width: 40rem;
+  max-width: 40rem;
 }
 
 h1, h1 a, h2, h3, h4, h5, h6 {
@@ -44,20 +47,16 @@ b {
   font-weight: 400;
 }
 
-
 h1#top {
   font-weight: 100;
-text-align: center;
-    font-size: 3rem;
-    padding-top: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 1rem;
 }
 
+div#description {}
 
-div#description {
-}
-
-
-p a:link, li a:link{
+p a:link, li a:link {
   text-decoration: underline;
 }
 
@@ -68,19 +67,21 @@ img#me {
 }
 
 img {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
 img:hover {
-  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  -webkit-filter: none;
+  /* Safari 6.0 - 9.0 */
   filter: none;
 }
 
-a:hover, p a:hover, li a:hover, footer a:hover{
+a:hover, p a:hover, li a:hover, footer a:hover, .panel:hover {
   color: gray;
   text-decoration: none;
-
+  cursor: pointer;
 }
 
 p.center {
@@ -88,65 +89,71 @@ p.center {
   width: 90%;
 }
 
-li.item  {
-    min-height: 90px;
+li.item {
+  min-height: 90px;
 }
 
 @media only screen and (max-width: 600px) {
-  li.item  {
+  li.item {
     padding-bottom: 0.5rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  li.item  {
+  li.item {
     padding-bottom: 1rem;
   }
 }
 
 ul.item {
-    list-style-type: square;
+  list-style-type: square;
 }
-
-
 
 .accordion {
   cursor: pointer;
   padding-bottom: 0.3rem;
   padding-top: 0.3rem;
 }
-.accordion:hover{
-  color: gray;
-  text-decoration: none;
-}
-.panel {
-  display: none;
-  overflow: hidden;
-  padding-left: 1rem;
-  margin-top: -1rem;
-}
 
+
+.panel {
+  margin-bottom: 0;
+  /* padding-bottom: 0.5rem; */
+  outline: none;
+
+}
+.panel-content {
+  margin-left: 1rem;
+}
 
 .altmetric-embed {
-    padding-left: 0.3rem;
+  padding-left: 0.3rem;
 }
 
 .flip {
-    display: inline-block;
-    transform: scaleX(-1);
-    filter: FlipH;
+  display: inline-block;
+  transform: scaleX(-1);
+  filter: FlipH;
 }
-footer{text-align: center;}
-footer li{  list-style: none;
+
+footer {
+  text-align: center;
+}
+
+footer li {
+  list-style: none;
   display: inline;
   font-size: 1.75rem;
-    margin: 0;
-    padding: 0;}
-footer ul{
-    margin: 0;
-    padding: 0;}
+  margin: 0;
+  padding: 0;
+}
 
-    .cv {
-    font-size: 2rem;
-    padding-top: 0.5rem;
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.cv {
+  font-size: 2rem;
+  /* padding-top: 0.5rem; */
 }

@@ -13,12 +13,12 @@ $(function() {
   // Get the #hash in the URL:
   var hash = window.location.hash;
   hash = hash.slice(1);
-  console.log(hash);
+  // console.log(hash);
   var active = false;
   // Activate appropriate accordion item and scroll to it:
-  if (hash === 'research') {
+  if (hash.slice(0,3) === 'pub') {
     active = 0;
-  } else if (hash === 'cv') {
+  } else if (hash === 'cv' | hash === 'curriculum_vitae' | hash === 'vitae') {
     active = 1;
   }
   if (hash) {

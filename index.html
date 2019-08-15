@@ -4,37 +4,19 @@ layout: default
 
 <div class="content">
 
-
   <div id="description">
     {% include me.html %}
   </div>
 </div>
 
+<div id="accordion">
+  <h1 id="research" class="panel">Research</h1>
+  <div class="panel-content">
+    {% include loop_publications.html %}
+  </div>
+  <h1 id="cv" class="panel">CV</h1>
+  <div class="panel-content">
+    {% include cv.html %}
+  </div>
 
-
-<h1 class="accordion" id="research">Research</h1>
-<div class="panel">
-  {% include loop_publications.html %}
 </div>
-
-<h1 class="accordion"  id="cv">CV</h1>
-<div class="panel">
-  {% include cv.html %}
-</div>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
