@@ -7,10 +7,15 @@
       {% if pub.arxiv-id %}data-arxiv-id="{{ pub.arxiv-id }}"{% endif %}
       data-hide-no-mentions="true" data-hide-less-than="40" class="altmetric-embed" style="float:right;clear:both"></div>
 
-      {{ pub.authors }} ({% if pub.status %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}). {% if pub.doi %}
-      <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>. {% elsif pub.arxiv %}
-      <a href="{{ pub.arxiv }}">{{ pub.title }}</a>. {% elsif pub.pdf %}
-      <a href="{{ pub.pdf }}">{{ pub.title }}</a>. {% else %} {{ pub.title }}. {% endif %} {% if pub.journal %}<i>{{ pub.journal }}</i>. {% endif %} {% if pub.server %}<i>{{ pub.server }}</i>. {% endif %}{% if pub.doi %}<a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>.{% endif %} {% if pub.arxiv-id %}<a href="{{ pub.arxiv }}">{{ pub.arxiv-id }}</a>.{% endif %}
+      {{ pub.authors }} ({% if pub.status %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
+      <span class="title">{% if pub.doi %}
+      <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% elsif pub.arxiv %}
+      <a href="{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.pdf %}
+      <a href="{{ pub.pdf }}">{{ pub.title }}</a>{% else %} {{ pub.title }}
+      {% endif %}</span>.
+      {% if pub.journal %}<i>{{ pub.journal }}</i>.
+      {% elsif pub.server %}<i>{{ pub.server }}</i>. {% endif %}
+      {% if pub.doi %}<a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>.{% endif %} {% if pub.arxiv-id %}<a href="{{ pub.arxiv }}">{{ pub.arxiv-id }}</a>.{% endif %}
 
       <span class="small-icons">
 

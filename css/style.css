@@ -62,6 +62,10 @@ p a, li a {
   text-decoration-color: #aaa;
 }
 
+.title a{
+  font-weight: 300;
+}
+
 img#me {
   float: left;
   width: 35%;
