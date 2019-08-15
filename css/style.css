@@ -56,8 +56,10 @@ h1#top {
 
 div#description {}
 
-p a:link, li a:link {
+p a, li a {
   text-decoration: underline;
+  -webkit-text-decoration-color: red; /* Safari */
+  text-decoration-color: #aaa;
 }
 
 img#me {
