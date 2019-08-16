@@ -1,5 +1,6 @@
 - date: 2014-01-01
   type: journal
+  status: published
   authors: Cooper, R. P. & <b>Guest, O.</b>
   title: 'Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling'
   journal: Cognitive Systems Research
@@ -8,6 +9,7 @@
 
 - date: 2015-01-01
   type: journal
+  status: published
   authors: Love, B. C., Kopeć, Ł., & <b>Guest, O.</b>
   title: 'Optimism bias in fans and sports reporters'
   journal: PLoS ONE
@@ -17,6 +19,7 @@
 
 - date: 2016-09-01
   type: misc
+  status: published
   authors: <b>Guest, O.</b> & Rougier, N. P.
   title: 'Dialogue: What is Computational Reproducibility?'
   journal: IEEE CIS Newsletter on Cognitive and Developmental Systems
@@ -25,6 +28,7 @@
 
 - date: 2017-01-01
   type: journal
+  status: published
   authors:  <b>Guest, O.</b> & Love, B. C.
   title: 'What the success of brain imaging implies about the neural code'
   journal: eLife
@@ -39,6 +43,7 @@
 
 - date: 2016-09-09
   type: preprint
+  status: published
   authors:  <b>Guest, O.</b> & Love, B. C.
   title: 'What the success of brain imaging implies about the neural code'
   server: bioRxiv
@@ -51,6 +56,7 @@
 
 - date: 2017-12-18
   type: journal
+  status: published
   authors: Rougier, N. P. et al.
   title: 'Sustainable computational science: the ReScience initiative'
   journal: PeerJ Computer Science
@@ -63,6 +69,7 @@
 
 - date: 2017-12-18
   type: preprint
+  status: published
   authors: Rougier, N. P. et al.
   title: 'Sustainable computational science: the ReScience initiative'
   server: arXiv
@@ -74,6 +81,7 @@
 
 - date: 2019-05-04
   type: preprint
+  status: unpublished
   authors: <b>Guest, O.</b> & Love, B. C.
   title: 'Levels of representation in a deep learning model of categorization'
   biorxiv: https://www.biorxiv.org/content/10.1101/626374v1
@@ -84,6 +92,7 @@
 
 - date: 2019-08-13
   type: journal
+  status: published
   journal: Journal of Computational Social Science
   authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
   title: 'Gerrymandering and computational redistricting'
@@ -97,6 +106,7 @@
 
 - date: 2017-11-13
   type: preprint
+  status: published
   authors: <b>Guest, O.</b>, Kanayet, F. J., & Love, B. C.
   title: 'Gerrymandering and computational redistricting'
   arxiv: https://arxiv.org/abs/1711.04640

@@ -3,11 +3,15 @@
 {% assign preprints = pubs | where:"type","preprint" %}
 {% assign articles = pubs | where:"type","journal" %}
 
-<h2>Journal Articles</h2>
-{% include print_research.html pubs=articles %}
+<h2>Publications</h2>
+{% include print_research.html pubs=pubs %}
 
-<h2>Preprints</h2>
+<!-- <h2>Preprints</h2>
 {% include print_research.html pubs=preprints %}
+
+<h2>Journal Articles</h2>
+{% include print_research.html pubs=articles %} -->
+
 
 <h2>Selected Talks</h2>
 <ul class="item">

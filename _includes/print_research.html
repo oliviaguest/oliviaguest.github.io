@@ -1,5 +1,12 @@
 <ul class="item">
   {% for pub in include.pubs %}
+
+  {% if pub.status == 'published' %}
+    {% if pub.type == 'preprint' %}
+      {% continue %}
+    {% endif %}
+  {% endif %}
+
     <li class="item">
 
       <div data-badge-type="donut"
@@ -8,7 +15,7 @@
       data-hide-no-mentions="true" data-hide-less-than="40" class="altmetric-embed" style="float:right;clear:both"></div>
 
       {{ pub.authors }}
-      ({% if pub.status %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
+      ({% if pub.status == 'inpress' %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
       <span class="title">{% if pub.doi %}
       <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% elsif pub.arxiv %}
       <a href="{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.pdf %}
