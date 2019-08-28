@@ -14,6 +14,7 @@
       {% if pub.arxiv-id %}data-arxiv-id="{{ pub.arxiv-id }}"{% endif %}
       data-hide-no-mentions="true" data-hide-less-than="40" class="altmetric-embed" style="float:right;clear:both"></div>
 
+
       {{ pub.authors }}
       ({% if pub.status == 'inpress' %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
       <span class="title">{% if pub.doi %}
@@ -66,7 +67,10 @@
       {%if pub.pdf %}
         <a href="{{ pub.pdf }}" title="PDF"><i class="far fa-file-pdf"></i></a>
       {% endif %}
+
+
     </div>
+
     </li>
   {% endfor %}
 </ul>
