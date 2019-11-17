@@ -117,3 +117,14 @@
   github: redistrict
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
   website: http://redistrict.science
+
+- date: 2019-11-15
+  type: preprint
+  status: unpublished
+  authors: Botvinik-Nezer, R. et al.
+  title: 'Variability in the analysis of a single neuroimaging dataset by many teams'
+  bioRxiv: https://www.biorxiv.org/content/10.1101/843193v1
+  server: bioRxiv
+  pdf: https://www.biorxiv.org/content/biorxiv/early/2019/11/15/843193.full-text.pdf
+  website: http://narps.info
+  doi: https://doi.org/10.1101/843193
