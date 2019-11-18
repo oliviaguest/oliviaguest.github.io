@@ -100,7 +100,7 @@
   osf: 5fepu
   doi:  10.1007/s42001-019-00053-9
   pdf: https://link.springer.com/content/pdf/10.1007%2Fs42001-019-00053-9.pdf
-  github: redistrict
+  github: oliviaguest/redistrict
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
   website: http://redistrict.science
 
@@ -114,7 +114,7 @@
   osf: 5fepu
   server: arXiv
   pdf: https://link.springer.com/content/pdf/10.1007%2Fs42001-019-00053-9.pdf
-  github: redistrict
+  github: oliviaguest/redistrict
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
   website: http://redistrict.science
 
@@ -128,3 +128,4 @@
   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/11/15/843193.full-text.pdf
   website: http://narps.info
   doi: https://doi.org/10.1101/843193
+  github: poldrack/narps
