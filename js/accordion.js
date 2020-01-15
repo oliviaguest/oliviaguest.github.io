@@ -18,8 +18,10 @@ $(function() {
   // Activate appropriate accordion item and scroll to it:
   if (hash === 'research') {
     active = 0;
-  } else if (hash === 'cv') {
+  } else if (hash === 'code') {
     active = 1;
+  } else if (hash === 'cv') {
+      active = 2;
   }
   if (hash) {
     $('#accordion').accordion('option', 'active', active);
