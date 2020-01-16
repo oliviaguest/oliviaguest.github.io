@@ -31,10 +31,10 @@ My site is predominantly hosted on <a href="//pages.github.com/">github pages</a
 
 People who use my layout (in one form or another — in chronological order):
 
-<!--+ [Mojtaba Khodadadi](http://users.ictp.it/~mkhodada/)-->
-+ [Ramanujan T. Raghavan](http://rtraghavan.com/)
-+ [Elizabeth DuPre](https://emdupre.github.io/)
-+ [Raffaello Seri](https://raffaelloseri.github.io/)
-+ [Agnes Norbury](https://agnesnorbury.github.io)
-+ [Matthieu Boisgontier](https://matthieuboisgontier.com)
-+ [Mohammad Shahdloo](http://shahdloo.bilkent.edu.tr/)
+<!--+ [Mojtaba Khodadadi](//users.ictp.it/~mkhodada/)-->
++ [Ramanujan T. Raghavan](//rtraghavan.com/)
++ [Elizabeth DuPre](//emdupre.github.io/)
++ [Raffaello Seri](//raffaelloseri.github.io/)
++ [Agnes Norbury](//agnesnorbury.github.io)
++ [Matthieu Boisgontier](//matthieuboisgontier.com)
++ [Mohammad Shahdloo](//shahdloo.bilkent.edu.tr/)
