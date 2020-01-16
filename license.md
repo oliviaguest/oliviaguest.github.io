@@ -33,7 +33,7 @@ People who use my layout (in one form or another — in chronological order):
 
 <!--+ [Mojtaba Khodadadi](//users.ictp.it/~mkhodada/)-->
 + [Ramanujan T. Raghavan](//rtraghavan.com/)
-+ [Elizabeth DuPre](//emdupre.github.io/)
++ [Elizabeth DuPre](//elizabeth-dupre.com/)
 + [Raffaello Seri](//raffaelloseri.github.io/)
 + [Agnes Norbury](//agnesnorbury.github.io)
 + [Matthieu Boisgontier](//matthieuboisgontier.com)
