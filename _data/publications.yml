@@ -129,3 +129,14 @@
   website: http://narps.info
   doi: https://doi.org/10.1101/843193
   github: poldrack/narps
+
+
+- date: 2020-02-19
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b> & Andrea E. Martin
+  title: 'How computational modeling can force theory building in psychological science'
+  PsyArXiv: https://psyarxiv.com/rybh9/
+  server: PsyArXiv
+  pdf: https://psyarxiv.com/rybh9/download
+  doi: https://doi.org/10.31234/osf.io/rybh9
