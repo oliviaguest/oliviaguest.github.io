@@ -139,3 +139,14 @@
   server: PsyArXiv
   pdf: https://psyarxiv.com/rybh9/download
   doi: https://doi.org/10.31234/osf.io/rybh9
+
+
+- date: 2020-02-20
+  type: preprint
+  status: unpublished
+  authors: Bobadilla-Suarez, S., <b>Guest, O.</b>, & Love, B. C.
+  title: 'The neural link between subjective value and decision entropy'
+  bioRxiv: https://www.biorxiv.org/content/10.1101/2020.02.18.954362v1
+  server: bioRxiv
+  pdf: https://www.biorxiv.org/content/10.1101/2020.02.18.954362v1.full.pdf
+  doi: https://doi.org/10.1101/2020.02.18.954362
