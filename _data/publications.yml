@@ -127,7 +127,7 @@
   server: bioRxiv
   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/11/15/843193.full-text.pdf
   website: http://narps.info
-  doi: https://doi.org/10.1101/843193
+  doi: 10.1101/843193
   github: poldrack/narps
 
 - date: 2020-02-19
@@ -138,7 +138,7 @@
   PsyArXiv: https://psyarxiv.com/rybh9/
   server: PsyArXiv
   pdf: https://psyarxiv.com/rybh9/download
-  doi: https://doi.org/10.31234/osf.io/rybh9
+  doi: 10.31234/osf.io/rybh9
 
 
 - date: 2020-02-20
@@ -149,4 +149,4 @@
   bioRxiv: https://www.biorxiv.org/content/10.1101/2020.02.18.954362v1
   server: bioRxiv
   pdf: https://www.biorxiv.org/content/10.1101/2020.02.18.954362v1.full.pdf
-  doi: https://doi.org/10.1101/2020.02.18.954362
+  doi: 10.1101/2020.02.18.954362
