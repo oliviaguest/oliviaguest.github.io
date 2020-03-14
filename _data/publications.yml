@@ -133,7 +133,7 @@
 - date: 2020-02-19
   type: preprint
   status: unpublished
-  authors: <b>Guest, O.</b> & Andrea E. Martin
+  authors: <b>Guest, O.</b> & Martin, A. E.
   title: 'How computational modeling can force theory building in psychological science'
   PsyArXiv: https://psyarxiv.com/rybh9/
   server: PsyArXiv
@@ -144,7 +144,7 @@
 - date: 2020-02-20
   type: preprint
   status: unpublished
-  authors: Bobadilla-Suarez, S., <b>Guest, O.</b>, & Love, B. C.
+  authors: Bobadilla Suarez, S., <b>Guest, O.</b>, & Love, B. C.
   title: 'The neural link between subjective value and decision entropy'
   bioRxiv: https://www.biorxiv.org/content/10.1101/2020.02.18.954362v1
   server: bioRxiv
