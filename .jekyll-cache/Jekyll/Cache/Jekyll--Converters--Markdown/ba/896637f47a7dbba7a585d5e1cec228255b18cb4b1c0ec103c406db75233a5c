@@ -1,0 +1,29 @@
+I"<p>Below are some examples of code I have written — see my GitHub profile for an exhaustive listing of <a href="https://github.com/oliviaguest?utf8=%E2%9C%93&amp;tab=repositories&amp;q=&amp;type=source&amp;language=0">all my open source projects</a>:</p>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/oliviaguest/gini">Gini coefficient</a> in Python. As used in <a href="http://dx.doi.org/10.7554/eLife.21397">Guest and Love (2017)</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/oliviaguest/gini">(Re)district states</a> in C and Python.
+This is a unified codebase that draws district boundaries and compares them to existing ones — see <a href="http://dx.doi.org/10.1007/s42001-019-00053-9">Guest et al. (2019)</a>.
+It makes use of the following two libraries written by me:</p>
+
+    <ul>
+      <li>
+        <p><a href="https://github.com/oliviaguest/weighted_k_means">Weighted <em>k</em>-means</a> in Python.
+This is an algorithm developed by <a href="http://dx.doi.org/10.1007/s42001-019-00053-9">Guest et al. (2019)</a> to redistrict US states.</p>
+      </li>
+      <li>
+        <p><a href="https://github.com/oliviaguest/pdist">Pairwise weighted distances</a> between points for very big datasets in C. This is useful as basis to run things on massive data, e.g., in Python with pandas, without running out of RAM.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://github.com/oliviaguest/oliviaguest.github.io">Code for generating this website</a> and for <a href="https://github.com/lovebc/lovebc.github.io">generating bradlove.org</a> in Jekyll, HTML, CSS, and JavaScript — full front- and back-end by me, including layout design. These repositories include code for the automated listing of publications as seen above.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/lovelabUCL/dimensionality">Estimate the functional dimensionality of (neural) data</a> in Python (original code in MATLAB), described in <a href="https://doi.org/10.1016/j.neuroimage.2018.06.015">Ahlheim and Love, B.C. (2018)</a>.</p>
+  </li>
+</ul>
+:ET

@@ -150,3 +150,11 @@
   server: bioRxiv
   pdf: https://www.biorxiv.org/content/10.1101/2020.02.18.954362v1.full.pdf
   doi: 10.1101/2020.02.18.954362
+
+- date: 2020-04-15
+  type: journal
+  status: published
+  authors: <b>Guest, O.</b>, Caso, A., & Cooper, R. P.
+  title: 'On Simulating Neural Damage in Connectionist Networks'
+  doi: 10.1007/s42113-020-00081-z
+  journal: Computational Brain & Behavior
