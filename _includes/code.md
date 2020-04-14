@@ -9,7 +9,7 @@ Below are some examples of code I have written — see my GitHub profile for an 
   * [Weighted *k*-means](https://github.com/oliviaguest/weighted_k_means) in Python.
     This is an algorithm developed by [Guest et al. (2019)](http://dx.doi.org/10.1007/s42001-019-00053-9) to redistrict US states.
 
-  * [Pairwise weighted distances](https://github.com/oliviaguest/pdist) between points for very big datasets in C. This is useful as basis to run things on massive data, e.g., in Python with pandas, without running out of RAM.
+  * [Pairwise weighted distances](https://github.com/oliviaguest/pdist) between points for very big datasets in C. This is useful as a basis to run things on massive data, e.g., in Python with pandas, without running out of RAM.
 
 * [Code for generating this website](https://github.com/oliviaguest/oliviaguest.github.io) and for [generating bradlove.org](https://github.com/lovebc/lovebc.github.io) in Jekyll, HTML, CSS, and JavaScript — full front- and back-end by me, including layout design. These repositories include code for the automated listing of publications as seen above.
 
