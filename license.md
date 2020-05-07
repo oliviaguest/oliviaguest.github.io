@@ -38,3 +38,4 @@ People who use my layout (in one form or another — in chronological order):
 + [Agnes Norbury](//agnesnorbury.github.io)
 + [Matthieu Boisgontier](//matthieuboisgontier.com)
 + [Mohammad Shahdloo](//shahdloo.bilkent.edu.tr/)
++ [George Kampolis](//www.gkampolis.com)
