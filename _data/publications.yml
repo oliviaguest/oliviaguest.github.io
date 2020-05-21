@@ -66,7 +66,6 @@
   arxiv: https://arxiv.org/abs/1707.04393
   github: ReScience/ReScience-article-2
 
-
 - date: 2017-12-18
   type: preprint
   status: published
@@ -77,7 +76,6 @@
   link: https://arxiv.org/abs/1707.04393
   arxiv: https://arxiv.org/abs/1707.04393
   github: ReScience/ReScience-article-2
-
 
 - date: 2019-05-04
   type: preprint
@@ -142,7 +140,6 @@
   doi: 10.31234/osf.io/rybh9
   video: https://www.youtube.com/watch?v=_WV7EFvFAB8
 
-
 - date: 2020-02-20
   type: preprint
   status: unpublished
@@ -168,7 +165,6 @@
   title: 'Variability in the analysis of a single neuroimaging dataset by many teams'
   bioRxiv: https://www.biorxiv.org/content/10.1101/843193v1
   journal: Nature
-  server: bioRxiv
   pdf: https://www.nature.com/articles/s41586-020-2314-9.pdf
   website: http://narps.info
   doi: 10.1038/s41586-020-2314-9
