@@ -2,7 +2,7 @@ Below are some examples of code I have written — see my GitHub profile for an 
 
 * [Gini coefficient](https://github.com/oliviaguest/gini) in Python. As used in [Guest and Love (2017)](http://dx.doi.org/10.7554/eLife.21397).
 
-* [(Re)district states](https://github.com/oliviaguest/gini) in C and Python.
+* [(Re)district states](https://github.com/oliviaguest/redistrict) in C and Python.
   This is a unified codebase that draws district boundaries and compares them to existing ones — see [Guest et al. (2019)](http://dx.doi.org/10.1007/s42001-019-00053-9).
   It makes use of the following two libraries written by me:
 
@@ -13,4 +13,4 @@ Below are some examples of code I have written — see my GitHub profile for an 
 
 * [Code for generating this website](https://github.com/oliviaguest/oliviaguest.github.io) and for [generating bradlove.org](https://github.com/lovebc/lovebc.github.io) in Jekyll, HTML, CSS, and JavaScript — full front- and back-end by me, including layout design. These repositories include code for the automated listing of publications as seen above.
 
-* [Estimate the functional dimensionality of (neural) data](https://github.com/lovelabUCL/dimensionality) in Python (original code in MATLAB), described in [Ahlheim and Love, B.C. (2018)](https://doi.org/10.1016/j.neuroimage.2018.06.015).
+* [Estimate the functional dimensionality of (neural) data](https://github.com/lovelabUCL/dimensionality) in Python (original code in MATLAB), described in [Ahlheim and Love (2018)](https://doi.org/10.1016/j.neuroimage.2018.06.015).
