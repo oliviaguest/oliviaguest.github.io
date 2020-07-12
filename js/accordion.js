@@ -16,12 +16,16 @@ $(function() {
   console.log(hash);
   var active = false;
   // Activate appropriate accordion item and scroll to it:
-  if (hash === 'research') {
+  if (hash === 'talks') {
     active = 0;
-  } else if (hash === 'code') {
+    console.log(0);
+
+  } else if (hash.slice(0,3) === 'pub') {
     active = 1;
-  } else if (hash === 'cv') {
-      active = 2;
+  } else if (hash === 'code') {
+    active = 2;
+  } else if (hash === 'cv' | hash === 'curriculum_vitae' | hash === 'vitae') {
+    active = 3;
   }
   if (hash) {
     $('#accordion').accordion('option', 'active', active);
