@@ -40,7 +40,7 @@ html, * {
 }
 
 div#main {
-  max-width: 40rem;
+  max-width: 35rem;
 }
 
 h1, h1 a, h2, h3, h4, h5, h6 {
@@ -105,7 +105,7 @@ p.center {
 
 li.item {
   /* min-height: 90px; */
-  padding-bottom: 1rem;
+  padding-bottom: 1.75rem;
 }
 
 @media only screen and (max-width: 600px) {
