@@ -192,3 +192,11 @@
   title: "#bropenscience is broken science"
   pdf: https://thepsychologist.bps.org.uk/getfile/10906
   journal: The Psychologist
+
+- date: 2020-10-16
+  type: journal
+  status: published
+  authors:  Barlas, P., Kyriakou, K., <b>Guest, O.</b>, Kleanthous, S., & Otterbacher, J.
+  title: 'To "see" is to stereotype: image tagging algorithms, gender recognition, and the accuracy-fairness trade-off'
+  pdf: https://pinarbarlas.com/s/Barlas-et-al-2020-To-See-is-to-Stereotype-PREPRINT.pdf
+  journal: ACM Conference on Computer-Supported Cooperative Work and Social Computing
