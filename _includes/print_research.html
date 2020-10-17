@@ -18,7 +18,8 @@
       {{ pub.authors }}
       ({% if pub.status == 'inpress' %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
       <span class="title">{% if pub.doi %}
-      <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% elsif pub.arxiv %}
+      <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% elsif pub.url %}
+      <a href="{{ pub.url }}">{{ pub.title }}</a>{% elsif pub.arxiv %}
       <a href="{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.pdf %}
       <a href="{{ pub.pdf }}">{{ pub.title }}</a>{% else %} {{ pub.title }}
       {% endif %}</span>.
@@ -42,6 +43,10 @@
 
       {% if pub.doi %}
         <a href="//dx.doi.org/{{ pub.doi }}" title="DOI"><i class="ai ai-doi" aria-hidden="true"></i></a>
+      {% endif %}
+
+      {% if pub.zenodo %}
+        <a href="{{ pub.zenodo }}" title="Zenodo"><i class="ai ai-doi" aria-hidden="true"></i></a>
       {% endif %}
 
       {% if pub.figshare %}

@@ -70,7 +70,9 @@ p a, li a {
 }
 
 .small-icons {
-  display: inline-block;
+  display: block;
+  font-size: 1.2rem;
+
 }
 
 img#me {

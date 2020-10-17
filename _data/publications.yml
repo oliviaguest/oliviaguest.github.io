@@ -190,8 +190,10 @@
   status: published
   authors: Whitaker, K. J. & <b>Guest, O.</b>
   title: "#bropenscience is broken science"
+  url: https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science
   pdf: https://thepsychologist.bps.org.uk/getfile/10906
   journal: The Psychologist
+  zenodo: https://doi.org/10.5281/zenodo.4099011
 
 - date: 2020-10-16
   type: journal
