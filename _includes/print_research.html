@@ -18,15 +18,15 @@
       {{ pub.authors }}
       ({% if pub.status == 'inpress' %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
       <span class="title">{% if pub.doi %}
-      <a href="//dx.doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% elsif pub.url %}
+      <a href="//doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% elsif pub.url %}
       <a href="{{ pub.url }}">{{ pub.title }}</a>{% elsif pub.arxiv %}
       <a href="{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.pdf %}
       <a href="{{ pub.pdf }}">{{ pub.title }}</a>{% else %} {{ pub.title }}
       {% endif %}</span>.
       {% if pub.journal %}<i>{{ pub.journal }}</i>.
       {% elsif pub.server %}<i>{{ pub.server }}</i>. {% endif %}
-      {% if pub.doi %}<a href="//dx.doi.org/{{ pub.doi }}">{{ pub.doi }}</a>.{% endif %}
-      {% if pub.arxiv-id %}<a href="{{ pub.arxiv }}">{{ pub.arxiv-id }}</a>.{% endif %}
+
+      {% if pub.doi %}<a href="//doi.org/{{ pub.doi }}" style="display: block;">https://doi.org/{{ pub.doi }}</a>{% endif %}
 
       <div class="small-icons">
       {% if pub.arxiv %}
@@ -42,7 +42,7 @@
       {% endif %}
 
       {% if pub.doi %}
-        <a href="//dx.doi.org/{{ pub.doi }}" title="DOI"><i class="ai ai-doi" aria-hidden="true"></i></a>
+        <a href="//doi.org/{{ pub.doi }}" title="DOI"><i class="ai ai-doi" aria-hidden="true"></i></a>
       {% endif %}
 
       {% if pub.zenodo %}
