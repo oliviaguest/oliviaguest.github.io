@@ -18,10 +18,10 @@
       {{ pub.authors }}
       ({% if pub.status == 'inpress' %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).
       <span class="title">{% if pub.doi %}
-      <a href="//doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% elsif pub.url %}
-      <a href="{{ pub.url }}">{{ pub.title }}</a>{% elsif pub.arxiv %}
-      <a href="{{ pub.arxiv }}">{{ pub.title }}</a>{% elsif pub.pdf %}
-      <a href="{{ pub.pdf }}">{{ pub.title }}</a>{% else %} {{ pub.title }}
+      <a href="//doi.org/{{ pub.doi }}">{{ pub.title | capitalize}}</a>{% elsif pub.url %}
+      <a href="{{ pub.url }}">{{ pub.title | capitalize}}</a>{% elsif pub.arxiv %}
+      <a href="{{ pub.arxiv }}">{{ pub.title | capitalize}}</a>{% elsif pub.pdf %}
+      <a href="{{ pub.pdf }}">{{ pub.title | capitalize}}</a>{% else %} {{ pub.title }}
       {% endif %}</span>.
       {% if pub.journal %}<i>{{ pub.journal }}</i>.
       {% elsif pub.server %}<i>{{ pub.server }}</i>. {% endif %}
