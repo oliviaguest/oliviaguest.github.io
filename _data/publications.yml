@@ -142,16 +142,6 @@
   video: https://www.youtube.com/watch?v=_WV7EFvFAB8
   figshare: 'articles/How_computational_modeling_can_force_theory_building_in_psychological_science/12600815'
 
-- date: 2020-02-20
-  type: preprint
-  status: unpublished
-  authors: Bobadilla Suarez, S., <b>Guest, O.</b>, & Love, B. C.
-  title: 'Subjective value and decision entropy are jointly encoded by aligned gradients across the human brain'
-  bioRxiv: https://doi.org/10.1101/2020.02.18.954362
-  server: bioRxiv
-  pdf: https://www.biorxiv.org/content/10.1101/2020.02.18.954362v4.full.pdf
-  doi: 10.1101/2020.02.18.954362
-
 - date: 2020-07-01
   type: journal
   status: published
@@ -201,3 +191,14 @@
   title: 'To "see" is to stereotype: image tagging algorithms, gender recognition, and the accuracy-fairness trade-off'
   pdf: https://pinarbarlas.com/s/Barlas-et-al-2020-To-See-is-to-Stereotype-PREPRINT.pdf
   journal: 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2020)
+
+- date: 2020-10-21
+  type: journal
+  status: published
+  authors: Bobadilla Suarez, S., <b>Guest, O.</b>, & Love, B. C.
+  title: 'Subjective value and decision entropy are jointly encoded by aligned gradients across the human brain'
+  bioRxiv: https://doi.org/10.1101/2020.02.18.954362
+  server: bioRxiv
+  journal: Communications Biology
+  pdf: https://www.nature.com/articles/s42003-020-01315-3.pdf
+  doi: 10.1038/s42003-020-01315-3
