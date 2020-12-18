@@ -2,10 +2,13 @@
 
 body {
   overflow-y: scroll;
+
 }
 
 html {
   font-family: 'Inter', sans-serif;
+  cursor: crosshair;
+
 }
 
 @supports (font-variation-settings: normal) {
@@ -93,6 +96,7 @@ img:hover {
   /* Safari 6.0 - 9.0 */
   filter: none;
 }
+
 
 a:hover, p a:hover, li a:hover, footer a:hover, .panel:hover {
   color: gray;
