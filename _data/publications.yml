@@ -152,16 +152,6 @@
   doi: 10.1038/s41586-020-2314-9
   github: poldrack/narps
 
-- date: 2020-10-01
-  type: preprint
-  status: unpublished
-  authors: Birhane, A. & <b>Guest, O.</b>
-  title: 'Towards decolonising computational sciences'
-  arxiv: https://arxiv.org/abs/2009.14258
-  arxiv-id: '2009.14258'
-  pdf: https://arxiv.org/pdf/2009.14258
-  server: arXiv
-
 - date: 2020-10-13
   type: magazine
   status: published
@@ -203,3 +193,15 @@
   doi: 10.1177/1745691620970585
   video: https://www.youtube.com/watch?v=_WV7EFvFAB8
   figshare: 'articles/How_computational_modeling_can_force_theory_building_in_psychological_science/12600815'
+
+- date: 2021-09-02
+  type: journal
+  status: published
+  authors: Birhane, A. & <b>Guest, O.</b>
+  title: 'Towards Decolonising Computational Sciences'
+  arxiv: https://arxiv.org/abs/2009.14258
+  arxiv-id: '2009.14258'
+  journal: 'Women, Gender & Research'
+  doi: 10.7146/kkf.v29i2.124899
+  pdf: https://arxiv.org/pdf/2009.14258
+  server: arXiv
