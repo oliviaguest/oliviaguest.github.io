@@ -162,14 +162,6 @@
   journal: The Psychologist
   zenodo: https://doi.org/10.5281/zenodo.4099011
 
-- date: 2020-10-16
-  type: journal
-  status: published
-  authors:  Barlas, P., Kyriakou, K., <b>Guest, O.</b>, Kleanthous, S., & Otterbacher, J.
-  title: 'To "see" is to stereotype: image tagging algorithms, gender recognition, and the accuracy-fairness trade-off'
-  pdf: https://pinarbarlas.com/s/Barlas-et-al-2020-To-See-is-to-Stereotype-PREPRINT.pdf
-  journal: 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2020)
-
 - date: 2020-10-21
   type: journal
   status: published
@@ -180,6 +172,15 @@
   journal: Communications Biology
   pdf: https://www.nature.com/articles/s42003-020-01315-3.pdf
   doi: 10.1038/s42003-020-01315-3
+
+- date: 2021-01-01
+  type: journal
+  status: published
+  authors:  Barlas, P., Kyriakou, K., <b>Guest, O.</b>, Kleanthous, S., & Otterbacher, J.
+  title: 'To "See" is to Stereotype: Image Tagging Algorithms, Gender Recognition, and the Accuracy-Fairness Trade-off'
+  pdf: /doc/barlas_et_al_21.pdf
+  journal: Proceedings of the ACM on Human-Computer Interaction
+  doi: 10.1145/3432931
 
 - date: 2021-01-22
   type: journal
