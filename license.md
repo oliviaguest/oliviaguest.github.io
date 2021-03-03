@@ -31,12 +31,12 @@ My site is predominantly hosted on <a href="//pages.github.com/">github pages</a
 
 People who use my layout (in one form or another — in chronological order):
 
-<!--+ [Mojtaba Khodadadi](//users.ictp.it/~mkhodada/) -->
-+ [George Kampolis](//www.gkampolis.com)
+<!--+ [Mojtaba Khodadadi](//users.ictp.it/~mkhodada/) 
++ [George Kampolis](//www.gkampolis.com) -->
 + [Ramanujan T. Raghavan](http://rtraghavan.com/)
 + [Elizabeth DuPre](//elizabeth-dupre.com/)
 <!--+ [Raffaello Seri](//rseri.me/) -->
 + [Agnes Norbury](//agnesnorbury.github.io)
-+ [Matthieu Boisgontier](//matthieuboisgontier.com)
-+ [Mohammad Shahdloo](//shahdloo.bilkent.edu.tr/)
++ [Matthieu Boisgontier](http://matthieuboisgontier.com)
++ [Mohammad Shahdloo](http://shahdloo.bilkent.edu.tr/)
 + [Abeba Birhane](//abebabirhane.github.io/)
