@@ -37,6 +37,6 @@ People who use my layout (in one form or another — in chronological order):
 + [Elizabeth DuPre](//elizabeth-dupre.com/)
 <!--+ [Raffaello Seri](//rseri.me/) -->
 + [Agnes Norbury](//agnesnorbury.github.io)
-+ [Matthieu Boisgontier](http://matthieuboisgontier.com)
-+ [Mohammad Shahdloo](http://shahdloo.bilkent.edu.tr/)
-+ [Abeba Birhane](https://abebabirhane.github.io/)
++ [Matthieu Boisgontier](//matthieuboisgontier.com)
++ [Mohammad Shahdloo](//shahdloo.bilkent.edu.tr/)
++ [Abeba Birhane](//abebabirhane.github.io/)
