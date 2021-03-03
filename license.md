@@ -34,8 +34,7 @@ People who use my layout (in one form or another — in chronological order):
 <!--+ [Mojtaba Khodadadi](//users.ictp.it/~mkhodada/) 
 + [George Kampolis](//www.gkampolis.com) -->
 + [Ramanujan T. Raghavan](http://rtraghavan.com/)
-+ [Elizabeth DuPre](//elizabeth-dupre.com/)
-<!--+ [Raffaello Seri](//rseri.me/) -->
++ [Elizabeth DuPre](//elizabeth-dupre.com/)<!--+ [Raffaello Seri](//rseri.me/) -->
 + [Agnes Norbury](//agnesnorbury.github.io)
 + [Matthieu Boisgontier](http://matthieuboisgontier.com)
 + [Mohammad Shahdloo](http://shahdloo.bilkent.edu.tr/)
