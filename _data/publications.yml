@@ -195,7 +195,7 @@
   video: https://www.youtube.com/watch?v=_WV7EFvFAB8
   figshare: 'articles/How_computational_modeling_can_force_theory_building_in_psychological_science/12600815'
 
-- date: 2021-09-02
+- date: 2021-02-09
   type: journal
   status: published
   authors: Birhane, A. & <b>Guest, O.</b>
@@ -206,3 +206,14 @@
   doi: 10.7146/kkf.v29i2.124899
   pdf: https://arxiv.org/pdf/2009.14258
   server: arXiv
+
+
+
+- date: 2021-03-24
+  type: preprint
+  status: unpublished
+  authors: Levitis, E. et al.
+  title: 'Centering inclusivity in the design of online conferences'
+  doi: 10.31234/osf.io/vj5tu
+  pdf: https://psyarxiv.com/vj5tu/download
+  server: PsyArXiv
