@@ -177,3 +177,10 @@ footer ul {
   font-size: 2rem;
   /* padding-top: 0.5rem; */
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
