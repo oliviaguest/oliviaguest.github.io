@@ -207,13 +207,13 @@
   pdf: https://arxiv.org/pdf/2009.14258
   server: arXiv
 
-
-
 - date: 2021-03-24
-  type: preprint
-  status: unpublished
+  type: journal
+  status: published
   authors: Levitis, E. et al.
-  title: 'Centering inclusivity in the design of online conferences'
-  doi: 10.31234/osf.io/vj5tu
-  pdf: https://psyarxiv.com/vj5tu/download
+  title: 'Centering inclusivity in the design of online conferences—An OHBM–Open Science perspective'
+  doi: 10.1093/gigascience/giab051
+  PsyArXiv: https://psyarxiv.com/vj5tu/
+  pdf: https://academic.oup.com/gigascience/article-pdf/10/8/giab051/39810945/giab051.pdf
+  journal: Gigascience
   server: PsyArXiv
