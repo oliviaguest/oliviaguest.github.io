@@ -217,3 +217,25 @@
   pdf: https://academic.oup.com/gigascience/article-pdf/10/8/giab051/39810945/giab051.pdf
   journal: Gigascience
   server: PsyArXiv
+
+
+- date: 2021-10-05
+  type: preprint
+  status: unpublished
+  authors: Forbes, S. H., Aneja, P., & <b>Guest, O.</b>
+  title: 'The Myth of (A)typical Development'
+  doi: 10.31234/osf.io/ajynp
+  PsyArXiv: https://psyarxiv.com/ajynp
+  pdf: https://psyarxiv.com/ajynp/download
+  server: PsyArXiv
+
+
+- date: 2021-10-06
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b> & Martin, A. E.
+  title: 'On logical inference over brains, behaviour, and artificial neural networks'
+  doi: 10.31234/osf.io/tbmcg
+  PsyArXiv: https://psyarxiv.com/tbmcg
+  pdf: https://psyarxiv.com/tbmcg/download
+  server: PsyArXiv
