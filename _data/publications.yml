@@ -7,6 +7,16 @@
   doi: 10.1016/j.cogsys.2013.05.001
   pdf: /doc/cooper_14.pdf
 
+- date: 2016-06-13
+  type: journal
+  status: published
+  authors: <b>Guest, O.</b>
+  title: 'Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling'
+  journal: The Winnower
+  doi: 10.15200/winn.146590.01538
+  pdf: https://winnower-production.s3.amazonaws.com/papers/4825/v2/pdf/4825-crisis-in-what-exactly.pdf
+
+
 - date: 2015-01-01
   type: journal
   status: published
