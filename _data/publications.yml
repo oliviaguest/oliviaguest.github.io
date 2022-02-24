@@ -16,7 +16,6 @@
   doi: 10.15200/winn.146590.01538
   pdf: https://winnower-production.s3.amazonaws.com/papers/4825/v2/pdf/4825-crisis-in-what-exactly.pdf
 
-
 - date: 2015-01-01
   type: journal
   status: published
@@ -26,7 +25,7 @@
   doi: 10.1371/journal.pone.0137685
   pdf: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF
   osf: 3xrfa
-  
+
 - date: 2016-06-13
   type: journal
   status: published
@@ -237,7 +236,6 @@
   journal: Gigascience
   server: PsyArXiv
 
-
 - date: 2021-10-05
   type: preprint
   status: unpublished
@@ -248,7 +246,6 @@
   pdf: https://psyarxiv.com/ajynp/download
   server: PsyArXiv
 
-
 - date: 2021-10-06
   type: preprint
   status: unpublished
@@ -258,3 +255,13 @@
   PsyArXiv: https://psyarxiv.com/tbmcg
   pdf: https://psyarxiv.com/tbmcg/download
   server: PsyArXiv
+
+- date: 2022-02-17
+  type: preprint
+  status: unpublished
+  authors: Spanton, R. W. & <b>Guest, O.</b>
+  title: 'Measuring Trustworthiness or Automating Physiognomy? A Comment on Safra, Chevallier, Grèzes, and Baumard (2020)'
+  doi: 10.48550/arXiv.2202.08674
+  pdf: https://arxiv.org/pdf/2202.08674
+  arxiv: https://arxiv.org/abs/2202.08674
+  server: arXiv
