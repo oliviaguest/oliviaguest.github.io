@@ -11,7 +11,7 @@
   type: journal
   status: published
   authors: <b>Guest, O.</b>
-  title: 'Implementations are not specifications: specification, replication and experimentation in computational cognitive modeling'
+  title: 'Crisis in What Exactly?'
   journal: The Winnower
   doi: 10.15200/winn.146590.01538
   pdf: https://winnower-production.s3.amazonaws.com/papers/4825/v2/pdf/4825-crisis-in-what-exactly.pdf
@@ -25,15 +25,6 @@
   doi: 10.1371/journal.pone.0137685
   pdf: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF
   osf: 3xrfa
-
-- date: 2016-06-13
-  type: journal
-  status: published
-  authors: <b>Guest, O.</b>
-  title: 'Crisis in What Exactly?'
-  journal: The Winnower
-  doi: 10.15200/winn.146590.01538
-  pdf: https://winnower-production.s3.amazonaws.com/papers/4825/v2/pdf/4825-crisis-in-what-exactly.pdf
 
 - date: 2016-09-01
   type: misc
@@ -240,7 +231,7 @@
   type: preprint
   status: unpublished
   authors: Forbes, S. H., Aneja, P., & <b>Guest, O.</b>
-  title: 'The Myth of (A)typical Development'
+  title: 'The Myth of Normative Development'
   doi: 10.31234/osf.io/ajynp
   PsyArXiv: https://psyarxiv.com/ajynp
   pdf: https://psyarxiv.com/ajynp/download
