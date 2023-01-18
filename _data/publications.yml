@@ -256,3 +256,13 @@
   pdf: https://arxiv.org/pdf/2202.08674
   arxiv: https://arxiv.org/abs/2202.08674
   server: arXiv
+
+- date: 2022-12-23
+  type: journal
+  status: published
+  authors: Forbes, S. H., Aneja, P., & <b>Guest, O.</b>
+  title: 'The Myth of Normative Development'
+  doi: 10.1002/icd.2393
+  PsyArXiv: https://psyarxiv.com/ajynp
+  pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1002/icd.2393
+  server: PsyArXiv
