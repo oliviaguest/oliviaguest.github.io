@@ -184,3 +184,8 @@ footer ul {
   margin-right: auto;
   width: 50%;
 }
+
+mark {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
