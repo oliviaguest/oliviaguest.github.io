@@ -268,3 +268,13 @@
   journal: Infant and Child Development
   server: PsyArXiv
   tag: (m)t
+
+- date: 2023-02-11
+  type: preprint
+  status: unpublished
+  authors: Erscoi, L., Kleinherenbrink, A., & <b>Guest, O.</b>
+  title: 'Pygmalion Displacement: When Humanising AI Dehumanises Women'
+  doi: 10.31235/osf.io/jqxb6
+  SocArXiv: https://osf.io/preprints/socarxiv/jqxb6
+  pdf: https://osf.io/preprints/socarxiv/jqxb6/download
+  server: SocArXiv
