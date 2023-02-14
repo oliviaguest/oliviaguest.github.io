@@ -237,16 +237,6 @@
   pdf: https://psyarxiv.com/ajynp/download
   server: PsyArXiv
 
-- date: 2021-10-06
-  type: preprint
-  status: unpublished
-  authors: <b>Guest, O.</b> & Martin, A. E.
-  title: 'On logical inference over brains, behaviour, and artificial neural networks'
-  doi: 10.31234/osf.io/tbmcg
-  PsyArXiv: https://psyarxiv.com/tbmcg
-  pdf: https://psyarxiv.com/tbmcg/download
-  server: PsyArXiv
-
 - date: 2022-02-17
   type: preprint
   status: unpublished
@@ -278,3 +268,15 @@
   SocArXiv: https://osf.io/preprints/socarxiv/jqxb6
   pdf: https://osf.io/preprints/socarxiv/jqxb6/download
   server: SocArXiv
+  tags: critical
+
+- date: 2023-02-13 
+  type: journal
+  status: published
+  authors: <b>Guest, O.</b> & Martin, A. E.
+  title: 'On Logical Inference over Brains, Behaviour, and Artificial Neural Networks'
+  doi: 10.1007/s42113-022-00166-x
+  PsyArXiv: https://psyarxiv.com/tbmcg
+  pdf: https://link.springer.com/content/pdf/10.1007/s42113-022-00166-x.pdf
+  server: PsyArXiv
+  journal: Computational Brain & Behavior
