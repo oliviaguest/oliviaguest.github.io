@@ -280,3 +280,13 @@
   pdf: https://link.springer.com/content/pdf/10.1007/s42113-022-00166-x.pdf
   server: PsyArXiv
   journal: Computational Brain & Behavior
+
+- date: 2023-03-29 
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b>
+  title: 'What makes a good theory, and how do we make a theory good?'
+  doi: 10.31234/osf.io/8fxds
+  PsyArXiv: https://psyarxiv.com/8fxds
+  pdf: https://psyarxiv.com/8fxds/download
+  server: PsyArXiv
