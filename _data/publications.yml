@@ -6,6 +6,7 @@
   journal: Cognitive Systems Research
   doi: 10.1016/j.cogsys.2013.05.001
   pdf: /doc/cooper_14.pdf
+  selected: 1
 
 - date: 2016-06-13
   type: journal
@@ -15,6 +16,7 @@
   journal: The Winnower
   doi: 10.15200/winn.146590.01538
   pdf: https://winnower-production.s3.amazonaws.com/papers/4825/v2/pdf/4825-crisis-in-what-exactly.pdf
+  selected: 0
 
 - date: 2015-01-01
   type: journal
@@ -24,6 +26,7 @@
   journal: PLoS ONE
   doi: 10.1371/journal.pone.0137685
   pdf: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF
+  selected: 0
   osf: 3xrfa
 
 - date: 2016-09-01
@@ -34,6 +37,7 @@
   journal: IEEE CIS Newsletter on Cognitive and Developmental Systems
   pdf: https://openlab-flowers.inria.fr/uploads/default/original/1X/65addc14bb2a6a7feaf7690865fa3708d5b0990f.pdf
   github: oliviaguest/what-is-computational-reproducibility
+  selected: 1
 
 - date: 2017-01-01
   type: journal
@@ -49,6 +53,7 @@
   osf: v8baz
   github: oliviaguest/brain-imaging-and-the-neural-code
   figshare: 'articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_Code/4252022'
+  selected: 0
 
 - date: 2016-09-09
   type: preprint
@@ -62,6 +67,7 @@
   osf: v8baz
   github: oliviaguest/brain-imaging-and-the-neural-code
   figshare: 'articles/What_the_Success_of_Brain_Imaging_Implies_about_the_Neural_Code/4252022'
+  selected: 0
 
 - date: 2017-12-18
   type: journal
@@ -74,6 +80,7 @@
   link: https://peerj.com/articles/cs-142/
   arxiv: https://arxiv.org/abs/1707.04393
   github: ReScience/ReScience-article-2
+  selected: 0
 
 - date: 2017-12-18
   type: preprint
@@ -85,6 +92,7 @@
   link: https://arxiv.org/abs/1707.04393
   arxiv: https://arxiv.org/abs/1707.04393
   github: ReScience/ReScience-article-2
+  selected: 0
 
 - date: 2019-05-04
   type: preprint
@@ -97,6 +105,7 @@
   osf: jxavn
   github: oliviaguest/levels-of-representation-in-a-deep-learning-model-of-categorization
   pdf: https://www.biorxiv.org/content/10.1101/626374v1.full.pdf
+  selected: 0
 
 - date: 2019-08-13
   type: journal
@@ -112,6 +121,7 @@
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
   website: http://redistrict.science
   video: https://www.youtube.com/watch?v=UDqLJovk9ek
+  selected: 0
 
 - date: 2017-11-13
   type: preprint
@@ -126,6 +136,7 @@
   github: oliviaguest/redistrict
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
   website: http://redistrict.science
+  selected: 0
 
 - date: 2019-11-15
   type: preprint
@@ -138,6 +149,7 @@
   website: http://narps.info
   doi: 10.1101/843193
   github: poldrack/narps
+  selected: 0
 
 - date: 2020-07-01
   type: journal
@@ -148,6 +160,7 @@
   pdf: https://link.springer.com/content/pdf/10.1007/s42113-020-00081-z.pdf
   journal: Computational Brain & Behavior
   github: oliviaguest/simulating-damage-in-networks
+  selected: 1
 
 - date: 2020-05-20
   type: journal
@@ -160,6 +173,7 @@
   website: http://narps.info
   doi: 10.1038/s41586-020-2314-9
   github: poldrack/narps
+  selected: 0
 
 - date: 2020-10-13
   type: magazine
@@ -170,6 +184,7 @@
   pdf: https://thepsychologist.bps.org.uk/getfile/10906
   journal: The Psychologist
   zenodo: https://doi.org/10.5281/zenodo.4099011
+  selected: 1
 
 - date: 2020-10-21
   type: journal
@@ -181,6 +196,7 @@
   journal: Communications Biology
   pdf: https://www.nature.com/articles/s42003-020-01315-3.pdf
   doi: 10.1038/s42003-020-01315-3
+  selected: 0
 
 - date: 2021-01-01
   type: journal
@@ -190,6 +206,7 @@
   pdf: /doc/barlas_et_al_21.pdf
   journal: Proceedings of the ACM on Human-Computer Interaction
   doi: 10.1145/3432931
+  selected: 1
 
 - date: 2021-01-22
   type: journal
@@ -203,6 +220,7 @@
   doi: 10.1177/1745691620970585
   video: https://www.youtube.com/watch?v=_WV7EFvFAB8
   figshare: 'articles/How_computational_modeling_can_force_theory_building_in_psychological_science/12600815'
+  selected: 1
 
 - date: 2021-02-09
   type: journal
@@ -215,6 +233,7 @@
   doi: 10.7146/kkf.v29i2.124899
   pdf: https://arxiv.org/pdf/2009.14258
   server: arXiv
+  selected: 1
 
 - date: 2021-03-24
   type: journal
@@ -226,6 +245,7 @@
   pdf: https://academic.oup.com/gigascience/article-pdf/10/8/giab051/39810945/giab051.pdf
   journal: Gigascience
   server: PsyArXiv
+  selected: 0
 
 - date: 2021-10-05
   type: preprint
@@ -236,6 +256,7 @@
   PsyArXiv: https://psyarxiv.com/ajynp
   pdf: https://psyarxiv.com/ajynp/download
   server: PsyArXiv
+  selected: 1
 
 - date: 2022-02-17
   type: preprint
@@ -246,6 +267,7 @@
   pdf: https://arxiv.org/pdf/2202.08674
   arxiv: https://arxiv.org/abs/2202.08674
   server: arXiv
+  selected: 1
 
 - date: 2022-12-23
   type: journal
@@ -258,6 +280,7 @@
   journal: Infant and Child Development
   server: PsyArXiv
   tag: (m)t
+  selected: 1
 
 - date: 2023-02-11
   type: preprint
@@ -269,6 +292,7 @@
   pdf: https://osf.io/preprints/socarxiv/jqxb6/download
   server: SocArXiv
   tags: critical
+  selected: 1
 
 - date: 2023-02-13 
   type: journal
@@ -280,6 +304,7 @@
   pdf: https://link.springer.com/content/pdf/10.1007/s42113-022-00166-x.pdf
   server: PsyArXiv
   journal: Computational Brain & Behavior
+  selected: 1
 
 - date: 2023-03-29 
   type: preprint
@@ -291,4 +316,4 @@
   pdf: https://psyarxiv.com/8fxds/download
   server: PsyArXiv
   video: https://www.youtube.com/watch?v=67X0TpnQeO0
-
+  selected: 1

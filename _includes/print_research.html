@@ -1,5 +1,9 @@
 <ul class="item">
   {% for pub in include.pubs %}
+  {% if pub.selected == 0 %}
+    {% continue %}
+  {% endif %}
+
 
   {% if pub.status == 'published' %}
     {% if pub.type == 'preprint' %}
