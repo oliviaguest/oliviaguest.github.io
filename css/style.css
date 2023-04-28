@@ -127,7 +127,7 @@ li.item {
 }
 
 ul.item {
-  list-style-type: square;
+  list-style-type: none;
 }
 
 .accordion {
