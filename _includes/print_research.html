@@ -30,7 +30,7 @@
       {% if pub.journal %}<i>{{ pub.journal }}</i>.
       {% elsif pub.server %}<i>{{ pub.server }}</i>. {% endif %}
 
-      {% if pub.doi %}<a href="//doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
+      {% if pub.doi %}<a href="//doi.org/{{ pub.doi }}">https://doi.org/{{ pub.doi }}</a>
       {% elsif pub.zenodo %}<a href="{{ pub.zenodo }}">{{ pub.zenodo }}</a>{% endif %}
 
 
