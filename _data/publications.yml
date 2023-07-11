@@ -346,3 +346,17 @@
   tags: 
     - meta
     - crit
+
+- date: 2023-07-09 
+  type: preprint
+  status: unpublished
+  authors: van der Gun, L. & <b>Guest, O.</b>
+  title: 'Artificial Intelligence: Panacea or Non-intentional Dehumanisation?'
+  doi: 10.31235/osf.io/rh4fw
+  PsyArXiv: https://osf.io/preprints/socarxiv/rh4fw
+  pdf: https://osf.io/preprints/socarxiv/rh4fw/download
+  server: SocArXiv
+  selected: 1
+  tags: 
+    - meta
+    - crit
