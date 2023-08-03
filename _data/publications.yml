@@ -360,3 +360,16 @@
   tags: 
     - meta
     - crit
+
+- date: 2023-08-01 
+  type: preprint
+  status: unpublished
+  authors: van Rooij, I., <b>Guest, O.</b>, Adolfi, F. G., de Haan, R., Kolokolova, A., & Rich, P.
+  title: 'Reclaiming AI as a theoretical tool for cognitive science'
+  doi: 10.31234/osf.io/4cbuv
+  PsyArXiv: https://psyarxiv.com/4cbuv
+  pdf: https://psyarxiv.com/4cbuv/download
+  selected: 1
+  tags: 
+    - meta
+    - crit
