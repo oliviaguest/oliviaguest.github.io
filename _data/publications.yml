@@ -374,3 +374,15 @@
   tags: 
     - meta
     - crit
+
+- date: 2023-09-28 
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b> & Forbes, S. H. 
+  title: 'Teaching coding inclusively: if this, then what?'
+  doi: 10.31235/osf.io/3r2ez
+  PsyArXiv: https://osf.io/preprints/socarxiv/3r2ez/
+  server: SocArXiv
+  pdf: https://osf.io/preprints/socarxiv/3r2ez/download
+  selected: 1
+  
