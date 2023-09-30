@@ -1,81 +1,19 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: default
+title:  Olivia Guest
 ---
 
-<div class="content">
+{% include header.html %}
 
-  <div id="description">
-    {% include me.html %}
-  </div>
-</div>
+{% include me.html %}
 
-<div id="accordion">
-  <!-- <h1 id="talks" class="panel">Talks</h1>
-  <div class="panel-content">
-    <ul class="item">
-        <li class="item"><p>Below is a talk on:
-          <em><a href="http://dx.doi.org/10.31234/osf.io/rybh9">How computational modelling can force theory building in psychological science</a></em>.
-          More videos of <a href="https://www.youtube.com/channel/UCr1oZGQ5f6tP5wEKUF7SLNw/playlists">my talks can be found on YouTube</a>.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/IhlF0B_IQJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </li>
+{% include biography.html %}
 
-    </ul>
-    <h2>Other selected talks</h2>
-    <ul class="item">
-      <li class="item"><b>Guest, O.</b> (2018).
-        <span class="title"><a href="https://figshare.com/articles/Women_and_gender_minorities_in_computational_cognitive_science_Sharing_experiences/6871610">Women and gender minorities in computational cognitive science: Sharing experiences</a></span>.
-        <em><a href="http://womenincogsci.org/announcement/wics-workshop-cognitive-science-society-meeting-madison-wisconsin">Women in Cognitive Science</a> (<a href="http://www.cognitivesciencesociety.org/conference/cogsci-2018/">Cognitive Science Conference 2018</a>)</em>.
-        <div class="small-icons"><a href="https://figshare.com/articles/Women_and_gender_minorities_in_computational_cognitive_science_Sharing_experiences/6871610"><i class="ai ai-figshare" aria-hidden="true"></i></a></div>
-      </li>
+{% include mentoring.html %}
 
-      <li class="item"><b>Guest, O.</b> (2018).
-        <span class="title"><a href="https://figshare.com/articles/Varieties_of_Reproducibility_in_Empirical_and_Computational_Domains/6818018">Varieties of Reproducibility in Empirical and Computational Domains</a></span>.
-        <em><a href="https://mltrain.cc/events/enabling-reproducibility-in-machine-learning-mltrainrml-icml-2018/">Enabling Reproducibility in Machine Learning MLTRAIN@RML</a> (<a href="https://icml.cc/">ICML 2018</a>)</em>.
-        <div class="small-icons"><a href="https://figshare.com/articles/Varieties_of_Reproducibility_in_Empirical_and_Computational_Domains/6818018"><i class="ai ai-figshare" aria-hidden="true"></i></a></div>
-      </li>
-    </ul>
-  </div> -->
+{% include publications.html %}
 
 
-  <h1 id="bio" class="panel">Bio</h1>
-  <div class="panel-content">
-    <p>
-      I emigrated to the UK from Cyprus in 2006 to pursue an undergraduate degree in <a href="https://www.cs.york.ac.uk/undergraduate/ug-courses/bsc-cs/">Computer Science</a> (2009; University of York, UK). After that, I moved on to an <a href="http://www.ucl.ac.uk/pals/study/masters/TMSPSYSCDS01">MSc in Cognitive and Decision Sciences</a> (2010; University College London, UK).
-      I then undertook a <a href="http://www.bbk.ac.uk/psychology/">PhD in Psychological Sciences</a> (2014; Birkbeck, UK), specifically on <a href="https://doi.org/10.5281/zenodo.1210206">computational models for semantic memory</a>.</p>
-      
-      <p>Since obtaining my PhD, I have worked in labs at the <a href="https://www.psy.ox.ac.uk/research/oxford-babylab">University of Oxford</a>, <a href="http://bradlove.org/">University College London</a>, and as an independent scientist at a <a href="https://www.cyens.org.cy/">research centre in Cyprus</a>.
-      In 2020, I moved to the Netherlands to work with <a href="https://sites.google.com/site/aemn1011/home">Andrea E. Martin</a>, before starting as an Assistant Professor at the Radboud where I still work.
-      </p>
-  </div>
-
-  <h1 id="mentor" class="panel">Mentoring</h1>
-  <div class="panel-content">
-    {% include mentoring.html %}
-  </div>
-
-  <h1 id="pubs" class="panel">Selected Articles</h1>
-  <div class="panel-content">
-    {% include loop_publications.html %}
-  </div>
-
-
-
-  <!-- <h1 id="funding" class="panel">Funding</h1>
-  <div class="panel-content">
-    <a href="https://shuttleworthfoundation.org/">
-      <img class="center" alt="Funded by the Shuttleworth Foundation"
-      src="https://raw.githubusercontent.com/ShuttleworthFoundation/Logos/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20RGB/Shuttleworth%20Funded.jpg"></a>
-  </div> -->
-  <!-- <h1 id="code" class="panel">Code</h1>
-  <div class="panel-content">
-    {% capture code %}{% include code.md %}{% endcapture %}
-    {{ code | markdownify }}
-  </div> -->
-  <h1 id="cv" class="panel">CV</h1>
-  <div class="panel-content">
-    {% include cv.html %}
-  </div>
-
-
-
-</div>

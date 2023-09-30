@@ -19,53 +19,20 @@ if you need help with anything! :)
 Cheers,
 Olivia
 -->
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<html>
+  <head>
+    {% include head.html %}
+  </head>
 
-<head>
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-  <meta property="og:image" content="//avatars3.githubusercontent.com/u/5082092?v=3&s=460" />
-  {% if page.url == "/404.html" %}
-    <meta http-equiv="refresh" content="3; url=/">
-  {% endif %}
-  {% if page.url == "/connectionism" %}
-    <meta http-equiv="refresh" content="0; url=//neuroplausible.com/connectionism">
-  {% endif %}
-  {% if page.url == "/art" %}
-    <meta http-equiv="refresh" content="0; url=//art.oliviaguest.com/">
-  {% endif %}
-
-
-  <script>
-  this.top.location !== this.location && (this.top.location = this.location);
-  </script>
-
-
-  {% include meta.html %}
-
-  {% include css.html %}
-
-  {% include js.html %}
-
-</head>
-
-<body>
-
-
-
-  <div id="main" role="main" class="container">
-
-
-    <h1 id="top"><a href="{{ site.url }}">Olivia Guest</a></h1>
-
-
-    {{ content }}
-
-
-  {% include footer.html %}
-
-  {% include analytics.html %}
-</div>
-
-</body>
-
+  <body>
+    <div class="container"> 
+        <div class="content"> 
+                <main>
+                  {{ content }}
+              </main>
+        </div>
+        {% include footer.html %}
+    </div>
+    {% include analytics.html %}
+  </body>
 </html>
