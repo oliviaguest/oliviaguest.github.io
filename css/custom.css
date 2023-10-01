@@ -1,22 +1,18 @@
 html {
     height: 100%;
-
     /* These are technically the same, but use both */
     overflow-wrap: break-word;
     word-wrap: break-word;
-
     -ms-word-break: break-all;
     /* This is the dangerous one in WebKit, as it breaks things wherever */
     word-break: break-all;
     /* Instead use this non-standard one: */
     word-break: break-word;
-
     /* Adds a hyphen where the word breaks, if supported (No Blink) */
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
-
 }
 
 body {
@@ -29,7 +25,6 @@ body > .container {
     max-width: 60rem;
 }
 
-
 p {
     text-align: justify;
 }
@@ -39,7 +34,6 @@ p {
     transform: scaleX(-1);
     filter: FlipH;
 }
-
 
 h2 {
     scroll-margin-top: 1rem;
@@ -52,7 +46,6 @@ h1 {
 
 h1, h2, h3, .brand{
     font-family: 'Borel', serif;
-    
 }
 
 h1 a, h2 a, h3 a {
@@ -67,7 +60,6 @@ a {
 a:hover
 {
     color:#bf8ab1;
-
 }
 
 p a:hover, li a:hover {
@@ -80,7 +72,6 @@ p a:hover, li a:hover {
 
 .column {
     clear: both;
-
 }
 
 .footer {
@@ -88,15 +79,12 @@ font-size: 1.25rem;
 padding-bottom: 1rem;
 }
 
-
-
-
 .item {
     text-indent: -2em;
     list-style-type: none;
-  }
+}
 
-  p.image-url {
+p.image-url {
     display: none;
 }
 
@@ -111,54 +99,33 @@ li.social {
     font-size: 4rem;
 }
 
-
-
 figure {
     margin: 0;
     background: pink;
     position: relative;
-
     margin-left: 1rem;
     margin-right: 0rem;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
-
-
     width: 200px;
     height: 200px;
     float: right;
 }
 
-
-
-
 .pfp {
-    /* margin-left: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-    margin-right: 0.75rem; */
-
-
     overflow: hidden;
     max-width: unset;
     width: 200px;
     height: 200px;
     object-fit: cover;
     object-position: 50% 50%;
-
-    /* -webkit-filter: grayscale(50%);
-    filter: grayscale(50%);
-    opacity: 0.9; */
 }
 
 @media screen and (max-width: 725px) {
     figure {
         margin-bottom: -0.5rem;
-    
-    
     }
-    }
-
+}
 
 img {
     -webkit-transition: filter 0.5s;
@@ -166,15 +133,10 @@ img {
     -ms-transition: filter 0.5s;
     -o-transition: filter 0.5s;
     transition: filter 0.5s;
-
-    
-
 }
-
-
 
 img:hover {
     /* mix-blend-mode: hard-light; */
     -webkit-filter: grayscale(10%) contrast(150%);
     filter: grayscale(10%) contrast(150%);
-  }
+}

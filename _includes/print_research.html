@@ -4,7 +4,6 @@
     {% continue %}
   {% endif %}
 
-
   {% if pub.status == 'published' %}
     {% if pub.type == 'preprint' %}
       {% continue %}
@@ -17,7 +16,6 @@
       {% if pub.doi %}data-doi="{{ pub.doi }}"{% endif %}
       {% if pub.arxiv-id %}data-arxiv-id="{{ pub.arxiv-id }}"{% endif %}
       data-hide-no-mentions="true" data-hide-less-than="40" class="altmetric-embed" style="float:right;clear:both"></div>
-
 
       {{ pub.authors }}
       ({% if pub.status == 'inpress' %}{{ pub.status }}{% else %}{{pub.date | date: "%Y"}}{% endif %}).

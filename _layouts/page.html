@@ -1,24 +1,18 @@
 ---
-
 layout: default
-
 ---
-
-{% include header.html %}
 
 <article class="page">
   <div class="row">
-
-    <div class="col-12">
-        <h2><a href="#{{ page.title }}">{{ page.title }}</a></h2>
-</div></div>
-<div class="row">
-
-  <div class="col-12">
-        <div class="entry">
-          {{ content }}
-          </div>
-  
+    <div class="col-12 is-center">
+      <h1><a href="#top">{{ page.title }}</a></h1>
+    </div>
   </div>
+  <div class="row">
+    <div class="col-12">
+          <div class="entry">
+            {{ content }}
+          </div>
+    </div>
   </div>
 </article>
