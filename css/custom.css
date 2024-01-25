@@ -140,3 +140,8 @@ img:hover {
     -webkit-filter: grayscale(10%) contrast(150%);
     filter: grayscale(10%) contrast(150%);
 }
+
+.small-icons {
+    text-indent: 0;
+    /* display: inline-block; */
+}
