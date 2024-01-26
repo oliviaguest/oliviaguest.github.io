@@ -332,14 +332,14 @@
   tags: 
     - meta
 
-- date: 2023-03-29 
-  type: preprint
-  status: unpublished
+- date: 2024-01-24 
+  type: journal
+  status: published
   authors: <b>Guest, O.</b>
-  title: 'What makes a good theory, and how do we make a theory good?'
-  doi: 10.31234/osf.io/8fxds
+  title: 'What Makes a Good Theory, and How Do We make a Theory Good?'
+  doi: 10.1007/s42113-023-00193-2
   PsyArXiv: https://psyarxiv.com/8fxds
-  pdf: https://psyarxiv.com/8fxds/download
+  pdf: https://link.springer.com/content/pdf/10.1007/s42113-023-00193-2.pdf
   server: PsyArXiv
   video: https://www.youtube.com/watch?v=67X0TpnQeO0
   selected: 1
