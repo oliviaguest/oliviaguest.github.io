@@ -80,8 +80,9 @@ padding-bottom: 1rem;
 }
 
 .item {
-    text-indent: -2em;
+    text-indent: -3rem;
     list-style-type: none;
+    padding-bottom: 0.5rem;
 }
 
 p.image-url {
