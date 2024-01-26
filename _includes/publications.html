@@ -9,19 +9,33 @@
                 {% continue %}
             {% endif %}
         <li class="item">
+
+          
           {{ publication.authors }}
           ({% if publication.status == 'inpress' %}{{ publication.status }}{% else %}{{publication.date | date: "%Y"}}{% endif %}).
-          <span class="title">{% if publication.doi %}
+          <!-- <div class="title"> -->
+            {% if publication.doi %}
             <a href="//doi.org/{{ publication.doi }}">{{ publication.title }}</a>{% elsif publication.url %}
             <a href="{{ publication.url }}">{{ publication.title | capitalize}}</a>{% elsif publication.arxiv %}
             <a href="{{ publication.arxiv }}">{{ publication.title | capitalize}}</a>{% elsif publication.pdf %}
             <a href="{{ publication.pdf }}">{{ publication.title | capitalize}}</a>{% else %} {{ publication.title }}
-            {% endif %}</span>.
+            {% endif %}.
+          <!-- </div>. -->
             {% if publication.journal %}<i>{{ publication.journal }}</i>.
             {% elsif publication.server %}<i>{{ publication.server }}</i>. {% endif %}
       
+
             {% if publication.doi %}<a href="//doi.org/{{ publication.doi }}">https://doi.org/{{ publication.doi }}</a>
             {% elsif publication.zenodo %}<a href="{{ publication.zenodo }}">{{ publication.zenodo }}</a>{% endif %}
+
+
+            <span class="small-icons">
+              {%if publication.pdf %}
+                <a href="{{ pub.pdf }}" title="PDF"><i class="far fa-file-pdf"></i></a>
+              {% endif %}
+            </span> 
+
+
         </li>
         {% endfor %}
       </ul>

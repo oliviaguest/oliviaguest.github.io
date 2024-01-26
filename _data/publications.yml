@@ -262,18 +262,18 @@
   server: PsyArXiv
   selected: 0
 
-- date: 2021-10-05
-  type: preprint
-  status: published
-  authors: Forbes, S. H., Aneja, P., & <b>Guest, O.</b>
-  title: 'The Myth of Normative Development'
-  doi: 10.31234/osf.io/ajynp
-  PsyArXiv: https://psyarxiv.com/ajynp
-  pdf: https://psyarxiv.com/ajynp/download
-  server: PsyArXiv
-  selected: 1
-  tags:
-    - meta
+# - date: 2021-10-05
+#   type: preprint
+#   status: published
+#   authors: Forbes, S. H., Aneja, P., & <b>Guest, O.</b>
+#   title: 'The Myth of Normative Development'
+#   doi: 10.31234/osf.io/ajynp
+#   PsyArXiv: https://psyarxiv.com/ajynp
+#   pdf: https://psyarxiv.com/ajynp/download
+#   server: PsyArXiv
+#   selected: 1
+#   tags:
+#     - meta
 
 - date: 2022-02-17
   type: preprint
