@@ -311,7 +311,8 @@
   title: 'Pygmalion Displacement: When Humanising AI Dehumanises Women'
   doi: 10.31235/osf.io/jqxb6
   SocArXiv: https://osf.io/preprints/socarxiv/jqxb6
-  pdf: https://osf.io/preprints/socarxiv/jqxb6/download
+  # pdf: https://osf.io/preprints/socarxiv/jqxb6/download
+  pdf: /doc/ErscoiKleinherenbrinkGuest2023.pdf
   server: SocArXiv
   selected: 1
   tags:
@@ -370,7 +371,8 @@
   doi: 10.31234/osf.io/4cbuv
   PsyArXiv: https://psyarxiv.com/4cbuv
   server: PsyArXiv
-  pdf: https://psyarxiv.com/4cbuv/download
+  # pdf: https://psyarxiv.com/4cbuv/download
+  pdf: /doc/vanRooijetal2023.pdf
   selected: 1
   video: https://youtu.be/akuJqk2tDPo?si=-qKb7x6sZOqhrrQN
   tags: 
@@ -385,7 +387,8 @@
   doi: 10.31235/osf.io/3r2ez
   PsyArXiv: https://osf.io/preprints/socarxiv/3r2ez/
   server: SocArXiv
-  pdf: https://osf.io/preprints/socarxiv/3r2ez/download
+  # pdf: https://osf.io/preprints/socarxiv/3r2ez/download
+  pdf: /doc/ForbesGuest2024.pdf
   selected: 1
   video: https://media.ed.ac.uk/media/Olivia%20Guest%20and%20Sam%20Forbes%20%E2%80%93%20Inclusivity%20in%20teaching%20programming/1_te5m3m22
   
