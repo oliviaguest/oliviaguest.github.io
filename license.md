@@ -24,4 +24,4 @@ People who use my layout (in one form or another — in chronological order):
 + [Mohammad Shahdloo](http://shahdloo.bilkent.edu.tr/)
 + [Abeba Birhane](//abebabirhane.github.io/)
 
-The favicon was created by <a href="https://www.flaticon.com/free-icons/sight" title="sight icons">by Freepik/Flaticon</a>.
+The favicon was created by <a href="https://www.flaticon.com/free-icons/sight" title="sight icons">Freepik/Flaticon</a>.
