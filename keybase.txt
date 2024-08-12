@@ -4,7 +4,7 @@ https://keybase.io/oliviaguest
 
 I hereby claim:
 
-  * I am an admin of http://oliviaguest.com
+  * I am an admin of https://oliviaguest.com
   * I am oliviaguest (https://keybase.io/oliviaguest) on keybase.
   * I have a public key with fingerprint 8CF3 1DF2 7901 EC0E 1A93  D72D 305A D1F8 E02A 226E
 
