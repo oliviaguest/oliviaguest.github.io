@@ -102,7 +102,6 @@ li.social {
 
 figure {
     margin: 0;
-    background: pink;
     position: relative;
     margin-left: 1rem;
     margin-right: 0rem;
@@ -120,6 +119,8 @@ figure {
     height: 200px;
     object-fit: cover;
     object-position: 50% 50%;
+    border-radius: 50%;
+    margin-left: 0.5em;
 }
 
 @media screen and (max-width: 725px) {
@@ -138,8 +139,8 @@ img {
 
 img:hover {
     /* mix-blend-mode: hard-light; */
-    -webkit-filter: grayscale(10%) contrast(150%);
-    filter: grayscale(10%) contrast(150%);
+    -webkit-filter: grayscale(20%) contrast(120%);
+    filter: grayscale(20%) contrast(120%);
 }
 
 .small-icons {
