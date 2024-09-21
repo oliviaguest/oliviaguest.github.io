@@ -119,8 +119,8 @@ figure {
     height: 200px;
     object-fit: cover;
     object-position: 50% 50%;
-    border-radius: 50%;
-    margin-left: 0.5em;
+    /* border-radius: 50%;
+    margin-left: 0.5em; */
 }
 
 @media screen and (max-width: 725px) {
