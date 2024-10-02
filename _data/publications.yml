@@ -364,16 +364,16 @@
     - meta
     - crit
 
-- date: 2023-08-01 
-  type: preprint
-  status: unpublished
+- date: 2024-09-27 
+  type: article
+  status: published
   authors: van Rooij, I., <b>Guest, O.</b>, Adolfi, F. G., de Haan, R., Kolokolova, A., & Rich, P.
   title: 'Reclaiming AI as a theoretical tool for cognitive science'
-  doi: 10.31234/osf.io/4cbuv
+  doi: 10.1007/s42113-024-00217-5
+  journal: Computational Brain & Behavior
   PsyArXiv: https://psyarxiv.com/4cbuv
   server: PsyArXiv
-  # pdf: https://psyarxiv.com/4cbuv/download
-  pdf: /doc/vanRooijetal2023.pdf
+  pdf: https://link.springer.com/content/pdf/10.1007/s42113-024-00217-5.pdf
   selected: 1
   video: https://youtu.be/akuJqk2tDPo?si=-qKb7x6sZOqhrrQN
   tags: 
