@@ -408,3 +408,16 @@
   tags: 
     - meta
     - crit
+
+- date: 2025-02-27
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b> & Martin, A. E.
+  title: Are Neurocognitive Representations 'Small Cakes'?
+  server: PhilSci-Archive
+  pdf: https://philsci-archive.pitt.edu/24834/1/GuestMartin2025.pdf
+  url: https://philsci-archive.pitt.edu/24834/
+  selected: 1
+  tags:
+    - meta
+    - crit

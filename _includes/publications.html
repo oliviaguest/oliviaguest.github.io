@@ -16,9 +16,9 @@
           <!-- <div class="title"> -->
             {% if publication.doi %}
             <a href="//doi.org/{{ publication.doi }}">{{ publication.title }}</a>{% elsif publication.url %}
-            <a href="{{ publication.url }}">{{ publication.title | capitalize}}</a>{% elsif publication.arxiv %}
-            <a href="{{ publication.arxiv }}">{{ publication.title | capitalize}}</a>{% elsif publication.pdf %}
-            <a href="{{ publication.pdf }}">{{ publication.title | capitalize}}</a>{% else %} {{ publication.title }}
+            <a href="{{ publication.url }}">{{ publication.title }}</a>{% elsif publication.arxiv %}
+            <a href="{{ publication.arxiv }}">{{ publication.title }}</a>{% elsif publication.pdf %}
+            <a href="{{ publication.pdf }}">{{ publication.title }}</a>{% else %} {{ publication.title }}
             {% endif %}.
           <!-- </div>. -->
             {% if publication.journal %}<i>{{ publication.journal }}</i>.
