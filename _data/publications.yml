@@ -414,12 +414,12 @@
   status: unpublished
   authors: <b>Guest, O.</b> & Martin, A. E.
   title: Are Neurocognitive Representations 'Small Cakes'?
-  # server: PhilSci-Archive
-  # pdf: https://philsci-archive.pitt.edu/24834/1/GuestMartin2025.pdf
-  # url: https://philsci-archive.pitt.edu/24834/
-  server: PhilArchive
-  pdf: https://philpapers.org/go.pl?id=GUEANR&u=https%3A%2F%2Fphilpapers.org%2Farchive%2FGUEANR.pdf
-  url: https://philpapers.org/rec/GUEANR
+  server: PhilSci-Archive
+  pdf: https://philsci-archive.pitt.edu/24834/1/GuestMartin2025.pdf
+  url: https://philsci-archive.pitt.edu/24834/
+  # server: PhilArchive
+  # pdf: https://philpapers.org/go.pl?id=GUEANR&u=https%3A%2F%2Fphilpapers.org%2Farchive%2FGUEANR.pdf
+  # url: https://philpapers.org/rec/GUEANR
   selected: 1
   tags:
     - meta
