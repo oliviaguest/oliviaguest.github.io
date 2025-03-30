@@ -43,10 +43,93 @@
   </li>
 
   <li class="social">
-    <a href="#here" onclick="myFunction()">
-  <i class="fa-solid fa-moon"></i>
+    <a href="#here">
+  <i class="fa-solid fa-moon" id="dark" onclick="myFunction(this.id)"></i>
 </a>
 </li>
 
 
 </ul>
+
+
+<!-- <button class="button icon-only" id="dark" onclick="myFunction()"> -->
+<!-- </button> -->
+<script>
+
+
+
+  function myFunction(s) {
+
+
+
+      // //setting a value
+      localStorage["s"] = s;
+      console.log(s);
+
+      try {
+
+        var e = document.getElementById(s);
+
+
+        if (s == 'dark') {
+          e.classList.remove("fa-moon");
+          e.classList.add("fa-sun");
+          e.id = 'light';
+
+        }
+
+        if (s == 'light') {
+          e.classList.add("fa-moon");
+          e.classList.remove("fa-sun");
+          e.id = 'dark';
+
+
+        }
+
+        document.body.classList.remove(e.id);
+
+        document.body.classList.add(s);
+      } catch (e) {
+          console.log(e instanceof TypeError); // true
+          console.log(e.message); // "null has no properties"
+          console.log(e.name); // "TypeError"
+          console.log(e.stack); // Stack of the error
+      }
+
+      // //getting a value
+      // if (localStorage["s"] == "dark")
+      // {
+          // // https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
+          // // https://stackoverflow.com/questions/18227120/use-javascript-to-remember-what-choices-the-user-made-on-previous-pages
+
+          // document.body.style.backgroundColor = "#771e1e";
+          // document.body.style.backgroundColor = "#441809";
+          // document.body.style.color = "#ffe6ea";
+
+          // var links = document.getElementsByTagName("a");
+          // for(var i=0;i<links.length;i++)
+          // {
+          //     console.log(links[i].parentNode.tagName);
+
+          //     if(links[i].href)
+          //     {
+          //         if (links[i].parentNode.tagName == 'H1' || links[i].parentNode.tagName == 'H2')
+          //         {
+          //             links[i].style.color = "#a96b8a";
+          //         }
+          //         else {              
+          //             links[i].style.color = "#e47ec7";
+          //         }
+          //     }
+          // }  
+      //     document.body.classList.add("dark");
+
+      // }
+
+
+  };
+
+  window.onload = function() {
+      myFunction(localStorage["s"]);
+  };
+  </script>
