@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Licensing
+title: licensing
 permalink: /license/
 published: true
 ---
