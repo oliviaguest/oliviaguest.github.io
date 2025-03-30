@@ -3,16 +3,15 @@ layout: default
 ---
 
 <article class="page">
-  <div class="row">
-    <div class="col-12 is-center">
-      <h1><a href="#top">{{ page.title }}</a></h1>
-    </div>
+<div class="row">
+  <div class="col-12 col-6-md col-6-lg">
+      {% include header.html %}
   </div>
-  <div class="row">
-    <div class="col-12">
-          <div class="entry">
-            {{ content }}
-          </div>
-    </div>
+
+  <div class="col-12 col-6-md col-6-lg">
+    <h2><a href="#top">{{ page.title }}</a></h2>
+
+    {{ content }}
   </div>
+</div>
 </article>

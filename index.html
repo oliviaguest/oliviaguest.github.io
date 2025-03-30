@@ -6,14 +6,28 @@ layout: default
 title:  Olivia Guest
 ---
 
-{% include header.html %}
+<div class="row">
+    <div class="col-12 col-6-md col-6-lg">
+        {% include header.html %}
+    </div>
 
-{% include me.html %}
+    <div class="col-12 col-6-md col-6-lg">
+        {% include me.html %}
+    </div>
+</div>
 
-{% include biography.html %}
+<div class="row">
+    <div class="col-12 col-6-md col-6-lg">
+        {% include biography.html %}
+    </div>
 
-{% include mentoring.html %}
+    <div class="col-12 col-6-md col-6-lg">
+        {% include mentoring.html %}
+    </div>
+</div>
 
-{% include publications.html %}
-
-
+<div class="row">
+    <div class="col-12">
+        {% include publications.html %}
+    </div>
+</div>
