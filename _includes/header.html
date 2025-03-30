@@ -1,4 +1,44 @@
+
 <h1><a href="{{site.url}}">Olivia Guest</a></h1>
+
 {% if page.url == '/' %}
     {% include social.html %}
 {% endif %}
+
+<!-- <button class="button icon-only" id="dark" onclick="myFunction()"> -->
+<!-- </button> -->
+<script>
+    function myFunction() {
+
+        // //setting a value
+        // localStorage["switch"] = "dark";
+
+        // //getting a value
+        // var x = localStorage["switch"];
+        // https://stackoverflow.com/questions/18227120/use-javascript-to-remember-what-choices-the-user-made-on-previous-pages
+
+        document.body.style.backgroundColor = "#771e1e";
+        document.body.style.backgroundColor = "#441809";
+        document.body.style.color = "#ffe6ea";
+
+        var links = document.getElementsByTagName("a");
+        for(var i=0;i<links.length;i++)
+        {
+            console.log(links[i].parentNode.tagName);
+
+            if(links[i].href)
+            {
+                if (links[i].parentNode.tagName == 'H1' || links[i].parentNode.tagName == 'H2')
+                {
+                    links[i].style.color = "#a96b8a";
+                }
+                else {              
+                       links[i].style.color = "#e47ec7";
+            }
+            }
+        }  
+
+
+
+    }
+    </script>

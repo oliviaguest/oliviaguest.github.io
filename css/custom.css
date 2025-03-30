@@ -76,6 +76,7 @@ h1 {
     margin-bottom: 1rem;
     margin-top: 0rem;
     padding-top: 0rem;
+    /* display: inline-block; */
 
 }
 
@@ -90,11 +91,10 @@ h2#publications {
 
 span#selected {
     font-family: 'Borel', serif;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     /* padding-left: 1rem; */
     display: inline-block;
     margin-bottom: 0.5rem;
-    color: #bf8ab1;
 }
 
 @media screen and (max-width: 640px) {
@@ -106,6 +106,12 @@ span#selected {
     }
 }
 
+#dark {
+    background-color: #a96b8a;
+    border-radius: 100px;
+    /* display: inline-block; */
+
+}
 
  h2, h3, .brand{
     font-family: 'Borel', serif;
@@ -124,7 +130,7 @@ a {
 
 a:hover
 {
-    color:#bf8ab1;
+    /* color:#bf8ab1; */
 }
 
 p a:hover, li a:hover {
