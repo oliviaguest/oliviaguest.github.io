@@ -1,3 +1,4 @@
 <h1><a href="{{site.url}}">Olivia Guest</a></h1>
-
-{% include social.html %}
+{% if page.url == '/' %}
+    {% include social.html %}
+{% endif %}
