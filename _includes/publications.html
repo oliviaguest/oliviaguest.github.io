@@ -28,7 +28,8 @@
   
 
         {% if publication.doi %}<a href="//doi.org/{{ publication.doi }}">https://doi.org/{{ publication.doi }}</a>
-        {% elsif publication.zenodo %}<a href="{{ publication.zenodo }}">{{ publication.zenodo }}</a>{% endif %}
+        {% elsif publication.zenodo %}<a href="{{ publication.zenodo }}">{{ publication.zenodo }}</a>
+        {% elsif publication.url %}<a href="{{ publication.url }}">{{ publication.url }}</a>{% endif %}
 
 
         <span class="small-icons">

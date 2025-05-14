@@ -445,9 +445,6 @@
   server: PhilSci-Archive
   pdf: hhttps://philsci-archive.pitt.edu/25289/1/GuestEtAl2025.pdf
   url: https://philsci-archive.pitt.edu//25289
-  # server: PhilArchive
-  # pdf: https://philpapers.org/go.pl?id=GUEANR&u=https%3A%2F%2Fphilpapers.org%2Farchive%2FGUEANR.pdf
-  # url: https://philpapers.org/rec/GUEANR
   selected: 1
   tags:
     - meta

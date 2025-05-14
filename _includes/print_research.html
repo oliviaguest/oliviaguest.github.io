@@ -27,11 +27,12 @@
       {% endif %}</span>.
       {% if pub.journal %}<i>{{ pub.journal }}</i>.
       {% elsif pub.server %}<i>{{ pub.server }}</i>. {% endif %}
-
+      
       {% if pub.doi %}<a href="//doi.org/{{ pub.doi }}">https://doi.org/{{ pub.doi }}</a>
-      {% elsif pub.zenodo %}<a href="{{ pub.zenodo }}">{{ pub.zenodo }}</a>{% endif %}
-
-<!-- 
+      {% elsif pub.zenodo %}<a href="{{ pub.zenodo }}">{{ pub.zenodo }}</a>
+      {% elsif pub.url %}<a href="{{ pub.url }}">{{ pub.url }}</a>{% endif %}
+      
+      <!-- 
       <div class="small-icons">
       {%if pub.pdf %}
         <a href="{{ pub.pdf }}" title="PDF"><i class="far fa-file-pdf"></i></a>
