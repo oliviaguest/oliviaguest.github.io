@@ -1,13 +1,25 @@
+{% if include.top %}
 <ul class="socials">
+{% else %}
+<ul class="socials right-socials">
+{% endif %}
 
-  <li class="social">
+{% if include.top %}
+<li class="social">
+{% else %}
+<li class="social right-social">
+{% endif %}
+
     <a href="//bsky.app/profile/olivia.science" title="Follow me on Bluesky" style="text-decoration:none" rel="me">
       <i class="fa-brands fa-bluesky"></i>
     </a>
   </li>
   
+  {% if include.top %}
   <li class="social">
-    <a href="https://scholar.social/@olivia" title="Follow me on Mastodon" style="text-decoration:none" rel="me">
+  {% else %}
+  <li class="social right-social">
+  {% endif %}    <a href="https://scholar.social/@olivia" title="Follow me on Mastodon" style="text-decoration:none" rel="me">
       <i class="fab fa-mastodon"></i>
     </a>
   </li>
@@ -24,26 +36,38 @@
     </a>
   </li> -->
 
+  {% if include.top %}
   <li class="social">
-    <a href="//github.com/oliviaguest" title="Fork me on GitHub" style="text-decoration:none" rel="me">
+  {% else %}
+  <li class="social right-social">
+  {% endif %}    <a href="//github.com/oliviaguest" title="Fork me on GitHub" style="text-decoration:none" rel="me">
       <i class="fab fa-github" aria-hidden="true"></i>
     </a>
   </li>
 
+  {% if include.top %}
   <li class="social">
-    <a href="//scholar.google.co.uk/citations?user=ZHGrUooAAAAJ" title="View my Google Scholar profile" style="text-decoration:none" rel="me">
+  {% else %}
+  <li class="social right-social">
+  {% endif %}    <a href="//scholar.google.co.uk/citations?user=ZHGrUooAAAAJ" title="View my Google Scholar profile" style="text-decoration:none" rel="me">
       <i class="ai ai-google-scholar" aria-hidden="true"></i>
     </a>
   </li>
   
+  {% if include.top %}
   <li class="social">
-    <a href="//philpeople.org/profiles/olivia-guest" title="View my PhilPeople profile" style="text-decoration:none" rel="me">
+  {% else %}
+  <li class="social right-social">
+  {% endif %}    <a href="//philpeople.org/profiles/olivia-guest" title="View my PhilPeople profile" style="text-decoration:none" rel="me">
       <i class="ai ai-philpapers" aria-hidden="true"></i>
     </a>
   </li>
 
+  {% if include.top %}
   <li class="social">
-    <a href="//orcid.org/0000-0002-1891-0972" title="View my ORCID profile" style="text-decoration:none" rel="me">
+  {% else %}
+  <li class="social right-social">
+  {% endif %}    <a href="//orcid.org/0000-0002-1891-0972" title="View my ORCID profile" style="text-decoration:none" rel="me">
       <i class="ai ai-orcid" aria-hidden="true"></i>
     </a>
   </li>

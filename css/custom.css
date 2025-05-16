@@ -199,9 +199,19 @@ ul.socials {
     flex-wrap: wrap;
 }
 
+ul.right-socials {
+    flex-direction: row-reverse;
+}
+
 li.social {
     padding-right: 1.5rem;
     font-size: 4rem;
+}
+
+li.right-social {
+    padding-left: 1.5rem;
+    padding-right: 0;
+
 }
 
 figure {
@@ -251,3 +261,14 @@ img:hover {
     text-indent: 0;
     /* display: inline-block; */
 }
+/* 
+@media screen and (max-width: 900px) {
+    img {
+        display: none;
+    }
+} */
+
+.moth {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }

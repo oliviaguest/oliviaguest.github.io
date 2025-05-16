@@ -416,7 +416,7 @@
   title: Are Neurocognitive Representations 'Small Cakes'?
   server: PhilSci-Archive
   pdf: https://philsci-archive.pitt.edu/24834/1/GuestMartin2025.pdf
-  url: https://philsci-archive.pitt.edu/24834/
+  url: https://philsci-archive.pitt.edu/24834
   # server: PhilArchive
   # pdf: https://philpapers.org/go.pl?id=GUEANR&u=https%3A%2F%2Fphilpapers.org%2Farchive%2FGUEANR.pdf
   # url: https://philpapers.org/rec/GUEANR
@@ -443,9 +443,22 @@
   authors: <b>Guest, O.</b>, Scharfenberg, N., & van Rooij, I.
   title: "Modern Alchemy: Neurocognitive Reverse Engineering"
   server: PhilSci-Archive
-  pdf: hhttps://philsci-archive.pitt.edu/25289/1/GuestEtAl2025.pdf
-  url: https://philsci-archive.pitt.edu//25289
+  pdf: https://philsci-archive.pitt.edu/25289/1/GuestEtAl2025.pdf
+  url: https://philsci-archive.pitt.edu/25289
   selected: 1
   tags:
     - meta
     - crit
+
+- date: 2025-05-14
+  type: preprint
+  status: unpublished
+  authors: van Rooij, I. & <b>Guest, O.</b>
+  title: "Combining Psychology with Artificial Intelligence: What could possibly go wrong?"
+  pdf: https://osf.io/aue4m_v1/download/
+  url: https://osf.io/preprints/psyarxiv/aue4m
+  server: PsyArXiv
+  selected: 1
+  tags: 
+  - meta
+  - crit
