@@ -1,16 +1,14 @@
 {% assign publications = site.data.publications | sort:"date" | reverse %}
 
-<h2 id="publications"><a href="#publications">Publications</a></h2> <span id="selected">(selected)
-  <!-- ; <a href="https://scholar.google.co.uk/citations?user=ZHGrUooAAAAJ">full</a>) -->
-</span>
-
-<div class="text-col">
+<div id="pub-cols">
   <ul>
     {% for publication in publications %}
-        {% if publication.selected == 0 %}
+        
+        {% if publication.selected == 3 %}
             {% continue %}
         {% endif %}
-    <li class="item">
+
+    <li class="item {% if publication.selected == 0 %}deselected{% endif %}">
 
       
       {{ publication.authors }}

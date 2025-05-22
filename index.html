@@ -20,9 +20,11 @@ title:  Olivia Guest
     <div class="col-12 col-6-md col-6-lg">
         {% include biography.html %}
     </div>
-<!-- 
-    <div class="col-6 col-6-md col-6-lg">
-        <img src="images/bug.png" alt="icon" class="hide-xs hide-sm">
+    <div class="col-6 col-6-md col-6-lg vertical-center">
+        <img src="{{ site.baseurl }}/images/bug.png" alt="icon" class="hide-xs hide-sm bug">
+
+        <p class="hide-xs hide-sm caption"><i>Pygmalion lens</i> (Table 1, <a href="https://doi.org/10.31235/osf.io/jqxb6">Erscoi et al., 2023</a>)</p>
+
 
     </div>
 
@@ -31,14 +33,12 @@ title:  Olivia Guest
 
 <div class="row">
 
-    <div class="col-6 col-3-md col-3-lg">
-        <img src="images/moth.png" alt="icon" class="hide-xs hide-sm center moth">
+    <div class="col-6 col-6-md col-6-lg vertical-center">
+        <img src="{{ site.baseurl }}/images/perceptron.png" alt="icon" class="hide-xs hide-sm perceptron">
+
+        <p class="hide-xs hide-sm caption">Guest and Martin (<a href="http://doi.org/10.31234/osf.io/eaf2z">2024</a>; original: <a href="https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf">Hay et al., 1960</a>)</p>
 
     </div>
-    <div class="col-6 col-3-md col-3-lg">
-
-    </div> -->
-
 
 
     <div class="col-12 col-6-md col-6-lg">
@@ -48,8 +48,29 @@ title:  Olivia Guest
 
 <div class="row">
     <div class="col-12">
-        {% include publications.html %}
+<a href="#publications"><h2 id="publications">Selected Publications</h2></a> <a><span id="selected"  onclick="togglePublications(this)">(see full)</span></a>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-6">        {% include publications.html %}
+
+        </div>
+    <div class="col-6">
     </div>
 </div>
 
 
+<div class="row">
+
+    <div class="col-6 col-6-md col-6-lg vertical-center">
+    </div>
+
+
+    <div class="col-6 col-6-md col-6-lg is-right">
+
+    <img src="{{ site.baseurl }}/images/snail.png" alt="icon" class="hide-xs hide-sm snail is-right">
+    
+    </div>
+
+</div>
