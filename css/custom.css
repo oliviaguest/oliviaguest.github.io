@@ -58,10 +58,6 @@ body > .container {
     columns: 2;
 }
 
-.text-col-2 {
-    columns: 2;
-}
-
 @media screen and (max-width: 900px) {
     body > .container {
         max-width: 60rem;

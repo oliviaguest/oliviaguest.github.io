@@ -48,16 +48,21 @@ title:  Olivia Guest
 
 <div class="row">
     <div class="col-12">
-<a href="#publications"><h2 id="publications">Selected Publications</h2></a> <a><span id="selected"  onclick="togglePublications(this)">(see full)</span></a>
+<!-- Uncomment these two to get the functionality of full versus selected. -->
+<!-- <a href="#publications"><h2 id="publications">Selected Publications</h2></a>
+<a><span id="selected"  onclick="togglePublications(this)">(see full)</span></a> -->
+
+<h2 id="publications"><a href="#publications">Publications</a></h2>
+<span id="selected">(selected)</span>
 </div>
 </div>
 
 <div class="row">
-    <div class="col-6">        {% include publications.html %}
+    <div class="col-12">        {% include publications.html %}
 
         </div>
-    <div class="col-6">
-    </div>
+    <!-- <div class="col-6">
+    </div> -->
 </div>
 
 

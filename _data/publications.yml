@@ -86,17 +86,17 @@
   github: ReScience/ReScience-article-2
   selected: 0
 
-- date: 2017-12-18
-  type: preprint
-  status: published
-  authors: Rougier, N. P. et al.
-  title: 'Sustainable computational science: the ReScience initiative'
-  server: arXiv
-  arxiv-id: 1707.04393
-  link: https://arxiv.org/abs/1707.04393
-  arxiv: https://arxiv.org/abs/1707.04393
-  github: ReScience/ReScience-article-2
-  selected: 0
+# - date: 2017-12-18
+#   type: preprint
+#   status: published
+#   authors: Rougier, N. P. et al.
+#   title: 'Sustainable computational science: the ReScience initiative'
+#   server: arXiv
+#   arxiv-id: 1707.04393
+#   link: https://arxiv.org/abs/1707.04393
+#   arxiv: https://arxiv.org/abs/1707.04393
+#   github: ReScience/ReScience-article-2
+#   selected: 0
 
 - date: 2019-05-04
   type: preprint
@@ -142,18 +142,18 @@
   website: http://redistrict.science
   selected: 0
 
-- date: 2019-11-15
-  type: preprint
-  status: published
-  authors: Botvinik-Nezer, R. et al.
-  title: 'Variability in the analysis of a single neuroimaging dataset by many teams'
-  bioRxiv: https://www.biorxiv.org/content/10.1101/843193v1
-  server: bioRxiv
-  pdf: https://www.biorxiv.org/content/biorxiv/early/2019/11/15/843193.full-text.pdf
-  website: http://narps.info
-  doi: 10.1101/843193
-  github: poldrack/narps
-  selected: 0
+# - date: 2019-11-15
+#   type: preprint
+#   status: published
+#   authors: Botvinik-Nezer, R. et al.
+#   title: 'Variability in the analysis of a single neuroimaging dataset by many teams'
+#   bioRxiv: https://www.biorxiv.org/content/10.1101/843193v1
+#   server: bioRxiv
+#   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/11/15/843193.full-text.pdf
+#   website: http://narps.info
+#   doi: 10.1101/843193
+#   github: poldrack/narps
+#   selected: 0
 
 - date: 2020-07-01
   type: journal
