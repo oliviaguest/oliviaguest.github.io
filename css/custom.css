@@ -31,8 +31,26 @@ html {
     --dark-a: #e47ec7;
 
     --font-family-sans: 'Inter', sans-serif;
+    font-weight: 300;
   }
 
+em {
+    font-weight: 400;
+    font-style: italic;
+}
+
+b {
+    font-weight: 400;
+}
+
+a.title {
+    font-weight: 500;
+}
+
+a.lighter
+ {
+    font-weight: 200;
+}
 
 body {
     height: 100%;
@@ -311,4 +329,8 @@ img.bug, img.perceptron {
 .deselected 
 {
     display: none;
+}
+
+li.mentoring {
+    padding-bottom: 0.5rem;
 }
