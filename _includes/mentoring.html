@@ -3,9 +3,9 @@
 {% assign crit = pubs | where_exp:"item", "item.tags contains 'crit'" %}
 {% comment %}
     {% include print_research.html pubs=crit %}
-{% endcomment %}
 
 {% assign met = pubs | where_exp:"item", "item.tags contains 'met'" %}
+{% endcomment %}
 
 
 <h2 id="mentoring"><a href="#mentoring">mentoring</a></h2>
