@@ -289,6 +289,14 @@ img.bug, img.perceptron {
     width: 95%;
   }
 
+  img.typewriter {
+    width: 33%;
+  }
+  
+  img.abacus {
+    width: 45%;
+  }
+
   img.snail
   {
     width: 42%;
