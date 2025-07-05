@@ -311,8 +311,8 @@
   title: 'Pygmalion Displacement: When Humanising AI Dehumanises Women'
   doi: 10.31235/osf.io/jqxb6
   SocArXiv: https://osf.io/preprints/socarxiv/jqxb6
-  # pdf: https://osf.io/preprints/socarxiv/jqxb6/download
-  pdf: /doc/ErscoiKleinherenbrinkGuest2023.pdf
+  pdf: https://osf.io/preprints/socarxiv/jqxb6/download
+  # pdf: /doc/ErscoiKleinherenbrinkGuest2023.pdf
   server: SocArXiv
   selected: 1
   tags:
