@@ -204,6 +204,7 @@ padding-bottom: 1rem;
 .bullet {
     display: inline-block;
     width: 1rem;
+    color: light-dark(var(--light-h), var(--dark-h));
 }
 
 p.image-url {
