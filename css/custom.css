@@ -81,7 +81,7 @@ body > .container {
 }
 
 .cite{
-    width: 88%;
+    /* width: 88%; */
 
 }
 
@@ -369,7 +369,7 @@ li.mentoring {
 img.figure, table.tg {
     filter: none;
     opacity: 1;
-    width: 90%;
+    /* width: 90%; */
     padding-top: 1rem;
     padding-bottom: 1rem;
     flex-direction: column;
@@ -382,8 +382,8 @@ img.figure, table.tg {
 }
 
 .bg-figure {
-    background-color: light-dark(var(--light-bg), var(--dark-h));
-    background: linear-gradient(light-dark(var(--light-bg), var(--dark-h)), light-dark(var(--light-bg), var(--dark-bg)));
+    background-color: none;
+    background: linear-gradient(0deg, light-dark(var(--light-bg), var(--dark-bg)) 40%, light-dark(var(--light-bg), var(--dark-h)) 100%);
 }
 
 .frame-figure {
@@ -398,7 +398,7 @@ img.figure, table.tg {
 
 .extract
 {
-    width: 88%;
+    /* width: 88%; */
     font-size: smaller;
     display: flex;
     flex-direction: column;
@@ -425,7 +425,7 @@ td {
   padding: 0.5rem;
 }
 
-td, th, table.tg {
+.tg-c3ow {
     padding-top: 0;
 }
 
