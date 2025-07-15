@@ -21,11 +21,13 @@ html {
     color-scheme: light dark;
   
     --light-bg: #fff6f3;
+    --light-tb: #a96b8a22;
     --light-color: #333;
     --light-h: #a96b8a;
     --light-a: #a33b80;
   
     --dark-bg: #441809;
+    --dark-tb: #a96b8a2d;
     --dark-color: #ffe6ea;
     --dark-h: #a96b8a;
     --dark-a: #e47ec7;
@@ -78,6 +80,11 @@ body > .container {
     columns: 2;
 }
 
+.cite{
+    width: 88%;
+
+}
+
 @media screen and (max-width: 900px) {
     body > .container {
         max-width: 60rem;
@@ -85,8 +92,11 @@ body > .container {
     .text-col {
         columns: 1;
     }
-
+    .cite{
+    width: 100%;
+    }
 }
+
 
 p, li {
     text-align: justify;
@@ -124,7 +134,7 @@ h1 {
 
 }
 
-h2#publications {
+h2#publications, h2#featured {
     font-family: 'DhCario', serif;
     font-size: 8rem;
     line-height: 10rem;
@@ -241,7 +251,7 @@ li.right-social {
 
 }
 
-figure {
+/* figure {
     margin: 0;
     position: relative;
     margin-left: 1rem;
@@ -251,7 +261,7 @@ figure {
     width: 200px;
     height: 200px;
     float: right;
-}
+} */
 
 .pfp {
     overflow: hidden;
@@ -355,3 +365,66 @@ img.bug, img.perceptron {
 li.mentoring {
     padding-bottom: 0.5rem;
 }
+
+img.figure, table.tg {
+    filter: none;
+    opacity: 1;
+    width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.bg-figure {
+    background-color: light-dark(var(--light-bg), var(--dark-h));
+    background: linear-gradient(light-dark(var(--light-bg), var(--dark-h)), light-dark(var(--light-bg), var(--dark-bg)));
+}
+
+.frame-figure {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.authors, .abstract-label {
+    font-weight: bolder;
+}
+
+.extract
+{
+    width: 88%;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+th {  text-align: center;
+      font-variant: small-caps;
+      font-weight: normal;
+}
+tr {
+      border: none;
+
+}
+
+.tg-fymr {
+    font-weight: bolder;
+}
+td {
+      text-align: left;
+      font-size: smaller;
+
+  padding: 0.5rem;
+}
+
+tr:nth-child(even) {background-color:light-dark(var(--light-tb), var(--dark-tb));}
+
+thead {width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(--dark-tb));}
