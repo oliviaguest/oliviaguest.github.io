@@ -462,3 +462,16 @@
   tags: 
   - meta
   - crit
+
+- date: 2025-07-29
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b>
+  title: "What Does 'Human-Centred AI' Mean?"
+  pdf: https://arxiv.org/pdf/2507.19960
+  url: https://doi.org/10.48550/arXiv.2507.19960
+  server: arXiv
+  selected: 1
+  tags: 
+  - meta
+  - crit
