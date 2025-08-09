@@ -202,6 +202,7 @@ padding-bottom: 1rem;
     list-style-type: none;
     padding-bottom: 0.5rem;
     text-align: left;
+    display: inline-block;
 }
 
 .newsitem {
