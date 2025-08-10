@@ -60,6 +60,7 @@ body {
     overflow-x: hidden;
     background-color: light-dark(var(--light-bg), var(--dark-bg));
     color: light-dark(var(--light-color), var(--dark-color));
+    line-height: 1.5;
 }
 
 .light {
