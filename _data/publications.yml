@@ -388,9 +388,9 @@
   doi: 10.5117/TVGN2024.2-3.007.GUES
   PsyArXiv: https://osf.io/preprints/socarxiv/3r2ez/
   server: SocArXiv
-  # pdf: https://osf.io/preprints/socarxiv/3r2ez/download
+  pdf: https://osf.io/3r2ez_v1/download/
   # pdf: /doc/ForbesGuest2024.pdf
-  pdf: https://www.aup-online.com/content/journals/10.5117/TVGN2024.2-3.007.GUES#
+  # pdf: https://www.aup-online.com/content/journals/10.5117/TVGN2024.2-3.007.GUES#
   journal: Tijdschrift voor Genderstudies
   selected: 1
   video: https://media.ed.ac.uk/media/Olivia%20Guest%20and%20Sam%20Forbes%20%E2%80%93%20Inclusivity%20in%20teaching%20programming/1_te5m3m22
@@ -469,9 +469,24 @@
   authors: <b>Guest, O.</b>
   title: "What Does 'Human-Centred AI' Mean?"
   pdf: https://arxiv.org/pdf/2507.19960
-  url: https://doi.org/10.48550/arXiv.2507.19960
+  doi: 10.48550/arXiv.2507.19960
   server: arXiv
   selected: 1
   tags: 
   - meta
   - crit
+
+
+- date: 2025-09-06
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b>, Suarez, M., Müller, B., et al.
+  title: "Against the Uncritical Adoption of 'AI' Technologies in Academia"
+  pdf: https://zenodo.org/records/17065099/files/Guest_etal_2025.pdf?download=1
+  doi: 10.5281/zenodo.17065099
+  server: Zenodo
+  selected: 1
+  tags: 
+  - meta
+  - crit
+
