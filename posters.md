@@ -15,7 +15,7 @@ published: true
 
   <div class="col-12 col-6-md col-6-lg">
     <h2><a href="#top">{{ page.title }}</a></h2>
-        <p>Here are some posters to use to attract attention to more critical thinking about AI, <i><a href="https://www.ru.nl/en/research/research-projects/critical-ai-literacy-cail">Critical AI Literacy</a></i>. <b>Download them as <a href="{{site.baseurl}}/doc/anti-AI posters.pdf">PDFs here</a>.</b> The QR code points to: <a href="//doi.org/10.5281/zenodo.17065099">Against the Uncritical Adoption of 'AI' Technologies in Academia</a>.</p>
+        <p>Here are some posters to use to attract attention to more critical thinking about AI, <i><a href="https://www.ru.nl/en/research/research-projects/critical-ai-literacy-cail">Critical AI Literacy</a></i>. <b>Download them as <a href="{{site.baseurl}}/doc/anti-AI-posters.pdf">PDFs here</a>.</b> The QR code points to: <a href="//doi.org/10.5281/zenodo.17065099">Against the Uncritical Adoption of 'AI' Technologies in Academia</a>.</p>
 
   </div>
 </div>
