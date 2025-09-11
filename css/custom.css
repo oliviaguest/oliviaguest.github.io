@@ -359,6 +359,11 @@ img.bug, img.perceptron {
 
 }
 
+.poster {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
 .deselected 
 {
     display: none;
