@@ -114,6 +114,7 @@ h2#posters a {
          height: 33rem;
          /* overflow:hidden; */
         padding-left:3rem;    
+        padding-right:3rem;    
         padding-top:4rem;    
         /* overflow: hidden; */
 
@@ -123,7 +124,7 @@ h2#posters a {
 
     h1#cail {
             /* text-align: center; */
-            /* font-size: 9rem; */
+            font-size: 10rem;
             /* line-height: 10rem; */
              /* margin-left: 20rem; */
              word-wrap: normal;
