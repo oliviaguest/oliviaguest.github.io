@@ -1,0 +1,137 @@
+:root {
+    /* this has to be set to switch between light or dark */
+    color-scheme: light dark;
+  
+    --light-bg: #fefdfe;
+    --light-qbg: #fcf0ff;
+    --light-tb: #0a000d;
+    --light-color: #0a000d;
+    --light-h: #0a000d;
+    --light-a: #9334ae;
+    --light-h1: #00ff447d;
+  
+    --dark-bg: #0a000d;
+    --dark-qbg: #2e003b;
+    --dark-tb: #0a000d;
+    --dark-color: #fefdfe;
+    --dark-h: #fefdfe;
+    --dark-a: #e39cf6;
+    --dark-h1: #009026;
+
+
+    --font-family-sans: 'Inter', sans-serif;
+    font-weight: 300;
+  }
+
+@font-face {
+  font-family: Genty;
+  src: url(../fonts/GentyDemo-Regular.ttf);
+}
+@font-face {
+  font-family: laries;
+  src: url(../fonts/laries.otf);
+}
+
+h2#posters
+{
+    font-family: Genty;
+}
+
+
+/* a {
+        color: #cb6ce6;
+} */
+ .img-container {
+       overflow: hidden;
+      height: 40px;
+       max-height: 100px;
+       position: relative;
+   }
+
+.img {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: -330px;
+    }
+
+h1#cail
+ {
+        font-size: 12rem;
+        line-height: 13rem;
+        margin-bottom: 0rem;
+        font-family: laries;
+
+        /* transform: rotate(-30deg); */
+        /* padding-left:2rem;    
+        padding-top:4rem;    
+        overflow: hidden; */
+}
+
+
+
+h1 a {
+        color: #cb6ce6;
+
+        /* color: #fff; */
+
+        text-shadow: #00ff44  0.5rem 0.5rem 0rem, #00ff447d  1rem 1rem 0rem;
+        /* text-shadow: #cc6ce6b5 0.5rem 0.5rem 0rem, #cc6ce683 1rem 1rem 0rem; */
+        /* text-shadow: #66ff00 0.5rem 0.5rem 0rem, #66ff0083 1rem 1rem 0rem; */
+
+
+}
+
+h2#posters a {
+        color: #f60cd7;
+
+        /* padding-top:5rem;          */
+        /* padding-left:2rem;      */
+
+
+        text-shadow: #ffffff 0.1rem 0.5rem 1rem;
+
+}
+
+
+.posters {
+                background-image: url("../images/page4.png");
+                  background-size: cover;
+
+                        padding-left:3rem;     
+
+
+}
+
+.cail {
+                  /* padding-top:2rem;      */
+
+        background-image: url("../images/page6.png");
+        /* background-image: url("../images/page8.png"); */
+        background-size: cover;
+
+         height: 33rem;
+         /* overflow:hidden; */
+        padding-left:3rem;    
+        padding-top:4rem;    
+        /* overflow: hidden; */
+
+}
+
+@media screen and (max-width: 640px) {
+
+    h1#cail {
+            /* text-align: center; */
+            /* font-size: 9rem; */
+            /* line-height: 10rem; */
+             /* margin-left: 20rem; */
+             word-wrap: normal;
+
+
+    }
+        .cail {
+             /* padding-left:0.4rem;     */
+
+        }
+}

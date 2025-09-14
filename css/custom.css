@@ -16,17 +16,41 @@ html {
 }
 
 
+
+@font-face {
+    font-family: DhCario;
+    src: url(../fonts/DhCario.otf);
+}
+
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 :root {
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
   
     --light-bg: #fff6f3;
+    --light-qbg: #a96b8a22;
     --light-tb: #a96b8a22;
     --light-color: #333;
     --light-h: #a96b8a;
     --light-a: #a33b80;
   
     --dark-bg: #441809;
+    --dark-qbg: #a96b8a26;
     --dark-tb: #a96b8a2d;
     --dark-color: #ffe6ea;
     --dark-h: #a96b8a;
@@ -35,6 +59,13 @@ html {
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;
   }
+
+blockquote
+ {
+    background-color: light-dark(var(--light-qbg), var(--dark-qbg));
+    border-left: 0.0rem solid light-dark(var(--light-h), var(--dark-h));
+    padding: 1.5rem 2rem;
+}
 
 em {
     font-weight: 400;
@@ -119,10 +150,7 @@ h2 {
 
 
 
-@font-face {
-    font-family: DhCario;
-    src: url(../fonts/DhCario.otf);
-}
+
 
 h1 {
     font-family: 'DhCario', serif;
@@ -136,12 +164,9 @@ h1 {
 
 }
 
-h1#cail
- {
-    font-size: 10rem;
-}
 
-h2#publications, h2#featured {
+
+h2#publications, h2#featured, h2#posters {
     font-family: 'DhCario', serif;
     font-size: 8rem;
     line-height: 10rem;
@@ -149,6 +174,7 @@ h2#publications, h2#featured {
     margin-right: 1rem;
     display: inline-block; 
 }
+
 
 span#selected {
     font-family: 'Borel', serif;

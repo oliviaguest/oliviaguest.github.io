@@ -2,7 +2,7 @@
 layout: default
 title: Critical AI
 permalink: /ai
-published: false
+published: true
 
 ---
 
@@ -10,53 +10,109 @@ published: false
 <article class="page">
 <div class="row">
   <div class="col-12">
-<h1 id="cail"><a href="{{site.url}}/ai">Critical AI</a></h1>
+<ul class="socials">
+   <li class="social">
+    <a href="{{site.url}}">
+      <i class="fa-solid fa-home"></i></a>
+    </li>
+    <li class="social">
+    <a href="#here">
+      <i class="fa-solid fa-moon" id="dark" onclick="myFunction(this.id)"></i>
+    </a>
+    </li>
+</ul>
+</div>
+  <div class="col-12 cail">
+
+    <h1 id="cail"><a href="{{site.url}}/ai">Critical AI</a></h1>
+
   </div>
 </div>
 
 
+<!-- <div class="row"> -->
+    <!-- <div class="col-12"> -->
+
+        <!-- <div class="img-container"> -->
+        <!-- <img class="poster is-full-width" src="{{ site.baseurl }}/images/anti-ai3.jpg" alt="icon" /> -->
+        <!-- </div> -->
+   <!-- </div> -->
+    <!-- <div class="col-4">
+
+        <div class="img-container">
+        <img class="img poster is-full-width hide-xs hide-sm " src="{{ site.baseurl }}/images/anti-ai2.png" alt="icon" />
+        </div>
+   </div>
+   <div class="col-4">
+
+        <div class="img-container">
+        <img class="img poster is-full-width hide-xs hide-sm " src="{{ site.baseurl }}/images/anti-ai3.png" alt="icon" />
+        </div>
+   </div> -->
+<!-- </div> -->
+
 <div class="row">
 
 
 
-    <div class="col-12 col-6-md col-4-lg">
-        <p>On this page are some resources for Critical AI Literacy from <a href="{{site.url}}">my perspective</a>.
-            For the main project page, see: <a href="https://www.ru.nl/en/research/research-projects/critical-ai-literacy-cail">the project homepage</a>, and
+    <div class="col-12 col-6-md col-6-lg">
+
+
+        <h2 id="cail"><a href="#cail">about CAIL</a></h2>
+
+        <p>On this page are some resources for Critical AI Literacy (CAIL) from <a href="{{site.url}}">my perspective</a>.
+            For the main project page, see: <a href="https://www.ru.nl/en/research/research-projects/critical-ai-literacy-cail">the project homepage</a> and
             <a href="https://www.ru.nl/en/research/research-news/opposing-the-inevitability-of-ai-at-universities-is-possible-and-necessary">this press reelase</a> on our work<a href=""></a>.</p>
 
-        <p>In general, CAIL can be seen as </p>
+        <p>In general, as we say <a href="https://www.civicsoftechnology.org/blog/no-ai-gods-no-ai-masters">here</a>,  CAIL is:
+            <blockquote>as an umbrella for all the prerequisite knowledge required to have an expert-level critical perspective, such as to tell apart nonsense hype from true theoretical computer scientific claims (see our project website). For example, the idea that human-like systems are a sensible or possible goal is the result of circular reasoning and anthropomorphism. Such kinds of realisations are possible only when one is educated on the principles behind AI that stem from the intersection of computer and cognitive science, but cannot be learned if interference from the technology industry is unimpeded. Unarguably, rejection of this nonsense is also possible through other means, but in our context our AI students and colleagues are often already ensnared by uncritical computationalist ideology. We have the expertise to fix that, but not always the institutional support.</blockquote>
+            
+        </p>
+
+            <p>Here is a wonderfully done interview by <a href="https://www.the-geyser.com/pod-interview-with-olivia-guest-and-iris-van-rooij/">Kent Anderson and Joy Moore</a>, where we got to speak at length on these topics:
+            
+            <div class="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/p9w0FiHo1RU?si=yAykif0IShwbNn8d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div></p>
+
+            <p>In general, have a look at the various resources here, such as the <a href="#blogs">blog posts</a> and <a href="#research">preprints and published papers</a> to understand our various perspectives.</p>
     </div>
-
-    <div class="col-6 col-6-md col-8-lg vertical-center">
-        <img src="{{ site.baseurl }}/images/perceptron.png" alt="icon" class="hide-xs hide-sm perceptron">
-
-        <p class="hide-xs hide-sm caption">Guest and Martin (<a href="http://doi.org/10.31234/osf.io/eaf2z">2024</a>; original: <a href="https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf">Hay et al., 1960</a>)</p>
-
-    </div>
-
-
-</div>
-
-<div class="row">
-        <div class="col-12 col-6-md col-6-lg">
-                  <h2 id="resources"><a href="#resources">resources</a></h2>
-
-    </div>
-
-    <div class="col-6 col-6-md col-6-lg vertical-center">
-        <img src="{{ site.baseurl }}/images/perceptron.png" alt="icon" class="hide-xs hide-sm perceptron">
-
-        <p class="hide-xs hide-sm caption">Guest and Martin (<a href="http://doi.org/10.31234/osf.io/eaf2z">2024</a>; original: <a href="https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf">Hay et al., 1960</a>)</p>
-
-    </div>
-
-
-</div>
-
-<div class="row">
     <div class="col-12 col-6-md col-6-lg">
-      <h2 id="posters"><a href="#posters">posters</a></h2>
-        <p>Here are some posters to use to attract attention to more critical thinking about AI, <i><a href="https://www.ru.nl/en/research/research-projects/critical-ai-literacy-cail">Critical AI Literacy</a></i>.  The QR code points to: <a href="//doi.org/10.5281/zenodo.17065099">Against the Uncritical Adoption of 'AI' Technologies in Academia</a>.</p>
+        <h2 id="blogs"><a href="#blogs">blogs</a></h2>
+
+        {% assign blogs = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail' %}
+        {% include blog_posts.html publications=blogs %}
+        
+        <h2 id="research"><a href="#research">research</a></h2>
+
+        {% assign articles = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail' %}
+        {% include publications_copy.html publications=articles %}
+    </div>
+
+</div>
+
+
+<!-- <div class="row">
+    <div class="col-12">
+        <img class="poster is-full-width" src="{{ site.baseurl }}/images/anti-ai2.jpg" alt="icon" />
+   </div>
+   
+   <div class="col-12">
+        <img class="poster is-full-width" src="{{ site.baseurl }}/images/anti-ai1.jpg" alt="icon" />
+   </div>
+</div> -->
+
+<div class="row">
+
+    <div class="col-12 posters">
+
+      <h2 id="posters"><a href="#posters">activism & posters</a></h2>
+</div></div>
+
+<div class="row">
+
+    <div class="col-12 col-6-md col-6-lg">
+        <p>Below are some posters to use to attract attention to more critical thinking about AI, <i><a href="https://www.ru.nl/en/research/research-projects/critical-ai-literacy-cail">Critical AI Literacy</a></i>. <b>Download them as <a href="https://doi.org/10.5281/zenodo.17112000">PDFs here</a>.</b> The QR code points to: <a href="//doi.org/10.5281/zenodo.17065099">Against the Uncritical Adoption of 'AI' Technologies in Academia</a>.</p>
 
         <p><b>Download the posters as <a href="{{site.baseurl}}/doc/anti-AI-posters.pdf">PDFs here</a>.</b></p>
     </div>

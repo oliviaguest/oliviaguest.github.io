@@ -317,6 +317,7 @@
   selected: 1
   tags:
     - crit
+    - cail
 
 
 - date: 2023-02-13 
@@ -332,6 +333,7 @@
   selected: 1
   tags: 
     - meta
+    - cail
 
 - date: 2024-01-24 
   type: journal
@@ -363,6 +365,7 @@
   tags: 
     - meta
     - crit
+    - cail 
 
 - date: 2024-09-27 
   type: article
@@ -379,6 +382,7 @@
   tags: 
     - meta
     - crit
+    - cail
 
 - date: 2024-09-01 
   type: journal
@@ -408,6 +412,7 @@
   tags: 
     - meta
     - crit
+    - cail
 
 - date: 2025-02-27
   type: preprint
@@ -434,6 +439,8 @@
   pdf: https://philpapers.org/archive/FORTIL.pdf
   journal: Cognitive Science
   selected: 1
+  tags:
+   - cail
 
 
 
@@ -462,6 +469,7 @@
   tags: 
   - meta
   - crit
+  - cail
 
 - date: 2025-07-29
   type: preprint
@@ -475,6 +483,7 @@
   tags: 
   - meta
   - crit
+  - cail
 
 
 - date: 2025-09-06
@@ -489,4 +498,65 @@
   tags: 
   - meta
   - crit
+  - cail
+
+
+
+
+- date: 2025-09-14
+  type: blog
+  status: published
+  authors: <b>Guest, O.</b>, van Rooij, I, Müller, B., & Suarez, M.
+  title: "No AI Gods, No AI Masters"
+  url: https://www.civicsoftechnology.org/blog/no-ai-gods-no-ai-masters
+  blog: Civics of Technology
+  selected: 3
+  tags: 
+  - cail
+
+- date: 2025-09-07
+  type: blog
+  status: published
+  authors:  Merchant, B.
+  title: Cognitive scientists and AI researchers make a forceful call to reject "uncritical adoption" of AI in academia
+  url: https://www.bloodinthemachine.com/p/cognitive-scientists-and-ai-researchers/
+  blog: Blood in the Machine
+  selected: 3
+  tags: 
+    - cail
+
+- date: 2025-06-12
+  type: blog
+  status: published
+  authors:  Suarez, M., Müller, B.,<b>Guest, O.</b>, & van Rooij, I.
+  title: "Critical AI Literacy: Beyond hegemonic perspectives on sustainability"
+  url: https://rcsc.substack.com/p/critical-ai-literacy-beyond-hegemonic
+  doi: https://doi.org/10.5281/zenodo.15677839
+  blog: Sustainability Dispatch
+  selected: 3
+  tags: 
+    - cail
+
+- date: 2024-09-29
+  type: blog
+  status: published
+  authors: van Rooij, I. & <b>Guest, O.</b>
+  title: "Don't believe the hype: AGI is far from inevitable"
+  url: https://www.ru.nl/en/research/research-news/dont-believe-the-hype-agi-is-far-from-inevitable
+  blog: Radboud University Research News
+  selected: 3
+  tags:
+  - cail
+
+- date: 2025-09-12
+  type: blog
+  status: published
+  authors: van Rooij, I.
+  title: AI slop and the destruction of knowledge
+  url: https://irisvanrooijcogsci.com/2025/08/12/ai-slop-and-the-destruction-of-knowledge/
+  doi: https://doi.org/10.5281/zenodo.16905560
+  blog: Iris van Rooij
+  selected: 3
+  tags:
+  - cail
 
