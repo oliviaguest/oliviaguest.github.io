@@ -80,7 +80,9 @@ h1 a {
 
 }
 
-
+li {
+        text-align: left;
+}
 h2#posters, h2#allies
 {
     font-family: 'Genty', serif;
