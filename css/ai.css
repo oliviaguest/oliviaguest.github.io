@@ -32,10 +32,7 @@
   src: url(../fonts/laries.otf);
 }
 
-h2#posters
-{
-    font-family: Genty;
-}
+
 
 
 /* a {
@@ -83,40 +80,55 @@ h1 a {
 
 }
 
-h2#posters a {
-        color: #f60cd7;
 
-        /* padding-top:5rem;          */
-        /* padding-left:2rem;      */
-
-
-        text-shadow: #ffffff 0.1rem 0.5rem 1rem;
+h2#posters, h2#allies
+{
+    font-family: 'Genty', serif;
+    font-size: 8rem;
+    line-height: 10rem;
+    /* margin-bottom: 2rem; */
+    margin-right: 1rem;
+    display: inline-block; 
 
 }
 
+h2#posters a {
+        color: #f60cd7;
+        text-shadow: #ffffff 0.1rem 0.5rem 1rem;
+}
+
+h2#allies a {
+        color: #1800ad;
+        text-shadow: #ffffff 0.1rem 0.5rem 1rem;
+}
 
 .posters {
-                background-image: url("../images/page4.png");
-                  background-size: cover;
+        background-image: url("../images/page4.png");
+        background-size: cover;
 
-                        padding-left:3rem;     
-
-
+        padding-left:3rem;     
 }
 
 .cail {
-                  /* padding-top:2rem;      */
+        /* padding-top:2rem;      */
 
         background-image: url("../images/page6.png");
         /* background-image: url("../images/page8.png"); */
         background-size: cover;
 
-         height: 33rem;
-         /* overflow:hidden; */
+        height: 33rem;
+        /* overflow:hidden; */
         padding-left:3rem;    
         padding-right:3rem;    
         padding-top:4rem;    
         /* overflow: hidden; */
+
+}
+
+.allies {
+        background-image: url("../images/page3.png");
+        background-size: cover;
+        padding-left:3rem;   
 
 }
 
