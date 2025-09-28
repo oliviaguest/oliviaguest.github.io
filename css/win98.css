@@ -1,0 +1,17 @@
+@import "chota.min.css";
+
+@import url("https://unpkg.com/98.css");
+
+
+h1 {text-align: center;
+margin-top: 3rem}
+
+h2 {display: none;}
+
+.content {
+    padding-top: 4rem;
+}
+
+p {
+    font-size: 1.5rem;
+}

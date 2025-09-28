@@ -1,3 +1,7 @@
+@import "chota.min.css";
+@import "custom.css";
+
+
 :root {
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
@@ -6,18 +10,17 @@
     --light-qbg: #fcf0ff;
     --light-tb: #0a000d;
     --light-color: #0a000d;
-    --light-h: #0a000d;
-    --light-a: #9334ae;
-    --light-h1: #00ff447d;
+    --light-h: #1f4a3c;
+    --light-a: #165e46;
+    --light-h1: #1f4a3c;
   
     --dark-bg: #0a000d;
     --dark-qbg: #2e003b;
     --dark-tb: #0a000d;
     --dark-color: #fefdfe;
-    --dark-h: #fefdfe;
-    --dark-a: #e39cf6;
-    --dark-h1: #009026;
-
+    --dark-h: #6cac97;
+    --dark-a: #558978;
+    --dark-h1: #1f4a3c;
 
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;

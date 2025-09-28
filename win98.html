@@ -1,0 +1,138 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title:  Olivia Guest
+image: /images/preview.png
+css: win98
+published: false
+permalink: win98
+description: "Hi! I am an Assistant Professor of Computational Cognitive Science. I work in the Department of Cognitive Science and Artificial Intelligence in the Donders Centre for Cognition and the School of Artificial Intelligence at Radboud University in the Netherlands. My research interests comprise (meta)theoretical, critical, and radical perspectives on the neuro-, computational, and cognitive sciences broadly construed. See my list of publications for more. I am committed to equity, diversity, and inclusion in (open) science, promoting access to technical skills training — including the broader decolonisation of cognitive and computational sciences. Relatedly, Christina Bergmann and I maintain a list of underrepresented cognitive computational scientists."
+---
+
+
+
+<div class="row">
+    <div class="col-12 col-6-md col-6-lg  ">
+<div class="vertical-center">
+        <div class="window" style="width: 75%">
+        <div class="title-bar">
+            <div class="title-bar-text" id="top">Hello!</div>
+            <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body"><h1><b><a href="{{site.url}}/{{page.url}}">Olivia Guest</a></b></h1>
+        </div>
+        </div></div>
+    </div>
+
+    <div class="col-12 col-6-md col-6-lg">
+
+    <div class="vertical-center">
+
+        <div class="window" style="width: 80%">
+            <div class="title-bar">
+                <div class="title-bar-text" id="about">About</div>
+                <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                {% include me.html %}
+
+                <div class="is-center">
+                    <button class=" default">OK</button>
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-6-md col-6-lg">
+
+
+            <div class="vertical-center">
+
+        <div class="window" style="width: 60%">
+            <div class="title-bar">
+                <div class="title-bar-text" id="bio">Biography</div>
+                <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+
+
+        {% include biography.html %}
+
+                <div class="is-center">
+                    <button class=" default">OK</button>
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="col-12 col-6-md col-6-lg">
+        {% include mentoring.html %}
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-12 col-6-md col-6-lg">
+        {% include news.html %}
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-12">
+<!-- Uncomment these two to get the functionality of full versus selected. -->
+<!-- <a href="#publications"><h2 id="publications">Selected Publications</h2></a>
+<a><span id="selected"  onclick="togglePublications(this)">(see full)</span></a> -->
+
+<h2 id="publications"><a href="#publications">Publications</a></h2>
+<span id="selected">(selected)</span>
+</div>
+
+    <div class="col-12">       
+
+<div id="pub-cols" class="text-col">
+
+        {% assign articles = site.data.publications | sort:"date" | reverse %}
+        {% include publications_copy.html publications=articles %}
+
+        </div>
+        </div>
+    <!-- <div class="col-6">
+    </div> -->
+</div>
+
+<div class="row">
+
+    <div class="col-6 col-6-md col-6-lg vertical-center">
+    </div>
+
+
+
+
+</div>

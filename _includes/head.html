@@ -9,12 +9,14 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-<!--<link rel="stylesheet" href="https://unpkg.com/chota@latest">-->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/chota.min.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
-{% if page.url == '/ai' %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/ai.css">
+
+{% if page.css %}
+    <link rel="stylesheet" href="{{ site.url }}/css/{{ page.css }}.css">
+{% else %}
+    <link rel="stylesheet" href="{{ site.url }}/css/custom.css">
 {% endif %}
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
