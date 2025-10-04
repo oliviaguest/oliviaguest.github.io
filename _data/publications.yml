@@ -501,6 +501,22 @@
   - cail
 
 
+- date: 2025-10-03
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b> & van Rooij, I.
+  title: "Critical Artificial Intelligence Literacy for Psychologists"
+  pdf: https://osf.io/dkrgj_v1/download/
+  doi: 10.31234/osf.io/dkrgj_v1
+  server: PsyArXiv
+  selected: 1
+  tags: 
+  - meta
+  - crit
+  - cail
+
+
+
 
 
 - date: 2025-09-14
