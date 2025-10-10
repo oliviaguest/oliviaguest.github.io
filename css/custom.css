@@ -24,6 +24,26 @@ html {
     src: url(../fonts/DhCario.otf);
 }
 
+.menu-and-main {
+        display: grid;
+        grid-column-gap: var(--grid-gutter);
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+}
+
+.menu {
+        margin: 0 calc(var(--grid-gutter)/2) calc(var(--grid-gutter)/2)
+}
+
+@media only screen and (min-width: 900px) {
+    .menu-and-main {
+        grid-template-columns: 15rem auto;
+    }
+     .fixed {
+        position: sticky;
+        top: .7em;
+    } 
+}
 
 .videoWrapper {
     position: relative;
@@ -152,8 +172,6 @@ h2 {
 
 
 
-
-
 h1 {
     font-family: 'DhCario', serif;
     font-size: 20rem;
@@ -187,7 +205,8 @@ span#selected {
     opacity: 0.5;
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 1070px) { */
+@media screen and (max-width: 910px) {
 
     h1 {
             /* text-align: center; */
@@ -239,6 +258,17 @@ padding-bottom: 1rem;
     text-align: left;
     break-inside: avoid;
 }
+
+li.menu-item
+ {
+    list-style: none;
+    text-indent: -4rem;
+
+
+}
+
+
+
 
 .newsitem {
     text-indent: -1rem;
@@ -473,3 +503,25 @@ td {
 tr:nth-child(even) {background-color:light-dark(var(--light-tb), var(--dark-tb));}
 
 thead {width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(--dark-tb));}
+
+
+.navbar {
+  overflow: hidden;
+    background-color: light-dark(var(--light-bg), var(--dark-bg));
+  position: fixed;
+  top: 0;
+  width: 100rem;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* font-size: 17px; */
+}
+
+.navbar a:hover {
+
+}
