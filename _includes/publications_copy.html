@@ -1,9 +1,6 @@
   <ul>
   {% for publication in include.publications %}
-        
-        {% if publication.selected == 3 %}
-            {% continue %}
-        {% endif %}
+
 
     <li class="item {% if publication.selected == 0 %}deselected{% endif %}">
 
@@ -32,7 +29,7 @@
             <a href="{{ publication.pdf }}" title="PDF"><i class="far fa-file-pdf"></i></a>
           {% endif %}
           {%if publication.video %}
-            <a href="{{ publication.video }}" title="PDF"><i class="far fa-file-video"></i></a>
+            <a href="{{ publication.video }}" title="Video"><i class="far fa-file-video"></i></a>
           {% endif %}
           
         </span> 

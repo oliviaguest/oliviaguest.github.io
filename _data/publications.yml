@@ -480,6 +480,7 @@
   doi: 10.48550/arXiv.2507.19960
   server: arXiv
   selected: 1
+  video: https://www.youtube.com/watch?v=Fxyg2UMq_no&t=6341s
   tags: 
   - meta
   - crit
@@ -585,6 +586,27 @@
   url: https://stopgenai.com/anti-gen-ai-heroes-dr-olivia-guests-dire-warning-to-academia/
   blog: Stop Gen AI
   selected: 3
+  tags:
+  - cail
+
+
+- date: 2025-09-12
+  type: video
+  status: published
+  authors: "<b>Interviewers:</b> Kent Anderson & Joy Moore"
+  title: "Safeguarding Science from AI: An Interview with Olivia Guest and Iris van Rooij"
+  url: https://www.youtube.com/watch?v=p9w0FiHo1RU
+  selected: 4
+  tags:
+  - cail
+
+- date: 2025-10-14
+  type: video
+  status: published
+  authors: "<b>Organisers:</b> Leonard Block Santos, Barbara Müller, & Iris van Rooij"
+  title: "Critical AI Literacy: Empowering people to resist hype and harms in the age of AI — Symposium 2025"
+  url: https://www.youtube.com/watch?v=Fxyg2UMq_no
+  selected: 4
   tags:
   - cail
 

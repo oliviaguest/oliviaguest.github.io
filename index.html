@@ -270,7 +270,7 @@ description: "Hi! I am an Assistant Professor of Computational Cognitive Science
 
 <div id="pub-cols" class="text-col">
 
-        {% assign articles = site.data.publications | sort:"date" | reverse %}
+        {% assign articles = site.data.publications | sort:"date" | reverse   | where: 'selected', '1' %}
         {% include publications_copy.html publications=articles %}
 
         </div>
