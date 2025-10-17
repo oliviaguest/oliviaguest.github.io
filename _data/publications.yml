@@ -399,14 +399,14 @@
   selected: 1
   video: https://media.ed.ac.uk/media/Olivia%20Guest%20and%20Sam%20Forbes%20%E2%80%93%20Inclusivity%20in%20teaching%20programming/1_te5m3m22
 
-- date: 2024-10-09 
-  type: preprint
-  status: unpublished
+- date: 2025-10-17 
+  type: journal
+  status: published
   authors: <b>Guest, O.</b> & Martin, A. E.
   title: 'A Metatheory of Classical and Modern Connectionism'
-  doi: 10.31234/osf.io/eaf2z
+  doi: 10.1037/rev0000591
   PsyArXiv: https://psyarxiv.com/eaf2z
-  server: PsyArXiv
+  server: Psychological Review
   pdf: https://osf.io/eaf2z/download/
   selected: 1
   tags: 
