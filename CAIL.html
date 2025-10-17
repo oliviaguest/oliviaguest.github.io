@@ -96,7 +96,7 @@ description: "On this page are some resources for Critical AI Literacy (CAIL) fr
         {% assign talks = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail' | where: 'selected', '4' %}
         {% include publications_copy.html publications=talks %}
 
-        <h2 id="blogs"><a href="#blogs">blogs</a></h2>
+        <h2 id="blogs"><a href="#blogs">blogs & opinion pieces</a></h2>
 
         {% assign blogs = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail'  | where: 'selected', '3' %}
         {% include publications_copy.html publications=blogs %}
