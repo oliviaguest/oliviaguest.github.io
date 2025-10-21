@@ -619,3 +619,16 @@
   selected: 3
   tags:
   - cail
+
+- date: 2025-10-21
+  type: news
+  status: published
+  authors:  Pearson, H.
+  title: "Universities are embracing AI: will students get smarter or stop thinking?"
+  journal: Nature
+  url: https://www.nature.com/articles/d41586-025-03340-w
+  selected: 3
+  tags:
+  - cail
+
+  

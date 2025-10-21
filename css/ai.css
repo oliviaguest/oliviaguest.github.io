@@ -106,29 +106,10 @@ h2
 
 }
 
-h2#cail a {
+h2#cail a, h2#activism a, h2#allies a  {
         color: light-dark(var(--light-bg), var(--dark-bg));
             -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color));
                paint-order: stroke fill;
-}
-
-
-
-h2#activism a {
-        color: #f60cd7;
-        /* text-shadow: #ffffff 0.1rem 0.5rem 1rem; */
-                    -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color));
-               paint-order: stroke fill;
-}
-
-h2#allies a {
-        color: #1800ad;
-        /* text-shadow: #ffffff 0.1rem 0.5rem 1rem; */
-        /* text-shadow: #ffffff 0.1rem 0.5rem 1rem; */
-            -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color));
-               paint-order: stroke fill;
-
-
 }
 
 .activism {
