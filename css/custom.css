@@ -128,7 +128,8 @@ body {
   }
 
 
-body > .container {
+/* body >  */
+.container {
     max-width: 100rem;
 }
 
@@ -142,7 +143,8 @@ body > .container {
 }
 
 @media screen and (max-width: 900px) {
-    body > .container {
+    /* body > */
+     .container {
         max-width: 60rem;
     }
     .text-col {
@@ -513,7 +515,7 @@ thead {width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(-
     margin-bottom: 3rem;
   /* position: fixed; */
   top: 0;
-  /* width: 100rem; */
+  width: 100%;
 }
 
 .navbar a {

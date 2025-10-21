@@ -15,9 +15,21 @@
 
 
 
+{% if page.css == 'ai' %}
  <nav class="navbar">
-  <a href="#top">Home</a>
-  <a href="#news">News</a>
-  <a href="#publications">Publications</a>
+  <div class="container"> 
+    <a href="{{site.url}}#top">Home</a>
+    <a href="#about">CAIL</a>
+    <a href="#allies">Allies</a>
+    <a href="#posters">Posters</a>
+  </div>
 </nav>
-
+{% elsif page.layout == 'default' or page.layout == 'page' %}
+ <nav class="navbar">
+  <div class="container"> 
+    <a href="{{site.url}}#top">Home</a>
+    <a href="{{site.url}}#news">News</a>
+    <a href="{{site.url}}#publications">Publications</a>
+  </div>
+</nav>
+{% endif %}
