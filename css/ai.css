@@ -155,3 +155,29 @@ h2#allies a {
 
         }
 }
+
+.navbar {
+  overflow: hidden;
+    background-color: light-dark(var(--light-bg), var(--dark-bg));
+    margin-bottom: 3rem;
+  /* position: fixed; */
+  top: 0;
+  /* width: 100rem; */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1rem 2rem 1rem 1.5rem; 
+    text-decoration: none;
+    font-size: 1.8rem;
+    /* font-family:'Borel', serif; */
+}
+
+.navbar a:hover{
+    background-color: light-dark(var(--light-bg), var(--dark-bg));
+
+
+}
+

@@ -5,6 +5,7 @@ permalink: /license/
 published: true
 ---
 
+
 <!-- <a href="//www.gnu.org/licenses/gpl-3.0.en.html"><img class="imgright" src="//www.gnu.org/graphics/gplv3-127x51.png" alt=" [GPLv3 Logo] " style="float: right; padding-left: 1em;"></a> -->
 The code used to generate [this website](//github.com/oliviaguest/oliviaguest.github.io) is released under the <a href="//www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License version 3</a> (GPLv3).
 The text and images on this website are released under the <a href="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</a> (CC BY 4.0). If you have any questions regarding licensing of my code or my content, feel free to <a href="mailto:contact@oliviaguest.com?Subject=Licensing" target="_top">contact me</a>.

@@ -114,6 +114,8 @@ body {
     background-color: light-dark(var(--light-bg), var(--dark-bg));
     color: light-dark(var(--light-color), var(--dark-color));
     line-height: 1.5;
+      overflow-y: scroll; /* Show vertical scrollbar */
+
 }
 
 .light {
@@ -239,7 +241,7 @@ p a:hover, li a:hover {
 }
 
 .content {
-    margin-top: 6rem;
+    margin-top: 0rem;
 }
 
 .column {
@@ -507,21 +509,27 @@ thead {width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(-
 
 .navbar {
   overflow: hidden;
-    background-color: light-dark(var(--light-bg), var(--dark-bg));
-  position: fixed;
+    background-color: light-dark(var(--light-tb), var(--dark-tb));
+    margin-bottom: 3rem;
+  /* position: fixed; */
   top: 0;
-  width: 100rem;
+  /* width: 100rem; */
 }
 
 .navbar a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  /* font-size: 17px; */
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1rem 2rem 1rem 1.5rem; 
+    text-decoration: none;
+    font-size: 1.8rem;
+    /* font-family:'Borel', serif; */
+    /* background-color: light-dark(var(--light-tb), var(--dark-tb)); */
 }
 
-.navbar a:hover {
+.navbar a:hover{
+        background-color: light-dark(var(--light-tb), var(--dark-tb));
+
 
 }
+
