@@ -7,20 +7,20 @@
     color-scheme: light dark;
   
     --light-bg: #fefdfe;
-    --light-qbg: #f0ecf1;
+    --light-qbg: #f0ecf1c5;
     --light-tb: #0a000d;
     --light-color: #0a000d;
     --light-h: #1f4a3c;
     --light-a: #165e46;
-    --light-h1: #1f4a3c;
+    --light-menu: #25242523;
   
     --dark-bg: #0a000d;
-    --dark-qbg: #252425;
+    --dark-qbg: #252425c5;
     --dark-tb: #0a000d;
     --dark-color: #fefdfe;
     --dark-h: #6cac97;
     --dark-a: #558978;
-    --dark-h1: #1f4a3c;
+    --dark-menu: #f0ecf123;
 
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;
@@ -190,11 +190,11 @@ h2#allies a {
 
 .navbar {
   overflow: hidden;
-    background-color: light-dark(var(--light-bg), var(--dark-bg));
+    background-color: light-dark(var(--light-menu), var(--dark-menu));
     margin-bottom: 3rem;
   /* position: fixed; */
   top: 0;
-  /* width: 100rem; */
+  width: 100%;
 }
 
 .navbar a {
@@ -205,11 +205,11 @@ h2#allies a {
     text-decoration: none;
     font-size: 1.8rem;
     /* font-family:'Borel', serif; */
+    /* background-color: light-dark(var(--light-tb), var(--dark-tb)); */
 }
 
 .navbar a:hover{
-    background-color: light-dark(var(--light-bg), var(--dark-bg));
+        background-color: light-dark(var(--light-menu), var(--dark-menu));
 
 
 }
-
