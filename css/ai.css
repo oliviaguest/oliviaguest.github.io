@@ -97,11 +97,12 @@ h2
 {
     font-family: 'Genty', serif;
     font-size: 8rem;
-    line-height: 10rem;
+    line-height: 9rem;
     /* margin-bottom: 2rem; */
     margin-right: 1rem;
     display: inline-block;
     hyphens: none;
+    margin-bottom: 0;
 
 }
 
@@ -175,6 +176,7 @@ h2#allies a {
     }
         h2 {
                 font-size: 7rem;
+                line-height: 8rem;
                 /* padding-left: 1rem; */
         }
 }
