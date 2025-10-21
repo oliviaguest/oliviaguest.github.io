@@ -19,9 +19,12 @@
  <nav class="navbar">
   <div class="container"> 
     <a href="{{site.url}}#top">Home</a>
-    <a href="#about">CAIL</a>
+    <a href="#cail">CAIL</a>
     <a href="#allies">Allies</a>
     <a href="#posters">Posters</a>
+    <a href="#here" class="right">
+      <i class="fa-solid fa-moon" id="dark" onclick="myFunction(this.id)"></i>
+    </a>
   </div>
 </nav>
 {% elsif page.layout == 'default' or page.layout == 'page' %}
