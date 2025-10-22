@@ -27,7 +27,7 @@
   title: 'Optimism bias in fans and sports reporters'
   journal: PLoS ONE
   doi: 10.1371/journal.pone.0137685
-  pdf: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF
+  pdf: https://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF
   selected: 0
   osf: 3xrfa
 
@@ -123,7 +123,7 @@
   pdf: https://link.springer.com/content/pdf/10.1007%2Fs42001-019-00053-9.pdf
   github: oliviaguest/redistrict
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
-  website: http://redistrict.science
+  website: https://redistrict.science
   video: https://www.youtube.com/watch?v=UDqLJovk9ek
   selected: 0
 
@@ -139,7 +139,7 @@
   pdf: https://link.springer.com/content/pdf/10.1007%2Fs42001-019-00053-9.pdf
   github: oliviaguest/redistrict
   figshare: 'articles/Gerrymandering_and_Computational_Redistricting/5605387'
-  website: http://redistrict.science
+  website: https://redistrict.science
   selected: 0
 
 # - date: 2019-11-15
@@ -150,7 +150,7 @@
 #   bioRxiv: https://www.biorxiv.org/content/10.1101/843193v1
 #   server: bioRxiv
 #   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/11/15/843193.full-text.pdf
-#   website: http://narps.info
+#   website: https://narps.info
 #   doi: 10.1101/843193
 #   github: poldrack/narps
 #   selected: 0
@@ -176,7 +176,7 @@
   bioRxiv: https://www.biorxiv.org/content/10.1101/843193v1
   journal: Nature
   pdf: https://www.nature.com/articles/s41586-020-2314-9.pdf
-  website: http://narps.info
+  website: https://narps.info
   doi: 10.1038/s41586-020-2314-9
   github: poldrack/narps
   selected: 0
