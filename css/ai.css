@@ -8,7 +8,7 @@
   
     --light-bg: #fefdfe;
     --light-qbg: #f0ecf1c5;
-    --light-tb: #0a000d;
+    --light-tb: #f0ecf1c5;
     --light-color: #0a000d;
     --light-h: #1f4a3c;
     --light-a: #165e46;
@@ -16,7 +16,7 @@
   
     --dark-bg: #0a000d;
     --dark-qbg: #252425c5;
-    --dark-tb: #0a000d;
+    --dark-tb: #252425c5;
     --dark-color: #fefdfe;
     --dark-h: #6cac97;
     --dark-a: #558978;
@@ -195,4 +195,8 @@ h2#cail a, h2#activism a, h2#allies a  {
         background-color: light-dark(var(--light-menu), var(--dark-menu));
 
 
+}
+
+td {
+  vertical-align: top;
 }
