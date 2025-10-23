@@ -10,15 +10,27 @@ description: "On this page are some resources for Critical AI Literacy (CAIL) fr
 ---
 
 
+
 <article class="page">
 
 <div class="row">
-  <div class="col-12 header">
+  <div class="col-12 header" id="header">
 
-    <h1 id="header"><a href="{{site.url}}/ai">Critical AI</a></h1>
+    <h1><a href="{{site.url}}/ai">Critical AI</a></h1>
 
   </div>
 </div>
+
+<script>
+const images = ['url("../images/page8.png")', 'url("../images/page6.png")'];
+const randomImage = images[Math.floor(Math.random() * images.length)];
+
+const locations = ['top', 'center', 'bottom'];
+const randomLocation = locations[Math.floor(Math.random() * locations.length)];
+
+document.getElementById("header").style.backgroundImage = randomImage;
+document.getElementById("header").style.backgroundPosition = randomLocation;
+</script>
 
 <div class="row">
 

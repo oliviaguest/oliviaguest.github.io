@@ -6,7 +6,7 @@
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
   
-    --light-bg: #fefdfe;
+    --light-bg: #fefffe;
     --light-qbg: #f0ecf1c5;
     --light-tb: #f0ecf1c5;
     --light-color: #0a000d;
@@ -14,12 +14,12 @@
     --light-a: #165e46;
     --light-menu: #25242523;
   
-    --dark-bg: #0a000d;
-    --dark-qbg: #252425c5;
+    --dark-bg: #011f17;
+    --dark-qbg: #272327c5;
     --dark-tb: #252425c5;
     --dark-color: #fefdfe;
     --dark-h: #6cac97;
-    --dark-a: #558978;
+    --dark-a: #64a08c;
     --dark-menu: #f0ecf123;
 
     --font-family-sans: 'Inter', sans-serif;
@@ -56,32 +56,38 @@
         bottom: -330px;
     }
 
-h1#header
+h1
  {
         font-size: 12rem;
         line-height: 13rem;
         margin-bottom: 0rem;
         font-family: laries;
-
-        /* transform: rotate(-30deg); */
-        /* padding-left:2rem;    
-        padding-top:4rem;    
-        overflow: hidden; */
 }
+
 
 
 
 h1 a {
-        color: #cb6ce6;
+        /* color: #886890; */
+        /* text-shadow: #00ff44bb  0.5rem 0.5rem 0rem, #00ff447d  1rem 1rem 0rem; */
 
-        /* color: #fff; */
-
-        text-shadow: #00ff44bb  0.5rem 0.5rem 0rem, #00ff447d  1rem 1rem 0rem;
-        /* text-shadow: #cc6ce6b5 0.5rem 0.5rem 0rem, #cc6ce683 1rem 1rem 0rem; */
-        /* text-shadow: #66ff00 0.5rem 0.5rem 0rem, #66ff0083 1rem 1rem 0rem; */
-
+        color: #ffffff;
+        text-shadow: #cb6ce6bb  0.5rem 0.5rem 0rem, #cb6ce67d  1rem 1rem 0rem;
 
 }
+
+.header {
+        background-size: cover;
+
+        height: 33rem;
+        padding-left:3rem;    
+        padding-right:3rem;    
+        padding-top:4rem;    
+
+        background-image: url("../images/page6.png");
+
+}
+
 
 li {
         text-align: left;
@@ -120,21 +126,7 @@ h2#cail a, h2#activism a, h2#allies a  {
         /* padding-left:3rem;      */
 }
 
-.header {
-        /* padding-top:2rem;      */
 
-        background-image: url("../images/page6.png");
-        /* background-image: url("../images/page8.png"); */
-        background-size: cover;
-
-        height: 33rem;
-        /* overflow:hidden; */
-        padding-left:3rem;    
-        padding-right:3rem;    
-        padding-top:4rem;    
-        /* overflow: hidden; */
-
-}
 
 .allies {
         /* background-image: url("../images/page3.png"); */
