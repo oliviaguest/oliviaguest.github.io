@@ -28,7 +28,7 @@
 
 <!-- HTML Meta Tags -->
 <title>{{page.title}}</title>
-<meta name="description" content="">
+<meta name="description" content="{{ page.description }}">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="{{site.url}}{{page.url}}">
@@ -36,6 +36,9 @@
 <meta property="og:title" content="{{page.title}}">
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:image" content="{{site.url}}{{page.image}}">
+<meta property="og:locale" content="en_UK">
+<meta property="og:site_name" content="{{ site.url }}" />
+
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
