@@ -89,6 +89,7 @@ h1 a {
 }
 
 
+
 li {
         text-align: left;
 }
@@ -113,10 +114,50 @@ h2
 }
 
 h2#cail a, h2#activism a, h2#allies a  {
-        color: light-dark(var(--light-bg), var(--dark-bg));
-            -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color));
-               paint-order: stroke fill;
+  /* background: url("../images/page6.png") no-repeat; */
+        -webkit-background-clip: text;
+          color: light-dark(var(--light-bg), var(--dark-bg));
+        -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color));
+        paint-order:  stroke fill;
+
+  
 }
+
+
+
+/* https://stackoverflow.com/questions/78298117/how-can-i-style-text-with-image-stroke-and-shadow-simultaneously */
+/* .letsgo {
+  position: relative;
+  text-decoration: none;
+
+  background-image: 
+        linear-gradient(light-dark(var(--light-tb), var(--dark-tb))), url("../images/page6.png");
+
+
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  paint-order:  stroke fill;
+
+
+}
+.letsgo::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color));
+  paint-order:  stroke fill;
+
+} */
+
 
 .activism {
         /* background-image: url("../images/page4.png"); */
@@ -192,3 +233,4 @@ h2#cail a, h2#activism a, h2#allies a  {
 td {
   vertical-align: top;
 }
+
