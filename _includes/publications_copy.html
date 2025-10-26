@@ -9,15 +9,15 @@
       ({% if publication.status == 'inpress' %}{{ publication.status }}{% else %}{{publication.date | date: "%Y"}}{% endif %}).
       <!-- <div class="title"> -->
         {% if publication.doi %}
-        <a class="title" href="//doi.org/{{ publication.doi }}">{{ publication.title }}</a>
+        <a class="title" href="//doi.org/{{ publication.doi }}">{{ publication.title }}</a>.
         {% elsif publication.url %}
-        <a class="title" href="{{ publication.url }}">{{ publication.title }}</a>
+        <a class="title" href="{{ publication.url }}">{{ publication.title }}</a>.
         {% elsif publication.arxiv %}
-        <a class="title" href="{{ publication.arxiv }}">{{ publication.title }}</a>
+        <a class="title" href="{{ publication.arxiv }}">{{ publication.title }}</a>.
         {% elsif publication.pdf %}
-        <a class="title" href="{{ publication.pdf }}">{{ publication.title }}</a>
+        <a class="title" href="{{ publication.pdf }}">{{ publication.title }}</a>.
         {% else %} {{ publication.title }}
-        {% endif %}.
+        {% endif %}
       <!-- </div>. -->
         {% if publication.journal %}<i>{{ publication.journal }}</i>.
         {% elsif publication.server %}<i>{{ publication.server }}</i>. {% endif %}
