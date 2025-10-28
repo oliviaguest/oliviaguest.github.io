@@ -644,3 +644,36 @@
   tags:
   - cail
 
+
+- date: 2025-10-26
+  type: news
+  status: published
+  authors:  Singer, N.
+  title: "Big Tech Makes Cal State Its A.I. Training Ground"
+  journal: New York Times
+  url: https://www.nytimes.com/2025/10/26/technology/cal-state-ai-amazon-openai.html
+  selected: 3
+  tags:
+  - cail
+
+- date: 2025-08-01
+  type: news
+  status: published
+  authors:  Kilgore, W.
+  title: "Can We Build AI Therapy Chatbots That Help Without Harming People?"
+  journal: Forbes
+  url: https://www.forbes.com/sites/weskilgore/2025/08/01/can-we-build-ai-therapy-chatbots-that-help-without-harming-people/
+  selected: 3
+  tags:
+  - cail
+
+- date: 2025-07-08
+  type: news
+  status: published
+  authors:   Huckins, G.
+  title: "How scientists are trying to use AI to unlock the human mind. Understanding the mind is hard. Understanding AI isn't much easier"
+  journal: MIT Technology Review
+  url: https://www.forbes.com/sites/weskilgore/2025/08/01/can-we-build-ai-therapy-chatbots-that-help-without-harming-people/
+  selected: 3
+  tags:
+  - cail
