@@ -610,6 +610,17 @@
   tags:
   - cail
 
+
+- date: 2025-10-30
+  type: video
+  status: published
+  authors: "Millennials Are Killing Capitalism Live!"
+  title: "The Tech Industry's \"AI\" Play for Education Dollars with Dwayne Monroe"
+  url: https://www.youtube.com/live/sey7TS4JV68
+  selected: 4
+  tags:
+  - cail
+
 - date: 2025-10-17
   type: news
   status: published
@@ -677,3 +688,4 @@
   selected: 3
   tags:
   - cail
+
