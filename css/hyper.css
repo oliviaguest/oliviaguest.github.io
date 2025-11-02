@@ -6,38 +6,33 @@
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
   
-    --light-bg: #fefffe;
+    --light-bg: #f5c7d9;
+    --light-hbg: #f5c7d925;
     --light-qbg: #f0ecf1c5;
     --light-tb: #f0ecf1c5;
-    --light-color: #0a000d;
-    --light-h: #1f4a3c;
-    --light-h2: #72c087;
-    --light-a: #165e46;
-    --light-menu: #25242523;
+    --light-color: #08094e;
+    --light-h: #3c5dff;
+    --light-h1: #002aff;
+    --light-a: #354dc6;
+    --light-menu: #96234d23;
   
-    --dark-bg: #011f17;
+    --dark-bg: #76b8ff;
+    --light-hbg: #f5c7d900;
     --dark-qbg: #272327c5;
     --dark-tb: #252425c5;
-    --dark-color: #fefdfe;
-    --dark-h: #6cac97;
-    --dark-h2: #579868;
-    --dark-a: #64a08c;
-    --dark-menu: #f0ecf123;
+    --dark-color: #5c060c;
+    --dark-h: #f34289;
+    --dark-a: #d8424b;
+    --dark-menu: #5a499523;
 
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;
   }
 
 @font-face {
-  font-family: Genty;
-  src: url(../fonts/GentyDemo-Regular.ttf);
+  font-family: lyzero;
+  src: url(../fonts/lyzero-demo.regular.ttf);
 }
-@font-face {
-  font-family: laries;
-  src: url(../fonts/laries.otf);
-}
-
-
 
 
 /* a {
@@ -60,38 +55,66 @@
 
 h1
  {
-        font-size: 12rem;
-        line-height: 13rem;
+        font-size: 10rem;
+        line-height: 12rem;
         margin-bottom: 0rem;
-        font-family: laries;
+        font-family: lyzero;
+                word-break: break-all;
+                hyphens: manual;
+
 }
 
 
 
 
 h1 a {
+                color: light-dark(var(--light-h1), var(--dark-bg));
+
+                -webkit-text-stroke: 0.2rem light-dark(var(--light-bg), var(--dark-h));
+
+
         /* color: #886890; */
         /* text-shadow: #00ff44bb  0.5rem 0.5rem 0rem, #00ff447d  1rem 1rem 0rem; */
 
-        color: #ffffff;
-        text-shadow: #cb6ce6bb  0.5rem 0.5rem 0rem, #cb6ce67d  1rem 1rem 0rem;
+        /* color: #000; */
+        text-shadow: light-dark(var(--light-bg), var(--dark-h)) 0rem 0rem 2.5rem;
+           paint-order: stroke fill;
 
 
 }
+
+h2 a {
+                /* -webkit-text-stroke: 0.2rem light-dark(#d287b1, #7b89cf);
+
+                text-shadow: light-dark(#d287b1, #7b89cf) 0rem 0rem 1rem;
+                paint-order: stroke fill; */
+
+
+}
+
+/* light-dark(var(--light-hbg), var(--dark-hbg)) */
 
 .header {
         background-size: cover;
-
-        height: 33rem;
-        padding-left:3rem;    
+  position: relative;
+  min-height: 39rem; 
         padding-right:3rem;    
-        padding-top:4rem;    
-
-        background-image: url("../images/page6.png");
+        /* padding-top:22rem;     */
+        background-image: 
+                linear-gradient(light-dark(hsla(0, 0%, 86%, 0.543), hsla(0, 0%, 86%, 0))),
+                url("../images/image-from-rawpixel-id-5925820-jpeg.jpg");
+        /* background-image: url("../images/image-from-rawpixel-id-5925820-jpeg.jpg"); */
+        background-position: center;
 
 }
 
+#header-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+          padding-left:3rem;    
 
+}
 
 
 li {
@@ -106,23 +129,28 @@ h3 {
 /* h2#activism, h2#allies, h2#cail */
 h2
 {
-    font-family: 'Genty', serif;
-    font-size: 8rem;
-    line-height: 9rem;
+    font-family: 'lyzero', serif;
+    font-size: 7rem;
+    line-height: 8rem;
     /* margin-bottom: 2rem; */
     margin-right: 1rem;
     display: inline-block;
     hyphens: none;
     margin-bottom: 0;
 
-}       
-
-
-h2 a {   
-         /* color:#eee; */
-         color: light-dark(var(--light-h2), var(--dark-h2));
-
 }
+
+h2#cail a, h2#activism a, h2#allies a  {
+  /* background: url("../images/page6.png") no-repeat; */
+        -webkit-background-clip: text;
+          /* color: light-dark(var(--light-bg), var(--dark-bg)); */
+        /* -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color)); */
+        paint-order:  stroke fill;
+
+  
+}
+
+
 
 /* https://stackoverflow.com/questions/78298117/how-can-i-style-text-with-image-stroke-and-shadow-simultaneously */
 /* .letsgo {
