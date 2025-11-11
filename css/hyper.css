@@ -55,11 +55,11 @@
 
 h1
  {
-        font-size: 10rem;
+        font-size: 12rem;
         line-height: 12rem;
         margin-bottom: 0rem;
         font-family: lyzero;
-                word-break: break-all;
+                /* word-break: break-all; */
                 hyphens: manual;
 
 }
@@ -112,7 +112,7 @@ h2 a {
   position: absolute;
   bottom: 0;
   left: 0;
-          padding-left:3rem;    
+          padding-left:3.5rem;    
 
 }
 
@@ -204,31 +204,52 @@ h2#cail a, h2#activism a, h2#allies a  {
 
 }
 
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 904px) {
 
     h1 {
             /* text-align: center; */
-            font-size: 10rem;
-            /* line-height: 10rem; */
+            font-size: 8rem;
+            line-height: 8rem;
              /* margin-left: 20rem; */
-             word-wrap: normal;
+             /* word-wrap: normal; */
+             /* width: 40rem;  */
 
 
     }
-        h2 {
-                font-size: 7rem;
-                line-height: 8rem;
-                /* padding-left: 1rem; */
-        }
 }
 
+@media screen and (max-width: 560px) {
+#header-content {
 
-@media screen and (max-width: 900px) {
+                     padding-left: 2rem;
 
-        h2 {
-                /* font-size: rem; */
-                padding-left: 1rem;
-        }
+}
+    h1 {
+            /* text-align: center; */
+            font-size: 6rem;
+            line-height: 6rem;
+             /* word-wrap: normal; */
+             /* width: 40rem;  */
+
+
+    }
+}
+@media screen and (max-width: 400px) {
+#header-content {
+
+                     padding-left: 1rem;
+
+}
+    h1 {
+            /* text-align: center; */
+            font-size: 5rem;
+            line-height: 5rem;
+             /* word-wrap: normal; */
+             /* width: 40rem;  */
+
+
+    }
 }
 
 .navbar {
