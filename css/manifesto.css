@@ -65,6 +65,7 @@ html {
     --light-h: #1f4a3c;
     --light-a: #165e46;
     --light-h1: #1f4a3c;
+    --light-menu: #ffffffdc;
   
     --dark-bg: #0b1e34;
     --dark-qbg: #081315;
@@ -73,6 +74,7 @@ html {
     --dark-h: #e0b5c3;
     --dark-a: #e9a1b9;
     --dark-h1: #e0b5c3;
+    --dark-menu: #000000d5;
 
 
     --font-family-sans: 'Inter', sans-serif;
@@ -646,4 +648,31 @@ li {
         position: sticky;
         top:0;
     } 
+}
+
+.navbar {
+  overflow: hidden;
+    background-color: light-dark(var(--light-menu), var(--dark-menu));
+    /* background-color: #ffffff6f; */
+    margin-bottom: 3rem;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1rem 2rem 1rem 1.5rem; 
+    text-decoration: none;
+    font-size: 1.8rem;
+    /* font-family:'Borel', serif; */
+    /* background-color: light-dark(var(--light-tb), var(--dark-tb)); */
+}
+
+.navbar a:hover{
+    background-color: light-dark(var(--light-qbg), var(--dark-qbg));
+
+
 }
