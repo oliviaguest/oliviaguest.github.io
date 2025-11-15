@@ -26,6 +26,11 @@
 <script src="{{ site.baseurl }}/js/publications_toggle.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+{% if page.mermaid %}
+  {% include mermaid.html %}
+{% endif %}
+
+
 <!-- HTML Meta Tags -->
 <title>{{page.title}}</title>
 <meta name="description" content="{{ page.description }}">
