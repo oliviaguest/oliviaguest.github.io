@@ -1,6 +1,6 @@
 ---
 config:
-  theme: forest
+  theme: base
 ---
 mindmap
 )Critical AI Literacy(
@@ -9,7 +9,7 @@ mindmap
   (Anthropomorphisation as legitimisation)
   (Reproduction of Colonial Structures)
   (Labour Implications)
-    (Hierarchical Exploitation in Development #amp; Deployment)
+    Hierarchical Exploitation in Development #amp; Deployment
     Pedagogical Feedback Loop
     Invisible Labour
   (Scientific Integrity Implications #amp; Impacts on Learning)
