@@ -9,14 +9,14 @@ mindmap
   (Anthropomorphisation as legitimisation)
   (Reproduction of Colonial Structures)
   (Labour Implications)
-    Hierarchical Exploitation in Development & Deployment
+    Hierarchical Exploitation in Development #amp; Deployment
     Pedagogical Feedback Loop
     Invisible Labour
   (Scientific Integrity Implications and Impacts on Learning)
     Misuse of Educational Rhetoric
-    Normalisation of Fraud & Plagiarism
-    Critical Washing & Ethical Washing
+    Normalisation of Fraud #amp; Plagiarism
+    Critical Washing #amp; Ethical Washing
   (Environmental Implications)
     Earth-scorcthing Consumption 
     Computing within Limits 
-    Green Growth & Green washing
+    Green Growth #amp; Green washing
