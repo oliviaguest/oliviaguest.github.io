@@ -1,10 +1,10 @@
 ---
 config:
-  theme: base
+  theme: default
 ---
 mindmap
 )Critical AI Literacy(
-  (Marketing terms, hype, specialised jargon)
+  (Marketing Terms, Hype, Specialised Jargon)
   (False Narratives of Inevitability)
   (Anthropomorphisation as legitimisation)
   (Reproduction of Colonial Structures)

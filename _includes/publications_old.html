@@ -1,6 +1,12 @@
-  <ul>
-  {% for publication in include.publications %}
+{% assign publications = site.data.publications | sort:"date" | reverse %}
 
+<div id="pub-cols" class="text-col">
+  <ul>
+    {% for publication in publications %}
+        
+        {% if publication.selected == 3 %}
+            {% continue %}
+        {% endif %}
 
     <li class="item {% if publication.selected == 0 %}deselected{% endif %}">
 
@@ -9,15 +15,11 @@
       ({% if publication.status == 'inpress' %}{{ publication.status }}{% else %}{{publication.date | date: "%Y"}}{% endif %}).
       <!-- <div class="title"> -->
         {% if publication.doi %}
-        <a class="title" href="//doi.org/{{ publication.doi }}">{{ publication.title }}</a>.
-        {% elsif publication.url %}
-        <a class="title" href="{{ publication.url }}">{{ publication.title }}</a>.
-        {% elsif publication.arxiv %}
-        <a class="title" href="{{ publication.arxiv }}">{{ publication.title }}</a>.
-        {% elsif publication.pdf %}
-        <a class="title" href="{{ publication.pdf }}">{{ publication.title }}</a>.
-        {% else %} {{ publication.title }}
-        {% endif %}
+        <a class="title" href="//doi.org/{{ publication.doi }}">{{ publication.title }}</a>{% elsif publication.url %}
+        <a class="title" href="{{ publication.url }}">{{ publication.title }}</a>{% elsif publication.arxiv %}
+        <a class="title" href="{{ publication.arxiv }}">{{ publication.title }}</a>{% elsif publication.pdf %}
+        <a class="title" href="{{ publication.pdf }}">{{ publication.title }}</a>{% else %} {{ publication.title }}
+        {% endif %}.
       <!-- </div>. -->
         {% if publication.journal %}<i>{{ publication.journal }}</i>.
         {% elsif publication.server %}<i>{{ publication.server }}</i>. {% endif %}
@@ -25,9 +27,7 @@
 
         {% if publication.doi %}<a class="lighter" href="//doi.org/{{ publication.doi }}">https://doi.org/{{ publication.doi }}</a>
         {% elsif publication.zenodo %}<a class="lighter" href="{{ publication.zenodo }}">{{ publication.zenodo }}</a>
-        {% elsif publication.display-url %}<a class="lighter" href="{{ publication.url }}">{{ publication.display-url }}</a>
-        {% elsif publication.url %}<a class="lighter" href="{{ publication.url }}">{{ publication.url }}</a>
-        {% endif %}
+        {% elsif publication.url %}<a class="lighter" href="{{ publication.url }}">{{ publication.url }}</a>{% endif %}
 
 
         <span class="small-icons">
@@ -35,11 +35,12 @@
             <a href="{{ publication.pdf }}" title="PDF"><i class="far fa-file-pdf"></i></a>
           {% endif %}
           {%if publication.video %}
-            <a href="{{ publication.video }}" title="Video"><i class="far fa-file-video"></i></a>
+            <a href="{{ publication.video }}" title="PDF"><i class="far fa-file-video"></i></a>
           {% endif %}
           
         </span> 
     </li>
     {% endfor %}
   </ul>
+</div>
 

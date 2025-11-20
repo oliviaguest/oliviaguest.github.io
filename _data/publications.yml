@@ -407,7 +407,8 @@
   doi: 10.1037/rev0000591
   PsyArXiv: https://psyarxiv.com/eaf2z
   server: Psychological Review
-  pdf: https://psycnet.apa.org/fulltext/2026-75212-001.pdf
+  # pdf: https://psycnet.apa.org/fulltext/2026-75212-001.pdf
+  pdf: https://repository.ubn.ru.nl/bitstream/handle/2066/324757/324757.pdf?sequence=1&isAllowed=y
   selected: 1
   tags: 
     - meta

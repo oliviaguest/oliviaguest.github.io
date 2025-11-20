@@ -56,7 +56,7 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
             <blockquote>Within just a few years, AI has turbocharged the spread of bullshit and falsehoods. It is not able to produce actual, qualitative academic work, despite the claims of some in the AI industry. As researchers, as universities, we should be clearer about pushing back against these false claims by the AI industry. We are told that AI is inevitable, that we must adapt or be left behind. But universities are not tech companies. Our role is to foster critical thinking, not to follow industry trends uncritically.</blockquote>
         See more at — and please cite — the preprint here:
         {% assign article = site.data.publications | where: 'doi', '10.5281/zenodo.17065099' %}
-        {% include publications_copy.html publications=article %}</p>
+        {% include publications.html publications=article %}</p>
 
             <p>Here is a wonderfully done interview by <a href="https://www.the-geyser.com/pod-interview-with-olivia-guest-and-iris-van-rooij/">Kent Anderson and Joy Moore</a>, where we got to speak at length on these topics: <a href="https://www.youtube.com/watch?v=p9w0FiHo1RU">Safeguarding Science from AI: An Interview with Olivia Guest and Iris van Rooij</a>.
             
@@ -72,7 +72,7 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
                         <h3 id="talks"><a href="#talks">video talks & interviews</a></h3>
 
         {% assign talks = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail' | where: 'selected', '4' %}
-        {% include publications_copy.html publications=talks %}
+        {% include publications.html publications=talks %}
     </div>
     <div class="col-12 col-6-md col-6-lg">
 
@@ -80,12 +80,12 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
         <h3 id="blogs"><a href="#blogs">blogs, news, & opinion pieces</a></h3>
 
         {% assign blogs = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail'  | where: 'selected', '3' %}
-        {% include publications_copy.html publications=blogs %}
+        {% include publications.html publications=blogs %}
         
         <h3 id="research"><a href="#research">research</a></h3>
 
         {% assign articles = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail'  | where: 'selected', '1' %}
-        {% include publications_copy.html publications=articles %}
+        {% include publications.html publications=articles %}
 
         
     </div>
@@ -117,7 +117,7 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
             <div class="is-center">
             <div class="cite is-center">
                 {% assign article = site.data.publications | where:"title","Against the Uncritical Adoption of 'AI' Technologies in Academia" %}
-                {% include publications_copy.html publications=article %}</div>
+                {% include publications.html publications=article %}</div>
             </div>
 
            </div>
@@ -199,7 +199,7 @@ are orthogonal nor do they exclusively pick out the types of products we may wis
             <div class="is-center">
             <div class="cite is-center">
                 {% assign article = site.data.publications | where:"title","Critical Artificial Intelligence Literacy for Psychologists" %}
-                {% include publications_copy.html publications=article %}</div>
+                {% include publications.html publications=article %}</div>
             </div>
 
            </div>
@@ -322,7 +322,7 @@ are orthogonal nor do they exclusively pick out the types of products we may wis
 
 
         <p>I made some posters, in the style of this website, to use to attract attention to more critical thinking about AI: <b>Download them as <a href="https://doi.org/10.5281/zenodo.17112000">PDFs here</a>.</b> The QR code points to:         {% assign article = site.data.publications | where: 'doi', '10.5281/zenodo.17065099' %}
-        {% include publications_copy.html publications=article %}</p>
+        {% include publications.html publications=article %}</p>
     </div>
 
 

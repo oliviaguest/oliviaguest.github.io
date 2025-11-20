@@ -76,7 +76,7 @@ description: "Hi! I am an Assistant Professor of Computational Cognitive Science
                        <div class="is-center">
                 <div class="cite is-center">
                     {% assign article = site.data.publications | where:"title","Modern Alchemy: Neurocognitive Reverse Engineering" %}
-                {% include publications_copy.html publications=article %}</div>
+                {% include publications.html publications=article %}</div>
         </div>
         </div>
 
@@ -162,7 +162,7 @@ description: "Hi! I am an Assistant Professor of Computational Cognitive Science
                        <div class="is-center">
                 <div class="cite is-center">
                     {% assign article = site.data.publications | where:"title","Are Neurocognitive Representations 'Small Cakes'?" %}
-                {% include publications_copy.html publications=article %}</div>
+                {% include publications.html publications=article %}</div>
         </div>
         </div>
 
@@ -197,7 +197,7 @@ description: "Hi! I am an Assistant Professor of Computational Cognitive Science
                                         <div class="is-center">
                 <div class="cite is-center">
                     {% assign article = site.data.publications | where:"title","A Metatheory of Classical and Modern Connectionism" %}
-                {% include publications_copy.html publications=article %}</div>
+                {% include publications.html publications=article %}</div>
         </div>
 
         </div>
@@ -234,7 +234,7 @@ description: "Hi! I am an Assistant Professor of Computational Cognitive Science
 <div id="pub-cols" class="text-col">
 
         {% assign articles = site.data.publications | sort:"date" | reverse %}
-        {% include publications_copy.html publications=articles %}
+        {% include publications.html publications=articles %}
 
         </div>
         </div>
