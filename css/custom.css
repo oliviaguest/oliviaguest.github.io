@@ -509,6 +509,15 @@ tr:nth-child(even) {background-color:light-dark(var(--light-tb), var(--dark-tb))
 thead {width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(--dark-tb));}
 
 
+
+@media screen and (max-width: 410px) {
+
+        .navbar a {
+                font-size: 90%;
+        }
+
+}
+
 .navbar {
   overflow: hidden;
     background-color: light-dark(var(--light-tb), var(--dark-tb));
