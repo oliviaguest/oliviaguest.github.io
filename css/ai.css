@@ -222,3 +222,8 @@ h2 a {
 td {
   vertical-align: top;
 }
+
+
+.dark #cails {
+    filter: invert(1);
+}
