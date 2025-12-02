@@ -70,6 +70,7 @@ html {
     --light-color: #333;
     --light-h: #882452;
     --light-a: #a33b80;
+    --light-menu: #f5e4e6;	
   
     --dark-bg: #441809;
     --dark-qbg: #a96b8a26;
@@ -77,6 +78,7 @@ html {
     --dark-color: #ffe6ea;
     --dark-h: #d890b3;
     --dark-a: #e47ec7;
+    --dark-menu: #572721;
 
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;
@@ -243,7 +245,7 @@ p a:hover, li a:hover {
 }
 
 .content {
-    margin-top: 0rem;
+    margin-top: 8rem;
 }
 
 .column {
@@ -510,37 +512,40 @@ thead {width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(-
 
 
 
-@media screen and (max-width: 410px) {
 
-        .navbar a {
-                font-size: 90%;
-        }
-
-}
-
-.navbar {
-  overflow: hidden;
-    background-color: light-dark(var(--light-tb), var(--dark-tb));
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    overflow: hidden;
+    background-color: light-dark(var(--light-menu), var(--dark-menu));
     margin-bottom: 3rem;
-  /* position: fixed; */
-  top: 0;
-  width: 100%;
+    position: fixed;
+    width: 100%;
+
 }
 
-.navbar a {
+#navbar a {
     float: left;
     display: block;
     text-align: center;
     padding: 1rem 2rem 1rem 1.5rem; 
     text-decoration: none;
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     /* font-family:'Borel', serif; */
     /* background-color: light-dark(var(--light-tb), var(--dark-tb)); */
 }
 
-.navbar a:hover{
-        background-color: light-dark(var(--light-tb), var(--dark-tb));
-
-
+#navbar a:hover{
+    background-color: light-dark(var(--light-tb), var(--dark-tb));
 }
 
+@media screen and (max-width: 410px) {
+
+        #navbar a {
+                font-size: 90%;
+        }
+        #navbar {
+            position: absolute;
+        }
+}

@@ -60,7 +60,7 @@ html {
   
     --light-bg: #f4e1cb;
     --light-qbg: #f7ecea;
-    --light-tb: #0a000d;
+    --light-tb: #f7ecea;
     --light-color: #0a000d;
     --light-h: #1f4a3c;
     --light-a: #165e46;
@@ -69,7 +69,7 @@ html {
   
     --dark-bg: #0b1e34;
     --dark-qbg: #081315;
-    --dark-tb: #f5fff2;
+    --dark-tb: #081315;
     --dark-color: #f5fff2;
     --dark-h: #e0b5c3;
     --dark-a: #e9a1b9;
@@ -650,29 +650,3 @@ li {
     } 
 }
 
-.navbar {
-  overflow: hidden;
-    background-color: light-dark(var(--light-menu), var(--dark-menu));
-    /* background-color: #ffffff6f; */
-    margin-bottom: 3rem;
-  /* position: fixed; */
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 1rem 2rem 1rem 1.5rem; 
-    text-decoration: none;
-    font-size: 1.8rem;
-    /* font-family:'Borel', serif; */
-    /* background-color: light-dark(var(--light-tb), var(--dark-tb)); */
-}
-
-.navbar a:hover{
-    background-color: light-dark(var(--light-qbg), var(--dark-qbg));
-
-
-}

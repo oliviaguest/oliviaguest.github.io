@@ -13,7 +13,7 @@
     --light-h: #1f4a3c;
     --light-h2: #72c087;
     --light-a: #165e46;
-    --light-menu: #25242523;
+    --light-menu: #e1e1e0;
   
     --dark-bg: #011f17;
     --dark-qbg: #272327c5;
@@ -22,7 +22,7 @@
     --dark-h: #6cac97;
     --dark-h2: #579868;
     --dark-a: #64a08c;
-    --dark-menu: #f0ecf123;
+    --dark-menu: #243b33;
 
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;
@@ -217,33 +217,8 @@ h2 a {
         }
 }
 
-.navbar {
-  overflow: hidden;
-    background-color: light-dark(var(--light-menu), var(--dark-menu));
-    margin-bottom: 3rem;
-  /* position: fixed; */
-  top: 0;
-  width: 100%;
-}
 
-.navbar a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 1rem 2rem 1rem 1.5rem; 
-    text-decoration: none;
-    /* font-size: 1.8rem; */
-    /* font-family:'Borel', serif; */
-    /* background-color: light-dark(var(--light-tb), var(--dark-tb)); */
-}
-
-.navbar a:hover{
-        background-color: light-dark(var(--light-menu), var(--dark-menu));
-
-
-}
 
 td {
   vertical-align: top;
 }
-
