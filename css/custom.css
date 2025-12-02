@@ -84,6 +84,11 @@ html {
     font-weight: 300;
   }
 
+
+:target {
+    padding-top: 5rem;
+}
+
 blockquote
  {
     background-color: light-dark(var(--light-qbg), var(--dark-qbg));
