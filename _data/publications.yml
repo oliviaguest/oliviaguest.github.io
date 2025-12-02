@@ -249,6 +249,7 @@
   tags:
     - crit
     - meta
+    - cail
 
 - date: 2021-03-24
   type: journal
@@ -704,3 +705,16 @@
   - cail
 
 
+- date: 2025-12-02
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b>, Suarez, M., & van Rooij, I.
+  title: 'Towards Critical Artificial Intelligence Literacies'
+  doi: 10.5281/zenodo.17786243
+  pdf: https://zenodo.org/records/17786243/files/GuestSuarezvanRooij2025.pdf?download=1
+  server: Zenodo
+  selected: 1
+  tags:
+    - crit
+    - meta
+    - cail
