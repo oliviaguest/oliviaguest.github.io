@@ -224,6 +224,6 @@ td {
 }
 
 
-.dark #cails {
+.dark #cails, .dark #sets {
     filter: invert(1);
 }
