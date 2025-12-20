@@ -691,7 +691,16 @@
   tags:
   - cail
 
-
+- date: 2025-12-17
+  type: news
+  status: published
+  authors:   Klee, M.
+  title: "AI Is Inventing Academic Papers That Don’t Exist — And They’re Being Cited in Real Journals"
+  journal: Rolling Stone
+  url: https://www.rollingstone.com/culture/culture-features/ai-chatbot-journal-research-fake-citations-1235485484/
+  selected: 3
+  tags:
+  - cail
 
 - date: 2025-11-19
   type: news
