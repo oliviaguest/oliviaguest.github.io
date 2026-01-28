@@ -227,3 +227,33 @@ td {
 .dark #cails, .dark #sets {
     filter: invert(1);
 }
+
+.decor {
+        opacity: 0.25 !important;
+}
+
+.to-bottom{
+display: -webkit-inline-flex;
+display: -moz-inline-flex;
+display: inline-flex;
+
+-webkit-flex-flow: row nowrap;
+-moz-flex-flow: row nowrap;
+flex-flow: row nowrap;
+
+-webkit-align-items: flex-end;
+-moz-align-items: flex-end;
+align-items: flex-end;}
+
+#butterflies {
+        padding-top: 8rem;
+}
+.caption {
+  opacity: 0.2 !important;
+
+}
+.caption a {
+                 color: light-dark(var(--light-h1), var(--dark-h1));
+                 opacity: 1.0 !important;
+
+}

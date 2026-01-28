@@ -41,7 +41,6 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
     </div>
     <!-- <div class="col-12 col-6-md col-6-lg vertical-center">
  
-        <img src="{{ site.baseurl }}/images/CAILs_figure.png" alt="icon" class="figure is-center" id="course">
     </div> -->
     <!-- <div class="col-12 col-2-md col-2-lg"></div> -->
     <div class="col-12 col-6-md col-6-lg">
@@ -50,6 +49,21 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
 
         <p><b>For more information and to apply, see the <a href="https://www.ru.nl/en/education/education-for-professionals/overview/critical-ai-literacies-for-resisting-and-reclaiming">Radboud website for this course</a>.</b></p>
     </div>
+    <!-- <div class="col-12 col-1-md col-1-lg vertical-center">
+    </div>
+    <div class="col-12 col-2-md col-2-lg vertical-top">
+
+    <img src="{{ site.baseurl }}/images/CAILs_figure.png" alt="icon" class="figure is-center" id="cails">
+
+    </div>
+    <div class="col-12 col-2-md col-2-lg vertical-top">
+    <img src="{{ site.baseurl }}/images/Sets_AI.png" alt="icon" class="figure is-center" id="sets">
+    </div>
+
+    <div class="col-12 col-1-md col-1-lg vertical-center">
+    </div> -->
+
+
 </div>
 
 
@@ -96,11 +110,17 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
 
         {% assign talks = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail' | where: 'selected', '4' %}
         {% include publications.html publications=talks %}
+        <div class="vertical-center">
+                <img src="{{ site.baseurl }}/images/Merian.png" alt="icon" id="butterflies" class="is-center hide-xs hide-sm decor">
+                        <p class="hide-xs hide-sm caption"><a href="https://en.wikipedia.org/wiki/Maria_Sibylla_Merian">Maria Sibylla Merian</a>; Erucarum Ortus (1679–1717)</p>
+
+        </div>
+
     </div>
     <div class="col-12 col-6-md col-6-lg">
 
 
-        <h3 id="blogs"><a href="#blogs">blogs, news, & opinion pieces</a></h3>
+        <h3 id="blogs"><a href="#blogs">blog posts, news, & opinion pieces</a></h3>
 
         {% assign blogs = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail'  | where: 'selected', '3' %}
         {% include publications.html publications=blogs %}
