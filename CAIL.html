@@ -48,7 +48,7 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
         <p><b>For more information and to apply, see the <a href="https://www.ru.nl/en/education/education-for-professionals/overview/critical-ai-literacies-for-resisting-and-reclaiming">Radboud website for this course</a>.</b></p>
     </div>
 
-     <div class="col-12 col-6-md col-6-lg vertical-center hide-xs hide-sm"> 
+     <div class="col-12 col-6-md col-6-lg vertical-center hide-xs hide-sm vertical-center"> 
         <img src="{{ site.baseurl }}/images/The wonders of optics - Fig 24.png" alt="icon"  class="hide-xs hide-sm decor">
         <p class="hide-xs hide-sm caption">Camille Flammarion, <a href="https://en.wikisource.org/wiki/The_wonders_of_optics/The_laws_of_reflection.%E2%80%94Mirrors">The wonders of optics</a> (1871)</p>
 
@@ -146,6 +146,114 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
 
 
 <div class="row">
+
+
+    <div class="col-12">
+    <h2 id="cail" class="featured work" data-text=""><a href="#featured">featured research</a></h2>
+    </div>
+
+</div>
+
+
+
+<div class="row">
+
+
+    <div class="col-12">
+
+        <h3 id="pygmalion"><a href="#pygmalion">Pygmalion Displacement: When Humanising AI Dehumanises Women</a></h3>
+
+            <div class="is-center">
+            <div class="cite is-center">
+                {% assign article = site.data.publications | where:"title","Pygmalion Displacement: When Humanising AI Dehumanises Women" %}
+                {% include publications.html publications=article %}</div>
+            </div>
+
+    </div>
+
+
+    <div class="col-12 col-7-md col-7-lg vertical-center">
+        <img src="{{ site.baseurl }}/images/ErscoiKleinherenbrinkGuest_timeline.png" alt="icon" class="figure is-center" id="cails">
+
+        <div class="extract is-center"><p>"This figure depicts, in the style of a printed circuit board, a timeline of events (many with related images) that involve Pygmalion displacement in one form or another. On the left [are] fictional instances of women’s and automata’s intertwined identities; from 1901 at the top to today’s film and television series at the bottom. On the right [are] historical individuals or artefacts." (<a href="//doi.org/10.31235/osf.io/jqxb6 ">Guest et al., 2023</a>, figure 2)</p></div>
+
+    </div>
+
+    <div class="col-12 col-5-md col-5-lg">
+        <p><span class="abstract-label">Abstract:</span>
+            We use the myth of Pygmalion as a lens to investigate and frame the relationship between women and artificial intelligence (AI). Pygmalion was a legendary ancient king of Cyprus and sculptor. Having been repulsed by women, he used his skills to create a statue, which was imbued with life by the goddess Aphrodite. This can be seen as one of the primordial AI-like myths, wherein humanity creates intelligent life-like self-images to reproduce or replace ourselves. In addition, the myth prefigures historical and present gendered dynamics within the field of AI and between AI and society at large. Throughout history, the theme of women being replaced by inanimate objects (e.g. automata, algorithms) has been repeated, and continues to repeat in contemporary AI technologies. However, this socially detrimental pattern in technology — what we dub Pygmalion displacement — is often overlooked, whether due to naive excitement about new developments, or due to an unacknowledged sexist history of the field itself. As we demonstrate herein, Pygmalion displacement prefigures heavily, but in an unacknowledged way, in the original Turing test, the imitation game: a central thought experiment, foundational to AI. With women, and the feminine generally, being both dislocated and erased from and by technology, AI is and has been (presented as) created mainly by privileged men, subserving capitalist patriarchal ends. This poses serious dangers to women and other marginalised people. By tracing the historical and ongoing entwinement of femininity (from a patriarchal perspective) and AI, we aim to understand, make visible, and start a dialogue on the ways in which AI harms women.</p>
+
+    </div> 
+    <div class="col-12 col-4-md col-4-lg vertical-center">
+                <div class="extract is-center"><p>"The series of questions that comprise the Pygmalion lens. For a given technosocial relationship between AI and people,if one or more of the answers are “Yes”, then we can conclude that (an aspect of) Pygmalion displacement is occurring, which is damaging to women, and the feminised broadly construed.  If not, then the lens does not apply, and we remain agnostic as to gendered or other harm within this framework.  Our proverbial lens should be taken inter alia to be akin to an optical lens which allows for the eye to see more details than when naked, as depicted in the line drawing below." (<a href="//doi.org/10.31235/osf.io/jqxb6 ">Guest et al., 2023</a>, table 1)</p></div>
+
+    </div>
+
+    <div class="col-12 col-8-md col-8-lg ">
+
+
+        <table>
+        <thead><tr><th title="Field #1" style="width: 8%; text-align: right;"></th>
+        <th title="Field #2">Pygmalion Lens</th>
+        <th title="Field #3" style="width: 15%"></th>
+        </tr></thead>
+            <tr>
+                <td>1)</td>
+                <td><b>Feminised form:</b> Is the AI, by its (default or exclusive) external characteristics, portraying a hegemonically feminine character?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>2)</td>
+                <td><b>Whitened form:</b> Is the AI, by its (default or exclusive) external characteristics, portraying a character that is inherently white (supremacist), Western, Eurocentric, etc.?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>3)</td>
+                <td><b>Dislocation from work:</b> Does the AI  displace women from a role or occupation, or people in general from a role or occupation that tends to be (coded as) women&#39;s work?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>4)</td>
+                <td><b>Humanisation via feminisation:</b> Are the AI&#39;s claims to intelligence, human-likeness or personhood contingent on stereotypical feminine traits or behaviours?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>5)</td>
+                <td><b>Competition with women:</b> Is the AI pit (rhetorically or otherwise) against women in ways that favour it, and which are harmful to women?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>6)</td>
+                <td><b>Diminishment via false equivalence:</b> Does the AI facilitate a rhetoric that deems women as not having full intellectual abilities, or as otherwise less deserving of personhood?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>7)</td>
+                <td><b>Obfuscation of diversity:</b> Does the AI, through displacement of specific groups of people,   “neutralise” (i.e., whiten, masculinise) a role,  vocation, or skill?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>8)</td>
+                <td><b>Robot rights:</b> Do the users and/or creators of the AI grant it (aspects of) legal personhood or human(-like) rights?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>9)</td>
+                <td><b>Social bonding:</b> Do the users and/or creators of the AI develop interpersonal-like relationships with it?</td>
+                <td>Yes/No</td>
+            </tr>
+            <tr>
+                <td>10)</td>
+                <td><b>Psychological service:</b> Does the AI function to subserve and enhance the egos of its creators and/or users?</td>
+                <td>Yes/No</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<div class="row">
+
     <div class="col-12">
 
         <h3 id="towards"><a href="#towards">Towards Critical Artificial Intelligence Literacies</a></h3>
@@ -193,7 +301,7 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
 
 <div class="row">
 
-        <div class="col-12 col-5-md col-5-lg">
+        <div class="col-12 col-5-md col-5-lg vertical-center">
 
 
                 <div class="frame-figure is-center">
@@ -218,43 +326,44 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
 
     <div class="col-12">
  
-<table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1" style="width: 20%">Term</th>
-<th title="Field #2">Description</th>
-<th title="Field #3" style="">Resources</th>
-</tr></thead>
-<tbody><tr>
-<td>Artificial Intelligence (AI)</td>
-<td>The phrase &#39;artificial intelligence&#39; was coined by McCarthy et al. (1955) in the context of proposing a summer workshop at Dartmouth College in 1956. They assumed significant progress could be made on making machines think like people. In the present, AI has no fixed meaning. It can be anything from a field of study to a piece of software.</td>
-<td>Avraamidou (2024), Bender and Hanna (2025), Bloomfield (1987), Boden (2006), Brennan et al. (2025), Crawford (2021), Guest (2025), Hao (2025), McCorduck (2004), McQuillan (2022), Monett (2021), Vallor (2024), and van Rooij, Guest, et al. (2024).</td>
-</tr>
-<tr>
-<td>Artificial neural network (ANN)</td>
-<td>First proposed in McCulloch and Pitts (1943), it is a mathematical model, comprised of interconnected banks of units that perform matrix multiplication and non-linear functions. These statistical models are exposed to data (input-output pairs) that they aim to reproduce. While held to be inspired by the brain, such claims are tenuous or misleading.</td>
-<td>Abraham (2002), Bishop (2021), Boden (2006), Dhaliwal et al. (2024), Guest and Martin (2023, 2025a), Hamilton (1998), Stinson (2018, 2020), and Wilson (2016).</td>
-</tr>
-<tr>
-<td>Chatbot</td>
-<td>An engineered system that appears to converse with the user using text or voice. Speech synthesis goes back hundreds of years (Dudley 1939; Gold 1990; Schroeder 1966) and Weizenbaum&#39;s (1966) ELIZA is considered the first chatbot (Dillon 2020). Modern versions can contain ANNs in addition to hardcoded rules.</td>
-<td>Bates (2025), Dillon (2020), Elder (2022), Erscoi et al. (2023), Schlesinger et al. (2018), Strengers et al. (2024), Turkle (1984), and Turkle et al. (2006).</td>
-</tr>
-<tr>
-<td>ChatGPT</td>
-<td>A proprietary closed source chatbot created by OpenAI. The for-profit company OpenAI has been steeped in hype from inception. It does not provide source code for most of its models, violating open science principles for academic users. OpenAI reported $5 billion in losses in 2024 (Reuters 2025), and has received $13 billion from Microsoft (Levine 2024).</td>
-<td>Andhov (2025), Birhane and Raji (2022), Dupré (2025), Gent (2024), M. T. Hicks et al. (2024), Hill  (2025), Jackson (2024), Kapoor et al. (2024), Liesenfeld, Lopez, et al. (2023), Mirowski (2023), Perrigo (2023), Titus (2024), and Widder et al. (2024).</td>
-</tr>
-<tr>
-<td>Generative model</td>
-<td>A specification on the type of statistical distribution modelled; typically contrasted with discriminative model. ANNs can be generative (e.g. Boltzmann machines) or discriminative (e.g. convolutional neural networks used for classifying images). In the context of generative AI or generative pre-trained transformer (GPT), this phrase is used inconsistently.</td>
-<td>Efron (1975), Jebara (2004), Mitchell (1997), Ng and Jordan (2001), and Xue and Titterington (2008).</td>
-</tr>
-<tr>
-<td>Large language model (LLM)</td>
-<td>A model that captures some aspect of language, with the term &#39;large&#39; denoting that the number of parameters exceed a certain threshold. Modern chatbots are often LLMs, which use ANNs, along with a graphical interface so that users can input so-called text &#39;prompts.&#39; LLMs can be generative, discriminative, or neither.</td>
-<td>Bender, Gebru, et al. (2021), Birhane and McGann (2024),Dentella et al. (2023, 2024), Leivada, Dentella, et al. (2024), Leivada, Günther, et al. (2024), Luitse and Denkena (2021), Shojaee et al. (2025a), Villalobos et al. (2024), and Wang et al. (2024)</td>
-</tr>
-</tbody></table>
-</div></div>
+        <table class="table table-bordered table-hover table-condensed">
+        <thead><tr><th title="Field #1" style="width: 20%">Term</th>
+        <th title="Field #2">Description</th>
+        <th title="Field #3" style="">Resources</th>
+        </tr></thead>
+        <tbody><tr>
+        <td>Artificial Intelligence (AI)</td>
+        <td>The phrase &#39;artificial intelligence&#39; was coined by McCarthy et al. (1955) in the context of proposing a summer workshop at Dartmouth College in 1956. They assumed significant progress could be made on making machines think like people. In the present, AI has no fixed meaning. It can be anything from a field of study to a piece of software.</td>
+        <td>Avraamidou (2024), Bender and Hanna (2025), Bloomfield (1987), Boden (2006), Brennan et al. (2025), Crawford (2021), Guest (2025), Hao (2025), McCorduck (2004), McQuillan (2022), Monett (2021), Vallor (2024), and van Rooij, Guest, et al. (2024).</td>
+        </tr>
+        <tr>
+        <td>Artificial neural network (ANN)</td>
+        <td>First proposed in McCulloch and Pitts (1943), it is a mathematical model, comprised of interconnected banks of units that perform matrix multiplication and non-linear functions. These statistical models are exposed to data (input-output pairs) that they aim to reproduce. While held to be inspired by the brain, such claims are tenuous or misleading.</td>
+        <td>Abraham (2002), Bishop (2021), Boden (2006), Dhaliwal et al. (2024), Guest and Martin (2023, 2025a), Hamilton (1998), Stinson (2018, 2020), and Wilson (2016).</td>
+        </tr>
+        <tr>
+        <td>Chatbot</td>
+        <td>An engineered system that appears to converse with the user using text or voice. Speech synthesis goes back hundreds of years (Dudley 1939; Gold 1990; Schroeder 1966) and Weizenbaum&#39;s (1966) ELIZA is considered the first chatbot (Dillon 2020). Modern versions can contain ANNs in addition to hardcoded rules.</td>
+        <td>Bates (2025), Dillon (2020), Elder (2022), Erscoi et al. (2023), Schlesinger et al. (2018), Strengers et al. (2024), Turkle (1984), and Turkle et al. (2006).</td>
+        </tr>
+        <tr>
+        <td>ChatGPT</td>
+        <td>A proprietary closed source chatbot created by OpenAI. The for-profit company OpenAI has been steeped in hype from inception. It does not provide source code for most of its models, violating open science principles for academic users. OpenAI reported $5 billion in losses in 2024 (Reuters 2025), and has received $13 billion from Microsoft (Levine 2024).</td>
+        <td>Andhov (2025), Birhane and Raji (2022), Dupré (2025), Gent (2024), M. T. Hicks et al. (2024), Hill  (2025), Jackson (2024), Kapoor et al. (2024), Liesenfeld, Lopez, et al. (2023), Mirowski (2023), Perrigo (2023), Titus (2024), and Widder et al. (2024).</td>
+        </tr>
+        <tr>
+        <td>Generative model</td>
+        <td>A specification on the type of statistical distribution modelled; typically contrasted with discriminative model. ANNs can be generative (e.g. Boltzmann machines) or discriminative (e.g. convolutional neural networks used for classifying images). In the context of generative AI or generative pre-trained transformer (GPT), this phrase is used inconsistently.</td>
+        <td>Efron (1975), Jebara (2004), Mitchell (1997), Ng and Jordan (2001), and Xue and Titterington (2008).</td>
+        </tr>
+        <tr>
+        <td>Large language model (LLM)</td>
+        <td>A model that captures some aspect of language, with the term &#39;large&#39; denoting that the number of parameters exceed a certain threshold. Modern chatbots are often LLMs, which use ANNs, along with a graphical interface so that users can input so-called text &#39;prompts.&#39; LLMs can be generative, discriminative, or neither.</td>
+        <td>Bender, Gebru, et al. (2021), Birhane and McGann (2024),Dentella et al. (2023, 2024), Leivada, Dentella, et al. (2024), Leivada, Günther, et al. (2024), Luitse and Denkena (2021), Shojaee et al. (2025a), Villalobos et al. (2024), and Wang et al. (2024)</td>
+        </tr>
+        </tbody></table>
+    </div>
+</div>
 
 
 <div class="row">
@@ -340,7 +449,7 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
 </div></div>
 
 <div class="row">
-    <div class="col-12 col-6-md col-6-lg vertical-center hide-xs hide-sm"> 
+    <div class="col-12 col-6-md col-6-lg vertical-center hide-xs hide-sm vertical-center"> 
         <img src="{{ site.baseurl }}/images/The_wonders_of_optics_-_Fig_25.png" alt="icon"  class="hide-xs hide-sm decor">
         <p class="hide-xs hide-sm caption">Camille Flammarion, <a href="https://en.wikisource.org/wiki/The_wonders_of_optics/Metallic_burning_mirrors">The wonders of optics</a> (1871)</p>
     </div>
