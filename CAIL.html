@@ -95,8 +95,13 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
             <p> -->
                 
                 In general, have a look at the various resources here, such as the <a href="#blogs">blog posts</a> and <a href="#research">preprints and published papers</a> to understand our various perspectives.</p>
+                <div class="vertical-center">
 
-                        <h3 id="talks"><a href="#talks">video talks & interviews</a></h3>
+                        <img src="{{ site.baseurl }}/images/The_wonders_of_optics_-_Fig_32.png" alt="icon"  class="hide-xs hide-sm decor">
+                        <p class="hide-xs hide-sm caption">Camille Flammarion, <a href="https://en.wikisource.org/wiki/The_wonders_of_optics/">The wonders of optics</a> (1871)</p>
+                </div>
+
+    <h3 id="talks"><a href="#talks">video talks & interviews</a></h3>
 
         {% assign talks = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail' | where: 'selected', '4' %}
         {% include publications.html publications=talks %}
