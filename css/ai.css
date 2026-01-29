@@ -229,7 +229,7 @@ td {
 }
 
 .decor {
-        opacity: 0.25 !important;
+        opacity: 0.3 !important;
 }
 
 .to-bottom{
@@ -246,7 +246,7 @@ flex-flow: row nowrap;
 align-items: flex-end;}
 
 .caption {
-  opacity: 0.2 !important;
+  opacity: 0.25 !important;
 
 }
 .caption a {
