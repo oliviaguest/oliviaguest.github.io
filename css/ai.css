@@ -245,9 +245,6 @@ flex-flow: row nowrap;
 -moz-align-items: flex-end;
 align-items: flex-end;}
 
-#butterflies {
-        padding-top: 8rem;
-}
 .caption {
   opacity: 0.2 !important;
 
@@ -256,4 +253,14 @@ align-items: flex-end;}
                  color: light-dark(var(--light-h1), var(--dark-h1));
                  opacity: 1.0 !important;
 
+}
+
+#lens {
+        opacity: 1 !important;
+}
+
+.vertical-separate {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
