@@ -264,3 +264,7 @@ align-items: flex-end;}
     justify-content: space-around;
     flex-direction: column;
 }
+
+img#butterflies {
+    width: 70%;
+}
