@@ -92,6 +92,15 @@ h1 a {
 }
 
 
+#deco-footer {
+        background-size: cover;
+
+        height: 45rem;
+        background-image: url("../images/page6.png");
+
+}
+
+
 line {display: none;}
 
 li {
@@ -229,7 +238,12 @@ td {
 }
 
 .decor {
+        filter: brightness(0);
         opacity: 0.3 !important;
+}
+
+.dark .decor {
+        filter: brightness(1);
 }
 
 .to-bottom{

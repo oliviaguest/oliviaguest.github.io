@@ -10,6 +10,21 @@ mermaid: true
 ---
 
 
+<script>
+    window.onload = function() {
+        const images = ['url("../images/page8.png")', 'url("../images/page6.png")'];
+        const randomImage = images[Math.floor(Math.random() * images.length)];
+
+        const locations = ['top', 'center', 'bottom'];
+        const randomLocation = locations[Math.floor(Math.random() * locations.length)];
+
+        document.getElementById("header").style.backgroundImage = randomImage;
+        document.getElementById("header").style.backgroundPosition = randomLocation;
+
+        document.getElementById("deco-footer").style.backgroundImage = randomImage;
+        document.getElementById("deco-footer").style.backgroundPosition = randomLocation;
+    };
+</script>
 
 <article class="page">
 
@@ -20,18 +35,6 @@ mermaid: true
 
   </div>
 </div>
-
-<script>
-const images = ['url("../images/page8.png")', 'url("../images/page6.png")'];
-const randomImage = images[Math.floor(Math.random() * images.length)];
-
-const locations = ['top', 'center', 'bottom'];
-const randomLocation = locations[Math.floor(Math.random() * locations.length)];
-
-document.getElementById("header").style.backgroundImage = randomImage;
-document.getElementById("header").style.backgroundPosition = randomLocation;
-</script>
-
 
 <div class="row">
 
@@ -487,7 +490,9 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
 <div class="row">
 
   <div class="col-12 col-6-md col-6-lg">
-    <h3 id="letter"><a href="#letter">sign the Open Letter</a></h3>
+    <!-- <h3 id="letter"><a href="#letter">sign the Open Letter</a></h3> -->
+
+    <h3 id="letter">Open Letters</h3>
 
     <p>Colleagues and I have written and published: <a href="https://openletter.earth/open-letter-stop-the-uncritical-adoption-of-ai-technologies-in-academia-b65bba1e?limit=0"><i>Open Letter: Stop the Uncritical Adoption of AI Technologies in Academia</i></a>.</p>
 
@@ -511,7 +516,8 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
 
 
     <div class="col-12 col-6-md col-6-lg"> 
-        <h3 id="posters"><a href="#posters">have you considered not using AI?</a></h3>
+        <!-- <h3 id="posters"><a href="#posters">have you considered not using AI?</a></h3> -->
+        <h3 id="posters">have you considered not using AI?</h3>
 
 
         <p>I made some posters, in the style of this website, to use to attract attention to more critical thinking about AI: <b>Download them as <a href="https://doi.org/10.5281/zenodo.17112000">PDFs here</a>.</b> The QR code points to:         {% assign article = site.data.publications | where: 'doi', '10.5281/zenodo.17065099' %}
@@ -519,11 +525,15 @@ document.getElementById("header").style.backgroundPosition = randomLocation;
     </div>
 
 
-  
-
 </div>
 
+<div class="row">
+  <div class="col-12" id="deco-footer">
 
+    <!-- <h1><a href="{{site.url}}/ai">Critical AI</a></h1> -->
+
+  </div>
+</div>
 
 <!-- <div class="row">
     <div class="col-4">

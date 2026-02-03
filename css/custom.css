@@ -1,5 +1,12 @@
 @import url("chota.min.css");
 
+@font-face {
+    font-family: 'DhCario';
+    src: url(../fonts/DhCario.woff2) format('woff2');
+    /* src: url(../fonts/DhCario.otf); */
+}
+
+
 html {
     height: 100%;
     /* These are technically the same, but use both */
@@ -17,12 +24,6 @@ html {
     hyphens: auto;
 }
 
-
-
-@font-face {
-    font-family: DhCario;
-    src: url(../fonts/DhCario.otf);
-}
 
 .menu-and-main {
         display: grid;
@@ -184,7 +185,7 @@ h2 {
 
 
 h1 {
-    font-family: 'DhCario', serif;
+    font-family: 'DhCario', Garamond, serif;
     font-size: 20rem;
     line-height: 18rem;
     margin-bottom: 1rem;
@@ -198,7 +199,7 @@ h1 {
 
 
 h2#publications, h2#featured {
-    font-family: 'DhCario', serif;
+    font-family:  'DhCario', Garamond, serif;
     font-size: 8rem;
     line-height: 9rem;
     /* margin-bottom: 2rem; */
@@ -208,7 +209,7 @@ h2#publications, h2#featured {
 
 
 span#selected {
-    font-family: 'Borel', serif;
+    font-family: 'Borel', Garamond, serif;
     font-size: 2.25rem;
     /* padding-left: 1rem; */
     display: inline-block;
@@ -228,7 +229,7 @@ span#selected {
 
 
  h2, h3, .brand{
-    font-family: 'Borel', serif;
+    font-family: 'Borel', Garamond, serif;
     margin-bottom: 0.5rem;
 }
 
@@ -406,7 +407,7 @@ img.bug, img.perceptron {
   }
 
   p.caption {
-    font-family: 'Borel', serif;
+    font-family: 'Borel', Garamond, serif;
     font-size: 1.4rem;
     opacity: 0.4;
     padding-top: 2rem;
