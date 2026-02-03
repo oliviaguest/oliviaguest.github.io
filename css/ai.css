@@ -37,7 +37,12 @@
   src: url(../fonts/laries.otf);
 }
 
-
+img#lens { 
+        filter: brightness(0);
+}
+.dark img#lens { 
+        filter: brightness(1);
+}
 
 
 /* a {
