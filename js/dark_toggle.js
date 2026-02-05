@@ -10,7 +10,23 @@
         myFunction('dark');
         console.log('user setting');
     }
-  };
+  // };
+
+
+  //   window.onload = function() {
+        const images = ['url("../images/page8.png")', 'url("../images/page6.png")'];
+        const randomImage = images[Math.floor(Math.random() * images.length)];
+
+        const locations = ['top', 'center', 'bottom'];
+        const randomLocation = locations[Math.floor(Math.random() * locations.length)];
+
+        document.getElementById("header").style.backgroundImage = randomImage;
+        document.getElementById("header").style.backgroundPosition = randomLocation;
+
+        document.getElementById("deco-footer").style.backgroundImage = randomImage;
+        document.getElementById("deco-footer").style.backgroundPosition = randomLocation;
+    };
+
 
 
   function myFunction(s) {
