@@ -230,6 +230,13 @@ h2 a {
                 /* font-size: rem; */
                 padding-left: 1rem;
         }
+
+        #deco-footer {
+                padding: 2rem;
+                font-size: 6rem;
+                line-height: 9rem;
+                hyphens: none;
+        }
 }
 
 
