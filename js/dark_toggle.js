@@ -12,9 +12,8 @@
     }
   // };
 
-
   //   window.onload = function() {
-        const images = ['url("../images/page8.png")', 'url("../images/page6.png")'];
+        const images = ['url("../images/page3.png")', 'url("../images/page4.png")', 'url("../images/page6.png")', 'url("../images/page8.png")'];
         const randomImage = images[Math.floor(Math.random() * images.length)];
 
         const locations = ['top', 'center', 'bottom'];
