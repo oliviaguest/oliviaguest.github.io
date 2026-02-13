@@ -81,6 +81,10 @@ h1 a, #deco-footer a {
 
 }
 
+#deco-row {
+        padding-bottom: 1rem;
+}
+
 .header {
         background-size: cover;
 
