@@ -72,6 +72,28 @@
     </a>
   </li>
 
+  {% if include.top %}  {% else %} 
+  <li class="social right-social">
+  <a href="/license/" title="No AI" style="text-decoration:none" rel="me">
+      <!-- <i class="ai ai-orcid" aria-hidden="true"></i> -->
+      <!-- <img src="/images/No_AI_art.svg" id="no-ai"> -->
+        <!-- <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="no-ai" width="276" height="276"  viewBox="0 0 276 276" > -->
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="no-ai" width="276" height="276"  viewBox="0 0 276 276" >
+        <circle cx="138" cy="138" r="124" stroke="#B30000" stroke-width="28" fill="none"/>
+        <rect x="80" y="14" width="32" height="242" fill="#000" transform="skewX(-9)"/>
+        <rect x="92" y="14" width="32" height="242" fill="#000" transform="skewX(9)"/>
+        <rect x="78" y="173" width="50" height="32" fill="#000"/>
+        <rect x="180" y="15" width="36" height="230" fill="#000"/>
+
+        <circle cx="138" cy="138" r="124" stroke="#B30000" stroke-width="28" fill="none" stroke-dasharray="390"/>
+        <line x1="45" y1="45" x2="231" y2="231" stroke="#B30000" stroke-width="22"/>
+        </svg>
+
+
+    </a>  </li>
+  {% endif %}
+
 {% if include.top %}
     <!-- <li class="social">
       <a href="#publications">

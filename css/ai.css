@@ -111,7 +111,7 @@ h1 a, #deco-footer a {
 }
 
 
-line {display: none;}
+/* line {display: none;} */
 
 li {
         text-align: left;
@@ -299,3 +299,4 @@ align-items: flex-end;}
 img#butterflies {
     width: 70%;
 }
+

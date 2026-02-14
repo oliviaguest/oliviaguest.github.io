@@ -546,6 +546,28 @@ thead {width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(-
     background-color: light-dark(var(--light-tb), var(--dark-tb));
 }
 
+
+
+
+#no-ai 
+ {
+    height: 4rem;
+    width: 4rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+    display: inline-block;
+}
+rect
+{
+  fill: light-dark(var(--light-a), var(--dark-a));
+
+}
+
+circle, line {
+    stroke: light-dark(var(--light-a), var(--dark-a));
+}
+
 @media screen and (max-width: 410px) {
 
         #navbar a {
@@ -553,5 +575,28 @@ thead {width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(-
         }
         #navbar {
             position: absolute;
+        }
+        #no-ai 
+            {
+                height: 3rem;
+                width: 3rem;
+                margin-top: 0.75rem;
+            }
+
+
+        li.social {
+            padding-right: 1rem;
+            font-size: 3rem;
+        }
+
+        li.right-social {
+            padding-left: 1rem;
+            padding-right: 0;
+
+        }
+
+        h2#publications, h2#featured {
+            font-size: 7rem;
+            line-height: 8rem;
         }
 }
