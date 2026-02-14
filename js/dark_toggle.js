@@ -1,4 +1,4 @@
-  window.onload = function() {
+window.onload = function() {
     var s = localStorage["s"];
     console.log('top', s);
     if (typeof s !== 'undefined' && s !== null && s !== 'null') {
@@ -13,6 +13,7 @@
   // };
 
   //   window.onload = function() {
+    if (document.getElementById("deco-footer")) { 
         const images = ['url("../images/page3.png")', 'url("../images/page4.png")', 'url("../images/page6.png")', 'url("../images/page8.png")'];
         const randomImage = images[Math.floor(Math.random() * images.length)];
 
@@ -24,18 +25,17 @@
 
         document.getElementById("deco-footer").style.backgroundImage = randomImage;
         document.getElementById("deco-footer").style.backgroundPosition = randomLocation;
-    };
+    }
+  };
 
+function myFunction(s) {
+      // console.log('func', s.firstChild);
+      // console.log('func', s.firstChild.nextSibling.id);
 
-
-  function myFunction(s) {
       localStorage["s"] = s; // save in local storage the preference just selected
       // localStorage["s"] = null; // save in local storage the preference just selected
 
       // root = document.querySelector(":root");
-
-
-      console.log('func', s);
 
       // no matter what, we know the user requested s as the dark or light option, so set body to that class
       document.body.className = s; // NB: this makes a strong assumption that body has no other classes, since it overwrites them
@@ -71,4 +71,4 @@
           // console.log(e.name); // "TypeError"
           // console.log(e.stack); // Stack of the error
       }
-  };
+};
