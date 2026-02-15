@@ -208,49 +208,24 @@ h2#cail a, h2#activism a, h2#allies a  {
 }
 
 
-@media screen and (max-width: 904px) {
-
-    h1 {
-            /* text-align: center; */
-            font-size: 8rem;
-            line-height: 8rem;
-             /* margin-left: 20rem; */
-             /* word-wrap: normal; */
-             /* width: 40rem;  */
-
-
-    }
-}
 
 @media screen and (max-width: 560px) {
-#header-content {
-
-                     padding-left: 2rem;
-
-}
-    h1 {
-            /* text-align: center; */
-            font-size: 6rem;
-            line-height: 6rem;
-             /* word-wrap: normal; */
-             /* width: 40rem;  */
-
+        #header-content {
+                padding-left: 2rem;
+        }
+        .header {
+                min-height: 30rem;
+        }
+        h1 {
+            font-size: 9rem; 
+            line-height: 9rem;
 
     }
 }
-@media screen and (max-width: 400px) {
-#header-content {
-
-                     padding-left: 1rem;
-
-}
+@media screen and (max-width: 375px) {
     h1 {
-            /* text-align: center; */
-            font-size: 5rem;
-            line-height: 5rem;
-             /* word-wrap: normal; */
-             /* width: 40rem;  */
-
+            font-size: 7rem; 
+            line-height: 7rem;
 
     }
 }
