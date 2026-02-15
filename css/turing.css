@@ -6,24 +6,26 @@
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
   
-    --light-bg: #f5c7d9;
+    --light-bg: #fcd8e6;
     --light-hbg: #f5c7d925;
-    --light-qbg: #f0ecf1c5;
+    --light-qbg: #94958d30;
     --light-tb: #f0ecf1c5;
-    --light-color: #08094e;
-    --light-h: #3c5dff;
-    --light-h1: #002aff;
+    --light-color: #080966;
+    --light-h:  #002aff;
+    /* #3c5dff; */
+    --light-h1: #4710b6;
     --light-a: #354dc6;
-    --light-menu: #96234d23;
+    --light-menu: #ffcded;
   
-    --dark-bg: #76b8ff;
+    --dark-bg: #003868;
     --light-hbg: #f5c7d900;
-    --dark-qbg: #272327c5;
+    --dark-qbg: #94958d30;
     --dark-tb: #252425c5;
-    --dark-color: #5c060c;
-    --dark-h: #f34289;
-    --dark-a: #d8424b;
-    --dark-menu: #5a499523;
+    --dark-color: #ffdadb;
+    --dark-h: #e680c4;
+    --dark-h1: #8adbfa;
+    --dark-a: #e895b5;
+    --dark-menu: #594995;
 
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;
@@ -68,7 +70,7 @@ h1
 
 
 h1 a {
-                color: light-dark(var(--light-h1), var(--dark-bg));
+                color: light-dark(var(--light-h1), var(--dark-h1));
 
                 -webkit-text-stroke: 0.2rem light-dark(var(--light-bg), var(--dark-h));
 
@@ -101,7 +103,8 @@ h2 a {
         padding-right:3rem;    
         /* padding-top:22rem;     */
         background-image: 
-                linear-gradient(light-dark(hsla(0, 0%, 86%, 0.543), hsla(0, 0%, 86%, 0))),
+                linear-gradient(light-dark(hsla(0, 0%, 86%, 0.543),
+                                           hsla(312, 80%, 60%, 0.2))),
                 url("../images/image-from-rawpixel-id-5925820-jpeg.jpg");
         /* background-image: url("../images/image-from-rawpixel-id-5925820-jpeg.jpg"); */
         background-position: center;
@@ -282,3 +285,12 @@ td {
   vertical-align: top;
 }
 
+.light .p13 
+{
+    filter: brightness(0);
+    opacity: 0.8;
+}
+
+ .dark .invert {
+    filter: invert(1);
+}
