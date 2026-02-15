@@ -65,21 +65,21 @@ html {
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
   
-    --light-bg: #fff6f3;
+    --light-bg: #fff3fb;
     --light-qbg: #a96b8a22;
     --light-tb: #a96b8a22;
     --light-color: #333;
     --light-h: #882452;
     --light-a: #a33b80;
-    --light-menu: #f5e4e6;	
+    --light-menu: #f5e4ef;	
   
-    --dark-bg: #441809;
+    --dark-bg: #440915;
     --dark-qbg: #a96b8a26;
     --dark-tb: #a96b8a2d;
     --dark-color: #ffe6ea;
     --dark-h: #d890b3;
     --dark-a: #e47ec7;
-    --dark-menu: #572721;
+    --dark-menu: #57212f;
 
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;
