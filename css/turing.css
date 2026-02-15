@@ -223,11 +223,14 @@ h2#cail a, h2#activism a, h2#allies a  {
     }
 }
 @media screen and (max-width: 375px) {
-    h1 {
-            font-size: 7rem; 
-            line-height: 7rem;
+        .header {
+                min-height: 25rem;
+        }
+        h1 {
+                font-size: 7rem; 
+                line-height: 7rem;
 
-    }
+        }
 }
 
 .navbar {
