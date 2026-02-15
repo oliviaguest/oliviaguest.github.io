@@ -94,8 +94,13 @@ blockquote
  {
     background-color: light-dark(var(--light-qbg), var(--dark-qbg));
     border-left: 0.0rem solid light-dark(var(--light-h), var(--dark-h));
-    padding: 1.5rem 2rem;
+    padding: 1rem 1.5rem;
     text-align: justify;
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
 
 }
 
