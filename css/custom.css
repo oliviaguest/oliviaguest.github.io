@@ -127,9 +127,10 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: light-dark(var(--light-bg), var(--dark-bg));
+    /* background: linear-gradient(0deg, light-dark(var(--light-bg), var(--dark-bg)) 0%, light-dark(var(--light-bg), var(--dark-bg)) 100%); */
     color: light-dark(var(--light-color), var(--dark-color));
     line-height: 1.5;
-      overflow-y: scroll; /* Show vertical scrollbar */
+    overflow-y: scroll; /* Show vertical scrollbar */
 
 }
 
