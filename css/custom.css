@@ -573,7 +573,7 @@ rect
 }
 
 circle, line {
-    stroke: light-dark(var(--light-a), var(--dark-a));
+    stroke: light-dark(var(--light-color), var(--dark-color));
 }
 
 @media screen and (max-width: 410px) {
