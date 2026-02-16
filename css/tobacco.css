@@ -1,0 +1,135 @@
+@import "chota.min.css";
+@import "custom.css";
+
+
+:root {
+    /* this has to be set to switch between light or dark */
+    color-scheme: light dark;
+  
+    --light-bg:#efecdd;
+    --light-hbg: #0e3b3925;
+    --light-qbg: #ffdb002e;
+    --light-tb: #ecf1efc5;
+    --light-color: #360000;
+    --light-h:  #de86e8;
+    --light-h1: #857c46;
+    --light-a: #aa4735;
+    --light-menu: #e0dbc1;
+  
+    --dark-bg: #2a3034;
+    --light-hbg: #f5c7d900;
+    --dark-qbg: #5311895d;
+    --dark-tb: #252425c5;
+    --dark-color: #e5daff;
+    --dark-h: #e680c4;
+    --dark-h1: #5a6f78;
+    --dark-a: #c593a6;
+    --dark-menu: #45434d;
+
+    --font-family-sans: 'Inter', sans-serif;
+    font-weight: 300;
+  }
+
+
+@font-face {
+  font-family: diskopiaDots;
+  src: url(../fonts/DiskopiaDots.ttf);
+}
+
+
+@font-face {
+  font-family: diskopiaFlat;
+  src: url(../fonts/DiskopiaFlat.ttf);
+}
+@font-face {
+  font-family: diskopiaLines;
+  src: url(../fonts/DiskopiaLines.ttf);
+}
+
+
+#header-content
+ {
+    padding-bottom: 10rem;
+}
+
+
+h1
+ {
+  display: block;
+  position: relative;
+  z-index: 0;
+
+
+        /* padding-top: 30rem; */
+        font-size: 16rem;
+        line-height: 10rem;
+        font-family: diskopiaFlat;
+        /* padding-top: 2rem; */
+
+        color: light-dark(var(--light-h1), var(--dark-h1));
+
+        /* -webkit-text-stroke: 0.2rem light-dark(var(--light-color), var(--dark-color)); */
+
+        /* text-shadow:
+                light-dark(var(--light-h1-shadow), var(--dark-h1)) 0rem 1rem 0rem,
+                light-dark(var(--light-h1-shadow), var(--dark-h1)) 0rem 3rem 0rem,
+                light-dark(var(--light-h1-shadow), var(--dark-h1)) 0rem 5rem 0rem,
+                light-dark(var(--light-h1-shadow), var(--dark-h1)) 0rem 7rem 0rem;
+        paint-order: stroke fill; 
+        */
+
+
+}
+
+
+
+h1 a {
+        color: light-dark(var(--light-h1), var(--dark-h1));
+}
+
+
+
+
+/* .col-12 { background-color: #cccccccc;     
+           box-shadow: -10px 10px light-dark(var(--light-color), var(--dark-color));}
+ */
+
+li {
+        text-align: left;
+}
+
+h3 {
+        padding-top: 0.5rem;
+        line-height: normal;
+
+}
+/* h2#activism, h2#allies, h2#cail */
+h2
+{
+    font-family: 'diskopiaLines', serif;
+    font-size: 10rem;
+    line-height: 8rem;
+    /* margin-bottom: 2rem; */
+    margin-right: 1rem;
+    display: inline-block;
+    hyphens: none;
+    margin-bottom: 0;
+
+}
+
+img#smoke  {
+    filter: none;
+    opacity: 1;      
+
+  object-fit: cover;
+
+      /* clip-path: inset(0 0 30rem 0); */
+
+
+}
+
+.dark img#smoke {
+        filter: invert();
+            opacity: 1;
+
+}

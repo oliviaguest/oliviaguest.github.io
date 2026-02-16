@@ -98,8 +98,8 @@ h2 a {
 
 .header {
         background-size: cover;
-  position: relative;
-  min-height: 39rem; 
+        position: relative;
+        min-height: 39rem; 
         padding-right:3rem;    
         /* padding-top:22rem;     */
         background-image: 
