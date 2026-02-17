@@ -49,7 +49,7 @@
 
 #header-content
  {
-    padding-bottom: 10rem;
+    /* padding-bottom: 10rem; */
 }
 
 
@@ -109,27 +109,32 @@ h2
     font-family: 'diskopiaLines', serif;
     font-size: 10rem;
     line-height: 8rem;
-    /* margin-bottom: 2rem; */
-    margin-right: 1rem;
+    margin-bottom: 2rem;
     display: inline-block;
     hyphens: none;
-    margin-bottom: 0;
 
 }
-
-img#smoke  {
-    filter: none;
-    opacity: 1;      
-
-  object-fit: cover;
-
-      /* clip-path: inset(0 0 30rem 0); */
-
-
+:target {
+    padding-top: 0rem;
 }
 
-.dark img#smoke {
-        filter: invert();
-            opacity: 1;
-
+.row {
+        padding-bottom: 2rem;
 }
+
+#smoke {
+        background-size: cover;
+        position: relative;
+        min-height: 40rem; 
+        padding-right:3rem;    
+        margin-bottom: 1rem;
+        min-width: 100%;
+        background-image: url("../images/smoke.jpg");
+        background-position: top;
+  box-shadow: 1rem 1rem light-dark(var(--light-h1), var(--dark-h1));
+}
+
+img.figure {  box-shadow: -1rem 1rem light-dark(var(--light-h1), var(--dark-h1));
+        padding: 0;
+}
+
