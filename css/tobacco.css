@@ -13,16 +13,18 @@
     --light-color: #360000;
     --light-h:  #de86e8;
     --light-h1: #857c46;
+    --light-shadow:  #857c467c;
     --light-a: #aa4735;
     --light-menu: #e0dbc1;
   
     --dark-bg: #2a3034;
     --light-hbg: #f5c7d900;
-    --dark-qbg: #5311895d;
+    --dark-qbg: #6f55835d;
     --dark-tb: #252425c5;
     --dark-color: #e5daff;
     --dark-h: #e680c4;
     --dark-h1: #5a6f78;
+    --dark-shadow:  #02131a7c;
     --dark-a: #c593a6;
     --dark-menu: #45434d;
 
@@ -131,10 +133,53 @@ h2
         min-width: 100%;
         background-image: url("../images/smoke.jpg");
         background-position: top;
-  box-shadow: 1rem 1rem light-dark(var(--light-h1), var(--dark-h1));
+        box-shadow: 1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
 }
 
-img.figure {  box-shadow: -1rem 1rem light-dark(var(--light-h1), var(--dark-h1));
+
+#watermelon {
+        /* background-size: cover; */
+        position: relative;
+        min-height: 40rem; 
+        padding-right:3rem;    
+        margin-bottom: 1rem;
+        min-width: 100%;
+        background-image: url("../images/watermelon1.png");
+        background-position: 80% 50%;
+        background-clip: border-box;
+
+        box-shadow: 1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
+}
+
+
+#metamorphosis {
+        background-size: cover;
+        position: relative;
+        min-height: 50rem; 
+        padding-right:3rem;    
+        margin-bottom: 1rem;
+        min-width: 100%;
+        background-image: url("../images/metamorphosis.png");
+        background-position: left;
+        background-clip: border-box;
+
+        box-shadow: 1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
+}
+
+
+img.figure
+{
         padding: 0;
+        width: 80%;
 }
 
+img.figure.left {  
+        box-shadow: -1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
+}
+
+
+img.figure.right
+{     
+
+        box-shadow: 1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
+}
