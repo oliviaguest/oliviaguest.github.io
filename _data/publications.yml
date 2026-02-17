@@ -297,7 +297,8 @@
   title: 'The Myth of Normative Development'
   doi: 10.1002/icd.2393
   PsyArXiv: https://psyarxiv.com/ajynp
-  pdf: https://psyarxiv.com/ajynp/download
+  # pdf: https://psyarxiv.com/ajynp_v1/download
+  pdf: https://osf.io/download/n2937/?revision=3
   journal: Infant and Child Development
   server: PsyArXiv
   selected: 0
@@ -312,8 +313,9 @@
   title: 'Pygmalion Displacement: When Humanising AI Dehumanises Women'
   doi: 10.31235/osf.io/jqxb6
   SocArXiv: https://osf.io/preprints/socarxiv/jqxb6
-  pdf: https://osf.io/preprints/socarxiv/jqxb6/download
+  # pdf: https://osf.io/preprints/socarxiv/jqxb6/download
   # pdf: /doc/ErscoiKleinherenbrinkGuest2023.pdf
+  pdf: https://osf.io/download/svjz6/?revision=7
   server: SocArXiv
   selected: 1
   tags:
