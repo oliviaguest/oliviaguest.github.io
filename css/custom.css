@@ -32,6 +32,10 @@ html {
         grid-template-rows: auto;
 }
 
+date {
+    font-size: small;
+}
+
 .menu {
         margin: 0 calc(var(--grid-gutter)/2) calc(var(--grid-gutter)/2)
 }
