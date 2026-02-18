@@ -36,12 +36,6 @@
 
 
 @font-face {
-  font-family: diskopiaDots;
-  src: url(../fonts/DiskopiaDots.ttf);
-}
-
-
-@font-face {
   font-family: diskopiaFlat;
   src: url(../fonts/DiskopiaFlat.ttf);
 }
@@ -51,10 +45,7 @@
 }
 
 
-#header-content
- {
-    /* padding-bottom: 10rem; */
-}
+
 
 
 h1
@@ -242,16 +233,18 @@ img.figure.right
 @media screen and (max-width: 900px) {
 
 
-img.figure, .overlay
-{
-        width: 100%
-}
+        img.figure, .overlay
+        {
+                width: 100%
+        }
 
 
-.right-row {
-        flex-direction: column-reverse
+        .right-row {
+                flex-direction: column-reverse
 
-}
+        }
+
+        
 }
 
 .header-row
