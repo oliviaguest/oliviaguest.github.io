@@ -260,6 +260,15 @@ img.figure, .overlay
 #cails {
         display: block;
         margin: auto;
-        width: 60%;
+        width: 90%;
         padding-bottom: 1rem;
+        /* position:fixed; */
 }
+
+.figure svg 
+{
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;}
