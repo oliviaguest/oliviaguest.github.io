@@ -152,7 +152,7 @@ img.figure
 {
         padding: 0;
         /* margin-bottom: 3.5rem; */
-        width: 90%
+        width: 100%
 }
 
 img.figure:hover
@@ -200,7 +200,7 @@ img.figure.right
   left: 0;
   right: 0;
   height: 100%;
-  width: 90%;
+  width: 100%;
   opacity: 0;
   /* transition: .5s ease; */
   /* background-color:light-dark(var(--light-bg), var(--dark-shadow)); */
@@ -233,18 +233,12 @@ img.figure.right
 @media screen and (max-width: 900px) {
 
 
-        img.figure, .overlay
-        {
-                width: 100%
-        }
-
-
         .right-row {
                 flex-direction: column-reverse
 
         }
 
-        
+
 }
 
 .header-row
