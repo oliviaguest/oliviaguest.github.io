@@ -254,3 +254,13 @@ img.figure.right
 
                 }
 }
+
+ .dark .invert {
+    filter: invert(1);
+}
+
+#cails {
+        display: block;
+        margin: auto;
+        width: 60%;
+}

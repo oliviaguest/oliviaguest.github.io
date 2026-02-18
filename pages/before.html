@@ -1,11 +1,11 @@
 ---
 layout: default
 title: We've been here before!
-permalink: /tobacco/
+permalink: /before/
 published: false
-image: /images/turing_banner.png
-css: tobacco
-description: "Parallels between AI and tobacco and other warnings."
+image: /images/before_banner.png
+css: before
+description: "Parallels between AI and tobacco, and other warnings."
 
 date: 
 
@@ -16,7 +16,7 @@ date:
 <div class="row">
     <div class="col-12 header" id="header">
     <div id="header-content">
-    <h1 data-text="We've been here before!"><a href="{{site.url}}/turing" >We've been here before!</a></h1>
+    <h1 data-text="We've been here before!"><a href="{{site.url}}/before" >We've been here before!</a></h1>
     </div>
     </div>
 </div>
@@ -43,27 +43,16 @@ date:
     <p>We have certainly been here before. Many many times in the past, companies — just like AI companies now — have lied to us to sell us products. Not only is there no reason to assume the AI industry is different, there is in fact much to make us think they are <i>knowingly</i> misleading us. To understand this, take a look at this great work called <a href="https://www.eea.europa.eu/en/analysis/publications/late-lessons-2"><i>Late lessons from early warnings: science, precaution, innovation</i></a> by the European Environment Agency (EEA): </p>
 
     <blockquote>The 2013 Late lessons from early warnings report is the second of its type produced by the European Environment Agency (EEA) in collaboration with a broad range of external authors and peer reviewers. The case studies across both volumes of Late lessons from early warnings cover a diverse range of chemical and technological innovations, and highlight a number of systemic problems. The 'Late Lessons Project' illustrates how damaging and costly the misuse or neglect of the precautionary principle can be, using case studies and a synthesis of the lessons to be learned and applied to maximising innovations whilst minimising harms.</blockquote>   
-<!-- </div> -->
-    <!-- <div class="col-12 col-6-md col-6-lg"> -->
 
+    <p>Also there are well-known patterns of our thinking that are affected by interacting with certain machines. As <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9780429505331-2/culture-artificial-intelligence-brian-bloomfield">Brian P. Bloomfield (1987, p. 72)</a> explains four decades ago:</p>
 
-          <p>
-Also there are well-known patterns of our thinking that are affected by interacting with certain machines. As <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9780429505331-2/culture-artificial-intelligence-brian-bloomfield">Brian P. Bloomfield (1987, p. 72)</a> explains four decades ago:</p>
-
-
-  <blockquote>While opacity is a distinguishing feature of many other areas of science and technology, the myths surrounding computing may stem less from the fact that it is an opaque esoteric subject and more from the way in which it can be seen to blur the boundary between people and machines (Turkle 1984). To be sure, most people do not understand the workings of a television set or how to program their video cassette recorders properly, but then they do not usually believe that these machines can have intelligence. The public myths about computing and AI are also no doubt due to the ways in which computers are often depicted in the mass media — e.g. as an abstract source of wisdom, or as a mechanical brain.</blockquote>
-<p>
-For detailed analysis and more examples see:    </p>
-
-        <div class="is-center">
-        <div class="cite is-center">
+    <blockquote>While opacity is a distinguishing feature of many other areas of science and technology, the myths surrounding computing may stem less from the fact that it is an opaque esoteric subject and more from the way in which it can be seen to blur the boundary between people and machines (Turkle 1984). To be sure, most people do not understand the workings of a television set or how to program their video cassette recorders properly, but then they do not usually believe that these machines can have intelligence. The public myths about computing and AI are also no doubt due to the ways in which computers are often depicted in the mass media — e.g. as an abstract source of wisdom, or as a mechanical brain.</blockquote>
+    
+    <p>For detailed analysis and more examples see:    </p>
         {% assign article = site.data.publications | where:"title","Against the Uncritical Adoption of 'AI' Technologies in Academia" %}
-        {% include publications.html publications=article %}</div>
-        </div>
-
+        {% include publications.html publications=article %}
 
     <p>Another related aspect — described by <a href="https://web.mit.edu/slava/space/essays/essay-ponomareva.htm">Valentina Ponomareva (1998)</a>, is that:
-
         <blockquote>
             it is impossible to create an absolutely reliable automatic system, and sooner or later people face the necessity to act after equipment fails. [...] If the cosmonaut loses such skills because of [their] passive role [due to being typically limited to monitoring and observation only], the probability of [their] choosing and carrying out the right procedure in an emergency would be small. This contradiction is inherent in automatic control systems. 
         </blockquote>
@@ -117,16 +106,12 @@ For detailed analysis and more examples see:    </p>
 
             <p>Standing against these corrosive forces is important, especially since they converge. For example, the AI industry wastefully burns fossil fuels while pretending to want to combat climate crisis. Read more here:</p>
 
-              <div class="is-center">
-                <div class="cite is-center">
-                {% assign article = site.data.publications | where:"title","Critical AI Literacy: Beyond hegemonic perspectives on sustainability" %}
-                {% include publications.html publications=article %}</div>
-                </div>
 
-                <div class="is-center">
-                <div class="cite is-center">
+                {% assign article = site.data.publications | where:"title","Critical AI Literacy: Beyond hegemonic perspectives on sustainability" %}
+                {% include publications.html publications=article %}
+
                 {% assign article = site.data.publications | where:"title","Against the Uncritical Adoption of 'AI' Technologies in Academia" %}
-                {% include publications.html publications=article %}</div>
+                {% include publications.html publications=article %}
                 </div>
             
     </div>
@@ -152,20 +137,42 @@ For detailed analysis and more examples see:    </p>
     <h2 class="text-right"><a href="#spot">How can we spot it?</a></h2></div>
 </div>
 
+                <div class="row">
+    <div class="col-12 col-7-md col-7-lg">
+        <p><span class="abstract-label">Abstract:</span>
+        Critical Artificial Intelligence Literacies (CAILs) is the collection of ways of thinking about and relating to so-called artificial intelligence (AI) that rejects dominant frames presented by the technology industry, by naive computationalism, and by dehumanising ideologies. Instead, CAILs centre human cognition and uphold the integrity of academic research and education. We present a selection of CAILs across research and education, which we analyse into the following non-orthogonal dimensions: <i>conceptual clarity, critical thinking, decoloniality, respecting expertise,</i> and <i>slow science</i>. Finally, we note how we see the present with and without a wider adoption of CAILs — a fundamental aspect is the assertion that AI cannot be allowed to drive change, even positive change, in education or research. Instead cultivation of and adherence to shared values and goals must guide us. Ultimately, CAILs minimally ask us to contemplate how we as academics can stop AI companies from wielding so much power.
+        </p>
+        <div class="extract is-center"><p>"The important dimensions of CAILs across research and education; clockwise from 12 o’clock: <i>Conceptual Clarity</i> is the idea that terms should refer. <i>Critical Thinking</i> is deep engagement with the relationships between statements about the world. <i>Decoloniality</i> is the process of de-centring and addressing dominant harmful views and practices. <i>Respecting Expertise</i> is the epistemic compact between professionals and society. <i>Slow Science</i> is a disposition towards preferring psychologically, techno-socially, and epistemically healthy practices. The lines between dimensions represent how they are interwoven both directly and indirectly." (<a href="//doi.org/10.5281/zenodo.17786243">Guest et al., 2025</a>, figure 1)</p></div>
+    </div> 
+    <div class="col-12 col-5-md col-5-lg vertical-center">
+        <img src="{{ site.baseurl }}/images/CAILs_figure.png" alt="icon" class="figure is-center" id="cails">
+    </div>
+</div>
 
 <div class="row">
 
-    <div class="col-12 col-6-md col-6-lg">If you want to help yourself and others, </div>
+    <div class="col-12 col-6-md col-6-lg">
+        <p>If you want to help yourself and others, even just perusing websites and papers such as these on <a href="/ai">critical artificial intelligence literacy</a> is more than enough for a first step. But practically if you're interested in actively disentangling, you can consider thinking deeply about some aspects of CAILs we outline here:</p>
+
+                {% assign article = site.data.publications | where:"title","Towards Critical Artificial Intelligence Literacies" %}
+                {% include publications.html publications=article %}
+                
+            <div class="figure" id="cails">{% include cails_figure.html %}
+            </div>
+
+
+
+    </div>
     <div class="col-12 col-6-md col-6-lg">
     </div>
 
 </div>
 
 
-<div class="row">
+<div class="row right-row" id="can">
 
   <div class="col-12 col-4-md col-4-lg vertical-center">
-<h2 id="can" class="text-left"><a href="#can">What can we do?</a></h2></div>
+<h2 class="text-left"><a href="#can">What can we do?</a></h2></div>
 
 
 <div class="col-12 col-8-md col-8-lg vertical-center">

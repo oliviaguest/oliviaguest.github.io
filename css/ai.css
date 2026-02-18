@@ -250,7 +250,8 @@ td {
 }
 
 
-.dark #cails, .dark #sets {
+/* .dark #cails, */
+ .dark #sets {
     filter: invert(1);
 }
 
