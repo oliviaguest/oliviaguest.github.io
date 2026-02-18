@@ -26,7 +26,7 @@
     --dark-h: #e680c4;
     --dark-h1: #5a6f78;
     --dark-shadow:  #02131a;
-    --dark-figtext:  #02131a7c;
+    --dark-figtext:  #02131a9d;
     --dark-a: #c593a6;
     --dark-menu: #45434d;
 
@@ -138,9 +138,7 @@ h2
     padding-top: 0rem;
 }
 
-.row {
-        padding-bottom: 2rem;
-}
+
 
 #smoke {
         background-size: cover;
@@ -244,23 +242,24 @@ img.figure.right
 @media screen and (max-width: 900px) {
 
 
-                img.figure, .overlay
-                {
-                        width: 100%
-                }
-
-
-                .right-row {flex-direction: column-reverse
-
-                }
+img.figure, .overlay
+{
+        width: 100%
 }
 
- .dark .invert {
-    filter: invert(1);
+
+.right-row {
+        flex-direction: column-reverse
+
 }
+}
+
+.header-row
+{padding-bottom: 2rem;}
 
 #cails {
         display: block;
         margin: auto;
         width: 60%;
+        padding-bottom: 1rem;
 }

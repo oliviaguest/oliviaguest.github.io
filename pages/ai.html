@@ -67,6 +67,16 @@ date: 2025-09-15
             <p class="hide-xs hide-sm caption">Camille Flammarion, <a href="https://en.wikisource.org/wiki/The_wonders_of_optics/">The wonders of optics</a> (1871)</p>
     </div>
 
+    <h3 id="talks"><a href="#talks">deeper dives by me</a></h3>
+    <p>I have created two longer-form pages on some issues that seem to keep coming up and centered on my perspective and work:</p>
+
+    <ul>
+        <li><a href="/turing"><b>Turing test</b></a> — a collection of extracts from my work and from critical and gendered angles on this seemingly omnipresent undercurrent to modern AI thinking.</li>
+        <li><a href="/before"><b>We've been here before!</b></a> — similarly, a collection of extracts and related points that continue to reappear when we content with the rhetoric the AI industry throws at us.</li>
+    </ul>
+
+
+
     <h3 id="talks"><a href="#talks">video talks & interviews</a></h3>
         {% assign talks = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail' | where: 'selected', '4' %}
         {% include publications.html publications=talks %}

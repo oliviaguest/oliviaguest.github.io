@@ -2,18 +2,18 @@
 layout: default
 title: We've been here before!
 permalink: /before/
-published: false
+published: true
 image: /images/before_banner.png
 css: before
 description: "Parallels between AI and tobacco, and other warnings."
 
-date: 
+date: 2026-02-18
 
 ---
 
 <article class="page">
 
-<div class="row">
+<div class="row header-row">
     <div class="col-12 header" id="header">
     <div id="header-content">
     <h1 data-text="We've been here before!"><a href="{{site.url}}/before" >We've been here before!</a></h1>
@@ -21,7 +21,7 @@ date:
     </div>
 </div>
 
-<div class="row" id="what">
+<div class="row  header-row" id="what">
 
 
 <div class="col-12 col-8-md col-8-lg ">
@@ -68,7 +68,7 @@ date:
 
 </div>
 
-<div class="row right-row" id="how">
+<div class="row right-row  header-row" id="how">
     <div class="col-12 col-7-md col-7-lg vertical-center">
     <h2 class="text-left"><a href="#how">How is this possible?</a></h2></div>
 
@@ -106,59 +106,65 @@ date:
 
             <p>Standing against these corrosive forces is important, especially since they converge. For example, the AI industry wastefully burns fossil fuels while pretending to want to combat climate crisis. Read more here:</p>
 
+            {% assign article = site.data.publications | where:"title","Critical AI Literacy: Beyond hegemonic perspectives on sustainability" %}
+            {% include publications.html publications=article %}
 
-                {% assign article = site.data.publications | where:"title","Critical AI Literacy: Beyond hegemonic perspectives on sustainability" %}
-                {% include publications.html publications=article %}
-
-                {% assign article = site.data.publications | where:"title","Against the Uncritical Adoption of 'AI' Technologies in Academia" %}
-                {% include publications.html publications=article %}
-                </div>
-            
+            {% assign article = site.data.publications | where:"title","Against the Uncritical Adoption of 'AI' Technologies in Academia" %}
+            {% include publications.html publications=article %}
+            </div>
     </div>
 
-</div>
-
-
-<div class="row" id="spot" >
+<div class="row  header-row" id="spot" >
 
 
 
 
     <div class="col-12 col-5-md col-5-lg vertical-center">
-    <div class=" is-left">
-            <img src="/images/electricity.png" id="" class="figure left">
-            <!-- https://med.stanford.edu/news/insights/2019/04/doctors-smoking-new-exhibit-displays-now-startling-ads.html -->
-        </div>
 
-    </div>  
+            <div class="container-img">
+            <img src="/images/electricity.png" alt="Avatar" class="figure left image">
+            <div class="overlay">
+            <div class="text"><a href="https://pdimagearchive.org/images/1cb8eba8-6b36-4271-b3ce-af16cb196d62/">Electricity</a> by Albert Robida, 1890.</div>
+            </div>
+            </div>
+    </div>
 
 
     <div class="col-12 col-7-md col-7-lg vertical-center">
     <h2 class="text-right"><a href="#spot">How can we spot it?</a></h2></div>
 </div>
 
-                <div class="row">
-    <div class="col-12 col-7-md col-7-lg">
-        <p><span class="abstract-label">Abstract:</span>
-        Critical Artificial Intelligence Literacies (CAILs) is the collection of ways of thinking about and relating to so-called artificial intelligence (AI) that rejects dominant frames presented by the technology industry, by naive computationalism, and by dehumanising ideologies. Instead, CAILs centre human cognition and uphold the integrity of academic research and education. We present a selection of CAILs across research and education, which we analyse into the following non-orthogonal dimensions: <i>conceptual clarity, critical thinking, decoloniality, respecting expertise,</i> and <i>slow science</i>. Finally, we note how we see the present with and without a wider adoption of CAILs — a fundamental aspect is the assertion that AI cannot be allowed to drive change, even positive change, in education or research. Instead cultivation of and adherence to shared values and goals must guide us. Ultimately, CAILs minimally ask us to contemplate how we as academics can stop AI companies from wielding so much power.
-        </p>
-        <div class="extract is-center"><p>"The important dimensions of CAILs across research and education; clockwise from 12 o’clock: <i>Conceptual Clarity</i> is the idea that terms should refer. <i>Critical Thinking</i> is deep engagement with the relationships between statements about the world. <i>Decoloniality</i> is the process of de-centring and addressing dominant harmful views and practices. <i>Respecting Expertise</i> is the epistemic compact between professionals and society. <i>Slow Science</i> is a disposition towards preferring psychologically, techno-socially, and epistemically healthy practices. The lines between dimensions represent how they are interwoven both directly and indirectly." (<a href="//doi.org/10.5281/zenodo.17786243">Guest et al., 2025</a>, figure 1)</p></div>
-    </div> 
-    <div class="col-12 col-5-md col-5-lg vertical-center">
-        <img src="{{ site.baseurl }}/images/CAILs_figure.png" alt="icon" class="figure is-center" id="cails">
-    </div>
-</div>
-
 <div class="row">
 
     <div class="col-12 col-6-md col-6-lg">
-        <p>If you want to help yourself and others, even just perusing websites and papers such as these on <a href="/ai">critical artificial intelligence literacy</a> is more than enough for a first step. But practically if you're interested in actively disentangling, you can consider thinking deeply about some aspects of CAILs we outline here:</p>
+        <p>If you want to help yourself and others notice these harmful frames, even just perusing websites and papers such as these on <a href="/ai">critical artificial intelligence literacy</a> is <i>more</i> than enough for a first step.
+            If you're interested in actively disentangling, you can consider thinking deeply about what we outline here:</p>
 
                 {% assign article = site.data.publications | where:"title","Towards Critical Artificial Intelligence Literacies" %}
                 {% include publications.html publications=article %}
                 
             <div class="figure" id="cails">{% include cails_figure.html %}
             </div>
+        <p>These are ways of approaching the core problems AI causes and is caused by. <i><b>Conceptual Clarity</b></i>, which <a href="https://doi.org/10.5281/zenodo.17786243">we say</a> is the requirement for academic terms to have clear meanings and/or for users and proponents of such terms to accept where confusions still exist:</p>
+
+        <blockquote>AI-adjacent and -affected fields experience severe terminological crises, wherein terms fail to refer and change meaning as a function of the speakers’ and audiences’ whims (Alkhatib 2024; Bender et al. 2025; Guest 2025; Guest, Suarez, et al. 2025; Schwerzmann 2025; van Rooij, Guest, et al. 2024). To sidestep this we suggest thinking about what words mean in the context of describing, defining, and discussing AI.</blockquote>        
+
+        <p><i><b>Critical Thinking</b></i>, which in this context <a href="https://doi.org/10.5281/zenodo.17786243">we think</a> is:</p>
+        <blockquote>as Isabelle Stengers (2018) explains, “the ability to be vigilant about one’s abstractions, to not be blindly led by them.” (p. 111) For ‘AI’ in the classroom this can be exercised with two steps (Guest 2025). First, students can ask themselves if their cognitive labour is being affected by an artifact; and if ‘yes’ then they can ask what that relationship means for their specific context. If they pick chatbots, it becomes obvious that these so-called tools damage their ability to learn, while also harming other people and planet (Guest, Suarez, et al. 2025; Suarez et al. 2025).</blockquote>
+
+        <p>"<i><b>Decoloniality</b></i> is the decentring of views which stem from white and masculine supremacy, technosolutionism, and fascism" (<a href="https://doi.org/10.5281/zenodo.17786243">Guest et al, 2025, p. 5</a>):</p>
+
+        <blockquote>
+            decolonial strategies can range from pushing back against the onslaught of AI logics in our academic environments to (re)centring, uplifting, and protecting of non-mainstream perspectives from those outside the privileged classes with a goal of reducing harm, increasing justice, and cultivating empathy in our colleagues and students. AI is inimical to running on anything but colonial lines. Within computational and other fields affected by AI, any academic who works towards “challenging the status quo faces systemic rejection, resistance, and exclusion.” (Birhane and Guest 2021, p. 61) Tracing these trends of how these fields treat their thinkers, and how their mainstream views affect society, illuminates historical precedents for gendered, racialised, and other harms (Benjamin 2019; Erscoi et al. 2023; Gebru et al. 2024; Hicks 2017; Saini 2019).
+        </blockquote>
+
+        <p><i><b>Respecting Expertise</b></i>, which actively involves stopping people from falsely claiming to be AI experts. As we explain (<a href="https://doi.org/10.5281/zenodo.17786243">p. 6</a>):</p>
+
+        <blockquote>Academic expertise can only continue to exist if statements made by academics are understood as coming from highly skilled research and educational practitioners. [...] AI upends all this, violating the compact between academia and society and within academia under its expansionist imperialist scheme (Guest, Suarez, et al. 2025; Solomonides et al. 1985). Sherry Turkle (1984) describes AI as a “colonising discipline” that sweeps away everything that came before under the guise of “intellectual immaturity” — using social privilege to undermine expertise and breaking down the boundaries between disciplinary expertise. At the extreme, it becomes both the case that everybody is an expert in AI, provided they are white and male, and that nobody is an expert in anything since only experts in AI can now practice any form of academic pursuit. The same for education: nobody can teach without the imposition of AI into their learning environments.</blockquote>
+        
+        <p><i><b>Slow Science</b></i>, developed by Isabelle Stengers into a radical perspective on science, is "a disposition towards preferring psychologically, techno-socially, and epistemically healthy practices." (<a href="https://doi.org/10.5281/zenodo.17786243">Guest et al, 2025, p. 2</a>) <a href="https://doi.org/10.5281/zenodo.17786243">On page 7,</a> we explain that</p>
+
+        <blockquote>AI not only epitomises fast science, but turbocharges it, nosediving us into anti-science and anti-intellectualism. We see this pattern of condensing time in most computational fields (Guest 2025). “The ultra rapid computing machine” (Wiener 1948, 1950) serves two discursive purposes, as Sheryl Hamilton (1998) explains: “First, it forms an overall temporal backdrop against which various cybernetic dramas are played out. Second, condensed time becomes a measure of the performance of humans and machines.” (p. 193)</blockquote>
 
 
 
@@ -169,16 +175,21 @@ date:
 </div>
 
 
-<div class="row right-row" id="can">
+<div class="row right-row  header-row" id="can">
 
   <div class="col-12 col-4-md col-4-lg vertical-center">
 <h2 class="text-left"><a href="#can">What can we do?</a></h2></div>
 
 
 <div class="col-12 col-8-md col-8-lg vertical-center">
-    <div class=" is-right">
-            <img src="/images/eclipse.png" id="" class="figure right">
-        </div>
+
+            <div class="container-img">
+            <img src="/images/metamorphosis.png" alt="Avatar" class="figure right image">
+            <div class="overlay">
+            <div class="text"><a href="https://publicdomainreview.org/collection/merian-metamorphosis/">Metamorphosis Insectorum Surinamensium</a> by Maria Sibylla Merian, 1705.</div>
+            </div>
+            </div>
+
 </div>  
 
 
@@ -187,27 +198,20 @@ date:
 
 
 <div class="row">
-
+        <div class="col-12 col-6-md col-6-lg vertical-center">
+    </div>
 
     <div class="col-12 col-6-md col-6-lg vertical-center">
+                <p>Zooming out, there is much you can do and think about —  even just <a href="https://anthonymoser.github.io/writing/rhetoric/framing/kirby/2026/01/28/the-kirby-frame.html">refusing to accept industry frames</a> and rejecting their products is non-negligible. If you want to read more, some more of my relevant work can be found on the <a href="/ai/#cail">CAIL page</a>. </p>
 
-    </div>  
+
+    <p>Most importantly of all, resistance can and should take on many forms.
+        Remember to rest and take care of yourself and your community. If talking to friends and colleagues is easy, then try to engage them on these issues. If it is not possible to do so, you can instead (or in addition) seek out <a href="/ai#allies">allies</a> online.</p>
+        </div>  
 
     </div>
 
 
-
-<div class="row">
-<!-- <div class="col-12 col-4-md col-4-lg vertical-center">
-<h2><a href="#what">What do you mean?</a></h2></div> -->
-
-<div class="col-12 col-12-md col-12-lg  vertical-center">
-    <div class=" is-center">
-            <img src="/images/metamorphosis.png" id="" class="figure right">
-        </div>
-
-</div>   
-</div>   
 
 
 </article>
