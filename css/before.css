@@ -90,6 +90,7 @@ h1 a {
         h1 {
                 font-size: 10rem; 
                 line-height: 7rem;
+                hyphens: auto;
 
         }
 }
@@ -118,6 +119,8 @@ h2
     font-family: 'diskopiaLines', serif;
     font-size: 10rem;
     line-height: 7rem;
+                    hyphens: auto;
+
           /* text-shadow:0 0 2rem light-dark(white, black); */
 
     /* margin-bottom: 2rem; */
@@ -125,6 +128,21 @@ h2
     hyphens: none; */
 
 }
+
+
+
+@media screen and (max-width: 400px) {
+
+        h1, h2{
+                font-size: 8rem; 
+                line-height: 5rem;
+        }
+}
+
+
+
+
+
 :target {
     padding-top: 0rem;
 }
