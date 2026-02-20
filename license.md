@@ -31,4 +31,4 @@ The favicon was designed by <a href="https://www.flaticon.com/free-icon/sight_49
 
 I absolutely do not consent to my website being crawled by [robots](https://en.wikipedia.org/wiki/Robots.txt) owned by private companies which have the goal of creating datasets for their models.
 I fully understand that my [robots.txt](/robots.txt) will likely not be respected.
-I do not believe so-called artificial intelligence companies care about my wishes, but I forbid use of my words, code, or images for "training" their artificial neural network models.
+I do not believe so-called artificial intelligence companies care about my wishes, but I forbid use of my words, code, or images for "training" their artificial neural network models. Such actions are in violation of the licenses outlined above as they require correct attribution.
