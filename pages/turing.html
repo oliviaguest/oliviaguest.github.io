@@ -12,6 +12,12 @@ date: 2026-02-15
 ---
 
 <article class="page">
+    <div class="row">
+    <div class="col-12 text-right">
+
+  {% if page.date %}<date>{{ page.date | date: "%e %B %Y" }}</date>{% endif %}
+    </div>
+    </div>
 
 <div class="row">
     <div class="col-12 header" id="header">
