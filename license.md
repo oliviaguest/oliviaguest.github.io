@@ -27,7 +27,7 @@ People who use my layout (in one form or another — in chronological order):
 
 The favicon was designed by <a href="https://www.flaticon.com/free-icon/sight_4946602" title="sight icons">Freepik from Flaticon</a>.
 
-## web crawlers
+<!-- ## web crawlers -->
 
 I absolutely do not consent to my website being crawled by [robots](https://en.wikipedia.org/wiki/Robots.txt) owned by private companies which have the goal of creating datasets for their models.
 I fully understand that my [robots.txt](/robots.txt) will likely not be respected.
