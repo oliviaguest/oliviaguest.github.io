@@ -3,7 +3,6 @@
 
 
 :root {
-    /* this has to be set to switch between light or dark */
     color-scheme: light dark;
   
     --light-bg: #fefffe;
@@ -44,10 +43,6 @@ img#lens {
         filter: brightness(1);
 }
 
-
-/* a {
-        color: #cb6ce6;
-} */
  .img-container {
        overflow: hidden;
       height: 40px;
@@ -72,13 +67,8 @@ h1
 }
 
 h1 a, #deco-footer a {
-        /* color: #886890; */
-        /* text-shadow: #00ff44bb  0.5rem 0.5rem 0rem, #00ff447d  1rem 1rem 0rem; */
-
         color: #ffffff;
         text-shadow: #cb6ce6bb  0.33rem 0.33rem 0rem, #cb6ce67d  0.67rem 0.67rem 0rem;
-
-
 }
 
 #deco-row {
@@ -110,9 +100,6 @@ h1 a, #deco-footer a {
         font-family: laries;
 }
 
-
-/* line {display: none;} */
-
 li {
         text-align: left;
 }
@@ -122,13 +109,11 @@ h3 {
         line-height: normal;
 
 }
-/* h2#activism, h2#allies, h2#cail */
 h2
 {
     font-family: 'Genty', serif;
     font-size: 7rem;
     line-height: 7rem;
-    /* margin-bottom: 2rem; */
     margin-right: 1rem;
     display: inline-block;
     hyphens: none;
@@ -138,60 +123,18 @@ h2
 
 
 h2 a {   
-         /* color:#eee; */
          color: light-dark(var(--light-h2), var(--dark-h2));
 
 }
 
-/* https://stackoverflow.com/questions/78298117/how-can-i-style-text-with-image-stroke-and-shadow-simultaneously */
-/* .letsgo {
-  position: relative;
-  text-decoration: none;
-
-  background-image: 
-        linear-gradient(light-dark(var(--light-tb), var(--dark-tb))), url("../images/page6.png");
-
-
-
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  paint-order:  stroke fill;
-
-
-}
-.letsgo::after {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color));
-  paint-order:  stroke fill;
-
-} */
-
-
 .activism {
-        /* background-image: url("../images/page4.png"); */
         background-size: cover;
-        /* height: 22rem; */
-
-        /* padding-left:3rem;      */
 }
 
 
 
 .allies {
-        /* background-image: url("../images/page3.png"); */
         background-size: cover;
-        /* padding-left:3rem;    */
-        /* height: 22rem; */
 
 }
 
@@ -231,7 +174,6 @@ h2 a {
 @media screen and (max-width: 900px) {
 
         h2 {
-                /* font-size: rem; */
                 padding-left: 1rem;
         }
 
@@ -250,8 +192,7 @@ td {
 }
 
 
-/* .dark #cails, */
- .dark #sets {
+ .dark .invert {
     filter: invert(1);
 }
 
@@ -282,8 +223,8 @@ align-items: flex-end;}
 
 }
 .caption a {
-                 color: light-dark(var(--light-h1), var(--dark-h1));
-                 opacity: 1.0 !important;
+        color: light-dark(var(--light-h1), var(--dark-h1));
+        opacity: 1.0 !important;
 
 }
 

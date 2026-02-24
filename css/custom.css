@@ -3,26 +3,45 @@
 @font-face {
     font-family: 'DhCario';
     src: url(../fonts/DhCario.woff2) format('woff2');
-    /* src: url(../fonts/DhCario.otf); */
 }
 
 
 html {
     height: 100%;
-    /* These are technically the same, but use both */
     overflow-wrap: break-word;
     word-wrap: break-word;
     -ms-word-break: break-all;
-    /* This is the dangerous one in WebKit, as it breaks things wherever */
     word-break: break-all;
-    /* Instead use this non-standard one: */
     word-break: break-word;
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
 }
+
+
+:root {
+    color-scheme: light dark;
+  
+    --light-bg: #fff3fb;
+    --light-qbg: #a96b8a22;
+    --light-tb: #a96b8a22;
+    --light-color: #333;
+    --light-h: #882452;
+    --light-a: #a33b80;
+    --light-menu: #f5e4ef;	
+  
+    --dark-bg: #440915;
+    --dark-qbg: #a96b8a26;
+    --dark-tb: #a96b8a2d;
+    --dark-color: #ffe6ea;
+    --dark-h: #d890b3;
+    --dark-a: #e47ec7;
+    --dark-menu: #57212f;
+
+    --font-family-sans: 'Inter', sans-serif;
+    font-weight: 300;
+  }
 
 
 .menu-and-main {
@@ -52,7 +71,7 @@ date {
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
 }
@@ -64,30 +83,6 @@ date {
     width: 100%;
     height: 100%;
 }
-
-:root {
-    /* this has to be set to switch between light or dark */
-    color-scheme: light dark;
-  
-    --light-bg: #fff3fb;
-    --light-qbg: #a96b8a22;
-    --light-tb: #a96b8a22;
-    --light-color: #333;
-    --light-h: #882452;
-    --light-a: #a33b80;
-    --light-menu: #f5e4ef;	
-  
-    --dark-bg: #440915;
-    --dark-qbg: #a96b8a26;
-    --dark-tb: #a96b8a2d;
-    --dark-color: #ffe6ea;
-    --dark-h: #d890b3;
-    --dark-a: #e47ec7;
-    --dark-menu: #57212f;
-
-    --font-family-sans: 'Inter', sans-serif;
-    font-weight: 300;
-  }
 
 
 :target {
@@ -136,16 +131,13 @@ body {
 }
 
 .light {
-    /* forces light color-scheme */
     color-scheme: light;
   }
   .dark {
-    /* forces dark color-scheme */
     color-scheme: dark;
   }
 
 
-/* body >  */
 .container {
     max-width: 100rem;
 }
@@ -154,13 +146,7 @@ body {
     columns: 2;
 }
 
-.cite{
-    /* width: 88%; */
-
-}
-
 @media screen and (max-width: 900px) {
-    /* body > */
      .container {
         max-width: 60rem;
     }
@@ -175,7 +161,6 @@ body {
 
 p, li {
     text-align: justify;
-    /* padding-left: 1rem; */
 
 }
 
@@ -187,7 +172,6 @@ p, li {
 
 h2 {
     scroll-margin-top: 1rem;
-    /* padding-left: 1rem; */
 
 }
 
@@ -207,7 +191,6 @@ h2#publications, h2#featured {
     font-family:  'DhCario', Garamond, serif;
     font-size: 8rem;
     line-height: 9rem;
-    /* margin-bottom: 2rem; */
     margin-right: 1rem;
     display: inline-block; 
 }
@@ -216,17 +199,14 @@ h2#publications, h2#featured {
 span#selected {
     font-family: 'Borel', Garamond, serif;
     font-size: 2.25rem;
-    /* padding-left: 1rem; */
     display: inline-block;
     margin-bottom: 0.5rem;
     opacity: 0.5;
 }
 
-/* @media screen and (max-width: 1070px) { */
 @media screen and (max-width: 910px) {
 
     h1 {
-            /* text-align: center; */
             font-size: 14rem;
             line-height: 14rem;
     }
@@ -264,7 +244,6 @@ p a:hover, li a:hover {
 }
 
 .footer {
-/* font-size: 1.25rem; */
 padding-bottom: 1rem;
 }
 
@@ -282,8 +261,6 @@ li.menu-item  {
 
 
 }
-
-
 
 
 .newsitem {
@@ -340,8 +317,6 @@ li.right-social {
     height: 200px;
     object-fit: cover;
     object-position: 50% 50%;
-    /* border-radius: 50%;
-    margin-left: 0.5em; */
 }
 
 @media screen and (max-width: 725px) {
@@ -352,7 +327,6 @@ li.right-social {
 
 .small-icons {
     text-indent: 0;
-    /* display: inline-block; */
 }
 
 
@@ -423,7 +397,6 @@ li.mentoring {
 img.figure, table.tg {
     filter: none;
     opacity: 1;
-    /* width: 90%; */
     padding-top: 1rem;
     padding-bottom: 1rem;
     flex-direction: column;
@@ -451,7 +424,6 @@ img.figure, table.tg {
 }
 
 .extract {
-    /* width: 88%; */
     font-size: smaller;
     display: flex;
     flex-direction: column;
@@ -509,9 +481,6 @@ thead {
     text-align: center;
     padding: 1rem 2rem 1rem 1.5rem; 
     text-decoration: none;
-    /* font-size: 1.8rem; */
-    /* font-family:'Borel', serif; */
-    /* background-color: light-dark(var(--light-tb), var(--dark-tb)); */
 }
 
 #navbar a:hover{
