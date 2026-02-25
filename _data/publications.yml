@@ -190,9 +190,10 @@
   pdf: https://thepsychologist.bps.org.uk/getfile/10906
   journal: The Psychologist
   doi: 10.5281/zenodo.4099011
-  selected: 0
+  selected: 1
   tags:
      - meta
+     - cail
 
 - date: 2020-10-21
   type: journal
@@ -217,6 +218,7 @@
   selected: 0
   tags:
     - crit
+    - cail 
 
 - date: 2021-01-22
   type: journal
