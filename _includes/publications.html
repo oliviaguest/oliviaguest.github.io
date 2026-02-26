@@ -23,10 +23,10 @@
         {% elsif publication.server %}<i>{{ publication.server }}</i>. {% endif %}
   
 
-        {% if publication.doi %}<a class="lighter" href="//doi.org/{{ publication.doi }}">https://doi.org/{{ publication.doi }}</a>
-        {% elsif publication.zenodo %}<a class="lighter" href="{{ publication.zenodo }}">{{ publication.zenodo }}</a>
-        {% elsif publication.display-url %}<a class="lighter" href="{{ publication.url }}">{{ publication.display-url }}</a>
-        {% elsif publication.url %}<a class="lighter" href="{{ publication.url }}">{{ publication.url }}</a>
+        {% if publication.doi %}<a class="url-font" href="//doi.org/{{ publication.doi }}">https://doi.org/{{ publication.doi }}</a>
+        {% elsif publication.zenodo %}<a class="url-font" href="{{ publication.zenodo }}">{{ publication.zenodo }}</a>
+        {% elsif publication.display-url %}<a class="url-font" href="{{ publication.url }}">{{ publication.display-url }}</a>
+        {% elsif publication.url %}<a class="url-font" href="{{ publication.url }}">{{ publication.url }}</a>
         {% endif %}
 
 
