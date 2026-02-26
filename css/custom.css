@@ -159,6 +159,13 @@ body {
 }
 
 
+.url-font {
+      font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 90%;
+}
+
 p, li {
     text-align: justify;
 
