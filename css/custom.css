@@ -40,6 +40,8 @@ html {
     --dark-menu: #57212f;
 
     --font-family-sans: 'Inter', sans-serif;
+    --font-family-mono: "IBM Plex Mono", "Consolas", "Lucida Console", monospace;
+
     font-weight: 300;
   }
 
@@ -160,10 +162,10 @@ body {
 
 
 .url-font {
-      font-family: "IBM Plex Mono", monospace;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 90%;
+    font-family:var(--font-family-mono);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 85%;
 }
 
 p, li {
