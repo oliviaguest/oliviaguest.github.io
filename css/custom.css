@@ -215,7 +215,7 @@ span#selected {
 
 @media screen and (max-width: 910px) {
 
-    h1 {
+    h1#olivia {
             font-size: 14rem;
             line-height: 14rem;
     }

@@ -27,8 +27,6 @@
     --dark-a: #e895b5;
     --dark-menu: #594995;
 
-    --font-family-sans: 'Inter', sans-serif;
-    font-weight: 300;
   }
 
 @font-face {
@@ -37,9 +35,95 @@
 }
 
 
-/* a {
-        color: #cb6ce6;
-} */
+
+.content
+{
+  margin-top: 0rem;
+}
+
+
+#wide-header {
+        background-image: 
+        linear-gradient(light-dark(hsla(0, 0%, 86%, 0.543),
+        hsla(312, 80%, 60%, 0.2))),
+        url("../images/image-from-rawpixel-id-5925820-jpeg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        /* background-position-y: -30rem; */
+        background-position: bottom;
+        background-size: cover;
+        background-size: 100%;
+        width: 100%;
+        height: 60rem;
+        position: absolute;
+        z-index: -1;
+}
+
+h1
+ {        position: relative;
+
+        font-size: 12rem;
+        line-height: 12rem;
+        margin-bottom: 0rem;
+        font-family: lyzero;
+        /* word-break: break-all; */
+        hyphens: manual;
+        padding-top: 20rem;
+        padding-bottom: 16rem;
+
+}
+
+
+h1 a {
+                color: light-dark(var(--light-h1), var(--dark-h1));
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  h1 {
+    /* font-size: 15rem; 
+    line-height: 15rem;
+    hyphens: auto; */
+    padding-top: 8rem;
+    padding-bottom: 13rem;
+  }
+  #wide-header {
+    height: 45rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 9rem; 
+    line-height: 9rem;
+    hyphens: auto;
+    padding-bottom: 3rem;
+  }
+  #wide-header {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 7rem;
+    line-height: 7rem; 
+    hyphens: auto;
+    padding-top: 7rem;
+    padding-bottom: 0rem;
+  }
+  #wide-header {
+    height: 25rem;
+  }
+}
+
+
+
+
  .img-container {
        overflow: hidden;
       height: 40px;
@@ -55,61 +139,7 @@
         bottom: -330px;
     }
 
-h1
- {
-        font-size: 12rem;
-        line-height: 12rem;
-        margin-bottom: 0rem;
-        font-family: lyzero;
-                /* word-break: break-all; */
-                hyphens: manual;
 
-}
-
-
-
-
-h1 a {
-                color: light-dark(var(--light-h1), var(--dark-h1));
-
-                /* -webkit-text-stroke: 0.2rem light-dark(var(--light-bg), var(--dark-h)); */
-
-
-        /* color: #886890; */
-        /* text-shadow: #00ff44bb  0.5rem 0.5rem 0rem, #00ff447d  1rem 1rem 0rem; */
-
-        /* color: #000; */
-        /* text-shadow: light-dark(var(--light-bg), var(--dark-h)) 0rem 0rem 2.5rem; */
-           /* paint-order: stroke fill; */
-
-
-}
-
-h2 a {
-                /* -webkit-text-stroke: 0.2rem light-dark(#d287b1, #7b89cf);
-
-                text-shadow: light-dark(#d287b1, #7b89cf) 0rem 0rem 1rem;
-                paint-order: stroke fill; */
-
-
-}
-
-/* light-dark(var(--light-hbg), var(--dark-hbg)) */
-
-.header {
-        background-size: cover;
-        position: relative;
-        min-height: 39rem; 
-        padding-right:3rem;    
-        /* padding-top:22rem;     */
-        background-image: 
-                linear-gradient(light-dark(hsla(0, 0%, 86%, 0.543),
-                                           hsla(312, 80%, 60%, 0.2))),
-                url("../images/image-from-rawpixel-id-5925820-jpeg.jpg");
-        /* background-image: url("../images/image-from-rawpixel-id-5925820-jpeg.jpg"); */
-        background-position: center;
-
-}
 
 #header-content {
   position: absolute;
@@ -129,7 +159,6 @@ h3 {
         line-height: normal;
 
 }
-/* h2#activism, h2#allies, h2#cail */
 h2
 {
     font-family: 'lyzero', serif;
@@ -142,41 +171,6 @@ h2
     margin-bottom: 0;
 
 }
-
-
-
-/* https://stackoverflow.com/questions/78298117/how-can-i-style-text-with-image-stroke-and-shadow-simultaneously */
-/* .letsgo {
-  position: relative;
-  text-decoration: none;
-
-  background-image: 
-        linear-gradient(light-dark(var(--light-tb), var(--dark-tb))), url("../images/page6.png");
-
-
-
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  paint-order:  stroke fill;
-
-
-}
-.letsgo::after {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-stroke: 0.3rem light-dark(var(--light-color), var(--dark-color));
-  paint-order:  stroke fill;
-
-} */
 
 
 .activism {
@@ -199,29 +193,6 @@ h2
 
 
 
-@media screen and (max-width: 560px) {
-        #header-content {
-                padding-left: 2rem;
-        }
-        .header {
-                min-height: 30rem;
-        }
-        h1 {
-            font-size: 9rem; 
-            line-height: 9rem;
-
-    }
-}
-@media screen and (max-width: 375px) {
-        .header {
-                min-height: 25rem;
-        }
-        h1 {
-                font-size: 7rem; 
-                line-height: 7rem;
-
-        }
-}
 
 .navbar {
   overflow: hidden;

@@ -1,88 +1,122 @@
 @import "chota.min.css";
 @import "custom.css";
 
-
 :root {
-    /* this has to be set to switch between light or dark */
-    color-scheme: light dark;
-  
-    --light-bg:#f1e4ee;
-    --light-hbg: #0e3b3925;
-    --light-qbg: #ffdb002e;
-    --light-tb: #ecf1efc5;
-    --light-color: #360000;
-    --light-h:  #894f7d;
-    --light-h1: #0e4067;
-    --light-figtext:  #ff00f7b9;
-    --light-shadow:  #857c467c;
-    --light-a: #216590;
-    --light-menu: rgb(206, 170, 187);
-  
-    --dark-bg: #2a3034;
-    --light-hbg: #f5c7d900;
-    --dark-qbg: #6f55835d;
-    --dark-tb: #252425c5;
-    --dark-color: #e5daff;
-    --dark-h: #e680c4;
-    --dark-h1: #5a6f78;
-    --dark-shadow:  #02131a;
-    --dark-figtext:  #02131a9d;
-    --dark-a: #c593a6;
-    --dark-menu: #45434d;
+  /* this has to be set to switch between light or dark */
+  color-scheme: light dark;
 
-    --font-family-sans: 'Inter', sans-serif;
-    font-weight: 300;
-  }
+  --light-bg: #f3e4cf;
+  --light-qbg: #a0948629;
+  --light-tb: #b94031;
+  --light-color: rgb(49, 12, 6);
+  --light-h: #5500ff;
+  --light-a: rgb(139, 44, 29);
+  --light-menu: #a6594c;
 
-
-@font-face {
-  font-family: CS;
-  src: url(../fonts/CsModenaPixel.otf);
-}
-@font-face {
-  font-family: diskopiaLines;
-  src: url(../fonts/DiskopiaLines.ttf);
+  --dark-bg: #0c1b30;
+  --dark-qbg: #6f55835d;
+  --dark-tb: #46bfce;
+  --dark-color: #cef3f9;
+  --dark-h: #aaff00;
+  --dark-a: #74d3e2;
+  --dark-menu: #59a6b3;
 }
 
 
+.content
+{
+  margin-top: 0rem;
+}
 
 
+#wide-header {
+  /* body{ */
+  background-image: url("/images/ExamplesChinese00Jone_0115-edit.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* background-position-y: -30rem; */
+  background-position: bottom;
+  background-size: cover;
+  background-size: 100%;
+  width: 100%;
+  height: 60rem;
+  position: absolute;
+  z-index: -1;
+}
 
 h1  {
-    display: block;
-    position: relative;
-    z-index: 0;
-    font-size: 20rem;
-    line-height: 20rem;
-    font-family: CS;
-    color: light-dark(var(--light-h1), var(--dark-h1));
+  position: relative;
+  font-size: 20rem;
+  line-height: 20rem;
+  font-family: laries;
+  padding-top: 20rem;
+  padding-bottom: 22rem;
 }
 
+@media screen and (max-width: 900px) {
 
-h1 a {
-        color: light-dark(var(--light-h1), var(--dark-h1));
+  h1 {
+    font-size: 15rem; 
+    line-height: 15rem;
+    hyphens: auto;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+  }
+  #wide-header {
+    height: 40rem;
+  }
+}
 
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 8rem; 
+    line-height: 8rem;
+    hyphens: auto;
+    padding-bottom: 8rem;
+  }
+  #wide-header {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 6rem; 
+    line-height: 6rem;
+    hyphens: auto;
+    padding-bottom: 6rem;
+  }
+  #wide-header {
+    height: 20rem;
+  }
+}
+
+.dark #wide-header {
+      filter: invert(100%);
+}
+
+.row.remaining {    top:-45rem;
+}
+
+@font-face {
+  font-family: laries;
+  src: url(../fonts/laries.otf);
 }
 
 h2 {
-    font-size: 6rem;
+  font-family: var(--font-family-mono);
+  font-size: 5rem;
+  font-weight: 500;
 }
 
-
-@media screen and (max-width: 800px) {
-
-        h1 {
-                font-size: 10rem; 
-                line-height: 7rem;
-                hyphens: auto;
-
-        }
+#navbar a{
+  color: light-dark(var(--light-bg), var(--dark-bg));
 }
 
 .line {
-    height: 10rem;
-      background-image: linear-gradient(#bb86a9, #bb86a9);
-  background-size: 0.5rem 100%;
+  height: 10rem;
+  background-image: linear-gradient(#bb86a9, #bb86a9);
+  background-size: 0.3rem 100%;
   background-repeat: no-repeat;
   background-position: center center;
 }
