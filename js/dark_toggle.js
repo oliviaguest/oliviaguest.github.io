@@ -20,8 +20,8 @@ window.onload = function() {
         const locations = ['top', 'center', 'bottom'];
         const randomLocation = locations[Math.floor(Math.random() * locations.length)];
 
-        document.getElementById("header").style.backgroundImage = randomImage;
-        document.getElementById("header").style.backgroundPosition = randomLocation;
+        document.getElementById("wide-header").style.backgroundImage = randomImage;
+        document.getElementById("wide-header").style.backgroundPosition = randomLocation;
 
         document.getElementById("deco-footer").style.backgroundImage = randomImage;
         document.getElementById("deco-footer").style.backgroundPosition = randomLocation;
