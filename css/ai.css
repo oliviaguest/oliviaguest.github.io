@@ -79,7 +79,28 @@ h1 a, #deco-footer a {
         color: #ffffff;
         text-shadow: #cb6ce6bb  0.33rem 0.33rem 0rem, #cb6ce67d  0.67rem 0.67rem 0rem;
 }
+h3 {
+        padding-top: 0.5rem;
+        line-height: normal;
 
+}
+h2
+{
+    font-family: 'Genty', serif;
+    font-size: 7rem;
+    line-height: 7rem;
+    margin-right: 1rem;
+    display: inline-block;
+    hyphens: none;
+    margin-bottom: 0;
+
+}       
+
+
+h2 a {   
+         color: light-dark(var(--light-h2), var(--dark-h2));
+
+}
 
 @media screen and (max-width: 900px) {
 
@@ -123,7 +144,7 @@ h1 a, #deco-footer a {
                 font-size: 7rem;
                 line-height: 9rem;
                 word-wrap: normal;
-                        padding-bottom: 0rem;
+                        padding-bottom: 6rem;
 
 
         }
@@ -207,28 +228,7 @@ li {
         text-align: left;
 }
 
-h3 {
-        padding-top: 0.5rem;
-        line-height: normal;
 
-}
-h2
-{
-    font-family: 'Genty', serif;
-    font-size: 7rem;
-    line-height: 7rem;
-    margin-right: 1rem;
-    display: inline-block;
-    hyphens: none;
-    margin-bottom: 0;
-
-}       
-
-
-h2 a {   
-         color: light-dark(var(--light-h2), var(--dark-h2));
-
-}
 
 .activism {
         background-size: cover;
