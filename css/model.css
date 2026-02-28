@@ -1,0 +1,38 @@
+@import "chota.min.css";
+@import "custom.css";
+@import "theory.css";
+
+:root {
+  /* this has to be set to switch between light or dark */
+  color-scheme: light dark;
+
+  --light-bg: #f1e7d8;
+  --light-qbg: #a0948629;
+  --light-tb: #b82172;
+  --light-color: #1c1d17;
+  --light-h: #faf4e8;
+  --light-a: #003db4;
+  --light-menu: #65002a;
+
+  --dark-bg: #0e1827;
+  --dark-qbg: #5f6b7929;
+  --dark-tb: #90ffca;
+  --dark-color: #e3e2e8;
+  --dark-h: #050b17;
+  --dark-a: #ffc24b;
+  --dark-menu: #48db8f;
+}
+
+#wide-header {
+  /* body{ */
+  background-image: url("/images/metatheory/image-from-rawpixel-id-5976754-jpeg.jpg");
+
+}
+
+h1, h2 {
+  /* color: white;
+  mix-blend-mode: difference; */
+    -webkit-text-stroke: 1rem light-dark(var(--dark-bg), var(--light-bg));
+    paint-order: stroke fill;
+}
+

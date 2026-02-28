@@ -53,7 +53,7 @@ html {
         grid-template-rows: auto;
 }
 
-date {
+date, author{
     font-size: small;
 }
 

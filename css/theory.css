@@ -1,6 +1,12 @@
 @import "chota.min.css";
 @import "custom.css";
 
+@font-face {
+    font-family: 'kolta';
+    src: url(../fonts/kolta.regular.woff) format('woff');
+}
+
+
 :root {
   /* this has to be set to switch between light or dark */
   color-scheme: light dark;
@@ -10,7 +16,7 @@
   --light-tb: #b94031;
   --light-color: #202c31;
   --light-h: #5500ff;
-  --light-a: #a27d5d;
+  --light-a: #755131;
   --light-menu: #a6594c;
 
   --dark-bg: #0c1b30;
@@ -18,20 +24,18 @@
   --dark-tb: #46bfce;
   --dark-color: #dfd3ce;
   --dark-h: #aaff00;
-  --dark-a: #5d82a2;
+  --dark-a: #8aaece;
   --dark-menu: #59a6b3;
 }
 body {
   background: unset;
-
-      background-color: light-dark(white, black);
-
-    background-image: linear-gradient(to top, transparent 0%, light-dark(var(--light-bg), var(--dark-bg)) 60% );
+  background-color: light-dark(white, black);
+  background-image: linear-gradient(to top, transparent 0%, light-dark(var(--light-bg), var(--dark-bg)) 60% );
   
 }
 
 html {
-  height: 100%;
+  height: auto;
     background-color: light-dark(white, black);
 
     background-image: linear-gradient(to top, transparent 0%, light-dark(var(--light-bg), var(--dark-bg)) 60% );
@@ -39,6 +43,15 @@ html {
   background-size: cover;
 }
 
+
+h1, h2 {
+    font-family: kolta;
+
+  /* color: white;
+  mix-blend-mode: difference; */
+    -webkit-text-stroke: 0.5rem light-dark(var(--light-bg), var(--dark-bg));
+    paint-order: stroke fill;
+}
 
 
 
@@ -50,7 +63,7 @@ html {
 
 #wide-header {
   /* body{ */
-  background-image: url("/images/ExamplesChinese00Jone_0115-edit.png");
+  background-image: url("/images/metatheory/ExamplesChinese00Jone_0115-edit.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   /* background-position-y: -30rem; */
@@ -67,7 +80,6 @@ h1  {
   position: relative;
   font-size: 20rem;
   line-height: 20rem;
-  font-family: laries;
   padding-top: 20rem;
   padding-bottom: 20rem;
 }
@@ -75,12 +87,12 @@ h1  {
 padding-top: 2.5rem;
 }
 h2 {
-    font-family: laries;
 
   /* font-family: var(--font-family-mono); */
   font-size: 6rem;
-  line-height: 6rem;
+  line-height: 7rem;
   font-weight: 500;
+  padding-right: 2rem;
 }
 @media screen and (max-width: 900px) {
 
@@ -134,12 +146,6 @@ padding-top:0rem;
 .row.remaining {    top:-45rem;
 }
 
-@font-face {
-  font-family: laries;
-  src: url(../fonts/laries.otf);
-}
-
-
 
 #navbar a{
   color: light-dark(var(--light-bg), var(--dark-bg));
@@ -151,4 +157,18 @@ padding-top:0rem;
   background-size: 0.3rem 100%;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.figure svg {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#hexagon {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 1rem;
 }

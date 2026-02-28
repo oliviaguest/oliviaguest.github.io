@@ -1,13 +1,14 @@
 window.onload = function() {
     var s = localStorage["s"];
     console.log('top', s);
+    checkMonochrome();
     if (typeof s !== 'undefined' && s !== null && s !== 'null') {
       console.log('if', s);
-      myFunction(s);
+      toggleDarkMode(s);
     }
     // becasue I load the moon icon as default, if the user has darkmode as default in their own setttings, this now needs to be a sun
     else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        myFunction('dark');
+        toggleDarkMode('dark');
         console.log('user setting');
     }
   // };
@@ -28,7 +29,7 @@ window.onload = function() {
     }
   };
 
-function myFunction(s) {
+function toggleDarkMode(s) {
       // console.log('func', s.firstChild);
       // console.log('func', s.firstChild.nextSibling.id);
 
@@ -71,4 +72,48 @@ function myFunction(s) {
           // console.log(e.name); // "TypeError"
           // console.log(e.stack); // Stack of the error
       }
+};
+
+ 
+
+function checkMonochrome()
+{
+      var m = localStorage["m"];
+      var styles = `
+      html { 
+        filter: grayscale(100%) brightness(100%) contrast(110%) ;
+      }
+      `  
+      if (m == 1) {
+          var styleSheet = document.createElement("style");
+          styleSheet.textContent = styles;
+          document.head.appendChild(styleSheet);
+      }
+}
+
+function toggleMonochrome() {
+      var m = localStorage["m"];
+
+      var styles = `
+      html { 
+        filter: grayscale(100%) brightness(100%) contrast(110%) ;
+      }
+      `  
+
+      if (m == 1) {
+          m = 0;
+          styles = `
+          html { 
+            filter: grayscale(0%) contrast(100%) brightness(100%);
+          }
+          `
+      } else {
+          m = 1;
+      }
+
+      localStorage["m"] = m; // save it
+      var styleSheet = document.createElement("style");
+      styleSheet.textContent = styles;
+      document.head.appendChild(styleSheet);
+
 };

@@ -1,0 +1,85 @@
+---
+layout: default
+title: Theory
+permalink: /theory/
+published: false
+mathjax: true
+image: /images/turing_banner.png
+css: theory
+description: "On this page are some resources for analysing the Turing test."
+
+date: 2026-02-15
+
+---
+
+<article class="page">
+<!-- <div class="banner"></div> -->
+
+
+
+<div class="row">  
+
+    
+    <div class="col-12 text-center" >
+    <h1><a href="{{site.url}}/theory">theory</a></h1>
+
+    </div>
+
+</div>
+
+    <div class="row">
+    <div class="col-12 text-right">
+
+  {% if page.date %}<author><a href="{{site.url}}">Olivia Guest</a></author>, <date>{{ page.date | date: "%e %B %Y" }}</date>{% endif %}
+    </div>
+    </div>
+
+
+<div class="row" id="about">  
+
+
+    <div class="col-12 col-5-md col-5-lg text-right">
+
+    <h2><a href="#about">about</a></h2>
+    </div>
+    <!-- <div class="col-12 col-6-md col-6-lg"></div> -->
+
+    <div class="col-12 col-1-md col-1-lg"></div>
+    <div class="col-12 col-6-md col-6-lg paragraph">
+    <p>On this page are pointers to materials I have created for cognitive scientists to know where to look to help build a deeper understanding of theories, theorising, and other important reasoning skills. Thinking about theories is called <i>metatheorising</i>.</p>
+
+         <div class="figure" id="hexagon">{% include cogsci_figure.html %}</div>
+         <div class="extract is-center"><p>A possible depiction of cognitive science — a field that is trans- or inter-disciplinary over (at least) Philosophy, Linguistics, Anthropology, Neuroscience, Artificial Intelligence, and Psychology. (<a href="https://doi.org/10.1007/s42113-024-00217-5">van Rooij et al., 2024</a>)</p></div>
+    <p>For each major point I will tell you what to further read and what to cite, if you use or build off my ideas in any way (and do indeed properly cite me, if you do, as that is correct academic conduct). The main work however, is:</p>
+  
+        <div class="cite">
+        {% assign article = site.data.publications | where:"title","What Makes a Good Theory, and How Do We Make a Theory Good?" %}
+        {% include publications.html publications=article %}
+        {% assign article = site.data.publications | where:"title","A Metatheory of Classical and Modern Connectionism" %}
+        {% include publications.html publications=article %}
+      </div>
+  </div>
+    </div>
+
+<div class="row" id ="what">  
+    <div class="col-12 col-5-md col-5-lg text-right">
+
+    <h2><a href="#what">what's a <br>theory?</a></h2>
+    </div>
+    <!-- <div class="col-12 col-6-md col-6-lg"></div> -->
+
+    <div class="col-12 col-1-md col-1-lg"></div>
+    <div class="col-12 col-6-md col-6-lg paragraph">
+    <p>Each person might have their own idea of what a theory is, but for this context and to help understand where I am coming from, here's a definition from <a href="https://doi.org/10.1177/1745691620970585">Guest and Martin (2021, p. 794)</a>:</p>
+    <blockquote>A theory is a scientific proposition — described by a collection of natural‐language sentences, mathematics, logic, and figures — that introduces causal relations with the aim of describing, explaining, and/or predicting a set of phenomena.</blockquote>   
+    <p>You will have to look at <a href="https://doi.org/10.1177/1745691620970585">Guest and Martin (2021)</a> to fully grasp how I separate theory from other scientific concepts, especially if you cannot yet disentangle it from <i>hypothesis</i>, a different beast altogether. </p>
+
+    <p>Understanding theories, involves various steps </p>
+
+
+</div>  
+
+</div>
+
+
+</article>
