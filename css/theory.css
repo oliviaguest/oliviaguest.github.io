@@ -158,17 +158,24 @@ padding-top:0rem;
   background-repeat: no-repeat;
   background-position: center center;
 }
-
-.figure svg {
+.figure svg, .figure img {
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
+  filter: none;
+  opacity: 1;
 }
 
 #hexagon {
   display: block;
   margin: auto;
   width: 60%;
+  padding-bottom: 1rem;
+}
+#guest2024fig1 {
+  display: block;
+  margin: auto;
+  width: 80%;
   padding-bottom: 1rem;
 }

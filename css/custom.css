@@ -471,7 +471,6 @@ thead {
     width: 100%; border-bottom:0.2rem solid light-dark(var(--light-tb), var(--dark-tb));
 }
 
-
 #navbar {
     position: sticky;
     top: 0;
@@ -482,18 +481,23 @@ thead {
     position: fixed;
     width: 100%;
 
-}
+} 
 
 #navbar a {
     float: left;
     display: block;
     text-align: center;
-    padding: 1rem 2rem 1rem 1.5rem; 
+    padding: 1rem calc(var(--grid-gutter)*0.5); 
     text-decoration: none;
-}
+} 
 
 #navbar a:hover{
     background-color: light-dark(var(--light-tb), var(--dark-tb));
+}
+
+#nav-icons a{
+    float:right;
+
 }
 
 #no-ai {
@@ -545,4 +549,20 @@ circle, line {
             font-size: 7rem;
             line-height: 8rem;
         }
+
+        #nav-pubs, #posters {
+            display: none !important;
+        }
+
 }
+@media screen and (max-width: 340px) {
+
+        #navbar a {
+                font-size: 85%;
+        }
+
+        h2#publications, h2#featured {
+            font-size: 6rem;
+            line-height: 7rem;
+        }
+    }

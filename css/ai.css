@@ -216,10 +216,15 @@ img#lens {
         font-family: laries;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
         #deco-footer {
                 font-size: 5rem;
                 line-height: 10rem;
+}
+@media screen and (max-width: 320px) {
+        #deco-footer {
+                font-size: 4rem;
+                line-height: 8rem;
 }
 
 }
