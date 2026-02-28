@@ -195,6 +195,14 @@ img#lens {
         font-family: laries;
 }
 
+@media screen and (max-width: 400px) {
+        #deco-footer {
+                font-size: 5rem;
+                line-height: 10rem;
+}
+
+}
+
 li {
         text-align: left;
 }
