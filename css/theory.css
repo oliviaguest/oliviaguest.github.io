@@ -8,19 +8,38 @@
   --light-bg: #f3e4cf;
   --light-qbg: #a0948629;
   --light-tb: #b94031;
-  --light-color: rgb(49, 12, 6);
+  --light-color: #202c31;
   --light-h: #5500ff;
-  --light-a: rgb(139, 44, 29);
+  --light-a: #a27d5d;
   --light-menu: #a6594c;
 
   --dark-bg: #0c1b30;
   --dark-qbg: #6f55835d;
   --dark-tb: #46bfce;
-  --dark-color: #cef3f9;
+  --dark-color: #dfd3ce;
   --dark-h: #aaff00;
-  --dark-a: #74d3e2;
+  --dark-a: #5d82a2;
   --dark-menu: #59a6b3;
 }
+body {
+  background: unset;
+
+      background-color: light-dark(white, black);
+
+    background-image: linear-gradient(to top, transparent 0%, light-dark(var(--light-bg), var(--dark-bg)) 60% );
+  
+}
+
+html {
+  height: 100%;
+    background-color: light-dark(white, black);
+
+    background-image: linear-gradient(to top, transparent 0%, light-dark(var(--light-bg), var(--dark-bg)) 60% );
+
+  background-size: cover;
+}
+
+
 
 
 .content
@@ -41,7 +60,7 @@
   width: 100%;
   height: 60rem;
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 h1  {
@@ -50,9 +69,19 @@ h1  {
   line-height: 20rem;
   font-family: laries;
   padding-top: 20rem;
-  padding-bottom: 22rem;
+  padding-bottom: 20rem;
 }
+.paragraph {
+padding-top: 2.5rem;
+}
+h2 {
+    font-family: laries;
 
+  /* font-family: var(--font-family-mono); */
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: 500;
+}
 @media screen and (max-width: 900px) {
 
   h1 {
@@ -65,6 +94,10 @@ h1  {
   #wide-header {
     height: 40rem;
   }
+
+  .paragraph {
+padding-top:0rem;
+}
 }
 
 @media screen and (max-width: 550px) {
@@ -72,7 +105,10 @@ h1  {
     font-size: 8rem; 
     line-height: 8rem;
     hyphens: auto;
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
+  }
+  h2 {
+    /* font-size: 3rem; */
   }
   #wide-header {
     height: 25rem;
@@ -84,7 +120,7 @@ h1  {
     font-size: 6rem; 
     line-height: 6rem;
     hyphens: auto;
-    padding-bottom: 6rem;
+    padding-bottom: 2.5rem;
   }
   #wide-header {
     height: 20rem;
@@ -103,11 +139,7 @@ h1  {
   src: url(../fonts/laries.otf);
 }
 
-h2 {
-  font-family: var(--font-family-mono);
-  font-size: 5rem;
-  font-weight: 500;
-}
+
 
 #navbar a{
   color: light-dark(var(--light-bg), var(--dark-bg));

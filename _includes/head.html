@@ -31,6 +31,9 @@
   {% include mermaid.html %}
 {% endif %}
 
+{% if page.mathjax %}
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+{% endif %}
 
 <!-- HTML Meta Tags -->
 {% if page.url == '/' %}
