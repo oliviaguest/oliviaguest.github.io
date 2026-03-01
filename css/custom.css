@@ -23,8 +23,8 @@ html {
 :root {
     color-scheme: light dark;
   
-    --light-bg: #fdf9fc;
-    --light-bg-bottom: #fff3fb;
+    --light-bg: #fff3fb;
+    --light-bg-bottom: #f9e0f1;
     --light-qbg: #a96b8a22;
     --light-tb: #a96b8a22;
     --light-color: #333;
