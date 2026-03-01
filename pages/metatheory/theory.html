@@ -2,13 +2,13 @@
 layout: default
 title: Theory
 permalink: /theory/
-published: false
+published: true
 mathjax: true
-image: /images/turing_banner.png
+image: /images/theory_banner.png
 css: theory
-description: "On this page are some resources for analysing the Turing test."
+description: "What is a cognitive scientific theory?"
 
-date: 2026-02-15
+date: 2026-03-01
 
 ---
 
@@ -46,10 +46,11 @@ date: 2026-02-15
 
     <div class="col-12 col-1-md col-1-lg"></div>
     <div class="col-12 col-6-md col-6-lg paragraph">
-    <p>On this page are pointers to materials I have created for cognitive scientists to know where to look to help build a deeper understanding of theories, theorising, and other important reasoning skills. Thinking about theories is called <i>metatheorising</i>.</p>
+    <p>On this page are pointers to materials I have created for cognitive scientists to know where to look to help build a deeper understanding of theories, theorising, and other important reasoning skills. Inspiration to put these together came after <a href="https://www.bcbl.eu/en/noticias/eventos-pasados/olivia-guest-how-we-reason-over-artificial-neural-networks">a talk I gave at the Basque Center on Cognition, Brain & Language (BCBL)</a>, which also went over these points — plus that I have wanted to write an overview for where to find my ideas on theorising in cognitive science, and especially psychology and cognitive neuroscience, for a while: to help students and junior scholars in the field. Importantly, thinking about theories is called <i>metatheorising</i>.</p>
 
          <div class="figure" id="hexagon">{% include cogsci_figure.html %}</div>
          <div class="extract is-center"><p>A possible depiction of cognitive science — a field that is trans- or inter-disciplinary over (at least) Philosophy, Linguistics, Anthropology, Neuroscience, Artificial Intelligence, and Psychology. (<a href="https://doi.org/10.1007/s42113-024-00217-5">van Rooij et al., 2024</a>)</p></div>
+
     <p>For each major point I will tell you what to further read and what to cite, if you use or build off my ideas in any way (and do indeed properly cite me, if you do, as that is correct academic conduct). The main work however, is:</p>
   
         <div class="cite">
@@ -72,21 +73,100 @@ date: 2026-02-15
     <div class="col-12 col-6-md col-6-lg paragraph">
     <p>Each person might have their own idea of what a theory is, but for this context and to help understand where I am coming from, here's a definition from <a href="https://doi.org/10.1177/1745691620970585">Guest and Martin (2021, p. 794)</a>:</p>
     <blockquote>A theory is a scientific proposition — described by a collection of natural‐language sentences, mathematics, logic, and figures — that introduces causal relations with the aim of describing, explaining, and/or predicting a set of phenomena.</blockquote>   
-    <p>You will have to look at <a href="https://doi.org/10.1177/1745691620970585">Guest and Martin (2021)</a> to fully grasp how I separate theory from other scientific concepts, especially if you cannot yet disentangle it from <i>hypothesis</i>, a different beast altogether:</p>
+    <p>You will have to look at <a href="https://doi.org/10.1177/1745691620970585">Guest and Martin (2021)</a> to fully grasp how I separate theory from other scientific concepts, especially if you cannot yet disentangle it from <i>hypothesis</i>, a different beast altogether.</p>
       <div class="cite">
         {% assign article = site.data.publications | where:"doi","10.1177/1745691620970585" %}
         {% include publications.html publications=article %}
       </div>
 
-    <p>Understanding theories, I propose can be done in a number of different ways.</p>
-        <div class="figure">
-          <img src="/images/metatheory/guest2024fig1.svg" alt="icon" class="invert" id="guest2024fig1">
-        </div>
-        <div class="extract is-center"><p>"This figure depicts, in the style of a printed circuit board, a timeline of events (many with related images) that involve Pygmalion displacement in one form or another. On the left [are] fictional instances of women’s and automata’s intertwined identities; from 1901 at the top to today’s film and television series at the bottom. On the right [are] historical individuals or artefacts." (<a href="//doi.org/10.31235/osf.io/jqxb6 ">Erscoi et al., 2023</a>, figure 2)</p></div>
+    </div>
+    </div>
+  <div class="row" id ="meta">  
+    <div class="col-12 col-5-md col-5-lg text-right">
+
+    <h2><a href="#meta">metatheory</a></h2>
+    </div>
+    <!-- <div class="col-12 col-6-md col-6-lg"></div> -->
+
+    <div class="col-12 col-1-md col-1-lg"></div>
+    <div class="col-12 col-6-md col-6-lg paragraph">
+
+    <p>Understanding theories, can be done by recognising that we as scientists reason over them using a <i>metatheoretical calculus</i> — a phrase I coined to help discussing just this: how we adjudicate over our theories. For a deeper understanding on this, why it is useful and how to do it, as well as the background of the term, see the following three:</p>
+
+        <div class="cite">
+        {% assign article = site.data.publications | where:"title","On Logical Inference over Brains, Behaviour, and Artificial Neural Networks" %}
+        {% include publications.html publications=article %}
+        {% assign article = site.data.publications | where:"title","What Makes a Good Theory, and How Do We Make a Theory Good?" %}
+        {% include publications.html publications=article %}
+        {% assign article = site.data.publications | where:"title","A Metatheory of Classical and Modern Connectionism" %}
+        {% include publications.html publications=article %}
+
+      </div>
+         <div class="figure" id="guest2024fig1">{% include guest2024_figure1.html %}</div>
+         <div class="extract is-center"><p>Figure 1 from <a href="http://doi.org/10.1007/s42113-023-00193-2">Guest (2024)</a>, which depicts a set theoretic view on individual singleton theories \(\theta\) and families of theories \(\mathbf{\Theta}\), plus their relationships to phenomena \(\phi_k \in \mathbf{\Phi}\).</p></div>
+
+         <p>In addition to thinking about theories and their relationships to each other, we can also think about wanted and unwanted properties generally. <a href="http://doi.org/10.1007/s42113-023-00193-2">Guest (2024)</a> contains my suggestions for so-called categories of virtues and vices of theories — inviting scientists "to examine the properties and characteristics of theories, to propose additional virtues and vices, and to engage in further dialogue." (p. 508) These overlapping categories can be seen below in Table 1 from <a href="http://doi.org/10.1007/s42113-023-00193-2">Guest (2024)</a>.</p>
+</div>
+    <div class="col-12 col-4-md col-4-lg"></div>
+    <div class="col-12 col-8-md col-8-lg">
+
+
+
+         <table>
+    <tr>
+        <th style="width:45%">Category</th>
+        <th></th>
+        <th>Potential Questions</th>
+    </tr>
+    <tr>
+        <td><b>Metaphysical commitment</b>, the need to highlight what parts of theory are not under investigation, but are assumed, asserted, or essential.</td>
+        <td><div class="figure" id="thought">{% include metatheory/thought.html %}</div></td>
+        <td>What is the theory? What causal relationships does the theory propose? What does the theory assert? In which field(s) is it embedded? What counts as (mis)use?</td>
+    </tr>
+    <tr>
+        <td><b>Discursive survival</b>, the ability to be understood by interested non-bad actors, to withstand scrutiny within the intended (sub)field(s), and to negotiate the dialectical landscape thereof.</td>
+        <td><div class="figure" id="dialogue">{% include metatheory/dialogue.html %}</div></td>
+        <td>Is the theory accessible, easy to understand? Are members of the theory's community able to explain the theory? Are the theory's concepts transparent? Are labels used consistently in discussions? Can relevant outsiders understand the theory?</td>
+    </tr>
+    <tr>
+        <td><b>Empirical interface</b>, the potential to explicate the relationship between theory and observation, i.e. how observations relate to, and affect, theory and vice versa.</td>
+        <td><div class="figure" id="magnifyingglass">{% include metatheory/magnifyingglass.html %}</div></td>
+        <td>What formalisations are appropriate or necessary for the theory? Which methodologies does the theory use to support or instantiate itself? What type of evidence does the theory require?</td>
+    </tr>
+    <tr>
+        <td><b>Minimizing harm</b>, the reckoning with how theory is forged in a fire of historical, if not ongoing, abuses — from past crimes against humanity, to current exploitation, turbocharged or hyped by machine learning, to historical and present internal academic marginalization.</td>
+        <td><div class="figure" id="earthcare">{% include metatheory/earthcare.html %}</div></td>
+        <td>Does the theory contain great man theorising? Is the theory exclusionary to certain people or ideas? What is its relationship to previous theories? Does the genealogy of the theory contain harmful ideas? Do ancestral theories remain relevant to the present? What harms have resulted or could result from the use of the theory?</td>
+    </tr>
+</table>
 
 </div>  
 
 </div>
+
+  <div class="row" id ="cite">  
+    <div class="col-12 col-5-md col-5-lg text-right">
+
+    <h2><a href="#cite">how to cite</a></h2>
+    </div>
+    <!-- <div class="col-12 col-6-md col-6-lg"></div> -->
+
+    <div class="col-12 col-1-md col-1-lg"></div>
+    <div class="col-12 col-6-md col-6-lg paragraph">
+
+    <p>If you are creating scholarly work based on my ideas, please cite me correctly using the publications mentioned above:</p>
+
+        <div class="cite">
+        {% assign article = site.data.publications | where:"doi","10.1177/1745691620970585" %}
+        {% include publications.html publications=article %}
+        {% assign article = site.data.publications | where:"title","On Logical Inference over Brains, Behaviour, and Artificial Neural Networks" %}
+        {% include publications.html publications=article %}
+        {% assign article = site.data.publications | where:"title","What Makes a Good Theory, and How Do We Make a Theory Good?" %}
+        {% include publications.html publications=article %}
+        {% assign article = site.data.publications | where:"title","A Metatheory of Classical and Modern Connectionism" %}
+        {% include publications.html publications=article %}
+
+      </div>
 
 
 </article>

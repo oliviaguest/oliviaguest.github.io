@@ -12,35 +12,37 @@
   color-scheme: light dark;
 
   --light-bg: #f3e4cf;
-  --light-qbg: #a0948629;
-  --light-tb: #b94031;
+  --light-qbg: #a6594c20;
+  --light-tb: #b941310a;
   --light-color: #202c31;
   --light-h: #5500ff;
   --light-a: #755131;
   --light-menu: #a6594c;
+  --light-menu-hover: #b94031;
 
   --dark-bg: #0c1b30;
-  --dark-qbg: #6f55835d;
-  --dark-tb: #46bfce;
+  --dark-qbg: #59a6b335;
+  --dark-tb: #46bece1c;
   --dark-color: #dfd3ce;
   --dark-h: #aaff00;
   --dark-a: #8aaece;
   --dark-menu: #59a6b3;
+  --dark-menu-hover: #46bfce;
 }
 body {
   background: unset;
   background-color: light-dark(white, black);
-  background-image: linear-gradient(to top, transparent 0%, light-dark(var(--light-bg), var(--dark-bg)) 60% );
+  background-image: linear-gradient(to top, transparent 50%, light-dark(var(--light-bg), var(--dark-bg)) 100% );
   
 }
 
 html {
   height: auto;
-    background-color: light-dark(white, black);
+    /* background-color: light-dark(white, black);
 
-    background-image: linear-gradient(to top, transparent 0%, light-dark(var(--light-bg), var(--dark-bg)) 60% );
+    background-image: linear-gradient(to top, transparent 50%, light-dark(var(--light-bg), var(--dark-bg)) 100% );
 
-  background-size: cover;
+  background-size: cover; */
 }
 
 
@@ -49,7 +51,8 @@ h1, h2 {
 
   /* color: white;
   mix-blend-mode: difference; */
-    -webkit-text-stroke: 0.5rem light-dark(var(--light-bg), var(--dark-bg));
+    -webkit-text-stroke: 1rem light-dark(var(--light-bg), var(--dark-bg));
+    
     paint-order: stroke fill;
 }
 
@@ -178,4 +181,27 @@ padding-top:0rem;
   margin: auto;
   width: 80%;
   padding-bottom: 1rem;
+}
+
+ .dark .invert {
+    filter: invert(1);
+}
+
+#navbar a:hover{
+    background-color: light-dark(var(--light-menu-hover), var(--dark-menu-hover));
+}
+
+#thought {
+  width:85%;
+}
+#dialogue {
+  width:90%;
+}
+
+#magnifyingglass {
+  width:77%;
+}
+
+#earthcare {
+  width:80%;
 }
