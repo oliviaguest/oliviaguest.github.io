@@ -6,7 +6,8 @@
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
   
-    --light-bg: #fcd8e6;
+    --light-bg: #ffe6ef;
+    --light-bg-bottom: #fbcedf;
     --light-hbg: #f5c7d925;
     --light-qbg: #94958d30;
     --light-tb: #f0ecf1c5;
@@ -18,6 +19,7 @@
     --light-menu: #ffcded;
   
     --dark-bg: #003868;
+    --dark-bg-bottom: #00274a;
     --light-hbg: #f5c7d900;
     --dark-qbg: #94958d30;
     --dark-tb: #252425c5;

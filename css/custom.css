@@ -23,7 +23,8 @@ html {
 :root {
     color-scheme: light dark;
   
-    --light-bg: #fff3fb;
+    --light-bg: #fdf9fc;
+    --light-bg-bottom: #fff3fb;
     --light-qbg: #a96b8a22;
     --light-tb: #a96b8a22;
     --light-color: #333;
@@ -33,6 +34,7 @@ html {
     --light-underline: #b3b3b33b;	
   
     --dark-bg: #440915;
+    --dark-bg-bottom: #33040e;
     --dark-qbg: #a96b8a26;
     --dark-tb: #a96b8a2d;
     --dark-color: #ffe6ea;
@@ -132,6 +134,24 @@ body {
     color: light-dark(var(--light-color), var(--dark-color));
     line-height: 1.5;
     overflow-y: scroll; 
+}
+
+body {
+  background: unset;
+  background-color: light-dark(var(--light-bg), var(--dark-bg));
+  background-image: linear-gradient(to bottom,
+                            light-dark(var(--light-bg), var(--dark-bg)) 50%,
+                            light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 100%);
+  
+}
+
+html {
+  height: auto;
+    /* background-color: light-dark(white, black);
+
+    background-image: linear-gradient(to top, transparent 50%, light-dark(var(--light-bg), var(--dark-bg)) 100% );
+
+  background-size: cover; */
 }
 
 .light {
@@ -427,7 +447,7 @@ img.figure, table.tg {
 
 .bg-figure {
     background-color: none;
-    background: linear-gradient(0deg, light-dark(var(--light-bg), var(--dark-bg)) 40%, light-dark(var(--light-bg), var(--dark-h)) 100%);
+    background: linear-gradient(0deg, #00000000 40%, light-dark(#00000000, var(--dark-h)) 100%);
 }
 
 .frame-figure {

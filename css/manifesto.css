@@ -59,6 +59,7 @@ html {
     color-scheme: light dark;
   
     --light-bg: #f4e1cb;
+    --light-bg-bottom: #f4e1cb;
     --light-qbg: #f7ecea;
     --light-tb: #f7ecea;
     --light-color: #0a000d;
@@ -68,6 +69,7 @@ html {
     --light-menu: #ffffffdc;
   
     --dark-bg: #0b1e34;
+    --dark-bg-bottom: #0b1e34;
     --dark-qbg: #081315;
     --dark-tb: #081315;
     --dark-color: #f5fff2;

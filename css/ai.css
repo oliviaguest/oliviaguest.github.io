@@ -6,6 +6,7 @@
     color-scheme: light dark;
   
     --light-bg: #fefffe;
+    --light-bg-bottom: #f2fdf2;
     --light-qbg: #f0ecf1c5;
     --light-tb: #f0ecf1c5;
     --light-color: #0a000d;
@@ -15,6 +16,7 @@
     --light-menu: #e1e1e0;
   
     --dark-bg: #011f17;
+    --dark-bg-bottom: #011812;
     --dark-qbg: #272327c5;
     --dark-tb: #252425c5;
     --dark-color: #fefdfe;

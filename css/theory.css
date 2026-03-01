@@ -12,6 +12,7 @@
   color-scheme: light dark;
 
   --light-bg: #f3e4cf;
+  --light-bg-bottom: #f3e4cf;
   --light-qbg: #a6594c20;
   --light-tb: #b941310a;
   --light-color: #202c31;
@@ -21,6 +22,7 @@
   --light-menu-hover: #b94031;
 
   --dark-bg: #0c1b30;
+  --dark-bg-bottom: #0c1b30;
   --dark-qbg: #59a6b335;
   --dark-tb: #46bece1c;
   --dark-color: #dfd3ce;
