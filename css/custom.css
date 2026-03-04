@@ -32,6 +32,7 @@ html {
     --light-a: #a33b80;
     --light-menu: #f5e4ef;	
     --light-underline: #b3b3b33b;	
+    --light-url-bg: #ffffffcd;	
   
     --dark-bg: #440915;
     --dark-bg-bottom: #33040e;
@@ -42,6 +43,7 @@ html {
     --dark-a: #e47ec7;
     --dark-menu: #57212f;
     --dark-underline: #73737335;
+    --dark-url-bg: #000000cd;
 
     --font-family-sans: 'Inter', sans-serif;
     --font-family-mono: "IBM Plex Mono", "Consolas", "Lucida Console", monospace;
@@ -190,6 +192,17 @@ html {
     font-size: 85%;
 }
 
+a.url-font {
+    text-decoration: none !important;
+}
+
+a:hover.url-font {
+    background-color: light-dark(var(--light-url-bg), var(--dark-url-bg));
+
+}
+
+
+
 p, li {
     text-align: justify;
 
@@ -271,6 +284,8 @@ p a:hover, li a:hover, blockquote a:hover{
     text-decoration: underline;
     text-decoration-thickness: 10%;
 }
+
+
 
 .content {
     margin-top: 8rem;
