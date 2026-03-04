@@ -303,3 +303,7 @@ td {
 img#butterflies {
     width: 70%;
 }
+
+.table td:first-child {
+    text-align: left;
+}​

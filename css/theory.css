@@ -195,15 +195,20 @@ padding-top:0rem;
 
 #thought {
   width:85%;
+  margin: auto;
 }
 #dialogue {
   width:90%;
+  margin: auto;
 }
 
 #magnifyingglass {
   width:77%;
+  margin: auto;
 }
 
 #earthcare {
   width:80%;
+  margin: auto;
 }
+

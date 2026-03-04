@@ -460,6 +460,8 @@ img.figure, table.tg {
 
 }
 
+
+
 .bg-figure {
     background-color: none;
     background: linear-gradient(0deg, #00000000 40%, light-dark(#00000000, var(--dark-h)) 100%);
@@ -496,10 +498,14 @@ tr {
     font-weight: bolder;
 }
 td {
-      text-align: left;
       font-size: smaller;
+      padding: 0.5rem;
+}
 
-  padding: 0.5rem;
+
+table, td
+{
+    text-align: justify;
 }
 
 .tg-c3ow {
