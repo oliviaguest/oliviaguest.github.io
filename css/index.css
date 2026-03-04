@@ -1,0 +1,11 @@
+@import "custom.css";
+
+table, td
+{
+    text-align: left;
+    hyphens: none;
+}
+
+td:first-child
+{     white-space: nowrap; 
+}

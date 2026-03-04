@@ -7,7 +7,6 @@
 
 
 html {
-    height: 100%;
     overflow-wrap: break-word;
     word-wrap: break-word;
     -ms-word-break: break-all;
@@ -17,7 +16,27 @@ html {
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    min-height: 100%
 }
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    color: light-dark(var(--light-color), var(--dark-color));
+    line-height: 1.5;
+    overflow-y: scroll; 
+    background: unset;
+    background-repeat: no-repeat;
+      background-attachment: scroll;
+
+    background-color: light-dark(var(--light-bg), var(--dark-bg));
+    background-image: linear-gradient(to bottom,
+                                light-dark(var(--light-bg), var(--dark-bg)) 50%,
+                                light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 100%);
+
+}
+
 
 
 :root {
@@ -128,33 +147,7 @@ a.lighter  {
     font-weight: 200;
 }
 
-body {
-    height: 100%;
-    margin: 0;
-    overflow-x: hidden;
-    background-color: light-dark(var(--light-bg), var(--dark-bg));
-    color: light-dark(var(--light-color), var(--dark-color));
-    line-height: 1.5;
-    overflow-y: scroll; 
-}
 
-body {
-  background: unset;
-  background-color: light-dark(var(--light-bg), var(--dark-bg));
-  background-image: linear-gradient(to bottom,
-                            light-dark(var(--light-bg), var(--dark-bg)) 50%,
-                            light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 100%);
-  
-}
-
-html {
-  height: auto;
-    /* background-color: light-dark(white, black);
-
-    background-image: linear-gradient(to top, transparent 50%, light-dark(var(--light-bg), var(--dark-bg)) 100% );
-
-  background-size: cover; */
-}
 
 .light {
     color-scheme: light;
@@ -503,10 +496,7 @@ td {
 }
 
 
-table, td
-{
-    text-align: justify;
-}
+
 
 .tg-c3ow {
     padding-top: 0;

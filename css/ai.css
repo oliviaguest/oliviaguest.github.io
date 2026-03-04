@@ -307,3 +307,9 @@ img#butterflies {
 .table td:first-child {
     text-align: left;
 }​
+
+
+table, td
+{
+    text-align: justify;
+}
