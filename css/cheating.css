@@ -1,0 +1,217 @@
+@import "chota.min.css";
+@import "custom.css";
+
+@font-face {
+    font-family: 'nukes';
+    src: url(../fonts/TF\ Nukes\ DEMO.woff) format('woff');
+}
+@font-face {
+    font-family: 'creativo';
+    src: url(../fonts/Creativo\ Regular.otf) format("opentype");
+}
+
+
+:root {
+  /* this has to be set to switch between light or dark */
+  color-scheme: light dark;
+
+  --light-bg: #fcdff9;
+  --light-bg-bottom: #f5ecf3;
+  --light-qbg: #a6594c20;
+  --light-tb: #d087bb5c;
+  --light-color: #160110;
+  --light-h1: #de48b1;
+  --light-a: #1f697a;
+  --light-h: #c71248;
+  --light-menu: #f4c8ee;
+  --light-shadow: #0d434f;
+  --light-shadow1: rgb(255, 0, 255);
+
+  --dark-bg: #330225;
+  --dark-bg-bottom: #1d0417;
+  --dark-qbg: #59a6b335;
+  --dark-tb: #46bece1c;
+  --dark-color: #fae6f4;
+  --dark-h1: #df55b6;
+  --dark-h:  #e1a2c2;
+  --dark-a: #98d9e0;
+  --dark-menu: #96086b;
+  --dark-shadow: rgb(146, 0, 24);
+  --dark-shadow1: #34d3d3;
+}
+
+.content
+{
+  margin-top: 0rem;
+}
+
+
+#wide-header {
+  /* body{ */
+  background-image: url("/images/image-from-rawpixel-id-11361356-edited.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom;
+  background-size: cover;
+  background-size: 100%;
+  width: 100%;
+  height: 92rem;
+  position: absolute;
+}
+
+
+h1 a  {    color: light-dark(var(--light-h1), var(--dark-h1));
+}
+h1 {
+
+    font-family: nukes;
+
+    position: relative;
+    font-size: 20rem;
+    line-height: 20rem;
+    padding-top: 46.5rem;
+    padding-bottom: 0rem; 
+      -webkit-text-stroke: 0.3rem light-dark(var(--light-shadow), var(--dark-shadow));
+    /* text-shadow: light-dark(var(--light-shadow), var(--dark-shadow)) -0.5rem 0.5rem 0rem;  */
+}
+
+#cheating {
+        color: light-dark(var(--light-h), var(--dark-h));
+              -webkit-text-stroke: 0.3rem light-dark(var(--light-shadow1), var(--dark-shadow1));
+
+    /* text-shadow: light-dark(var(--light-shadow1), var(--dark-shadow1)) -0.5rem 0.5rem 0rem;  */
+}
+
+
+h2 {
+    font-family: creativo;
+
+    /* font-family: var(--font-family-mono); */
+    font-size: 8rem;
+    line-height: 11rem;
+    font-weight: 500;
+    padding-right: 2rem;
+}
+
+date, author {
+    top: -14rem;
+    position: relative;
+}
+
+
+@media screen and (max-width: 1250px) {
+date, author {
+    top: -12rem;
+}
+  h1 {
+    font-size: 18rem; 
+    line-height: 16rem;
+    hyphens: auto;
+    padding-top: 34rem;
+  }
+  #wide-header {
+    height: 70rem;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+    date, author {
+    top: -9rem;
+}
+  h1 {
+    font-size: 13rem; 
+    line-height: 11rem;
+    padding-top: 35.5rem;
+    hyphens: auto;
+  }
+  h2 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+  #wide-header {
+    height: 60rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+        date, author {
+    top: 0rem;
+}
+}
+
+@media screen and (max-width: 800px) {
+
+
+  h1 {
+    font-size: 10rem; 
+    line-height: 8rem;
+    padding-top: 21rem;
+    hyphens: auto;
+  }
+  h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  #wide-header {
+    height: 40rem;
+  }
+
+  h1, #cheating{  
+       -webkit-text-stroke-width: 0.25rem;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 8rem; 
+    line-height: 7rem;
+    padding-top: 14rem;
+    hyphens: auto;
+  }
+  h1, #cheating{  
+       -webkit-text-stroke-width: 0.2rem;
+  }
+  #wide-header {
+    height: 30.5rem;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 6rem; 
+    line-height: 5rem;
+    padding-top: 9.5rem;
+    hyphens: auto;
+  }
+  h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  #wide-header {
+    height: 22rem;
+  }
+
+    h1, #cheating{  
+       -webkit-text-stroke-width: 0.15rem;
+  }
+}
+
+#cails {
+        display: block;
+        margin: auto;
+        width: 80%;
+        padding-bottom: 1rem;
+        /* position:fixed; */
+}
+
+.figure svg 
+{
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;}
