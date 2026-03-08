@@ -11,7 +11,7 @@
 }
 
 .p13 {
-    width: 80%;
+    width: 100%;
 }
 
 .preview {
@@ -35,3 +35,8 @@
 }
 
 .odd {flex-flow: row-reverse wrap;}
+
+p.caption {
+ 
+  padding-top: 1.25rem;
+}
