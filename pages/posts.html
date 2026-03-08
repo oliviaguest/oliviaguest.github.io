@@ -23,7 +23,7 @@ description: My blog-like self-hosted short articles, pages, etc.
 
 
         <div class="frame-figure is-center">
-        <img src="{{ site.baseurl }}/images/p13b_posts.png"  alt="icon" class="hide-xs hide-sm p13 is-right">    </div>
+        <img src="{{ site.baseurl }}/images/p13b_posts.png"  alt="decorative Turing machine drawing" class="hide-xs hide-sm p13 is-right">    </div>
 
 
 
@@ -46,16 +46,12 @@ description: My blog-like self-hosted short articles, pages, etc.
     </div>
 <div class="row">
 
-            <div class="col-12 col-2-md col-2-lg"></div>
-            <div class="col-12 col-8-md col-8-lg">
-
+    <div class="col-12 col-2-md col-2-lg"></div>
+    <div class="col-12 col-8-md col-8-lg">
         <div class="banner">
-
-            <a href="{{article.permalink}}"><img src="{{ article.image }}" class="preview"></a>
-                    <p class="desc">{{article.description}}</p>
-
+            <a href="{{article.permalink}}"><img src="{{ article.image }}" class="preview" alt="decorative banner that represents the content"></a>
+            <p class="desc">{{article.description}}</p>
         </div>
-
         <p class="excerpt">{{article.excerpt | strip_html | escape }} <a href="{{ article.permalink}}">Read More.</a></p>
     </div>
 </div>
@@ -66,6 +62,6 @@ description: My blog-like self-hosted short articles, pages, etc.
     <div class="col-6 col-6-md col-6-lg vertical-center">
     </div>
     <div class="col-6 col-6-md col-6-lg is-right">
-        <img src="/images/snail.png" alt="icon" class="hide-xs hide-sm snail is-right">
+        <img src="/images/snail.png" alt="decorative snail" class="hide-xs hide-sm snail is-right">
     </div>
 </div>

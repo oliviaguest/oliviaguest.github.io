@@ -1,8 +1,8 @@
 <nav id="navbar">
   <div class="container">
   <div class="">
-    <a href="{{site.url}}#top"><i class="fa-solid fa-house-chimney"></i></a>
-    <a href="{{site.url}}/posts"><i class="fa-regular fa-newspaper"></i></a>
+    <a href="{{site.url}}#top" alt="home"><i class="fa-solid fa-house-chimney"></i></a>
+    <a href="{{site.url}}/posts" alt="posts"><i class="fa-regular fa-newspaper"></i></a>
 {% if page.css == 'ai' %}
     <a href="#allies">Allies</a>
     <a href="#activism" id="posters" class="hide-xs">Posters</a>
@@ -13,10 +13,10 @@
 {% endif %}
     </div>
     <div id="nav-icons">
-      <a href="#here" onclick="toggleDarkMode(this.firstChild.nextSibling.id)">
+      <a href="#here" alt="toggle dark mode" onclick="toggleDarkMode(this.firstChild.nextSibling.id)">
         <i class="fa-solid fa-moon" id="dark"></i>
       </a>
-      <a href="#here" onclick="toggleMonochrome()">
+      <a href="#here" alt="toggle monochrome mode" onclick="toggleMonochrome()">
         <i class="fa-solid fa-rainbow"></i>
       </a>
     </div>
