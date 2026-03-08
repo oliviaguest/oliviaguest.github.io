@@ -3,3 +3,33 @@
 .article-preview{
     padding-top: 2rem;
 }
+
+.date
+{
+    top: -1rem;
+    position: relative;
+}
+
+.p13 {
+    width: 80%;
+}
+
+.preview {
+      border-radius: 1rem;
+      
+}
+
+.banner {
+          border-radius: 1rem;
+
+    background-color: light-dark(var(--light-underline), var(--dark-underline))
+}
+
+.desc
+{
+    font-size: smaller;
+    padding: 1rem;
+
+    top: -0.4rem;
+    position: relative;
+}

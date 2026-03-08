@@ -80,7 +80,7 @@ body {
 }
 
 
-date, author{
+date, author, .date {
     font-size: small;
 }
 
