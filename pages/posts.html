@@ -1,0 +1,43 @@
+---
+layout: default
+title: posts
+permalink: /posts/
+published: true
+css: posts
+---
+
+<div class="row">
+    <div class="col-12 col-6-md col-6-lg">
+        {% include header.html %}
+    </div>
+
+    <div class="col-12 col-6-md col-6-lg vertical-center">
+
+        <div class="frame-figure is-center">
+        <img src="{{ site.baseurl }}/images/p13b.png" alt="icon" class="figure p13">    </div>
+
+        <div class="extract"><p>Figure from <a href="https://turingarchive.kings.cam.ac.uk/material-given-kings-college-cambridge-1960-amtk/amt-k-5">Tekhnika Molodezhi (Apr. 1955, p.9)</a>.</p></div>
+    </div>
+</div>
+
+ {% for article in site.posts %} 
+
+<div class="row article-preview">
+
+    <div class="col-12 ">     
+        <h2> <a href="{{article.permalink}}"> {{article.title}}</a></h2>
+    </div>
+            <div class="col-12 col-6-md col-6-lg">
+
+        <div class="banner">
+
+            <a href="{{article.permalink}}"><img src="{{ article.image }}" class="preview"></a>
+                    {{article.description}}
+
+        </div>
+    </div>
+    <div class="col-12 col-6-md col-6-lg">
+        {{article.extract}}
+    </div>
+</div>
+ {% endfor %}

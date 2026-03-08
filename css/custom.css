@@ -608,3 +608,8 @@ circle, line {
             line-height: 7rem;
         }
     }
+
+img.preview {
+    opacity: 1;
+    filter: none;
+}

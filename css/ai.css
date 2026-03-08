@@ -118,7 +118,10 @@ h2 a {
   }
 }
 
-
+.tbl-res-col
+{
+        text-align: justify;
+}
 @media screen and (max-width: 640px) {
   h1 {
     font-size: 9rem; 
@@ -137,6 +140,7 @@ h2 a {
                 font-size: 5rem;
                 line-height: 5rem;
         }
+
 }
 
 
@@ -168,6 +172,10 @@ h2 a {
                 font-size: 6rem;
                 line-height: 9rem;
                 hyphens: none;
+        }
+        .tbl-res-col
+        {
+                text-align: left;
         }
 }
 
@@ -313,3 +321,4 @@ table, td
 {
     text-align: justify;
 }
+
