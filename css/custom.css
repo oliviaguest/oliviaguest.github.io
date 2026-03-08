@@ -592,10 +592,6 @@ circle, line {
             line-height: 8rem;
         }
 
-        #nav-pubs, #posters {
-            display: none !important;
-        }
-
 }
 @media screen and (max-width: 340px) {
 
@@ -612,4 +608,8 @@ circle, line {
 img.preview {
     opacity: 1;
     filter: none;
+}
+
+.bug {
+    font-size: 3rem;
 }
