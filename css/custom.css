@@ -211,7 +211,7 @@ p, li {
 
 h2 {
     scroll-margin-top: 1rem;
-
+    hyphens: none;
 }
 
 
