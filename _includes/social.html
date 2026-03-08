@@ -4,6 +4,12 @@
 <ul class="socials right-socials">
 {% endif %}
 
+
+
+   {% if include.top %} 
+      <li class="social"><a href="{{site.url}}/feed.xml"><i class="fa-solid fa-rss" id="rss"></i></a></li>
+  {% endif %} 
+
 {% if include.top %}
 <li class="social">
 {% else %}
@@ -59,6 +65,7 @@
       <i class="ai ai-orcid" aria-hidden="true"></i>
     </a>
   </li>
+
 
   {% if include.top %}  {% else %} 
   <li class="social right-social">
