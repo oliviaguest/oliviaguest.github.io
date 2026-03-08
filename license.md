@@ -3,6 +3,7 @@ layout: page
 title: licensing
 permalink: /license/
 published: true
+image: /images/preview.png
 ---
 
 
