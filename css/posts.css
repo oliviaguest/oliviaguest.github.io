@@ -33,3 +33,5 @@
     top: -0.4rem;
     position: relative;
 }
+
+.odd {flex-flow: row-reverse wrap;}

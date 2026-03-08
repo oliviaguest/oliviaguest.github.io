@@ -23,11 +23,10 @@ description: My blog-like self-hosted short articles, pages, etc.
 
 
         <div class="frame-figure is-center">
-        <img src="{{ site.baseurl }}/images/p13b_posts.png"  alt="decorative Turing machine drawing" class="hide-xs hide-sm p13 is-right">    </div>
-
-
-
-        <p class="hide-xs hide-sm caption is-center"><a href="https://turingarchive.kings.cam.ac.uk/material-given-kings-college-cambridge-1960-amtk/amt-k-5">Tekhnika Molodezhi (1955, p.9)</a></p>
+        <img src="{{ site.baseurl }}/images/p13b_posts.png"
+        alt="decorative Turing machine drawing" class="hide-xs hide-sm p13 is-right">    </div>
+        <p class="hide-xs hide-sm caption is-center">
+            Tekhnika Molodezhi (<a href="https://turingarchive.kings.cam.ac.uk/material-given-kings-college-cambridge-1960-amtk/amt-k-5">1955, p.9</a>)</p>
 
 
 </div>
@@ -38,32 +37,27 @@ description: My blog-like self-hosted short articles, pages, etc.
  {% for article in site.posts %} 
 
 <div class="row article-preview">
+            <div class="col-12">
 
-    <div class="col-12"> 
+    </div>
+</div>
 
+<div class="row {% cycle 'odd', 'even' %}">
+            <div class="col-12 col-6-md col-6-lg">
         <h2> <a href="{{article.permalink}}"> {{article.title}}</a></h2><div class="date text-right">{{ article.date | date: "%e %B %Y" }}</div>
-    </div>
-    </div>
-<div class="row">
 
-    <div class="col-12 col-2-md col-2-lg"></div>
-    <div class="col-12 col-10-md col-10-lg">
+            <p class="excerpt">{{article.excerpt | strip_html | escape }} <a href="{{ article.permalink}}">Read More.</a></p>
+        </div>
+
+        <div class="col-12 col-6-md col-6-lg">
         <div class="banner">
             <a href="{{article.permalink}}"><img src="{{ article.image }}" class="preview" alt="decorative banner that represents the content"></a>
             <p class="desc">{{article.description}}</p>
         </div>
         </div>
-        </div>
-        <div class="row">
-
-            <div class="col-12 col-6-md col-6-lg"></div>
-
-            <div class="col-12 col-6-md col-6-lg">
-
-        <p class="excerpt">{{article.excerpt | strip_html | escape }} <a href="{{ article.permalink}}">Read More.</a></p>
-    </div>
 </div>
  {% endfor %}
+
 
 
  <div class="row">
