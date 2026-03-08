@@ -43,12 +43,13 @@ description: My blog-like self-hosted short articles, pages, etc.
 </div>
 
 <div class="row {% cycle 'odd', 'even' %}">
-            <div class="col-12 col-6-md col-6-lg">
+            <div class="col-12 col-5-md col-5-lg">
         <h2> <a href="{{article.permalink}}"> {{article.title}}</a></h2><div class="date text-right">{{ article.date | date: "%e %B %Y" }}</div>
 
             <p class="excerpt">{{article.excerpt | strip_html | escape }} <a href="{{ article.permalink}}">Read More.</a></p>
         </div>
 
+        <div class="col-12 col-1-md col-1-lg"></div>
         <div class="col-12 col-6-md col-6-lg">
         <div class="banner">
             <a href="{{article.permalink}}"><img src="{{ article.image }}" class="preview" alt="decorative banner that represents the content"></a>
