@@ -64,14 +64,14 @@
 h1
  {        position: relative;
 
-        font-size: 12rem;
-        line-height: 12rem;
+        font-size: 20rem;
+        line-height: 17rem;
         margin-bottom: 0rem;
         font-family: lyzero;
         /* word-break: break-all; */
         hyphens: manual;
-        padding-top: 20rem;
-        padding-bottom: 16rem;
+        padding-top: 15rem;
+        padding-bottom: 11rem;
 
 }
 
@@ -87,11 +87,11 @@ h1 a {
 @media screen and (max-width: 900px) {
 
   h1 {
-    /* font-size: 15rem; 
-    line-height: 15rem;
-    hyphens: auto; */
-    padding-top: 8rem;
-    padding-bottom: 13rem;
+    font-size: 12rem;
+    line-height: 10rem;
+    hyphens: auto; 
+    padding-top: 11rem;
+    padding-bottom: 14rem;
   }
   #wide-header {
     height: 45rem;
@@ -101,9 +101,9 @@ h1 a {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 9rem; 
-    line-height: 9rem;
+    line-height: 7.5rem;
     hyphens: auto;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
   #wide-header {
     height: 30rem;
