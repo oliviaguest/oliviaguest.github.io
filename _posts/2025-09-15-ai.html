@@ -70,13 +70,14 @@ excerpt: >
     </div>
 
     <h3 id="dive"><a href="#dive">deeper dives by me</a></h3>
-    <p>I have created two longer-form pages on some issues that seem to keep coming up and centered on my perspective and work:</p>
-
+    <p>I have created some longer-form pages on some issues that seem to keep coming up and centered on my perspective and work:</p>
     <ul>
-        <li><a href="/turing"><b>Turing test</b></a> — a collection of extracts from my work and from critical and gendered angles on this seemingly omnipresent undercurrent to modern AI thinking.</li>
-        <li><a href="/before"><b>We've been here before!</b></a> — similarly, a collection of extracts and related points that continue to reappear when we contend with the rhetoric the AI industry throws at us.</li>
+    {% assign posts = site.posts | sort:"date"  | where: 'tags', 'cail' %}
+    {% for article in posts %} 
+        <li><b><a href="{{article.permalink}}">{{article.title}}</a></b> — {{article.cail_excerpt}}</li>
+    {% endfor %}
     </ul>
-
+    For the full list <a href="/posts">see here</a>.
 
 
     <h3 id="talks"><a href="#talks">video talks & interviews</a></h3>
