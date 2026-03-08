@@ -1,0 +1,45 @@
+---
+layout: default
+title: Cognitive Science
+permalink: /cognitive-science/
+published: false
+image: /images/cheating_banner.png
+css: cogsci
+description: 
+cail_excerpt:
+excerpt: > 
+
+---
+
+<article class="page">
+
+<div class="row header-row">
+    <div class="col-12 header">
+        <h1><a href="{{site.url}}/cognitive-science"><span id="cog">cognitive</span>
+            <span id="sci"> science</span></a></h1>
+    </div>
+<div class="col-12 text-right">
+
+  {% if page.date %}<author><a href="{{site.url}}">Olivia Guest</a>, </author><date>{{ page.date | date: "%e %B %Y" }}</date>{% endif %}
+    </div>
+</div>
+
+
+<div class="row" id="intro">
+    <div class="col-12">
+            <h2><a href="#intro">introduction</a></h2>
+
+        </div>
+    <div class="col-12 col-6-md col-6-lg">
+        <p>It has come up a number of times both on social media and in private conversations that especially junior people in academia, such as PhD candidates, are unable to <i>not</i> use AI. That is so-called artificial intelligence chatbots or similar products (see the <a href="/ai/#against">this paper here</a> to help understand what this means). They tell me that they feel so much direct or otherwise pressure from peers to use AI that they fear for their careers if they don't. If this describes you or addresses worries you've heard from others, then this is for you.</p>
+        
+        <p>So, I will assume that at some point, you came across work like mine here and want to protect yourself as well as be an ethical actor:</p>
+            {% assign article = site.data.publications | where:"title","Against the Uncritical Adoption of 'AI' Technologies in Academia" %}
+            {% include publications.html publications=article %}
+
+        <p>To address worries about these pressures and explain how the <i>in principle</i> rejection is actually the only way, which I describe <a href="/before">here</a> and elsewhere, I dedicate this short piece to you.</p>
+    </div>
+</div>
+
+
+</article>

@@ -1,0 +1,64 @@
+@import "chota.min.css";
+@import "custom.css";
+
+
+@font-face {
+    font-family: 'RetraConsole';
+    src: url(../fonts/RetraConsole.ttf) format('woff2');
+}
+
+:root {
+    /* this has to be set to switch between light or dark */
+    color-scheme: light dark;
+  
+    --light-bg:#f9f5e6;
+    --light-bg-bottom:#eee9cb;
+    --light-hbg: #0e3b3925;
+    --light-qbg: #ffdb002e;
+    --light-tb: #ecf1efc5;
+    --light-color: #360000;
+    --light-h:  #e600ff;
+    --light-cog: #b09aaf;
+    --light-figtext:  #e8e5d5b9;
+    --light-shadow:  #857c467c;
+    --light-a: #aa4735;
+    --light-menu: #e0dbc1;
+  
+    --dark-bg: #2c3236;
+    --dark-bg-bottom: #202528;
+    --light-hbg: #f5c7d900;
+    --dark-qbg: #6f55835d;
+    --dark-tb: #252425c5;
+    --dark-color: #e5daff;
+    --dark-h: #e680c4;
+    --dark-cog: #5a6f78;
+    --dark-shadow:  #02131a;
+    --dark-figtext:  #02131a9d;
+    --dark-a: #c593a6;
+    --dark-menu: #45434d;
+
+  }
+
+  h1, h2 {
+    font-family: RetraConsole, 'Courier New', Courier, monospace;
+  }
+  h1 {  
+    text-align: right;
+
+    font-size: 10rem;
+    line-height: 10rem;
+  }
+  h2 {
+    
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  #cog {
+    color: light-dark(var(--light-cog), var(--dark-cog));
+  }
+  #sci {
+    color: light-dark(var(--light-sci), var(--dark-sci));
+
+
+  }

@@ -92,7 +92,7 @@ h1 a {
         h1 {
                 font-size: 10rem; 
                 line-height: 7rem;
-                hyphens: auto;
+                /* hyphens: auto; */
 
         }
 }
