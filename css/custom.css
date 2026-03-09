@@ -562,8 +562,11 @@ circle, line {
 
 @media screen and (max-width: 410px) {
 
+
         #navbar a {
-                font-size: 90%;
+            padding: 0.9rem calc(var(--grid-gutter)*0.45); 
+            min-width: 4rem;
+            font-size: 90%;
         }
         #navbar {
             position: absolute;
@@ -597,6 +600,8 @@ circle, line {
 
         #navbar a {
                 font-size: 85%;
+                padding: 0.85rem calc(var(--grid-gutter)*0.4); 
+
         }
 
         h2#publications, h2#featured {
