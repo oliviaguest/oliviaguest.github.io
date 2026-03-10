@@ -90,7 +90,6 @@
 
   }
   h2 {
-        text-align: center;
 
     font-size: 4rem;
     line-height: 4rem;
@@ -242,4 +241,9 @@
 
 #woman {
   width: 80%;
+}
+
+
+img.preview {
+filter:  sepia(1) hue-rotate(300deg);
 }
