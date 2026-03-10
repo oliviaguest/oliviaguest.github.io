@@ -31,12 +31,12 @@
     --dark-qbg: #6f55835d;
     --dark-tb: #252425c5;
     --dark-color: #f9f1e6;
-    --dark-h: #e680c4;
-    --dark-cog: #5a6f78;
+    --dark-h:  #e600ff;
+    --dark-cog: #b388b1;
     --dark-shadow:  #02131a;
     --dark-figtext:  #02131a9d;
     --dark-a: #c593a6;
-    --dark-menu: #45434d;
+    --dark-menu: #310014;
     --dark-row-bg: #2c3236;
 
   }
@@ -57,12 +57,12 @@
   width: 100%;
   height: 160rem;
   position: absolute;
-  top: -10rem;
+  top: -30rem;
   z-index: -1;
 
   background-image:  linear-gradient(to bottom,
                                transparent 50%,
-                                light-dark(var(--light-bg), var(--dark-bg)) 75%),
+                                light-dark(var(--light-bg), var(--dark-bg)) 85%),
                   url("/images/image-from-rawpixel-id-12241526-edited.png");
 
 }
@@ -105,7 +105,9 @@
 
   } */
 
-
+.break {
+    display: none;
+}
   @media screen and (max-width: 1250px) {
   #wide-header {
   background-position: top;
@@ -113,10 +115,111 @@
     height: 160rem;
 
   }
+}
+  @media screen and (max-width: 1150px) {
+  #wide-header {
+    height: 130rem;
+  top: -10rem;
+
+  }
   h1 {  
+    font-size: 8rem;
+  }
+}
+  @media screen and (max-width: 900px) {
+  #wide-header {
+    height: 120rem;
+  top: -10rem;
+
+  }
+  h1 {  
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
 
+  @media screen and (max-width: 860px) {
+  #wide-header {
+    height: 100rem;
+  top: -20rem;
+
+  }
+  h1 {  
+            padding-top: 3rem;
+
+        padding-bottom: 30rem;
+
+    /* font-size: 5rem; */
+  }
+}
+  @media screen and (max-width: 710px) {
+  #wide-header {
+    height: 80rem;
+
+
+
+  }
+  h1 {  
+                padding-top: 0rem;
+
+        padding-bottom: 20rem;
+
+    /* font-size: 5rem; */
+  }
+}
+  @media screen and (max-width: 590px) {
+  #wide-header {
+    height: 70rem;
+
+  }
+
+  .break {
+      display: unset;
+  }
+  h1 {
+          padding-bottom: 10rem;
+
+  }
+}
+  @media screen and (max-width: 550px) {
+  #wide-header {
+    height: 80rem;
+      background-position: bottom;
+
+
+  }
+}
+  @media screen and (max-width: 460px) {
+  #wide-header {
+    height: 65rem;
+      background-position: 80%;
+
+
+  }
+  .break {
+      display: unset;
+  }
+    h1 {  
+
+                padding-bottom: 5rem;
+
+    }
+}
+
+
+  @media screen and (max-width: 400px) {
+      #wide-header {
+        height: 50rem;
+          background-position: center;
+      top: -10rem;
+
+
+      }
+        h1 {  
+                    padding-bottom: 1rem;
+
+        }
+}
 .light img {
   filter: unset;
   opacity: 0.7;
@@ -127,4 +230,16 @@
   this has to be manually flipped/saved within css*/
   
   opacity: 0.7;
+}
+
+
+#typewriter {
+  width: 60%;
+}
+#cabinet {
+  width: 80%;
+}
+
+#woman {
+  width: 80%;
 }

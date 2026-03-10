@@ -632,6 +632,8 @@ h2#further, h2#related {
 
 }
 
+
+
 h2#related a {
         color: light-dark(var(--light-a), var(--dark-a));
 
@@ -688,3 +690,5 @@ p.caption {
  
   padding-top: 1.25rem;
 }
+
+
