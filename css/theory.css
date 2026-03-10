@@ -212,3 +212,6 @@ padding-top:0rem;
   margin: auto;
 }
 
+img.preview{
+filter: hue-rotate(45deg);
+}

@@ -235,3 +235,9 @@ td {
  .dark .invert {
     filter: invert(1);
 }
+
+
+
+img.preview{
+filter: hue-rotate(310deg);
+}

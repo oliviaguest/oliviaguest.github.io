@@ -1,16 +1,44 @@
----
+<!doctype html>
+<!--
+Hello internet user,
 
-layout: default
+For the love of all that is worth loving *please*
+if you copy-paste this to use for your own
+website, try to change the Google analytics code
+to yours or just remove it.
 
----
+The code used to generate this website is released
+under the GNU General Public License version 3
+(GPLv3) and written by Olivia Guest.
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <div class="date"><a href="{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a></div>
+See the repo for more details:
+https://github.com/oliviaguest/oliviaguest.github.io
 
-  <div class="entry">
-    {{ content }}
-  </div>
+Cheers,
+Olivia
+-->
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
 
-  {% include disqus.html %}
-</article>
+
+    {% include menu.html %}
+    <div id="wide-header"></div>
+
+
+    <div class="container"> 
+        <div class="content"> 
+
+              <main>
+                  {{ content }}
+              </main>
+        </div>
+
+        {% include footer.html %}
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>

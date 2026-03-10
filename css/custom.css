@@ -269,7 +269,7 @@ a {
 
 }
 
-p a, li a, blockquote a{
+p a, li a, blockquote a {
     text-decoration: underline;
     text-decoration-thickness: 20%;
     text-decoration-color: light-dark(var(--light-underline), var(--dark-underline));
@@ -613,8 +613,77 @@ circle, line {
 img.preview {
     opacity: 1;
     filter: none;
+
 }
 
 .bug {
     font-size: 3rem;
+}
+
+h2#further, h2#related {
+    /* font-size:1em; */
+    line-height: 1.5rem;
+    font-family: var(--font-family-sans);
+    -webkit-text-stroke: unset;
+    padding-bottom: 1.5rem;
+        font-size: medium;
+
+
+}
+
+h2#related a {
+        color: light-dark(var(--light-a), var(--dark-a));
+
+    text-decoration: underline;
+    text-decoration-thickness: 20%;
+    text-decoration-color: light-dark(var(--light-underline), var(--dark-underline));
+    
+}
+h2#related a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 10%;
+}
+
+.further {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 90%;
+}
+
+
+
+.asterism {
+    font-size: 3rem;
+    color: light-dark(var(--light-a), var(--dark-a));
+    opacity: 0.5;
+    padding-bottom: 2rem;
+}
+
+.preview {
+      border-radius: 1rem;
+      
+}
+
+.banner {
+          border-radius: 1rem;
+
+    background-color: light-dark(var(--light-underline), var(--dark-underline));
+
+
+}
+
+.desc
+{
+    font-size: smaller;
+    padding: 1rem;
+
+    top: -0.4rem;
+    position: relative;
+}
+
+.odd {flex-flow: row-reverse wrap;}
+
+p.caption {
+ 
+  padding-top: 1.25rem;
 }

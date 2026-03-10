@@ -1,0 +1,43 @@
+
+
+
+   <div class="row further">
+
+    <div class="col-12 text-center asterism">
+
+      <!-- ⁂ -->
+
+    </div>
+
+
+
+    <div class="col-12 col-5-md col-5-lg">
+        <h2 id="further">Further reading</h2>
+            {% assign posts = site.posts | sort:"date" | reverse %}
+
+        <ul>
+        {% for article in posts limit: 6 %} 
+            {% if article.permalink contains page.permalink %}
+                {% continue %}
+            {% endif %}
+                <li><b><a href="{{article.permalink}}">{{article.title}}</a></b> — {{article.cail_excerpt}}</li>
+        {% endfor %}
+        </ul>
+
+    </div>
+
+        <div class="col-12 col-1-md col-1-lg"></div>
+
+        <div class="col-12 col-6-md col-6-lg">
+
+        {% assign featured = site.posts | sort:"date" | where: 'permalink', page.featured %}
+
+        <h2 id="related">Related: <a href="{{featured[0].permalink}}"><i>{{featured[0].title}}</i></a></h2>
+
+        <div class="banner">
+            <a href="{{featured[0].permalink}}"><img src="{{ featured[0].image }}" class="preview" alt="decorative banner that represents the content"></a>
+            <p class="desc">{{featured[0].description}}</p>
+        </div>
+    </div>
+
+  </div>

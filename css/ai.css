@@ -322,3 +322,8 @@ table, td
     text-align: justify;
 }
 
+
+
+img.preview{
+filter: hue-rotate(160deg) grayscale(0.5);
+}
