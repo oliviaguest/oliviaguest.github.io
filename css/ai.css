@@ -324,6 +324,10 @@ table, td
 
 
 
-img.preview{
+.light .preview {
 filter: hue-rotate(160deg) grayscale(0.5);
+}
+
+ .dark .preview {
+filter: hue-rotate(210deg) grayscale(0.5);
 }

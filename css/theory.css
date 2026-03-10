@@ -212,6 +212,11 @@ padding-top:0rem;
   margin: auto;
 }
 
-img.preview{
+
+.light .preview {
 filter: hue-rotate(45deg);
+}
+
+ .dark .preview {
+filter:hue-rotate(50deg) invert(1) grayscale(0.55);
 }

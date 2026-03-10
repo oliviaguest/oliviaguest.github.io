@@ -280,6 +280,12 @@ img.figure.right
     width: 100%;
     height: 100%;}
 
-img.preview{
+
+.light .preview {
 filter: hue-rotate(190deg);
 }
+
+ .dark .preview {
+filter:hue-rotate(190deg) invert(1) grayscale(0.55);
+}
+
