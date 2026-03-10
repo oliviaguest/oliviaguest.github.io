@@ -17,6 +17,7 @@
     --light-h1: #4710b6;
     --light-a: #354dc6;
     --light-menu: #ffcded;
+    --light-foot: #ffe6ef;
   
     --dark-bg: #003868;
     --dark-bg-bottom: #00274a;
@@ -28,6 +29,7 @@
     --dark-h1: #8adbfa;
     --dark-a: #e895b5;
     --dark-menu: #594995;
+    --dark-foot: #003868;
 
   }
 

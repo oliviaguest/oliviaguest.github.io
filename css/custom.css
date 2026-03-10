@@ -52,7 +52,8 @@ body {
     --light-a: #a33b80;
     --light-menu: #f5e4ef;	
     --light-underline: #b3b3b33b;	
-    --light-url-bg: #ffffffcd;	
+    --light-url-bg: #ffffffcd;
+    --light-foot: white;
   
     --dark-bg: #440915;
     --dark-bg-bottom: #33040e;
@@ -64,6 +65,7 @@ body {
     --dark-menu: #57212f;
     --dark-underline: #73737335;
     --dark-url-bg: #000000cd;
+    --dark-foot: black;
 
     --font-family-sans: 'Inter', sans-serif;
     --font-family-mono: "IBM Plex Mono", "Consolas", "Lucida Console", monospace;
@@ -649,7 +651,7 @@ h2#related a:hover{
 }
 
 .further {
-    padding-top: 6rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
     font-size: 90%;
 }
@@ -660,7 +662,7 @@ h2#related a:hover{
     font-size: 3rem;
     color: light-dark(var(--light-a), var(--dark-a));
     opacity: 0.5;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 .preview {
@@ -690,6 +692,21 @@ h2#related a:hover{
 p.caption {
  
   padding-top: 1.25rem;
+}
+
+
+#wide-footer {
+    background-color: light-dark(var(--light-foot), var(--dark-foot));
+}
+
+#reading-list {
+
+    margin-left: 0;
+    padding-left: 0rem;
+    list-style: inside;
+}
+#reading-list li {
+padding-bottom: 0.75rem;
 }
 
 

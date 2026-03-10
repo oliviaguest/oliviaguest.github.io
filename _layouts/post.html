@@ -28,7 +28,6 @@ Olivia
     {% include menu.html %}
     <div id="wide-header"></div>
 
-
     <div class="container"> 
         <div class="content"> 
 
@@ -37,8 +36,28 @@ Olivia
               </main>
         </div>
 
-        {% include footer.html %}
     </div>
-    {% include analytics.html %}
+
+    <footer id="wide-footer">
+      <div class="container"> 
+
+      {% include further_reading.html %}
+
+      <div class="row undo footer">
+        <div class="col-12 col-6-md col-6-lg">
+
+
+        </div>
+        <div class="col-12 col-6-md col-6-lg text-right">
+          {% include social.html %}
+
+                  <span class="flip">©</span>  <a href="/license/">Olivia Guest 2013–{{ site.time | date: '%y' }}</a>  
+        </div>
+      </div>
+      </div>
+    </footer>
+
+
+{% include analytics.html %}
   </body>
 </html>

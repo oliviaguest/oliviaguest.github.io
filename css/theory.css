@@ -20,6 +20,7 @@
   --light-a: #755131;
   --light-menu: #a6594c;
   --light-menu-hover: #b94031;
+  --light-foot: #f3e4cfaa;
 
   --dark-bg: #0c1b30;
   --dark-bg-bottom: #0c1b30;
@@ -30,6 +31,7 @@
   --dark-a: #8aaece;
   --dark-menu: #59a6b3;
   --dark-menu-hover: #46bfce;
+  --dark-foot: #0c1b30aa;
 }
 body {
   background: unset;

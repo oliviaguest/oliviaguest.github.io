@@ -26,6 +26,7 @@
   --light-menu: #f4c8ee;
   --light-shadow: #0d434f;
   --light-shadow1: rgb(255, 0, 255);
+  --light-foot: #ffffffc4;
 
   --dark-bg: #330225;
   --dark-bg-bottom: #1d0417;
@@ -38,6 +39,7 @@
   --dark-menu: #96086b;
   --dark-shadow: rgb(146, 0, 24);
   --dark-shadow1: #34d3d3;
+  --dark-foot: #00000094;
 }
 
 .content

@@ -18,6 +18,7 @@
     --light-shadow:  #857c467c;
     --light-a: #aa4735;
     --light-menu: #e0dbc1;
+    --light-foot: #fcf6d6;
   
     --dark-bg: #2c3236;
     --dark-bg-bottom: #202528;
@@ -31,6 +32,8 @@
     --dark-figtext:  #02131a9d;
     --dark-a: #c593a6;
     --dark-menu: #45434d;
+    --dark-foot: #151718;
+
 
     --font-family-sans: 'Inter', sans-serif;
     font-weight: 300;

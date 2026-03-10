@@ -15,7 +15,7 @@
         <h2 id="further">Further reading</h2>
             {% assign posts = site.posts | sort:"date" | reverse %}
 
-        <ul>
+        <ul id="reading-list">
         {% for article in posts limit: 6 %} 
             {% if article.permalink contains page.permalink %}
                 {% continue %}
