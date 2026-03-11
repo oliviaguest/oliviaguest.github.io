@@ -277,9 +277,10 @@ p a, li a, blockquote a {
     text-decoration-color: light-dark(var(--light-underline), var(--dark-underline));
     
 }
-p a:hover, li a:hover, blockquote a:hover{
+p a:hover, li a:hover, blockquote a:hover, .tabs > a:hover{
     text-decoration: underline;
     text-decoration-thickness: 10%;
+    opacity: 0.75;
 }
 
 
@@ -659,10 +660,27 @@ h2#related a:hover{
 
 
 .asterism {
-    font-size: 3rem;
-    color: light-dark(var(--light-a), var(--dark-a));
-    opacity: 0.5;
+
     /* padding-bottom: 2rem; */
+}
+
+.tabs > a {
+
+    font-size: x-large;
+    font-weight: 300;
+    border-bottom: none;
+    text-decoration: underline;
+    color: light-dark(var(--light-a), var(--dark-a));
+
+    text-decoration-thickness: 20%;
+    text-decoration-color: light-dark(var(--light-underline), var(--dark-underline));
+    width: 5rem;
+
+}
+
+.tabs > a:hover {
+    border-bottom: none;
+    background-color: light-dark(var(--light-underline), var(--dark-underline));  
 }
 
 .preview {

@@ -1,0 +1,39 @@
+<!-- from https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/post_pagination.html -->
+ 
+
+
+    {% assign locale = include.locale | default: site.locale %}
+    {% if page.previous or page.next %}
+    <nav class="pagination tabs is-full" aria-label="Post pagination">
+    <!-- <div class="row"> -->
+
+        <!-- <div class="col-6"> -->
+        {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html | strip}}">
+            <!-- {{ site.data.ui-text[locale].pagination_previous | default: "Previous" }} -->
+                    <i class="fa-solid fa-arrow-left"></i>
+
+        </a>
+        {% else %}
+        <a href="#" class="pagination--pager disabled">
+            <!-- Current page is the oldest post. -->
+        </a>
+
+        {% endif %}
+        <!-- </div> -->
+        <!-- <div class="col-6"> -->
+        {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html | strip}}">
+            <!-- {{ site.data.ui-text[locale].pagination_next | default: "Next" }} -->
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        {% else %}
+        <a href="#" class="pagination--pager disabled">
+            <!-- No newer post -->
+        </a>
+        {% endif %}
+        <!-- </div> -->
+    <!-- </div> -->
+    </nav>
+    {% endif %}
+
