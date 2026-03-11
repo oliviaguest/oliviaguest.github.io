@@ -680,16 +680,16 @@ h2#related a:hover{
 
 .tabs > a:hover {
     border-bottom: none;
-    background-color: light-dark(var(--light-underline), var(--dark-underline));  
+    /* background-color: light-dark(var(--light-underline), var(--dark-underline));   */
 }
 
 .preview {
-      border-radius: 1rem;
+      border-radius: 1rem 1rem 0 0;
       
 }
 
 .banner {
-          border-radius: 1rem;
+    border-radius: 1rem;
 
     background-color: light-dark(var(--light-underline), var(--dark-underline));
 
