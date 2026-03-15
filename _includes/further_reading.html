@@ -18,12 +18,16 @@
             {% assign posts = site.posts | sort:"date" | reverse %}
 
         <ul id="reading-list">
-        {% for article in posts limit: 6 %} 
+        {% for article in posts limit: 5 %} 
             {% if article.permalink contains page.permalink %}
+                {% continue %}
+            {% elsif article.permalink contains page.featured %}
                 {% continue %}
             {% endif %}
                 <li><b><a href="{{article.permalink}}">{{article.title}}</a></b> — {{article.cail_excerpt}}</li>
         {% endfor %}
+                <li><b><a href="/posts">See all</a></b> — list of all my blog-like self-hosted short articles, pages, etc. </li>
+
         </ul>
 
     </div>
