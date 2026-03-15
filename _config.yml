@@ -9,8 +9,8 @@ name: Olivia Guest
 # You can find your shortname on the Settings page of your Disqus account
 disqus: oliviaguest
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-42657104-1
+# Enter your Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+analytics_id: d88bbc10-ec68-48f6-bcdf-79be816d5598
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
