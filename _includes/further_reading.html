@@ -15,10 +15,10 @@
 
     <div class="col-12 col-5-md col-5-lg">
         <h2 id="further">Further reading</h2>
-            {% assign posts = site.posts | sort:"date" | reverse %}
+            {% assign posts = site.posts | sort:"date"  %}
 
         <ul id="reading-list">
-        {% for article in posts limit: 5 %} 
+        {% for article in posts limit: 6 %} 
             {% if article.permalink contains page.permalink %}
                 {% continue %}
             {% elsif article.permalink contains page.featured %}
@@ -26,7 +26,7 @@
             {% endif %}
                 <li><b><a href="{{article.permalink}}">{{article.title}}</a></b> — {{article.cail_excerpt}}</li>
         {% endfor %}
-                <li><b><a href="/posts">See all</a></b> — list of all my blog-like self-hosted short articles, pages, etc. </li>
+                <li><a href="/posts"><b></b>See all</b> of my self-hosted short articles, pages, etc.</a> </li>
 
         </ul>
 

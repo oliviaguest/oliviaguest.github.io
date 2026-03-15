@@ -14,14 +14,14 @@
     --light-bg:#f9f1e6;
     --light-bg-bottom:#eee9cb;
     --light-hbg: #0e3b3925;
-    --light-qbg: #ffdb002e;
+    --light-qbg: #ff00d013;
     --light-tb: #ecf1efc5;
     --light-color: #360000;
     --light-h:  #e600ff;
     --light-cog: #b388b1;
     --light-figtext:  #e8e2d5b9;
     --light-shadow:  #857c467c;
-    --light-a: #851748;
+    --light-a: #a61557;
     --light-menu: #e0cfc1;
     --light-row-bg: #eee9cbb4;
     --light-foot: #ffffffab;
@@ -29,14 +29,14 @@
     --dark-bg: #42001b;
     --dark-bg-bottom: #202528;
     --light-hbg: #f5c7d900;
-    --dark-qbg: #6f55835d;
+    --dark-qbg: #ff00f21e;
     --dark-tb: #252425c5;
     --dark-color: #f9f1e6;
     --dark-h:  #e600ff;
     --dark-cog: #b388b1;
     --dark-shadow:  #02131a;
     --dark-figtext:  #02131a9d;
-    --dark-a: #c593a6;
+    --dark-a: #c57b97;
     --dark-menu: #310014;
     --dark-row-bg: #2c3236;
     --dark-foot: #000000ab;
@@ -279,4 +279,10 @@ filter:  sepia(1) hue-rotate(300deg);
     text-shadow: 0px 0px 0.1rem light-dark(var(--light-foot), var(--dark-foot)),
      0px 0px 1rem light-dark(var(--light-bg), var(--dark-bg)),
      0px 0px 0.5rem light-dark(var(--light-foot), var(--dark-foot));
+}
+
+
+blockquote > p:last-child {
+
+  margin-block-end: 0;
 }
