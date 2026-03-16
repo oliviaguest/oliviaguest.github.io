@@ -12,40 +12,35 @@
     color-scheme: light dark;
   
     --light-bg:#f9f1e6;
-    --light-bg-bottom:#eee9cb;
+    --light-bg-bottom:#c299c018;
     --light-hbg: #0e3b3925;
     --light-qbg: #ff00d013;
     --light-tb: #ecf1efc5;
     --light-color: #360000;
     --light-h:  #e600ff;
     --light-cog: #b388b1;
-    --light-figtext:  #e8e2d5b9;
     --light-shadow:  #857c467c;
     --light-a: #a61557;
     --light-menu: #e0cfc1;
-    --light-row-bg: #eee9cbb4;
     --light-foot: #ffffffa3;
   
     --dark-bg: #42001b;
-    --dark-bg-bottom: #202528;
+    --dark-bg-bottom: #c299c018;
     --light-hbg: #f5c7d900;
     --dark-qbg: #ff00f21e;
     --dark-tb: #252425c5;
     --dark-color: #f9f1e6;
     --dark-h:  #e600ff;
     --dark-cog: #b388b1;
-    --dark-shadow:  #02131a;
-    --dark-figtext:  #02131a9d;
     --dark-a: #c57b97;
     --dark-menu: #310014;
-    --dark-row-bg: #2c3236;
-    --dark-foot: #000000a3;
+    --dark-foot: #000000ca;
 
 
   }
 
   body {
-        background:  light-dark(var(--light-bg), var(--dark-bg));
+        /* background:  light-dark(var(--light-bg), var(--dark-bg)); */
 
   }
 
