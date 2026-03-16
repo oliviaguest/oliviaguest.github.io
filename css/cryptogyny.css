@@ -225,8 +225,8 @@ date {
     line-height: 3.2rem;
   }
     h1 {  
-
-                padding-bottom: 5rem;
+        -webkit-text-stroke: 0.2rem light-dark(var(--light-h), var(--dark-h));
+        padding-bottom: 5rem;
 
     }
 }
