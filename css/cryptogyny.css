@@ -23,6 +23,8 @@
     --light-a: #a61557;
     --light-menu: #e0cfc1;
     --light-foot: #ffffffa3;
+    --light-menu-hover: #e600ff1d;
+
   
     --dark-bg: #42001b;
     --dark-bg-bottom: #c299c018;
@@ -35,6 +37,8 @@
     --dark-a: #c57b97;
     --dark-menu: #310014;
     --dark-foot: #000000ca;
+    --dark-menu-hover: #b388b13d;
+
 
 
   }
@@ -43,6 +47,10 @@
         /* background:  light-dark(var(--light-bg), var(--dark-bg)); */
 
   }
+
+  #navbar a:hover{
+    background-color: light-dark(var(--light-menu-hover), var(--dark-menu-hover));
+}
 
   #wide-header {
   /* body{ */
