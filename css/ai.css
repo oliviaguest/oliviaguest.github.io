@@ -120,7 +120,7 @@ h2 a {
 
 .tbl-res-col
 {
-        text-align: justify;
+        /* text-align: justify; */
 }
 @media screen and (max-width: 640px) {
   h1 {
@@ -319,7 +319,7 @@ img#butterflies {
 
 table, td
 {
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 

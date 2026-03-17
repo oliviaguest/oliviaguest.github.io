@@ -151,7 +151,7 @@ body > .container {
 
 
 p, li {
-    text-align: justify;
+    /* text-align: justify; */
     /* padding-left: 1rem; */
 
 }
