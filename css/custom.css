@@ -52,7 +52,7 @@ body {
     --light-a: #a33b80;
     --light-menu: #f5e4ef;	
     --light-underline: #b3b3b33b;	
-    --light-shadow: #928b90de;
+    --light-shadow: #928b90a9;
     --light-url-bg: #ffffffcd;
     --light-foot: white;
   
@@ -65,7 +65,7 @@ body {
     --dark-a: #e47ec7;
     --dark-menu: #57212f;
     --dark-underline: #73737335;
-    --dark-shadow: #9d5f7bde;
+    --dark-shadow: #9d5f7ba9;
     --dark-url-bg: #000000cd;
     --dark-foot: black;
 
