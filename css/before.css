@@ -175,7 +175,7 @@ img.figure
 {
         padding: 0;
         /* margin-bottom: 3.5rem; */
-        width: 100%
+        width: calc(100% - 1.5rem)
 }
 
 img.figure:hover
@@ -183,19 +183,15 @@ img.figure:hover
 }
 
 img.figure.left {  
+        margin-left: 1.5rem;
         box-shadow: -1.5rem 1.5rem light-dark(var(--light-shadow), var(--dark-shadow));
 
 }
 
-/* img.figure.left:hover {  
-        box-shadow: -3rem 3rem light-dark(var(--light-shadow), var(--dark-shadow));
-
-} */
-
 
 img.figure.right
-{     
-
+{             
+        margin-right: 1.5rem;
         box-shadow: 1.5rem 1.5rem light-dark(var(--light-shadow), var(--dark-shadow));
         
 }

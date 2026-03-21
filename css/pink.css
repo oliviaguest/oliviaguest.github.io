@@ -3,37 +3,43 @@
 
 
 @font-face {
-    font-family: 'RetraConsole';
-    src: url(../fonts/RetraConsole.ttf) format('woff2');
+    font-family: 'running';
+    src: url(../fonts/Running.ttf) format('woff2');
 }
+
+@font-face {
+    font-family: 'happiness';
+    src: url(../fonts/Happiness.ttf) format('woff2');
+}
+
 
 :root {
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
 
-    --light-bg: #f8d1e9;
-    --light-bg-bottom: #e2a8c6;
+    --light-bg: #f8d1ec;
+    --light-bg-bottom: #f3cbdf;
+    --light-bg-top: white;
     --light-hbg: #0e3b3925;
-    --light-qbg: #ffffff26;
+    --light-qbg: #ffffff95;
     --light-tb: #ecf1efc5;
-    --light-color: #360000;
-    --light-h:  #e16f8c;
-    --light-cog: #b388b1;
-    --light-shadow:  #857c467c;
-    --light-a: #740000;
-    --light-menu: #dac2d9;
-    --light-foot: #ffffff65;
+    --light-color: #5c0016;
+    --light-h:  black;
+    --light-a: #ff00ff;
+    --light-menu: #ffffff;
+    --light-foot: #ffffffbc;
   
-    --dark-bg: #42001b;
-    --dark-bg-bottom: #c299c018;
+    --dark-bg: #4b0429;
+    --dark-bg-bottom: #54043d;
+    --dark-bg-top: black;
     --light-hbg: #f5c7d900;
     --dark-qbg: #ff00f21e;
     --dark-tb: #252425c5;
-    --dark-color: #f9f1e6;
-    --dark-h:  #e600ff;
+    --dark-color: #f8d1e9;
+    --dark-h:  #ffe8f4;
     --dark-cog: #b388b1;
-    --dark-a: #c57b97;
-    --dark-menu: #310014;
+    --dark-a: #ff00ff;
+    --dark-menu: #000000;
     --dark-foot: #000000ca;
 
 
@@ -41,20 +47,30 @@
 
 body {
 background-image: linear-gradient(to bottom,
-                            light-dark(var(--light-bg), var(--dark-bg)) 0%,
-                            light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
+                    light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
+                    light-dark(var(--light-bg), var(--dark-bg)) 15%,
+                    light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 80%);
 }
 
 
-  h1, h2 {
-    font-family: RetraConsole, 'Courier New', Courier, monospace;
+  h1 {
+    font-family: running;
   }
   h1 {  
-    font-size: 15rem;
-    line-height: 15rem;
-    padding-top: 11rem;
-    padding-bottom: 60rem;
-    text-align: center;
+    font-size: 18rem;
+    line-height: 16rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    color: light-dark(var(--light-h), var(--dark-h));
+
+
+  }
+
+  #thinking {
+        font-family: happiness;
+                color: light-dark(var(--light-a), var(--dark-a));
+
 
   }
   h1 a {
@@ -62,15 +78,42 @@ background-image: linear-gradient(to bottom,
 
   }
   h1 a:hover {
-    opacity: 1 !important;
-    color: #ffffff00 !important;
-    /* -webkit-text-stroke: 0.3rem light-dark(var(--light-a), var(--dark-a)); */
 
   }
   h2 {
+    font-family: happiness;
 
     font-size: 4rem;
-    line-height: 4rem;
+    line-height: 6rem;
   }
 
 
+
+@media screen and (max-width: 900px) {
+  h1 {  
+    font-size: 12rem;
+    line-height: 11rem;
+    padding-left: 2rem;
+
+
+  }
+} 
+
+@media screen and (max-width: 650px) {
+  h1 {  
+    font-size: 8rem;
+    line-height: 7rem;
+
+
+  }
+} 
+
+@media screen and (max-width: 400px) {
+
+  h1 {  
+
+    font-size: 6rem;
+    line-height: 5rem;
+
+  }
+} 

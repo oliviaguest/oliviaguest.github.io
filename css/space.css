@@ -1,0 +1,150 @@
+@import "chota.min.css";
+@import "custom.css";
+
+
+@font-face {
+    font-family: 'running';
+    src: url(../fonts/Oliba.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: 'happiness';
+    src: url(../fonts/Happiness.ttf) format('woff2');
+}
+
+:root {
+    /* this has to be set to switch between light or dark */
+    color-scheme: light dark;
+
+    --light-bg: #ffd1a5;
+    --light-bg-bottom: #d8c1ab;
+    --light-bg-top: white;
+    --light-hbg: #0e3b3925;
+    --light-qbg: #ffffff95;
+    --light-tb: #ecf1efc5;
+    --light-color: #6b0019;
+    --light-h:  #07566e;
+    --light-a: #000000;
+    --light-menu: #ffffff;
+    --light-foot: #ffffffbc;
+  
+    --dark-bg: #14495f;
+    --dark-bg-bottom: #54043d;
+    --dark-bg-top: black;
+    --light-hbg: #f5c7d900;
+    --dark-qbg: #ff00f21e;
+    --dark-tb: #252425c5;
+    --dark-color: #f8d1e9;
+    --dark-h:  #ffffff;
+    --dark-cog: #b388b1;
+    --dark-a: #00ffff;
+    --dark-menu: #000000;
+    --dark-foot: #000000ca;
+
+
+  }
+
+body {
+background-image: linear-gradient(to bottom,
+                    light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
+                    light-dark(var(--light-bg), var(--dark-bg)) 15%,
+                    light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 80%);
+}
+
+#wide-header {
+  /* body{ */
+  background-image: url("/images/Early_Space_Station_Concept_-_GPN-2003-00112.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* background-position-y: -30rem; */
+  background-position: top;
+  background-size: 100rem;
+
+  width: 100%; /* 3114 by 2400 */
+  height: 240rem;
+  top: 3rem;
+  position: absolute;
+  z-index: -1;
+  filter: invert();
+filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(6923%) hue-rotate(255deg) brightness(92%) contrast(107%);
+
+}
+
+  #thinking {
+        font-family: happiness;
+                color: light-dark(var(--light-a), var(--dark-a));
+
+
+  }
+
+.dark #wide-header {
+filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(6923%) hue-rotate(255deg) brightness(92%) contrast(107%) invert();
+}
+
+  h1, h2 {
+    font-family: running;
+  }
+
+
+  
+  h1 {  
+    font-size: 10rem;
+    line-height: 9rem;
+    padding-top: 46rem;
+    padding-bottom: 1rem;
+    color: light-dark(var(--light-h), var(--dark-h));
+
+
+  }
+  h1 a {
+        color: light-dark(var(--light-h), var(--dark-h));
+
+  }
+  h1 a:hover {
+
+  }
+  h2 {
+
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+
+
+
+
+
+
+@media screen and (max-width: 1028px) {
+  #wide-header {
+  /* background-size: contain; */
+  background-size: 100%;
+  width: 100%; }
+
+  h1 {  
+    padding-top: 50rem;
+
+
+  }
+} 
+
+@media screen and (max-width: 700px) {
+  h1 {  
+    padding-top: 35rem;
+    font-size: 8rem;
+    line-height: 7rem;
+
+
+  }
+} 
+
+@media screen and (max-width: 400px) {
+
+  h1 {  
+
+    padding-top: 22rem;
+    font-size: 6rem;
+    line-height: 5rem;
+
+  }
+} 

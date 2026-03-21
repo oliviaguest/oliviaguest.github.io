@@ -52,6 +52,7 @@ body {
     --light-a: #a33b80;
     --light-menu: #f5e4ef;	
     --light-underline: #b3b3b33b;	
+    --light-shadow: #928b90de;
     --light-url-bg: #ffffffcd;
     --light-foot: white;
   
@@ -64,6 +65,7 @@ body {
     --dark-a: #e47ec7;
     --dark-menu: #57212f;
     --dark-underline: #73737335;
+    --dark-shadow: #9d5f7bde;
     --dark-url-bg: #000000cd;
     --dark-foot: black;
 
@@ -613,11 +615,7 @@ circle, line {
         }
     }
 
-img.preview {
-    opacity: 1;
-    filter: none;
 
-}
 
 .bug {
     font-size: 3rem;
@@ -688,6 +686,8 @@ h2#related a:hover{
       
 }
 
+
+
 .banner {
     border-radius: 1rem;
 
@@ -696,14 +696,7 @@ h2#related a:hover{
 
 }
 
-.desc
-{
-    font-size: smaller;
-    padding: 1rem;
 
-    top: -0.4rem;
-    position: relative;
-}
 
 .odd {flex-flow: row-reverse wrap;}
 
