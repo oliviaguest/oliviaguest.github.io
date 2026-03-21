@@ -689,7 +689,7 @@ h2#related a:hover{
 
 
 
-.desc {padding-top: 1.5rem;}
+.desc {}
 
 .square-preview {
             box-shadow: 1.5rem 1.5rem light-dark(var(--light-underline), var(--dark-underline));
