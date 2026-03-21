@@ -692,16 +692,16 @@ h2#related a:hover{
 .desc {padding-top: 1.5rem;}
 
 .square-preview {
-            box-shadow: 1.5rem 1.5rem light-dark(var(--light-underline), var(--dark-underline));
+            box-shadow: 1.5rem 1.5rem light-dark(var(--light-a), var(--dark-a));
 
 }.square-preview:hover {
-            box-shadow: 1rem 1rem light-dark(var(--light-underline), var(--dark-underline));
+            box-shadow: 1rem 1rem light-dark(var(--light-a), var(--dark-a));
 
 }
 
 img.preview, img.square-preview, img.square-preview  {
     opacity: 1;
-
+    filter: unset;
     width: calc(100% - 1.5rem);
 
 }
