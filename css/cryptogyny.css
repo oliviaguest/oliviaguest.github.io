@@ -297,7 +297,3 @@ filter:  sepia(1) hue-rotate(300deg);
 }
 
 
-blockquote > p:last-child {
-
-  margin-block-end: 0;
-}

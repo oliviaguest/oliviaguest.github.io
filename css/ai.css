@@ -331,3 +331,22 @@ filter: hue-rotate(160deg) grayscale(0.5);
  .dark .preview {
 filter: hue-rotate(210deg) grayscale(0.5);
 }
+
+#ada {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-family: borel;
+        text-align: right;
+}
+
+#analytical-engine {
+
+        width: 60%;
+        opacity: 50%;
+        filter: grayscale(0.7);
+}
+
+.dark #analytical-engine {
+
+        filter: invert() grayscale(0.7);
+}
