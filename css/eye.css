@@ -15,49 +15,31 @@
     --light-hbg: #0e3b3925;
     --light-qbg: #ffffff95;
     --light-tb: #ecf1efc5;
-    --light-color: #924444;
+    --light-color: #410000;
     --light-h:  #000000;
     --light-a: #000;
     --light-menu: #ffffff;
-    --light-foot: #f4e8dd;
+    --light-foot: #f5f2f000;
   
-    --dark-bg: #14495f;
-    --dark-bg-bottom: #54043d;
-    --dark-bg-top: black;
+    --dark-bg-top: #163048;
+    --dark-bg-bottom: #1a124b;
     --light-hbg: #f5c7d900;
     --dark-qbg: #ff00f21e;
     --dark-tb: #252425c5;
     --dark-color: #f8d1e9;
     --dark-h:  #ffffff;
-    --dark-cog: #b388b1;
-    --dark-a: #00ffff;
+    --dark-a: #ffffff;
     --dark-menu: #000000;
     --dark-foot: #000000ca;
 
 
   }
 
-body {
-background-image: 
-/* url("/images/eye.svg"), */
-                    linear-gradient(to bottom,
-                    light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
-                    light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
-  /* background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: 0rem 0rem;
-  background-size: 100%;
-  width: 100%;
-  height: 100%;
-  top: -1rem;
-  position: absolute;
-  z-index: -1; */
-}
 
 
 body {
 background-image: 
-                    url("/images/eye.svg"),
+                    /* url("/images/eye.svg"), */
                     linear-gradient(to bottom,
                     light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
                     light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
@@ -72,10 +54,28 @@ background-image:
   z-index: -1;
 }
 
+    #wide-header {
 
+        background-image: 
+                    url("/images/eye.svg");
 
-.dark #wide-header {
-filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(6923%) hue-rotate(255deg) brightness(92%) contrast(107%) invert();
+                            background-repeat: no-repeat;
+        background-attachment: scroll;
+        /* background-position-y: -30rem; */
+        background-position: top right;
+        background-size: 100%;
+
+        width: 100%; /* 3114 by 2400 */
+        height: 180rem;
+        top: 0rem;
+        position: absolute;
+        z-index: -1;
+    }
+
+.dark #wide-header  {
+            background-image: 
+                    url("/images/eye_dark.svg");
+    /* filter: invert(); */
 }
 
   h1, h2 {
@@ -109,31 +109,27 @@ filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(6923%) hue
 
 
 @media screen and (max-width: 1320px) {
+    #wide-header {
 
+        background-image: 
+                    url("/images/eye2.svg");
+
+    }
       h1 {  
     font-size: 6rem;
     line-height: 6rem;
       }
-body {
 
-    background-image: 
-                        url("/images/eye2.svg"),
-                        linear-gradient(to bottom,
-                        light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
-                        light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
-}
 } 
 
 
 @media screen and (max-width: 900px) {
-body {
+    #wide-header {
 
-    background-image: 
-                        url("/images/eye3.svg"),
-                        linear-gradient(to bottom,
-                        light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
-                        light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
-}
+        background-image: 
+                    url("/images/eye3.svg");
+
+    }
 
 h1 {
      
