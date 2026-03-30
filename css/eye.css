@@ -1,0 +1,186 @@
+@import "chota.min.css";
+@import "custom.css";
+
+@font-face {
+    font-family: 'caslon';
+    src: url(../fonts/CaslonAntique.ttf) format('woff2');
+}
+
+:root {
+    /* this has to be set to switch between light or dark */
+    color-scheme: light dark;
+
+    --light-bg-bottom: #f4e8dd;
+    --light-bg-top: rgb(244, 248, 221);
+    --light-hbg: #0e3b3925;
+    --light-qbg: #ffffff95;
+    --light-tb: #ecf1efc5;
+    --light-color: #924444;
+    --light-h:  #000000;
+    --light-a: #000;
+    --light-menu: #ffffff;
+    --light-foot: #f4e8dd;
+  
+    --dark-bg: #14495f;
+    --dark-bg-bottom: #54043d;
+    --dark-bg-top: black;
+    --light-hbg: #f5c7d900;
+    --dark-qbg: #ff00f21e;
+    --dark-tb: #252425c5;
+    --dark-color: #f8d1e9;
+    --dark-h:  #ffffff;
+    --dark-cog: #b388b1;
+    --dark-a: #00ffff;
+    --dark-menu: #000000;
+    --dark-foot: #000000ca;
+
+
+  }
+
+body {
+background-image: 
+/* url("/images/eye.svg"), */
+                    linear-gradient(to bottom,
+                    light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
+                    light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
+  /* background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0rem 0rem;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  top: -1rem;
+  position: absolute;
+  z-index: -1; */
+}
+
+
+body {
+background-image: 
+                    url("/images/eye.svg"),
+                    linear-gradient(to bottom,
+                    light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
+                    light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  /* top: -1rem; */
+  /* position: absolute; */
+  z-index: -1;
+}
+
+
+
+.dark #wide-header {
+filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(6923%) hue-rotate(255deg) brightness(92%) contrast(107%) invert();
+}
+
+  h1, h2 {
+    font-family: caslon;
+  }
+
+
+  
+  h1 {  
+    font-size: 7rem;
+    line-height: 7rem;
+    /* padding-top: 6rem; */
+    padding-bottom: 0rem;
+    color: light-dark(var(--light-a), var(--dark-a));
+
+
+  }
+  h1 a {
+        color: light-dark(var(--light-h), var(--dark-h));
+
+  }
+  h1 a:hover {
+
+  }
+  h2 {
+
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+
+
+@media screen and (max-width: 1320px) {
+
+      h1 {  
+    font-size: 6rem;
+    line-height: 6rem;
+      }
+body {
+
+    background-image: 
+                        url("/images/eye2.svg"),
+                        linear-gradient(to bottom,
+                        light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
+                        light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
+}
+} 
+
+
+@media screen and (max-width: 900px) {
+body {
+
+    background-image: 
+                        url("/images/eye3.svg"),
+                        linear-gradient(to bottom,
+                        light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
+                        light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
+}
+
+h1 {
+     
+    font-size: 5rem;
+    line-height: 5rem;
+    display: block;
+    float: right;}
+} 
+
+@media screen and (max-width: 600px) {
+
+    #wide-header {
+        /* body{ */
+        background-image: url("/images/eye4.svg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        /* background-position-y: -30rem; */
+        background-position: top right;
+        background-size: 700px;
+
+        width: 100%; /* 3114 by 2400 */
+        height: 100%;
+        top: 0rem;
+        position: absolute;
+        z-index: -1;
+    }
+
+
+    #header-content {
+        padding-top: 2.5rem;
+    }
+    h1 {
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        display: unset;
+        float: unset;
+    }
+
+                            
+
+
+    body {
+
+        background-image:
+                            linear-gradient(to bottom,
+                            light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
+                            light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 50%);
+    }
+
+} 
