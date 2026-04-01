@@ -182,6 +182,7 @@ img.figure:hover
 {
 }
 
+
 img.figure.left {  
         margin-left: 1.5rem;
         box-shadow: -1.5rem 1.5rem light-dark(var(--light-shadow), var(--dark-shadow));
@@ -216,14 +217,21 @@ img.figure.right
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+        width: calc(100% - 1.5rem);
   opacity: 0;
   /* transition: .5s ease; */
   /* background-color:light-dark(var(--light-bg), var(--dark-shadow)); */
 }
+
+.overlay.left 
+  {  left: 1.5rem;
+}
+
+.overlay.right 
+ {right: 1.5rem;}
+
 
 .container-img:hover .overlay {
   /* opacity: 0.5; */

@@ -10,27 +10,27 @@
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
 
-    --light-bg-bottom: #f4e8dd;
-    --light-bg-top: rgb(244, 248, 221);
+    --light-bg-bottom: #f8e8d9;
+    --light-bg-top: rgb(242, 248, 212);
     --light-hbg: #0e3b3925;
-    --light-qbg: #ffffff95;
+    --light-qbg: #ffffff65;
     --light-tb: #ecf1efc5;
-    --light-color: #410000;
+    --light-color: black;
     --light-h:  #000000;
-    --light-a: #000;
-    --light-menu: #ffffff;
+    --light-a: #894533; 
+    --light-menu: rgb(235, 237, 196);
     --light-foot: #f5f2f000;
   
     --dark-bg-top: #163048;
     --dark-bg-bottom: #1a124b;
     --light-hbg: #f5c7d900;
-    --dark-qbg: #ff00f21e;
+    --dark-qbg: #00000065;
     --dark-tb: #252425c5;
-    --dark-color: #f8d1e9;
+    --dark-color: white;
     --dark-h:  #ffffff;
-    --dark-a: #ffffff;
-    --dark-menu: #000000;
-    --dark-foot: #000000ca;
+    --dark-a: #91c8df;
+    --dark-menu: #14123B;
+    --dark-foot: #00000000;
 
 
   }
@@ -115,6 +115,13 @@ background-image:
                     url("/images/eye2.svg");
 
     }
+
+    .dark #wide-header {
+
+        background-image: 
+                    url("/images/eye2_dark.svg");
+
+    }
       h1 {  
     font-size: 6rem;
     line-height: 6rem;
@@ -131,6 +138,13 @@ background-image:
 
     }
 
+    .dark #wide-header {
+
+        background-image: 
+                    url("/images/eye3_dark.svg");
+
+    }
+
 h1 {
      
     font-size: 5rem;
@@ -144,19 +158,13 @@ h1 {
     #wide-header {
         /* body{ */
         background-image: url("/images/eye4.svg");
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        /* background-position-y: -30rem; */
-        background-position: top right;
-        background-size: 700px;
 
-        width: 100%; /* 3114 by 2400 */
-        height: 100%;
-        top: 0rem;
-        position: absolute;
-        z-index: -1;
     }
+    .dark #wide-header {
+        /* body{ */
+        background-image: url("/images/eye4_dark.svg");
 
+    }
 
     #header-content {
         padding-top: 2.5rem;
