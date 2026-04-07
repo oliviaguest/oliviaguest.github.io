@@ -307,7 +307,6 @@
   tags:
     - meta
 
-
 - date: 2023-02-11
   type: preprint
   status: unpublished
@@ -323,7 +322,6 @@
   tags:
     - crit
     - cail
-
 
 - date: 2023-02-13 
   type: journal
@@ -451,7 +449,6 @@
    - cail
 
 
-
 - date: 2025-05-13
   type: preprint
   status: unpublished
@@ -494,7 +491,6 @@
   - crit
   - cail
 
-
 - date: 2025-09-06
   type: preprint
   status: unpublished
@@ -509,7 +505,6 @@
   - crit
   - cail
 
-
 - date: 2025-10-03
   type: preprint
   status: unpublished
@@ -523,8 +518,6 @@
   - meta
   - crit
   - cail
-
-
 
 
 
@@ -586,7 +579,6 @@
   tags:
   - cail
 
-
 - date: 2025-10-06
   type: blog
   status: published
@@ -597,7 +589,6 @@
   selected: 3
   tags:
   - cail
-
 
 - date: 2025-09-12
   type: video
@@ -619,7 +610,6 @@
   tags:
   - cail
 
-
 - date: 2025-10-30
   type: video
   status: published
@@ -630,7 +620,6 @@
   tags:
   - cail
 
-
 - date: 2026-03-28
   type: video
   status: published
@@ -640,7 +629,6 @@
   selected: 4
   tags:
   - cail
-
 
 
 - date: 2025-09-12
@@ -674,7 +662,6 @@
   tags:
   - cail
 
-
 - date: 2025-10-24
   type: news
   status: published
@@ -686,7 +673,6 @@
   selected: 3
   tags:
   - cail
-
 
 - date: 2025-10-26
   type: news
@@ -743,7 +729,6 @@
   tags:
   - cail
 
-
 - date: 2025-12-02
   type: preprint
   status: unpublished
@@ -757,3 +742,14 @@
     - crit
     - meta
     - cail
+
+- date: 2026-04-02
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b>, Blokpoel, M., & van Rooij, I.
+  title: 'What the Func? Multiple Realizability Need not be Vague'
+  doi: 10.5281/zenodo.19388964
+  pdf: https://zenodo.org/records/19388964/files/GuestBlokpoelVanRooij2026.pdf?download=1
+  server: Zenodo
+  selected: 1
+  tags:
