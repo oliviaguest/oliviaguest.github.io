@@ -56,25 +56,107 @@ background-image:
 
     #wide-header {
 
+
         background-image: 
-                    url("/images/eye.svg");
+                    url("/images/eye_left.svg");
 
                             background-repeat: no-repeat;
         background-attachment: scroll;
-        /* background-position-y: -30rem; */
-        background-position: top right;
-        background-size: 100%;
+        background-position-y: 0;
+        background-position-x: right;
+        background-size: 300rem;
 
         width: 100%; /* 3114 by 2400 */
-        height: 180rem;
+        height: 200rem;
         top: 0rem;
         position: absolute;
         z-index: -1;
     }
 
+
+        #wide-footer-old {
+        padding-top: 12rem;
+        background-image: 
+                    url("/images/downwards_eye.svg");  
+                
+                        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position-x: center;
+        background-position-y: 1rem;
+        background-size: 150rem;
+        width: 100%;
+        position: absolute;
+
+                }
+
+
+
+#eye-right {
+
+        background-image: 
+                    url("/images/eye_right.svg");
+
+                            background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position-y: 20rem;
+        background-position-x: right;
+        background-size: 320rem;
+
+        width: 100%; /* 3114 by 2400 */
+        height: 290rem;
+        top: 0rem;
+        position: absolute;
+        left: 0;
+        z-index: -4;
+    
+}
+
+
+.dark #eye-right {
+
+        background-image: 
+                    url("/images/eye_right_dark.svg");
+}
+    #wide-eye {
+
+        background-image: 
+                    url("/images/eye2.svg");
+
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position-y: -10rem; 
+        background-position-x: 0rem;
+        background-size: 100vh;
+
+        width: calc(100% + calc(2*var(--grid-gutter))); 
+        width: calc(100% + calc(100vw/2)); 
+        width: 100vw;
+        height: 50rem;
+        top: 0rem;
+        /* position: absolute; */
+        z-index: -10;
+
+    }
+
+
+
+.light img {
+    filter: unset;
+    opacity: unset;
+}
+
+.dark #man {
+filter: invert();
+
+}
+
+#lidless {
+    padding-top: 10rem;
+}
+
 .dark #wide-header  {
             background-image: 
-                    url("/images/eye_dark.svg");
+                    url("/images/eye_left_dark.svg");
     /* filter: invert(); */
 }
 
@@ -107,31 +189,74 @@ background-image:
   }
 
 
-
-@media screen and (max-width: 1320px) {
-    #wide-header {
-
-        background-image: 
-                    url("/images/eye2.svg");
-
-    }
-
-    .dark #wide-header {
+  @media screen and (max-width: 3000px) {
+        #wide-header {
 
         background-image: 
-                    url("/images/eye2_dark.svg");
+                    url("/images/eye_left.svg");
+
+
+        background-position-x: left;
+        background-position-y: 0;
 
     }
+  }
+
+@media screen and (max-width: 1950px) {
+
+
+      #eye-right {
+        background-position-y: -45rem;
+    
+    }
+}
+
+@media screen and (max-width: 1360px) {
+
       h1 {  
     font-size: 6rem;
     line-height: 6rem;
       }
 
+      #eye-right {
+      display: none;}
+
+     #eye-left-old {
+
+        background-image: 
+                    url("/images/eye_left.svg");
+
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position-y: 120rem;
+        background-position-x: left;
+        background-size: 320rem;
+
+        width: 100%; /* 3114 by 2400 */
+        height: 300rem;
+        top: 60rem;
+        position: absolute;
+        left: 0;
+        z-index: -4;
+    
+} 
+
 } 
 
 
 @media screen and (max-width: 900px) {
+#lidless {
+    padding-top: 0rem;
+}
+    #man {
+        width: 40%;
+        float: right;
+    }
     #wide-header {
+
+        background-size: 90rem;
+        background-position-y: -3rem;
+        background-position-x: left;
 
         background-image: 
                     url("/images/eye3.svg");
@@ -153,11 +278,19 @@ h1 {
     float: right;}
 } 
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 620px) {
 
     #wide-header {
-        /* body{ */
+        background-position-x: right;
+
         background-image: url("/images/eye4.svg");
+        background-position-y: -1.75rem;
+        background-position-x: 98%;
+
+        background-size: 80rem;
+
 
     }
     .dark #wide-header {
@@ -188,3 +321,4 @@ h1 {
     }
 
 } 
+
