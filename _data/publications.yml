@@ -476,14 +476,17 @@
   - crit
   - cail
 
-- date: 2025-07-29
-  type: preprint
-  status: unpublished
+- date: 2026-04-13
+  type: article
+  status: published
   authors: <b>Guest, O.</b>
   title: "What Does 'Human-Centred AI' Mean?"
   pdf: https://arxiv.org/pdf/2507.19960
+  pdf: https://www.mdpi.com/2076-328X/16/4/583/pdf?version=1776089658
   doi: 10.48550/arXiv.2507.19960
+  doi: 10.3390/bs16040583
   server: arXiv
+  journal: Behavioral Sciences
   selected: 1
   video: https://www.youtube.com/watch?v=Fxyg2UMq_no&t=6341s
   tags: 
