@@ -28,7 +28,7 @@ body {
     overflow-y: scroll; 
     background: unset;
     background-repeat: no-repeat;
-      background-attachment: scroll;
+    background-attachment: scroll;
 
     background-color: light-dark(var(--light-bg), var(--dark-bg));
     background-image: linear-gradient(to bottom,

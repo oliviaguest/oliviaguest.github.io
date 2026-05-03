@@ -756,3 +756,15 @@
   server: Zenodo
   selected: 1
   tags:
+
+
+- date: 2026-05-02
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b> Martin, A. E., & van Rooij, I.
+  title: 'On Models, Prediction, and Scientific Roles Thereof: Commentary on Sanbonmatsu et al. (2025)'
+  doi: 10.5281/zenodo.19983695
+  pdf: https://zenodo.org/records/19983695/files/Guestetal2026Models.pdf?download=1
+  server: Zenodo
+  selected: 1
+  tags:
