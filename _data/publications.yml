@@ -768,3 +768,15 @@
   server: Zenodo
   selected: 1
   tags:
+
+
+- date: 2026-05-07
+  type: preprint
+  status: unpublished
+  authors: <b>Guest, O.</b>, Nuñez Hernández, N. A., & Blokpoel, M. 
+  title: 'Understanding Artificial Neural Networks: Mysterianism about Known Mechanism is Mysticism'
+  doi: 10.5281/zenodo.20071869
+  pdf: https://zenodo.org/records/20071869/files/GuestNun%CC%83ezHerna%CC%81ndezBlokpoel2026.pdf?download=1
+  server: Zenodo
+  selected: 1
+  tags:
