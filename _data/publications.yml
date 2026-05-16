@@ -752,7 +752,8 @@
   status: unpublished
   authors: <b>Guest, O.</b>, Blokpoel, M., & van Rooij, I.
   title: 'What the Func? Multiple Realizability Need not be Vague'
-  doi: 10.5281/zenodo.19388964
+  # doi: 10.5281/zenodo.19388964
+  url: https://zenodo.org/records/19388964
   pdf: https://zenodo.org/records/19388964/files/GuestBlokpoelVanRooij2026.pdf?download=1
   server: Zenodo
   selected: 1
