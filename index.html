@@ -96,16 +96,33 @@ description: "Hi! I am an Assistant Professor of Computational Cognitive Science
         <!-- <a href="#publications"><h2 id="publications">Selected Publications</h2></a>
         <a><span id="selected"  onclick="togglePublications(this)">(see full)</span></a> -->
 
-        <h2 id="publications"><a href="#publications">Publications</a></h2>
-        <span class="selected">(selected)</span>
+        <h2 id="publications"><a href="#publications">Selected Publications</a></h2>
+        <!-- <span class="selected">(selected)</span> -->
     </div>
-    <div class="col-12">       
+
+    <div class="col-12">   
+            <h3>preprints</h3>
+    
         <div id="pub-cols" class="text-col">
-        {% assign articles = site.data.publications | sort:"date" | reverse   | where: 'selected', '1' %}
+        {% assign articles = site.data.publications | sort:"date" | reverse | where: 'selected', '1' | where: 'status', 'unpublished' %}
         {% include publications.html publications=articles %}
         </div>
     </div>
+
+    <div class="col-12">    
+        
+            <h3>journal articles</h3>
+
+        <div id="pub-cols" class="text-col">
+        {% assign articles = site.data.publications | sort:"date" | reverse | where: 'selected', '1' | where: 'status', 'published' %}
+        {% include publications.html publications=articles %}
+        </div>
+    </div>
+
+
 </div>
+
+
 
 <div class="row">
     <div class="col-6 col-6-md col-6-lg vertical-center">
