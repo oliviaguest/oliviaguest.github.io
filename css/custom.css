@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'DhCario';
-    src: url(../fonts/DhCario.woff2) format('woff2');
+    src: url(../fonts/DhCario-VF.otf) format('opentype');
 }
 
 
@@ -228,6 +228,7 @@ h1 {
     margin-top: 0rem;
     padding-top: 0rem;
     hyphens: none;
+    font-weight: 900;
 }
 
 h2#publications, h2#featured {
@@ -236,6 +237,10 @@ h2#publications, h2#featured {
     line-height: 9rem;
     margin-right: 1rem;
     display: inline-block; 
+    font-family: 500;
+}
+#selected {
+        font-weight: 100;
 }
 
 .selected {
