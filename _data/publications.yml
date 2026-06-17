@@ -462,19 +462,20 @@
     - meta
     - crit
 
-- date: 2025-05-14
-  type: preprint
-  status: unpublished
+- date: 2026-06-16
+  type: article
+  status: published
   authors: van Rooij, I. & <b>Guest, O.</b>
   title: "Combining Psychology with Artificial Intelligence: What could possibly go wrong?"
-  pdf: https://osf.io/aue4m_v1/download/
-  doi: 10.31234/osf.io/aue4m_v2
+  pdf: https://journals.sagepub.com/doi/reader/10.1177/09637214261438379
+  doi: 10.1177/09637214261438379
   server: PsyArXiv
+  journal: Current Directions in Psychological Science
   selected: 0
   tags: 
-  - meta
-  - crit
-  - cail
+    - meta
+    - crit
+    - cail
 
 - date: 2026-04-13
   type: article
