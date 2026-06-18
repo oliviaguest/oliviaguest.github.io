@@ -100,26 +100,33 @@ description: "Hi! I am an Assistant Professor of Computational Cognitive Science
         <!-- <span class="selected">(selected)</span> -->
     </div>
 
-    <div class="col-12">   
-            <h3>preprints</h3>
+    <div class=" col-12 col-6-md">   
+            <h3>featured preprints</h3>
     
-        <div id="pub-cols" class="text-col">
         {% assign articles = site.data.publications | sort:"date" | reverse | where: 'selected', '1' | where: 'status', 'unpublished' %}
         {% include publications.html publications=articles %}
-        </div>
+    </div>
+
+    <div class=" col-12 col-6-md">   
+        
+            <h3>featured journal articles</h3>
+
+        {% assign articles = site.data.publications | sort:"date" | reverse | where: 'selected', '1' | where: 'status', 'published' %}
+        {% include publications.html publications=articles %}
     </div>
 
     <div class="col-12">    
-        
-            <h3>journal articles</h3>
+
+            <h3>everything</h3>
 
         <div id="pub-cols" class="text-col">
-        {% assign articles = site.data.publications | sort:"date" | reverse | where: 'selected', '1' | where: 'status', 'published' %}
-        {% include publications.html publications=articles %}
+        {% assign not_above = site.data.publications | where: 'selected', '0.5' %}
+        {% assign articles = site.data.publications | where: 'selected', '1' %}
+
+        {% assign everything = not_above | concat: articles | sort:"date" | reverse %}
+        {% include publications.html publications=everything %}
         </div>
     </div>
-
-
 </div>
 
 

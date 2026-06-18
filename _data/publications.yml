@@ -86,18 +86,6 @@
   github: ReScience/ReScience-article-2
   selected: 0
 
-# - date: 2017-12-18
-#   type: preprint
-#   status: published
-#   authors: Rougier, N. P. et al.
-#   title: 'Sustainable computational science: the ReScience initiative'
-#   server: arXiv
-#   arxiv-id: 1707.04393
-#   link: https://arxiv.org/abs/1707.04393
-#   arxiv: https://arxiv.org/abs/1707.04393
-#   github: ReScience/ReScience-article-2
-#   selected: 0
-
 - date: 2019-05-04
   type: preprint
   status: unpublished
@@ -142,19 +130,6 @@
   website: https://redistrict.science
   selected: 0
 
-# - date: 2019-11-15
-#   type: preprint
-#   status: published
-#   authors: Botvinik-Nezer, R. et al.
-#   title: 'Variability in the analysis of a single neuroimaging dataset by many teams'
-#   bioRxiv: https://www.biorxiv.org/content/10.1101/843193v1
-#   server: bioRxiv
-#   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/11/15/843193.full-text.pdf
-#   website: https://narps.info
-#   doi: 10.1101/843193
-#   github: poldrack/narps
-#   selected: 0
-
 - date: 2020-07-01
   type: journal
   status: published
@@ -190,7 +165,7 @@
   pdf: https://thepsychologist.bps.org.uk/getfile/10906
   journal: The Psychologist
   doi: 10.5281/zenodo.4099011
-  selected: 0
+  selected: 0.5
   tags:
      - meta
      - cail
@@ -247,7 +222,7 @@
   doi: 10.7146/kkf.v29i2.124899
   pdf: https://arxiv.org/pdf/2009.14258
   server: arXiv
-  selected: 0
+  selected: 0.5
   tags:
     - crit
     - meta
@@ -287,7 +262,7 @@
   pdf: https://arxiv.org/pdf/2202.08674
   arxiv: https://arxiv.org/abs/2202.08674
   server: arXiv
-  selected: 0
+  selected: 0.5
   tags:
     - crit
     - meta
@@ -303,7 +278,7 @@
   pdf: https://osf.io/download/n2937/?revision=3
   journal: Infant and Child Development
   server: PsyArXiv
-  selected: 0
+  selected: 0.5
   tags:
     - meta
 
@@ -318,7 +293,7 @@
   # pdf: /doc/ErscoiKleinherenbrinkGuest2023.pdf
   pdf: https://osf.io/download/svjz6/?revision=7
   server: SocArXiv
-  selected: 0
+  selected: 0.5
   tags:
     - crit
     - cail
@@ -380,7 +355,7 @@
   PsyArXiv: https://psyarxiv.com/4cbuv
   server: PsyArXiv
   pdf: https://link.springer.com/content/pdf/10.1007/s42113-024-00217-5.pdf
-  selected: 0
+  selected: 0.5
   video: https://youtu.be/akuJqk2tDPo?si=-qKb7x6sZOqhrrQN
   tags: 
     - meta
@@ -399,7 +374,7 @@
   # pdf: /doc/ForbesGuest2024.pdf
   # pdf: https://www.aup-online.com/content/journals/10.5117/TVGN2024.2-3.007.GUES#
   journal: Tijdschrift voor Genderstudies
-  selected: 0
+  selected: 0.5
   video: https://media.ed.ac.uk/media/Olivia%20Guest%20and%20Sam%20Forbes%20%E2%80%93%20Inclusivity%20in%20teaching%20programming/1_te5m3m22
 
 - date: 2026-01-01
@@ -444,7 +419,7 @@
   doi: 10.1111/cogs.70058
   pdf: https://philpapers.org/archive/FORTIL.pdf
   journal: Cognitive Science
-  selected: 0
+  selected: 0.5
   tags:
    - cail
 
@@ -471,7 +446,7 @@
   doi: 10.1177/09637214261438379
   server: PsyArXiv
   journal: Current Directions in Psychological Science
-  selected: 0
+  selected: 0.5
   tags: 
     - meta
     - crit
@@ -488,7 +463,7 @@
   doi: 10.3390/bs16040583
   server: arXiv
   journal: Behavioral Sciences
-  selected: 0
+  selected: 0.5
   video: https://www.youtube.com/watch?v=Fxyg2UMq_no&t=6341s
   tags: 
   - meta
@@ -505,7 +480,7 @@
   server: Zenodo
   video: https://youtu.be/pi85dy4LIL0
   journal: Digital Culture & Education
-  selected: 0
+  selected: 0.5
   tags: 
   - meta
   - crit
@@ -519,7 +494,7 @@
   pdf: https://osf.io/dkrgj_v1/download/
   doi: 10.31234/osf.io/dkrgj_v1
   server: PsyArXiv
-  selected: 0
+  selected: 0.5
   tags: 
   - meta
   - crit
@@ -743,7 +718,7 @@
   doi: 10.5281/zenodo.17786243
   pdf: https://zenodo.org/records/17786243/files/GuestSuarezvanRooij2025.pdf?download=1
   server: Zenodo
-  selected: 0
+  selected: 0.5
   tags:
     - crit
     - meta
