@@ -346,7 +346,7 @@
     - cail 
 
 - date: 2024-09-27 
-  type: article
+  type: journal
   status: published
   authors: van Rooij, I., <b>Guest, O.</b>, Adolfi, F. G., de Haan, R., Kolokolova, A., & Rich, P.
   title: 'Reclaiming AI as a theoretical tool for cognitive science'
@@ -438,7 +438,7 @@
     - crit
 
 - date: 2026-06-16
-  type: article
+  type: journal
   status: published
   authors: van Rooij, I. & <b>Guest, O.</b>
   title: "Combining Psychology with Artificial Intelligence: What could possibly go wrong?"
@@ -453,7 +453,7 @@
     - cail
 
 - date: 2026-04-13
-  type: article
+  type: journal
   status: published
   authors: <b>Guest, O.</b>
   title: "What Does 'Human-Centred AI' Mean?"
@@ -471,7 +471,7 @@
   - cail
 
 - date: 2026-05-08
-  type: article
+  type: journal
   status: published
   authors: <b>Guest, O.</b>, Suarez, M., Müller, B., et al.
   title: "Against the Uncritical Adoption of 'AI' Technologies in Academia"

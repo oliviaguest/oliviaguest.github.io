@@ -120,11 +120,11 @@ in making <i>available</i> what we are already acquainted with.</p>
         {% assign blogs = site.data.publications | sort:"date" | reverse | where: 'tags', 'cail'  | where: 'selected', '3' %}
         {% include publications.html publications=blogs %}
         <h3 id="research"><a href="#research">research</a></h3>
-        {% assign selected_articles = site.data.publications | where: 'tags', 'cail' | where: 'selected', '1' %}
-        
-        {% assign not_selected_articles = site.data.publications | where: 'tags', 'cail' | where: 'selected', '0' %}
+        {% assign selected_articles = site.data.publications | where: 'tags', 'cail' | where: 'type', 'journal' %}
+        {% assign preprints = site.data.publications | where: 'tags', 'cail' | where: 'type', 'preprint' %}
+        {% assign not_selected_articles = site.data.publications | where: 'tags', 'cail' | where: 'selected', '0.5' %}
 
-        {% assign articles = selected_articles | concat: not_selected_articles | sort: "date"  | reverse %}
+        {% assign articles = selected_articles | concat: preprints | sort: "date"  | reverse %}
         {% include publications.html publications=articles %}
     </div>
 </div>
