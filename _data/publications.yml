@@ -772,3 +772,15 @@
   selected: 1
   tags:
     - cail
+
+- date: 2026-07-07
+  type: preprint
+  status: unpublished
+  authors: Ray, I. & <b>Guest, O.</b>
+  title: 'Contra Literacy-Laundering: Mechanistic Critical AI Literacy'
+  doi: 10.5281/zenodo.21222978
+  pdf: https://zenodo.org/records/21222978/files/RayGuest2026.pdf?download=1
+  server: Zenodo
+  selected: 1
+  tags:
+    - cail
