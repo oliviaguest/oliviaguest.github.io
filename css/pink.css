@@ -74,7 +74,9 @@ date, author {
     position: relative;
 }
 
-
+#break {
+  display: none;
+}
 
 
   h1 {
@@ -89,7 +91,7 @@ date, author {
     padding-bottom: 1rem;
     text-align: center;
     color: light-dark(var(--light-h), var(--dark-h));
-    hyphens: none;
+    hyphens: auto;
 
 
   }
@@ -114,40 +116,30 @@ date, author {
     line-height: 6rem;
   }
 
-/* 
+  @media screen and (max-width: 890px) {
 
-@media screen and (max-width: 900px) {
-  h1 {  
-    font-size: 10rem;
-    line-height: 10rem;
-
-
+  #break {
+    display: unset;
   }
-} 
+  }
 
 @media screen and (max-width: 650px) {
-  h1 {  
-    font-size: 8rem;
-    line-height: 7rem;
+  #wide-header {
+  height: 20rem;
+}
+
+h1 {
+      padding-top: 22rem;
+
+}
 
 
-  }
+
 } 
 
-@media screen and (max-width: 430px) {
-
-  h1 {  
-
-    font-size: 7rem;
-
+@media screen and (max-width: 470px) {
+  #break {
+    display: none;
   }
 }
 
-@media screen and (max-width: 370px) {
-
-  h1 {  
-
-    font-size: 5rem;
-
-  }
-}  */
