@@ -89,7 +89,7 @@ date, author {
     padding-bottom: 1rem;
     text-align: center;
     color: light-dark(var(--light-h), var(--dark-h));
-
+    hyphens: none;
 
 
   }
@@ -114,7 +114,7 @@ date, author {
     line-height: 6rem;
   }
 
-
+/* 
 
 @media screen and (max-width: 900px) {
   h1 {  
@@ -141,7 +141,7 @@ date, author {
     font-size: 7rem;
 
   }
-
+}
 
 @media screen and (max-width: 370px) {
 
@@ -150,4 +150,4 @@ date, author {
     font-size: 5rem;
 
   }
-} 
+}  */
