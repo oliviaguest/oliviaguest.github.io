@@ -17,15 +17,15 @@
     /* this has to be set to switch between light or dark */
     color-scheme: light dark;
 
-    --light-bg: #f8d1ec;
-    --light-bg-bottom: #f3cbdf;
+    --light-bg: #fae5f4;
+    --light-bg-bottom: #f5d1e3;
     --light-bg-top: white;
     --light-hbg: #0e3b3925;
     --light-qbg: #ffffff95;
     --light-tb: #ecf1efc5;
     --light-color: #5c0016;
-    --light-h:  black;
-    --light-a: #ff00ff;
+    --light-h:  #6d336c;
+    --light-a: #ff009f;
     --light-menu: #ffffff;
     --light-foot: #ffffffbc;
   
@@ -36,9 +36,9 @@
     --dark-qbg: #ff00f21e;
     --dark-tb: #252425c5;
     --dark-color: #f8d1e9;
-    --dark-h:  #ffe8f4;
+    --dark-h:  #eeba2b;
     --dark-cog: #b388b1;
-    --dark-a: #ff00ff;
+    --dark-a: #eeee1c;
     --dark-menu: #000000;
     --dark-foot: #000000ca;
 
@@ -52,17 +52,44 @@ background-image: linear-gradient(to bottom,
                     light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 80%);
 }
 
+.content
+{
+  margin-top: 0rem;
+}
+
+#wide-header {
+  /* body{ */
+  background-image: url("/images/page8.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+  width: 100%;
+  height: 40rem;
+  position: absolute;
+}
+
+date, author {
+    position: relative;
+}
+
+
+
 
   h1 {
     font-family: running;
-  }
-  h1 {  
-    font-size: 18rem;
+    
+    position: relative;
+
+    font-size: 15rem;
     line-height: 16rem;
-    padding-top: 1rem;
+    padding-top: 42rem;
     padding-left: 3rem;
     padding-bottom: 1rem;
+    text-align: center;
     color: light-dark(var(--light-h), var(--dark-h));
+
 
 
   }
@@ -91,8 +118,8 @@ background-image: linear-gradient(to bottom,
 
 @media screen and (max-width: 900px) {
   h1 {  
-    font-size: 12rem;
-    line-height: 11rem;
+    font-size: 10rem;
+    line-height: 10rem;
     padding-left: 2rem;
 
 
@@ -112,7 +139,7 @@ background-image: linear-gradient(to bottom,
 
   h1 {  
 
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 5rem;
 
   }
