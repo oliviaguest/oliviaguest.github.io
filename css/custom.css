@@ -633,8 +633,9 @@ h2#further, h2#related {
     -webkit-text-stroke: unset;
     padding-left: 0 !important;
     padding-bottom: 1.5rem;
-        font-size: medium;
-        text-align: left;
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 0rem;
 
 
 }
