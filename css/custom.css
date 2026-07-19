@@ -231,6 +231,38 @@ h1 a, h2 a, h3 a {
    
 }
 
+h2#further, h2#related {
+    /* font-size:1em; */
+    line-height: 1.5rem;
+    font-family: var(--font-family-sans);
+    -webkit-text-stroke: unset;
+    padding-left: 0 !important;
+    padding-bottom: 1.5rem;
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 0rem;
+
+
+}
+h2#related a {
+        color: light-dark(var(--light-a), var(--dark-a));
+
+    text-decoration: underline;
+    text-decoration-thickness: 20%;
+    text-decoration-color: light-dark(var(--light-underline), var(--dark-underline));
+    
+}
+h2#related a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 10%;
+}
+
+.further {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 90%;
+}
+
 a {
     text-decoration: none;
     color: light-dark(var(--light-a), var(--dark-a));
