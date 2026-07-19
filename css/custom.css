@@ -409,6 +409,7 @@ img.bug, img.perceptron {
   }
 
   p.caption {
+    font-family: 'Borel', Garamond, serif;
     font-size: 1.4rem;
     opacity: 0.4;
     padding-top: 2rem;
