@@ -1,5 +1,11 @@
 @import "custom.css";
 
+@font-face {
+    font-family: 'DhCario';
+    src: url(../fonts/DhCario-VF.otf) format('opentype');
+}
+
+
 table, td
 {
     text-align: left;
@@ -8,4 +14,77 @@ table, td
 
 td:first-child
 {     white-space: nowrap; 
+}
+
+h1 {
+    font-weight: 900;
+}
+@media screen and (max-width: 910px) {
+
+    h1#olivia {
+            font-size: 14rem;
+            line-height: 14rem;
+    }
+}
+
+h2#publications, h2#featured {
+    font-size: 8rem;
+    line-height: 9rem;
+    margin-right: 1rem;
+    display: inline-block; 
+    font-family: 500;
+}
+h2#further, h2#related {
+    /* font-size:1em; */
+    line-height: 1.5rem;
+    font-family: var(--font-family-sans);
+    -webkit-text-stroke: unset;
+    padding-left: 0 !important;
+    padding-bottom: 1.5rem;
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 0rem;
+
+
+}
+h2#related a {
+        color: light-dark(var(--light-a), var(--dark-a));
+
+    text-decoration: underline;
+    text-decoration-thickness: 20%;
+    text-decoration-color: light-dark(var(--light-underline), var(--dark-underline));
+    
+}
+h2#related a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 10%;
+}
+
+.further {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 90%;
+}
+
+#selected {
+        font-weight: 100;
+}
+
+
+h1, h2#publications, h2#featured {
+    font-family:  'DhCario', Garamond, serif;
+
+}
+
+ h2, h3, .brand{
+    font-family: 'Borel', Garamond, serif;
+}
+
+.selected {
+    font-family: 'Borel', Garamond, serif;
+    font-size: 2.25rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-style: normal;
+    color: light-dark(#989095, #9d767e);
 }

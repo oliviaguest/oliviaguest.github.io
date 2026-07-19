@@ -1,9 +1,5 @@
 @import url("chota.min.css");
 
-@font-face {
-    font-family: 'DhCario';
-    src: url(../fonts/DhCario-VF.otf) format('opentype');
-}
 
 
 html {
@@ -127,8 +123,6 @@ blockquote
     background-color: light-dark(var(--light-qbg), var(--dark-qbg));
     border-left: 0.0rem solid light-dark(var(--light-h), var(--dark-h));
     padding: 1rem 1.5rem;
-    /* text-align: justify; */
-
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 1rem;
@@ -201,12 +195,6 @@ a:hover.url-font {
 }
 
 
-
-p, li {
-    /* text-align: justify; */
-
-}
-
 .flip {
     display: inline-block;
     transform: scaleX(-1);
@@ -221,48 +209,19 @@ h2 {
 
 
 h1 {
-    font-family: 'DhCario', Garamond, serif;
     font-size: 20rem;
     line-height: 18rem;
     margin-bottom: 1rem;
     margin-top: 0rem;
     padding-top: 0rem;
     hyphens: none;
-    font-weight: 900;
 }
 
-h2#publications, h2#featured {
-    font-family:  'DhCario', Garamond, serif;
-    font-size: 8rem;
-    line-height: 9rem;
-    margin-right: 1rem;
-    display: inline-block; 
-    font-family: 500;
-}
-#selected {
-        font-weight: 100;
-}
 
-.selected {
-    font-family: 'Borel', Garamond, serif;
-    font-size: 2.25rem;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    font-style: normal;
-    color: light-dark(#989095, #9d767e);
-}
 
-@media screen and (max-width: 910px) {
-
-    h1#olivia {
-            font-size: 14rem;
-            line-height: 14rem;
-    }
-}
  
 
  h2, h3, .brand{
-    font-family: 'Borel', Garamond, serif;
     margin-bottom: 0.5rem;
 }
 
@@ -290,8 +249,6 @@ p a:hover, li a:hover, blockquote a:hover, .tabs > a:hover{
     opacity: 0.75;
 }
 
-
-
 .content {
     margin-top: 8rem;
 }
@@ -318,7 +275,6 @@ li.menu-item  {
 
 
 }
-
 
 .newsitem {
     text-indent: -1rem;
@@ -421,7 +377,6 @@ img.bug, img.perceptron {
   }
 
   p.caption {
-    font-family: 'Borel', Garamond, serif;
     font-size: 1.4rem;
     opacity: 0.4;
     padding-top: 2rem;
@@ -626,47 +581,6 @@ circle, line {
     font-size: 3rem;
 }
 
-h2#further, h2#related {
-    /* font-size:1em; */
-    line-height: 1.5rem;
-    font-family: var(--font-family-sans);
-    -webkit-text-stroke: unset;
-    padding-left: 0 !important;
-    padding-bottom: 1.5rem;
-    font-size: medium;
-    text-align: left;
-    margin-bottom: 0rem;
-
-
-}
-
-
-
-h2#related a {
-        color: light-dark(var(--light-a), var(--dark-a));
-
-    text-decoration: underline;
-    text-decoration-thickness: 20%;
-    text-decoration-color: light-dark(var(--light-underline), var(--dark-underline));
-    
-}
-h2#related a:hover{
-    text-decoration: underline;
-    text-decoration-thickness: 10%;
-}
-
-.further {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    font-size: 90%;
-}
-
-
-
-.asterism {
-
-    /* padding-bottom: 2rem; */
-}
 
 .tabs > a {
 
@@ -691,11 +605,6 @@ h2#related a:hover{
       border-radius: 1rem 1rem 0 0;
       
 }
-
-
-
-
-.desc {}
 
 .square-preview {
             box-shadow: 1.5rem 1.5rem light-dark(var(--light-underline), var(--dark-underline));

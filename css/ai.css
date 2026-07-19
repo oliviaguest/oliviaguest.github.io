@@ -76,6 +76,9 @@ h1 {        position: relative;
         padding-top: 12rem;
         padding-bottom: 5rem;
 }
+ h2, h3 {
+    font-family: 'Borel', Garamond, serif;
+}
 
 h1 a, #deco-footer a {
         color: #ffffff;
