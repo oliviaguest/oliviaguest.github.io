@@ -724,18 +724,18 @@
     - meta
     - cail
 
-- date: 2026-04-02
-  type: preprint
-  status: unpublished
+- date: 2026-09-28
+  type: article
+  status: published
   authors: <b>Guest, O.</b>, Blokpoel, M., & van Rooij, I.
   title: 'What the Func? Multiple Realizability Need not be Vague'
-  doi: 10.5281/zenodo.19388964
+  doi: 10.1017/s0140525x26106128
   # url: https://zenodo.org/records/19388964
   pdf: https://zenodo.org/records/19388964/files/GuestBlokpoelVanRooij2026.pdf?download=1
   server: Zenodo
-  selected: 1
+  journal: Behavioral and Brain Sciences 
+  selected: 0.5
   tags:
-
 
 - date: 2026-05-02
   type: preprint
