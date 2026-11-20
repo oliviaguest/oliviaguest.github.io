@@ -655,6 +655,19 @@
   tags:
   - cail
 
+
+- date: 2026-11-02
+  type: news
+  status: published
+  authors:  Walraven, J.
+  title: "Doomerism does not dominate the AI debate by coincidence"
+  journal: Apache
+  display-url: https://apache.be/2026/11/02/doomerism-does-not-dominate-ai-debate-coincidence
+  url: https://apache.be/2026/11/02/doomerism-does-not-dominate-ai-debate-coincidence?cdlnk=MWZKbnZGbXBQOThOQmRpTGtxN2NIUElPc2pjYXpIdUxwK0JQd0VGRzl2Y3JTZXlSVElUcTF5N0cvTFpjWVBZZzBEQU9GWDFVN0FaT24wSUlwV1NLOjo0ODhlY2I0NTY5ZDliNDM2MWRhYWY4NjM4YWI2ZTQwMQ%3D%3D
+  selected: 3
+  tags:
+  - cail
+
 - date: 2025-10-26
   type: news
   status: published
