@@ -336,7 +336,8 @@
   title: 'Artificial Intelligence: Panacea or Non-intentional Dehumanisation?'
   doi: 10.59490/jhtr.2024.2.7272
   PsyArXiv: https://osf.io/preprints/socarxiv/rh4fw
-  pdf: https://osf.io/preprints/socarxiv/rh4fw/download
+  # pdf: https://osf.io/preprints/socarxiv/rh4fw/download
+  pdf: https://journals.open.tudelft.nl/jhtr/article/view/7272/5952
   server: SocArXiv
   journal: Journal of Human-Technology Relations
   selected: 0.5
